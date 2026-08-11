@@ -1,0 +1,314 @@
+{
+  "name": "Underworld Mushroom Lake",
+  "color": "#695E5A",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "zoom": 0.3,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "weight": 7,
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "weight": 9,
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.08,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/mushroom/mushclut1",
+        "underworld/basalt/trees/mushroom/mushclut2",
+        "underworld/basalt/trees/mushroom/mushclut3",
+        "underworld/basalt/trees/mushroom/mushclut4",
+        "underworld/basalt/trees/mushroom/mushclut5",
+        "underworld/basalt/trees/mushroom/mushclut6",
+        "underworld/basalt/trees/mushroom/mushclut7",
+        "underworld/basalt/trees/mushroom/mushclut8",
+        "underworld/basalt/trees/mushroom/mushclut9",
+        "underworld/basalt/trees/mushroom/mushclut10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.08,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/mushroom/mushclut1",
+        "underworld/basalt/trees/mushroom/mushclut2",
+        "underworld/basalt/trees/mushroom/mushclut3",
+        "underworld/basalt/trees/mushroom/mushclut4",
+        "underworld/basalt/trees/mushroom/mushclut5",
+        "underworld/basalt/trees/mushroom/mushclut6",
+        "underworld/basalt/trees/mushroom/mushclut7",
+        "underworld/basalt/trees/mushroom/mushclut8",
+        "underworld/basalt/trees/mushroom/mushclut9",
+        "underworld/basalt/trees/mushroom/mushclut10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.025,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/mushroom/smolshroom1",
+        "underworld/basalt/trees/mushroom/smolshroom2",
+        "underworld/basalt/trees/mushroom/smolshroom3",
+        "underworld/basalt/trees/mushroom/smolshroom4",
+        "underworld/basalt/trees/mushroom/smolshroom5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/mushroom/smolshroom1",
+        "underworld/basalt/trees/mushroom/smolshroom2",
+        "underworld/basalt/trees/mushroom/smolshroom3",
+        "underworld/basalt/trees/mushroom/smolshroom4",
+        "underworld/basalt/trees/mushroom/smolshroom5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.007,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "weight": 2,
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 3,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_mushroom_sea_lake_afc4d022",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161212",
+      "fogColor": "#2A2524",
+      "waterColor": "#CD692E",
+      "waterFogColor": "#59261C",
+      "grassColor": "#605550",
+      "foliageColor": "#6A625D",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

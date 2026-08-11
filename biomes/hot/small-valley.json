@@ -1,0 +1,359 @@
+{
+  "name": "Underworld Mesa Valley",
+  "color": "#8B4229",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 20,
+      "max": 75,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 2,
+        "maximumSlope": 10
+      },
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2
+      },
+      "style": {
+        "style": "NOWHERE",
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 4,
+          "axialFracturing": true
+        },
+        "zoom": 1.4
+      },
+      "zoom": 0.9,
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:netherrack"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:orange_terracotta"
+        },
+        {
+          "weight": 7,
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:terracotta"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:terracotta"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/wastes/trees/acacia/vexed1",
+        "underworld/wastes/trees/acacia/vexed2",
+        "underworld/wastes/trees/acacia/vexed3"
+      ],
+      "chance": 0.4,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "data": {
+                  "axis": "y"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.00175,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.07,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaD1",
+        "underworld/wastes/trees/acacia/savannaD2",
+        "underworld/wastes/trees/acacia/savannaD3"
+      ]
+    },
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaF1",
+        "underworld/wastes/trees/acacia/savannaF2",
+        "underworld/wastes/trees/acacia/savannaF3",
+        "underworld/wastes/trees/acacia/savannaF4",
+        "underworld/wastes/trees/acacia/savannaF5",
+        "underworld/wastes/trees/acacia/savannaF6",
+        "underworld/wastes/trees/acacia/savannaF7",
+        "underworld/wastes/trees/acacia/savannaF8",
+        "underworld/wastes/trees/acacia/savannaF9",
+        "underworld/wastes/trees/acacia/savannaF10",
+        "underworld/wastes/trees/acacia/savannaF11",
+        "underworld/wastes/trees/acacia/savannaF13",
+        "underworld/wastes/trees/acacia/savannaF14"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.04,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaS1",
+        "underworld/wastes/trees/acacia/savannaS2",
+        "underworld/wastes/trees/acacia/savannaS3",
+        "underworld/wastes/trees/acacia/savannaS4",
+        "underworld/wastes/trees/acacia/savannaS5",
+        "underworld/wastes/trees/acacia/savannaS6",
+        "underworld/wastes/trees/acacia/savannaS7",
+        "underworld/wastes/trees/acacia/savannaS8",
+        "underworld/wastes/trees/acacia/savannas9",
+        "underworld/wastes/trees/acacia/savannas10",
+        "underworld/wastes/trees/acacia/savannas11",
+        "underworld/wastes/trees/acacia/savannas12"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.189,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/dry_grass"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_small_valley_8b2f903a",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2A0D0A",
+      "fogColor": "#430808",
+      "waterColor": "#E57720",
+      "waterFogColor": "#711601",
+      "grassColor": "#80381F",
+      "foliageColor": "#813F2E",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

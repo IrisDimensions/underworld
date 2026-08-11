@@ -1,0 +1,226 @@
+{
+  "name": "Underworld Tropical Plains Hills",
+  "color": "#A63B49",
+  "rarity": 1,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:crimson_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_plains_hills_1f7c1c9b",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#350405",
+      "fogColor": "#51070F",
+      "waterColor": "#C53527",
+      "waterFogColor": "#6B1612",
+      "grassColor": "#B32C3C",
+      "foliageColor": "#953138",
+      "ambientParticle": {
+        "particle": "minecraft:crimson_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 45,
+      "min": -10
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/jungle/cocogeneric2",
+        "underworld/crimson/trees/jungle/cocogeneric3",
+        "underworld/crimson/trees/jungle/cocogeneric4",
+        "underworld/crimson/trees/jungle/cocogeneric5",
+        "underworld/crimson/trees/jungle/lgeneric6",
+        "underworld/crimson/trees/jungle/lgeneric7",
+        "underworld/crimson/trees/jungle/lgeneric8",
+        "underworld/crimson/trees/jungle/lgeneric9",
+        "underworld/crimson/trees/jungle/lgeneric1",
+        "underworld/crimson/trees/jungle/lgeneric2",
+        "underworld/crimson/trees/jungle/lgeneric3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -5,
+        "z": 0
+      }
+    },
+    {
+      "mode": "PAINT",
+      "place": [
+        "underworld/crimson/clutter/sbush1",
+        "underworld/crimson/clutter/sbush2",
+        "underworld/crimson/clutter/sbush3"
+      ],
+      "chance": 0.332,
+      "density": 4
+    },
+    {
+      "place": [
+        "underworld/crimson/trees/jungle/lgeneric1",
+        "underworld/crimson/trees/jungle/lgeneric2",
+        "underworld/crimson/trees/jungle/lgeneric3",
+        "underworld/crimson/trees/jungle/lgeneric4",
+        "underworld/crimson/trees/jungle/lgeneric5",
+        "underworld/crimson/trees/jungle/lgeneric6",
+        "underworld/crimson/trees/jungle/lgeneric7",
+        "underworld/crimson/trees/jungle/lgeneric8",
+        "underworld/crimson/trees/jungle/lgeneric9"
+      ],
+      "chance": 0.71,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      },
+      "translate": {
+        "y": -2
+      }
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/crimson/clutter/melons1",
+        "underworld/crimson/clutter/melons2",
+        "underworld/crimson/clutter/melons3",
+        "underworld/crimson/clutter/melons4",
+        "underworld/crimson/clutter/melons5",
+        "underworld/crimson/clutter/melons6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.7,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_roots"
+        },
+        {
+          "block": "minecraft:crimson_roots"
+        },
+        {
+          "block": "minecraft:crimson_roots"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    }
+  ]
+}

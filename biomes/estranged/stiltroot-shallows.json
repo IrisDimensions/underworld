@@ -1,0 +1,185 @@
+{
+  "name": "Underworld Stiltroot Shallows",
+  "color": "#228C8E",
+  "rarity": 2,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_stiltroot_shallows_8e684f5a",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#071C20",
+      "fogColor": "#07282D",
+      "waterColor": "#2CA590",
+      "waterFogColor": "#0C5E56",
+      "grassColor": "#389F9B",
+      "foliageColor": "#328885",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 5,
+      "min": 2
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "weight": 12,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "stiltroot",
+        "chance": 0.55,
+        "density": 2,
+        "variants": 6,
+        "seed": 8301,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 2,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "WILLOW",
+        "heightMin": 12,
+        "heightMax": 18,
+        "trunkWidth": 2,
+        "roots": true,
+        "rootStyle": "STILT",
+        "rootFlare": 6,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "startAngle": 70,
+          "squish": 0.7,
+          "mode": "DENSITY",
+          "leafDensity": 0.82,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 1.8,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 3,
+            "lengthCrown": 6,
+            "azimuthMode": "RANDOM",
+            "elevation": -14,
+            "sag": 0.4,
+            "clusterRadius": 2,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.8
+          }
+        },
+        "decorators": [
+          {
+            "target": "CANOPY_HANG",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.4,
+            "length": 4
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

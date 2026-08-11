@@ -1,0 +1,154 @@
+{
+  "name": "Underworld Mesa Blue",
+  "color": "#5C5451",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 50,
+      "max": 70,
+      "generator": "highplains"
+    },
+    {
+      "min": 70,
+      "max": 110,
+      "generator": "mountain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "NOWHERE"
+    },
+    "palette": [
+      {
+        "block": "minecraft:magenta_terracotta"
+      },
+      {
+        "block": "minecraft:light_blue_terracotta"
+      },
+      {
+        "block": "minecraft:blue_terracotta"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:cyan_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blue_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:light_blue_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:magenta_terracotta"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.009,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/basalt/decorator/dry_grass"
+  ],
+  "lockLayers": true,
+  "customDerivitives": [
+    {
+      "id": "underworld_mesa_blue_7e86b0f2",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#262121",
+      "waterColor": "#A6451A",
+      "waterFogColor": "#5D1E15",
+      "grassColor": "#554C48",
+      "foliageColor": "#746A67",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

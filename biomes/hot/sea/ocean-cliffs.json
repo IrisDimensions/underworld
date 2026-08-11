@@ -1,0 +1,249 @@
+{
+  "name": "Underworld Hot Ocean Cliffs",
+  "color": "#544C4A",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -42,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "NOWHERE"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "VASCULAR"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0009,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:magma_block"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.015,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 9,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "stackMin": 1
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_sea_ocean_cliffs_40528018",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#282322",
+      "waterColor": "#B44313",
+      "waterFogColor": "#5E291B",
+      "grassColor": "#564C48",
+      "foliageColor": "#726863",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

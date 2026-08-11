@@ -1,0 +1,87 @@
+{
+  "name": "Underworld Mountain Beach",
+  "color": "#58514D",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 0,
+      "max": 2,
+      "generator": "plain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/bincluster1"
+      ]
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:polished_blackstone_brick_slab"
+      },
+      {
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_shore_beach_ebd30a3f",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#262121",
+      "waterColor": "#C5582D",
+      "waterFogColor": "#56291A",
+      "grassColor": "#5B4F4A",
+      "foliageColor": "#6E6660",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Underworld Hot Mountain Plains",
+  "color": "#635A57",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 59,
+      "min": 66
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:gray_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 4,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 23,
+      "palette": [
+        {
+          "block": "minecraft:smooth_basalt"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "stackMin": 1
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_mountain_plains_ea0bf679",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#252020",
+      "waterColor": "#AF3D19",
+      "waterFogColor": "#511D19",
+      "grassColor": "#564A47",
+      "foliageColor": "#5F5855",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

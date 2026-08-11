@@ -1,0 +1,236 @@
+{
+  "name": "Underworld Pale Pines",
+  "color": "#677B7F",
+  "rarity": 6,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_pale_pines_3ea25f8c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#131C20",
+      "fogColor": "#20292E",
+      "waterColor": "#557B80",
+      "waterFogColor": "#234144",
+      "grassColor": "#637377",
+      "foliageColor": "#6D7F85",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 10,
+      "max": 26,
+      "generator": "mountain"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:basalt",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:soul_soil",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.58,
+      "density": 2,
+      "snow": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_stem"
+            },
+            {
+              "block": "minecraft:warped_hyphae"
+            },
+            {
+              "block": "minecraft:stripped_warped_stem"
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_planks"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "place": [
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/mevergreen1",
+        "underworld/soul/trees/spruce/mevergreen2",
+        "underworld/soul/trees/spruce/mevergreen3",
+        "underworld/soul/trees/spruce/vgeneric1",
+        "underworld/soul/trees/spruce/vgeneric2",
+        "underworld/soul/trees/spruce/vgeneric3",
+        "underworld/soul/trees/spruce/vgeneric4",
+        "underworld/soul/trees/spruce/vgeneric5",
+        "underworld/soul/trees/spruce/vgeneric6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.23
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "chance": 0.12,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:air",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

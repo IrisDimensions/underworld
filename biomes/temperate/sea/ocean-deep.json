@@ -1,0 +1,207 @@
+{
+  "name": "Underworld Temperate Ocean Deep",
+  "color": "#5E5552",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -72,
+      "max": -40,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "FRACTAL_FBM_IRIS"
+      },
+      "zoom": 0.725,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.01,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "underwater": true,
+      "place": [
+        "underworld/basalt/clutter/substat1",
+        "underworld/basalt/clutter/substat2",
+        "underworld/basalt/clutter/substat3",
+        "underworld/basalt/clutter/substat4",
+        "underworld/basalt/clutter/substat5"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0006,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.013,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 6,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2,
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_sea_ocean_deep_23cd1ad6",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151111",
+      "fogColor": "#2A2424",
+      "waterColor": "#AD4B27",
+      "waterFogColor": "#581D17",
+      "grassColor": "#5F514D",
+      "foliageColor": "#5E5552",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

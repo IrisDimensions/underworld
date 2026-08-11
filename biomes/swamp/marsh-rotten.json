@@ -1,0 +1,249 @@
+{
+  "name": "Underworld Swamp Marsh Rotten",
+  "color": "#1F8F89",
+  "rarity": 1,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_swamp_marsh_rotten_1f362596",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#082122",
+      "fogColor": "#0A2B2E",
+      "waterColor": "#319287",
+      "waterFogColor": "#055A52",
+      "grassColor": "#2D9C90",
+      "foliageColor": "#258E84",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": -5,
+      "max": 4,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/oak/dead1",
+        "underworld/warped/trees/oak/dead2",
+        "underworld/warped/trees/oak/dead3",
+        "underworld/warped/trees/oak/dead4",
+        "underworld/warped/trees/oak/dead5",
+        "underworld/warped/trees/oak/dead6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/shrub1",
+        "underworld/warped/clutter/shrub2",
+        "underworld/warped/clutter/shrub3",
+        "underworld/warped/clutter/shrub4",
+        "underworld/warped/clutter/shrub5",
+        "underworld/warped/clutter/shrub6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/stone1",
+        "underworld/warped/clutter/stone2",
+        "underworld/warped/clutter/stone3",
+        "underworld/warped/clutter/stone4",
+        "underworld/warped/clutter/stone5",
+        "underworld/warped/clutter/stone6",
+        "underworld/warped/clutter/stone7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.13,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.15,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ]
+}

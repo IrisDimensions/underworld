@@ -1,0 +1,199 @@
+{
+  "name": "Underworld Tropical River Soft",
+  "color": "#675D5A",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -71,
+      "max": -37,
+      "generator": "plain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 10,
+      "style": {
+        "style": "FRACTAL_FBM_IRIS"
+      },
+      "zoom": 0.6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/clutter/coralpink1",
+        "underworld/basalt/clutter/coralpink2",
+        "underworld/basalt/clutter/coralpink3",
+        "underworld/basalt/clutter/coralpink4",
+        "underworld/basalt/clutter/coralpurp1",
+        "underworld/basalt/clutter/coralpurp2",
+        "underworld/basalt/clutter/coralpurp3",
+        "underworld/basalt/clutter/coralred1",
+        "underworld/basalt/clutter/coralby1",
+        "underworld/basalt/clutter/coralby2",
+        "underworld/basalt/clutter/coralby3",
+        "underworld/basalt/clutter/coralby4"
+      ],
+      "chance": 0.86,
+      "density": 2,
+      "underwater": true,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "max": 360,
+          "min": -360
+        }
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/stonedirtsetter1",
+        "underworld/basalt/clutter/stonedirtsetter2",
+        "underworld/basalt/clutter/stonedirtsetter3",
+        "underworld/basalt/clutter/stonedirtsetter4",
+        "underworld/basalt/clutter/stonedirtsetter5",
+        "underworld/basalt/clutter/stonedirtsetter6",
+        "underworld/basalt/clutter/stonedirtsetter7"
+      ],
+      "chance": 0.5,
+      "density": 2,
+      "underwater": true,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "max": 360,
+          "min": -360
+        }
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            },
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magma_block"
+              },
+              {
+                "block": "minecraft:magma_block"
+              },
+              {
+                "block": "minecraft:magma_block"
+              },
+              {
+                "block": "minecraft:magma_block"
+              },
+              {
+                "block": "minecraft:magma_block"
+              }
+            ],
+            "style": {
+              "style": "CELLULAR"
+            },
+            "zoom": 0.07
+          }
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "stackMin": 2,
+      "stackMax": 6
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:glowstone"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "minHeight": -5,
+      "maxHeight": -3,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_sea_river_soft_643efe93",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#251F20",
+      "waterColor": "#C5571E",
+      "waterFogColor": "#5B2117",
+      "grassColor": "#524744",
+      "foliageColor": "#6D6460",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

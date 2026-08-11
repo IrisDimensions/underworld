@@ -1,0 +1,397 @@
+{
+  "name": "Underworld Tropical Wilds",
+  "color": "#BB3A49",
+  "rarity": 1,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:crimson_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_wilds_bad3e830",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#310605",
+      "fogColor": "#4F0B12",
+      "waterColor": "#C82D19",
+      "waterFogColor": "#721823",
+      "grassColor": "#9F323D",
+      "foliageColor": "#982B39",
+      "ambientParticle": {
+        "particle": "minecraft:crimson_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tropical/highlands"
+  ],
+  "generators": [
+    {
+      "min": 10,
+      "max": 20,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.125,
+      "place": [
+        "underworld/crimson/clutter/oakshrub1",
+        "underworld/crimson/clutter/oakshrub2",
+        "underworld/crimson/clutter/oakshrub3"
+      ],
+      "translate": {
+        "y": -1
+      }
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/obelisk1",
+        "underworld/crimson/clutter/obelisk2",
+        "underworld/crimson/clutter/obelisk3",
+        "underworld/crimson/clutter/obelisk4",
+        "underworld/crimson/clutter/obelisk5",
+        "underworld/crimson/clutter/obelisk6",
+        "underworld/crimson/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/camp1",
+        "underworld/crimson/clutter/bincluster1"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.00375,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/camp1"
+      ]
+    },
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/jungle/cocogeneric2",
+        "underworld/crimson/trees/jungle/cocogeneric3",
+        "underworld/crimson/trees/jungle/cocogeneric4",
+        "underworld/crimson/trees/jungle/cocogeneric5",
+        "underworld/crimson/trees/jungle/lgeneric6",
+        "underworld/crimson/trees/jungle/lgeneric7",
+        "underworld/crimson/trees/jungle/lgeneric8",
+        "underworld/crimson/trees/jungle/lgeneric9",
+        "underworld/crimson/trees/jungle/lgeneric1",
+        "underworld/crimson/trees/jungle/lgeneric2",
+        "underworld/crimson/trees/jungle/lgeneric3"
+      ]
+    },
+    {
+      "chance": 0.45,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/jungle/sgeneric1",
+        "underworld/crimson/trees/jungle/sgeneric2",
+        "underworld/crimson/trees/jungle/sgeneric3",
+        "underworld/crimson/trees/jungle/sgeneric4"
+      ],
+      "mode": "ORGANIC_STILT",
+      "stiltSettings": {
+        "organicScratch": 1,
+        "organicJitter": 6,
+        "enabled": true,
+        "minHeight": 1,
+        "maxHeight": 3
+      }
+    },
+    {
+      "chance": 0.06,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/boulder1",
+        "underworld/crimson/clutter/boulder2",
+        "underworld/crimson/clutter/boulder4",
+        "underworld/crimson/clutter/boulder5",
+        "underworld/crimson/clutter/boulder6",
+        "underworld/crimson/clutter/boulder7",
+        "underworld/crimson/clutter/boulder8"
+      ],
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.01,
+      "mode": "PAINT",
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/jungle/largegeneric1",
+        "underworld/crimson/trees/jungle/largegeneric2",
+        "underworld/crimson/trees/jungle/largegeneric3",
+        "underworld/crimson/trees/jungle/largegeneric4",
+        "underworld/crimson/trees/jungle/largegeneric5"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:weeping_vines"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.22,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.42,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.003,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_roots"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "interval": 250,
+      "chance": 5,
+      "particleEffect": "CRIMSON_SPORE",
+      "particleOffset": 2,
+      "particleAltY": 0.2,
+      "particleCount": 5
+    }
+  ]
+}

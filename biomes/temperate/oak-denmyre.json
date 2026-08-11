@@ -1,0 +1,356 @@
+{
+  "name": "Underworld Oak Denmyre",
+  "color": "#8E3229",
+  "rarity": 4,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 5,
+      "max": 12,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.00975,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1"
+      ]
+    },
+    {
+      "chance": 0.2,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/denmyre1",
+        "underworld/wastes/trees/acacia/denmyre2",
+        "underworld/wastes/trees/acacia/denmyre3",
+        "underworld/wastes/trees/acacia/denmyre4",
+        "underworld/wastes/trees/acacia/denmyre5",
+        "underworld/wastes/trees/acacia/denmyre6",
+        "underworld/wastes/trees/acacia/denmyre7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "place": [
+        "underworld/wastes/trees/oak/generic1",
+        "underworld/wastes/trees/oak/generic2",
+        "underworld/wastes/trees/oak/generic3",
+        "underworld/wastes/trees/oak/generic4",
+        "underworld/wastes/trees/oak/generic5",
+        "underworld/wastes/trees/oak/generic6"
+      ],
+      "chance": 0.4,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/wastes/clutter/pumpkins1",
+        "underworld/wastes/clutter/pumpkins2",
+        "underworld/wastes/clutter/pumpkins3",
+        "underworld/wastes/clutter/pumpkins4",
+        "underworld/wastes/clutter/pumpkins5",
+        "underworld/wastes/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "chance": 7,
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.8,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:nether_wart_block"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "chance": 3,
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "chance": 3,
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone_slab"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/leaf",
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_oak_denmyre_f85e96fe",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2B0905",
+      "fogColor": "#440805",
+      "waterColor": "#E8520D",
+      "waterFogColor": "#70170D",
+      "grassColor": "#70371A",
+      "foliageColor": "#804634",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

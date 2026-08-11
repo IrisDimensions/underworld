@@ -1,0 +1,374 @@
+{
+  "name": "Underworld Old Growth Birch Forest",
+  "color": "#893E28",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/bincluster1"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.00375,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1"
+      ]
+    },
+    {
+      "chance": 0.5,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/denmyre1",
+        "underworld/wastes/trees/acacia/denmyre2",
+        "underworld/wastes/trees/acacia/denmyre3",
+        "underworld/wastes/trees/acacia/denmyre4",
+        "underworld/wastes/trees/acacia/denmyre5",
+        "underworld/wastes/trees/acacia/denmyre6",
+        "underworld/wastes/trees/acacia/denmyre7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "chance": 0.3,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/oakdenclutt1",
+        "underworld/wastes/clutter/oakdenclutt2",
+        "underworld/wastes/clutter/oakdenclutt3",
+        "underworld/wastes/clutter/oakdenclutt4",
+        "underworld/wastes/clutter/oakdenclutt5",
+        "underworld/wastes/clutter/oakdenclutt6",
+        "underworld/wastes/clutter/oakdenclutt7",
+        "underworld/wastes/clutter/oakdenclutt8",
+        "underworld/wastes/clutter/oakdenclutt9",
+        "underworld/wastes/clutter/oakdenclutt10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.35,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.003,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.027,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/wildflowers",
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_old_growth_birch_forest_255f3354",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#280C0B",
+      "fogColor": "#3B0505",
+      "waterColor": "#E56014",
+      "waterFogColor": "#711D01",
+      "grassColor": "#75391C",
+      "foliageColor": "#844D2F",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

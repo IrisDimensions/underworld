@@ -1,0 +1,107 @@
+{
+  "name": "Underworld Tropical Volcanoes",
+  "color": "#615856",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_volcanoes_5d937a76",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191514",
+      "fogColor": "#2D2626",
+      "waterColor": "#BA5B1C",
+      "waterFogColor": "#511D0F",
+      "grassColor": "#574B48",
+      "foliageColor": "#625A55",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tropical/volcanoes-lava"
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 180,
+      "min": 30
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "x"
+          }
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "y"
+          }
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.001,
+      "particleAltY": 0.13885,
+      "particleAltZ": 0.001,
+      "chance": 1,
+      "particleEffect": "ASH",
+      "particleOffset": 0,
+      "interval": 300,
+      "particleCount": 0
+    }
+  ],
+  "childStyle": {
+    "style": "GLOB",
+    "zoom": 0.2,
+    "exponent": 4
+  },
+  "childShrinkFactor": 1
+}

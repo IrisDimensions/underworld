@@ -1,0 +1,551 @@
+{
+  "name": "Underworld Magnetics Glass",
+  "color": "#625957",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -3,
+      "max": 16,
+      "generator": "magnetics/glass"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_quartz"
+      },
+      {
+        "block": "minecraft:quartz_block"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 16,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/clutter/amethyst-cluster1",
+        "underworld/basalt/clutter/amethyst-cluster2",
+        "underworld/basalt/clutter/amethyst-cluster3",
+        "underworld/basalt/clutter/amethyst-cluster4",
+        "underworld/basalt/clutter/amethyst-cluster5"
+      ],
+      "chance": 0.12,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/singleicespike1",
+        "underworld/basalt/clutter/singleicespike2",
+        "underworld/basalt/clutter/singleicespike3",
+        "underworld/basalt/clutter/singleicespike4",
+        "underworld/basalt/clutter/singleicespike5"
+      ],
+      "chance": 0.06,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:glass"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:light_blue_stained_glass"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:tinted_glass"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3",
+        "underworld/basalt/clutter/icespec4",
+        "underworld/basalt/clutter/icespec5"
+      ],
+      "chance": 0.25,
+      "mode": "CENTER_HEIGHT",
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:glass"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:light_blue_stained_glass"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:tinted_glass"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/stoneboulder1",
+        "underworld/basalt/clutter/stoneboulder2",
+        "underworld/basalt/clutter/stoneboulder3",
+        "underworld/basalt/clutter/stoneboulder4",
+        "underworld/basalt/clutter/stoneboulder5"
+      ],
+      "chance": 0.05,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        }
+      ]
+    }
+  ],
+  "floatingChildBiomes": [
+    {
+      "biome": "magnetics/glass-shard",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "CELLULAR_IRIS_THICK",
+        "zoom": 0.38,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.16,
+          "multiplier": 4
+        }
+      },
+      "footprintThreshold": 0.55,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4.0
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.2
+      },
+      "minHeightAboveSurface": 125,
+      "maxHeightAboveSurface": 175,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 20,
+      "topShapeStyle": {
+        "style": "CELLULAR_HEIGHT_IRIS",
+        "zoom": 0.32,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 5
+        }
+      },
+      "topShapeAmp": 1.0,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 18,
+      "bottomDepthMax": 18,
+      "bottomExponent": 1.0,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 40,
+      "carving": "carving/amethyst-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.18,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.88,
+      "inheritDecorators": true,
+      "inheritObjects": false,
+      "objectShrinkFactor": 0.7,
+      "topObjectMode": "REPLACE",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/amethyst-cluster1",
+            "underworld/basalt/clutter/amethyst-cluster2",
+            "underworld/basalt/clutter/amethyst-cluster3",
+            "underworld/basalt/clutter/amethyst-cluster4",
+            "underworld/basalt/clutter/amethyst-cluster5",
+            "underworld/basalt/clutter/icespec1",
+            "underworld/basalt/clutter/icespec2",
+            "underworld/basalt/clutter/icespec3"
+          ],
+          "chance": 0.8,
+          "mode": "CENTER_HEIGHT",
+          "density": 10,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:light_blue_stained_glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:tinted_glass"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "place": [
+            "underworld/basalt/clutter/singleicespike1",
+            "underworld/basalt/clutter/singleicespike2",
+            "underworld/basalt/clutter/singleicespike3",
+            "underworld/basalt/clutter/singleicespike4",
+            "underworld/basalt/clutter/singleicespike5"
+          ],
+          "chance": 0.55,
+          "mode": "CENTER_HEIGHT",
+          "density": 6,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:light_blue_stained_glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:tinted_glass"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "bottomObjectMode": "REPLACE",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/singleicespike1",
+            "underworld/basalt/clutter/singleicespike2",
+            "underworld/basalt/clutter/singleicespike3",
+            "underworld/basalt/clutter/singleicespike4",
+            "underworld/basalt/clutter/singleicespike5",
+            "underworld/basalt/clutter/icespiresmol1",
+            "underworld/basalt/clutter/icespiresmol2",
+            "underworld/basalt/clutter/icespiresmol3"
+          ],
+          "chance": 0.75,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 9,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:light_blue_stained_glass"
+                  }
+                ]
+              }
+            },
+            {
+              "find": [
+                {
+                  "block": "minecraft:blackstone"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:tinted_glass"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_magnetics_glass_670bb5e0",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191415",
+      "fogColor": "#251F20",
+      "waterColor": "#CC562B",
+      "waterFogColor": "#4C1E12",
+      "grassColor": "#5F524E",
+      "foliageColor": "#736865",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

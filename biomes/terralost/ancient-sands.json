@@ -1,0 +1,179 @@
+{
+  "name": "Underworld Ancient Sands",
+  "color": "#667C7E",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 35,
+      "min": 30
+    },
+    {
+      "generator": "mountain",
+      "max": 20,
+      "min": 0
+    },
+    {
+      "generator": "rare-hills",
+      "max": 20,
+      "min": 0
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_terralost_ancient_sands_e96a9b24",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#111A1D",
+      "fogColor": "#1D272A",
+      "waterColor": "#66969F",
+      "waterFogColor": "#274048",
+      "grassColor": "#616F75",
+      "foliageColor": "#718389",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "style": {
+        "style": "FRACTAL_SMOKE",
+        "zoom": 0.05
+      },
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        },
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "block": "minecraft:smooth_basalt"
+        },
+        {
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    },
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "zoom": 0.7,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "slopeCondition": {
+        "minimumSlope": 4.5,
+        "maximumSlope": 20
+      },
+      "palette": [
+        {
+          "block": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "zoom": 0.7,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.0014,
+      "mode": "MIN_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/rsphinx1",
+        "underworld/soul/clutter/rbrksphinx1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.002,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_stem"
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "stackMin": 1
+    },
+    {
+      "chance": 0.002,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_stem"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 1
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "stackMin": 1
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    }
+  ]
+}

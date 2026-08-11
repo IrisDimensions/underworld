@@ -1,0 +1,162 @@
+{
+  "name": "Underworld Tropical Mountain Water",
+  "color": "#5E5551",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_mountain_water_dcdee148",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#2C2625",
+      "waterColor": "#C04E2B",
+      "waterFogColor": "#542413",
+      "grassColor": "#524643",
+      "foliageColor": "#685F5C",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 5,
+      "min": 2
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:lava",
+        "data": {
+          "level": 1
+        }
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:cave_air"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava",
+          "data": {
+            "level": 1
+          }
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:lava",
+          "data": {
+            "level": 0
+          }
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    }
+  ]
+}

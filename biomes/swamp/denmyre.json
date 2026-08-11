@@ -1,0 +1,371 @@
+{
+  "name": "Underworld Swamp Denmyre",
+  "color": "#208C7C",
+  "rarity": 1,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.7,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/acacia/denmyre1",
+        "underworld/warped/trees/acacia/denmyre2",
+        "underworld/warped/trees/acacia/denmyre3",
+        "underworld/warped/trees/acacia/denmyre4",
+        "underworld/warped/trees/acacia/denmyre5",
+        "underworld/warped/trees/acacia/denmyre6",
+        "underworld/warped/trees/acacia/denmyre7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/obelisk1",
+        "underworld/warped/clutter/obelisk2",
+        "underworld/warped/clutter/obelisk3",
+        "underworld/warped/clutter/obelisk4",
+        "underworld/warped/clutter/obelisk5",
+        "underworld/warped/clutter/obelisk6",
+        "underworld/warped/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.3,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/oakdenclutt1",
+        "underworld/warped/clutter/oakdenclutt2",
+        "underworld/warped/clutter/oakdenclutt3",
+        "underworld/warped/clutter/oakdenclutt4",
+        "underworld/warped/clutter/oakdenclutt5",
+        "underworld/warped/clutter/oakdenclutt6",
+        "underworld/warped/clutter/oakdenclutt7",
+        "underworld/warped/clutter/oakdenclutt8",
+        "underworld/warped/clutter/oakdenclutt9",
+        "underworld/warped/clutter/oakdenclutt10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.4,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.003,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:warped_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:warped_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.017,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_swamp_denmyre_beb84645",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#071B20",
+      "fogColor": "#082C2E",
+      "waterColor": "#27968A",
+      "waterFogColor": "#115D5E",
+      "grassColor": "#2A9D87",
+      "foliageColor": "#2C7671",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ]
+}

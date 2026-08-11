@@ -1,0 +1,402 @@
+{
+  "name": "Underworld Tundra Sequoia Redwoods",
+  "color": "#6C8183",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_tundra_sequia_redwoods_f7d32b0b",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#11191D",
+      "fogColor": "#1A2328",
+      "waterColor": "#639497",
+      "waterFogColor": "#293F45",
+      "grassColor": "#5C6D73",
+      "foliageColor": "#6B7F84",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tundra/sequia-redwoods-extended"
+  ],
+  "generators": [
+    {
+      "min": 17,
+      "max": 19,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:soul_soil"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "IRIS_DOUBLE",
+        "fracture": {
+          "style": "NOWHERE",
+          "zoom": 0.2
+        }
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/soul/clutter/gravelsplotch1",
+        "underworld/soul/clutter/gravelsplotch2",
+        "underworld/soul/clutter/gravelsplotch3",
+        "underworld/soul/clutter/gravelsplotch4"
+      ],
+      "chance": 0.75,
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.00375,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/camp1"
+      ]
+    },
+    {
+      "mode": "FAST_STILT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.69,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "xAxis": {
+          "min": -9,
+          "max": 9,
+          "interval": 1,
+          "enabled": true
+        },
+        "zAxis": {
+          "min": -9,
+          "max": 9,
+          "interval": 1,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/spruce/sup-pine-1",
+        "underworld/soul/trees/spruce/sup-pine-2",
+        "underworld/soul/trees/spruce/sup-pine-3",
+        "underworld/soul/trees/spruce/sup-pine-4",
+        "underworld/soul/trees/spruce/sup-pine-5",
+        "underworld/soul/trees/spruce/sup-pine-6",
+        "underworld/soul/trees/spruce/sup-pine-7",
+        "underworld/soul/trees/spruce/sup-pine-8",
+        "underworld/soul/trees/spruce/sup-pine-9",
+        "underworld/soul/trees/spruce/sup-pine-10",
+        "underworld/soul/trees/spruce/sup-pine-11",
+        "underworld/soul/trees/spruce/sup-pine-12"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -6,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.035,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/boulder1",
+        "underworld/soul/clutter/boulder2",
+        "underworld/soul/clutter/boulder3",
+        "underworld/soul/clutter/boulder4",
+        "underworld/soul/clutter/boulder5",
+        "underworld/soul/clutter/boulder6",
+        "underworld/soul/clutter/boulder7",
+        "underworld/soul/clutter/boulder8",
+        "underworld/soul/clutter/boulder9",
+        "underworld/soul/clutter/boulder10",
+        "underworld/soul/clutter/boulder11",
+        "underworld/soul/clutter/boulder12",
+        "underworld/soul/clutter/boulder13",
+        "underworld/soul/clutter/boulder14",
+        "underworld/soul/clutter/boulder15"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.075,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/stump1",
+        "underworld/soul/clutter/stump2",
+        "underworld/soul/clutter/stump3",
+        "underworld/soul/clutter/stump4",
+        "underworld/soul/clutter/stump5",
+        "underworld/soul/clutter/stump6"
+      ],
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.008,
+      "mode": "FAST_STILT",
+      "place": [
+        "underworld/soul/clutter/pumpkins1",
+        "underworld/soul/clutter/pumpkins2",
+        "underworld/soul/clutter/pumpkins3",
+        "underworld/soul/clutter/pumpkins4",
+        "underworld/soul/clutter/pumpkins5",
+        "underworld/soul/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.009,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.003,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:wither_rose"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.0445,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.015,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:wither_rose"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "childShrinkFactor": 2.4
+}

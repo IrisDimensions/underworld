@@ -1,0 +1,364 @@
+{
+  "name": "Underworld Prismatics Magenta",
+  "color": "#5F5652",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 24,
+      "max": 52,
+      "generator": "plain"
+    },
+    {
+      "min": 52,
+      "max": 72,
+      "generator": "highplains"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:magenta_concrete"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:magenta_concrete_powder"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 8,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:magenta_concrete"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "underworld/basalt/clutter/concretelith1",
+        "underworld/basalt/clutter/concretelith2",
+        "underworld/basalt/clutter/concretelith3",
+        "underworld/basalt/clutter/concretelith4",
+        "underworld/basalt/clutter/concretelith5",
+        "underworld/basalt/clutter/concretelith6",
+        "underworld/basalt/clutter/concretelith7"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete_powder"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete_powder"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "underworld/basalt/clutter/concretelith1",
+        "underworld/basalt/clutter/concretelith2",
+        "underworld/basalt/clutter/concretelith3",
+        "underworld/basalt/clutter/concretelith4",
+        "underworld/basalt/clutter/concretelith5",
+        "underworld/basalt/clutter/concretelith6",
+        "underworld/basalt/clutter/concretelith7"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete_powder"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete_powder"
+              }
+            ]
+          }
+        }
+      ],
+      "scale": {
+        "minimumScale": 0.5,
+        "maximumScale": 0.75,
+        "variations": 5,
+        "interpolation": "TRILINEAR"
+      }
+    },
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "underworld/basalt/clutter/concretelith1",
+        "underworld/basalt/clutter/concretelith2",
+        "underworld/basalt/clutter/concretelith3",
+        "underworld/basalt/clutter/concretelith4",
+        "underworld/basalt/clutter/concretelith5",
+        "underworld/basalt/clutter/concretelith6",
+        "underworld/basalt/clutter/concretelith7"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:black_concrete_powder"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:magenta_concrete_powder"
+              }
+            ]
+          }
+        }
+      ],
+      "scale": {
+        "minimumScale": 2.0,
+        "maximumScale": 4.0,
+        "variations": 7,
+        "interpolation": "TRILINEAR"
+      }
+    },
+    {
+      "chance": 0.006,
+      "density": 1,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -15,
+        "yRandom": 10
+      },
+      "place": [
+        "underworld/basalt/clutter/bone1",
+        "underworld/basalt/clutter/bone2",
+        "underworld/basalt/clutter/bone3",
+        "underworld/basalt/clutter/bone4",
+        "underworld/basalt/clutter/bone5",
+        "underworld/basalt/clutter/bone6",
+        "underworld/basalt/clutter/bone7"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:bone_block"
+            }
+          ],
+          "chance": 0.2,
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              },
+              {
+                "block": "minecraft:white_concrete_powder"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.003,
+      "density": 1,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -15,
+        "yRandom": 10
+      },
+      "place": [
+        "underworld/basalt/clutter/bonespire1",
+        "underworld/basalt/clutter/bonespire2",
+        "underworld/basalt/clutter/bonespire3",
+        "underworld/basalt/clutter/bonespire4",
+        "underworld/basalt/clutter/bonespire5",
+        "underworld/basalt/clutter/bonespire6",
+        "underworld/basalt/clutter/bonespire7",
+        "underworld/basalt/clutter/bonespire8",
+        "underworld/basalt/clutter/bonespire9",
+        "underworld/basalt/clutter/bonespire10",
+        "underworld/basalt/clutter/bonespire11",
+        "underworld/basalt/clutter/bonespire12",
+        "underworld/basalt/clutter/bonespire13",
+        "underworld/basalt/clutter/bonespire14",
+        "underworld/basalt/clutter/bonespire15",
+        "underworld/basalt/clutter/bonespire16",
+        "underworld/basalt/clutter/bonespire17",
+        "underworld/basalt/clutter/bonespire18",
+        "underworld/basalt/clutter/bonespire19",
+        "underworld/basalt/clutter/bonespire20"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:bone_block"
+            }
+          ],
+          "chance": 0.2,
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              },
+              {
+                "block": "minecraft:white_concrete_powder"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "lockLayers": true,
+  "customDerivitives": [
+    {
+      "id": "underworld_prismatics_magenta_009af8c0",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161312",
+      "fogColor": "#2D2727",
+      "waterColor": "#B93F0D",
+      "waterFogColor": "#501C13",
+      "grassColor": "#635550",
+      "foliageColor": "#655B58",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

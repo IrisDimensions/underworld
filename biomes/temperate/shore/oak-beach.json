@@ -1,0 +1,194 @@
+{
+  "name": "Underworld Temperate Oak Beach",
+  "color": "#564D4B",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 0,
+      "max": 0,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/obelisk1",
+        "underworld/basalt/clutter/obelisk2",
+        "underworld/basalt/clutter/obelisk3",
+        "underworld/basalt/clutter/obelisk4",
+        "underworld/basalt/clutter/obelisk5",
+        "underworld/basalt/clutter/obelisk6",
+        "underworld/basalt/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/literalgarbage1",
+        "underworld/basalt/clutter/literalgarbage2",
+        "underworld/basalt/clutter/literalgarbage3",
+        "underworld/basalt/clutter/literalgarbage4"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.35,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "partOf": "SHORE_LINE",
+      "chance": 0.18,
+      "stackMin": 1,
+      "stackMax": 4,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.65
+      },
+      "heightVariance": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_shore_oak_beach_08d68fbd",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#292424",
+      "waterColor": "#C74B1C",
+      "waterFogColor": "#521D16",
+      "grassColor": "#635653",
+      "foliageColor": "#69615D",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

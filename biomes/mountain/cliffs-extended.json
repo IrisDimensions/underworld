@@ -1,0 +1,100 @@
+{
+  "name": "Underworld Mountain Cliffs",
+  "color": "#665B59",
+  "rarity": 3,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "max": 223,
+      "min": 106,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2.6
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 3.95
+      },
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:cyan_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_cliffs_extended_dd8073a1",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171314",
+      "fogColor": "#262020",
+      "waterColor": "#AF4C0D",
+      "waterFogColor": "#4A1914",
+      "grassColor": "#574C48",
+      "foliageColor": "#635956",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

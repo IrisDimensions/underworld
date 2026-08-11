@@ -1,0 +1,127 @@
+{
+  "name": "Basalt Roof",
+  "color": "#3E3E42",
+  "rarity": 2,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "generator": "roof/basalt",
+      "min": 30,
+      "max": 56
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "CELLULAR_HEIGHT",
+      "zoom": 0.8
+    },
+    "palette": [
+      {
+        "block": "minecraft:basalt",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:smooth_basalt",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:blackstone",
+        "weight": 4
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "style": {
+        "style": "CELLULAR_HEIGHT",
+        "zoom": 0.65
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:magma_block",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 7,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.06,
+      "density": 1,
+      "scale": {
+        "size": 0.25
+      },
+      "place": [
+        "clutter/magmaspire1",
+        "clutter/magmaspire2",
+        "clutter/magmaspire3"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:obsidian"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:basalt",
+                "weight": 5
+              },
+              {
+                "block": "minecraft:smooth_basalt",
+                "weight": 2
+              },
+              {
+                "block": "minecraft:blackstone",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:magma_block",
+                "weight": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Underworld Mountain",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "color": "#544D4A",
+  "generators": [
+    {
+      "generator": "mountain-large",
+      "max": 604,
+      "min": 423
+    }
+  ],
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ],
+      "style": {
+        "style": "IRIS"
+      },
+      "maxHeight": 4,
+      "minHeight": 3,
+      "slopeCondition": {
+        "maximumSlope": 4
+      }
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_mountains_mountian_alpha_944cd67c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161313",
+      "fogColor": "#251F20",
+      "waterColor": "#B2491B",
+      "waterFogColor": "#571810",
+      "grassColor": "#5A504B",
+      "foliageColor": "#665C58",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

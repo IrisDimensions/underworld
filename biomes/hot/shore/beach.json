@@ -1,0 +1,144 @@
+{
+  "name": "Underworld Hot Beach",
+  "color": "#5B534F",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_shore_beach_14bb7fdc",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191515",
+      "fogColor": "#2C2625",
+      "waterColor": "#A63E10",
+      "waterFogColor": "#4A1812",
+      "grassColor": "#5C4E4B",
+      "foliageColor": "#766A66",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 0,
+      "max": 1,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:smooth_basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "density": 3,
+      "mode": "MIN_HEIGHT",
+      "chance": 0.25,
+      "place": [
+        "underworld/basalt/trees/jungle/palm1",
+        "underworld/basalt/trees/jungle/palm2",
+        "underworld/basalt/trees/jungle/palm3",
+        "underworld/basalt/trees/jungle/palm4",
+        "underworld/basalt/trees/jungle/palm6",
+        "underworld/basalt/trees/jungle/palm7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:crimson_button"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:air"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:crimson_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "partOf": "SHORE_LINE",
+      "chance": 0.18,
+      "stackMin": 1,
+      "stackMax": 4,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.65
+      },
+      "heightVariance": {
+        "style": "STATIC"
+      }
+    }
+  ]
+}

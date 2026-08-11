@@ -1,0 +1,220 @@
+{
+  "name": "Underworld Calm Plains",
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ],
+      "maxHeight": 1,
+      "slopeCondition": {
+        "maximumSlope": 4
+      }
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "objects": [
+    {
+      "place": [
+        "underworld/wastes/trees/mixed/pollup1",
+        "underworld/wastes/trees/mixed/pollup2",
+        "underworld/wastes/trees/mixed/pollup4",
+        "underworld/wastes/trees/mixed/pollup5",
+        "underworld/wastes/trees/mixed/pollup6",
+        "underworld/wastes/trees/mixed/pollup7",
+        "underworld/wastes/trees/mixed/pollup8",
+        "underworld/wastes/trees/mixed/pollup9",
+        "underworld/wastes/trees/mixed/pollup10",
+        "underworld/wastes/trees/mixed/pollup11",
+        "underworld/wastes/trees/mixed/pollup12",
+        "underworld/wastes/trees/mixed/pollup13"
+      ],
+      "carvingSupport": "SURFACE_ONLY",
+      "chance": 1,
+      "mode": "CENTER_STILT",
+      "stiltSettings": {
+        "yMax": 4,
+        "yRand": 1
+      },
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.25,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "stackMin": 1,
+      "stackMax": 7,
+      "chance": 0.015,
+      "forcePlace": false,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/leaf",
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 10,
+      "min": -15
+    }
+  ],
+  "color": "#A0281C",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_calmplains_58839d0c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#280A09",
+      "fogColor": "#3B090A",
+      "waterColor": "#EC712C",
+      "waterFogColor": "#611703",
+      "grassColor": "#713C1B",
+      "foliageColor": "#8B3927",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

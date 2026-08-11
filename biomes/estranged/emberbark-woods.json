@@ -1,0 +1,305 @@
+{
+  "name": "Underworld Emberbark Woods",
+  "color": "#249A90",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_emberbark_woods_0131e3ea",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#071C20",
+      "fogColor": "#0A3131",
+      "waterColor": "#2B8D7C",
+      "waterFogColor": "#094C50",
+      "grassColor": "#35A19A",
+      "foliageColor": "#2F8D7E",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 12,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 38,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "weight": 16,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "emberbark",
+        "chance": 0.75,
+        "density": 2,
+        "variants": 8,
+        "seed": 7301,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "STATIC"
+          },
+          "zoom": 1.5,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "zoom": 3.5,
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 6
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "OAK",
+        "heightMin": 9,
+        "heightMax": 15,
+        "trunkWidth": 1,
+        "trunkShape": "SINE",
+        "shapeAmplitude": 0.25,
+        "shapePeriod": 0.5,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "DENSITY",
+          "leafDensity": 0.85,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 5,
+            "azimuthMode": "RANDOM",
+            "elevation": 0,
+            "sag": 0.3,
+            "branchDepth": 2,
+            "clusterRadius": 2,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.82,
+            "subBranches": {
+              "count": 2,
+              "pitchDelta": -8,
+              "yawDelta": 55,
+              "lengthScale": 0.5,
+              "clusterRadius": 1,
+              "clusterMode": "TRIMMED"
+            }
+          }
+        },
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.12
+          }
+        ]
+      },
+      {
+        "name": "emberbark-tall",
+        "chance": 0.35,
+        "density": 1,
+        "variants": 6,
+        "seed": 7302,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "STATIC"
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 6
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 1
+            }
+          ]
+        },
+        "profile": "OAK",
+        "heightMin": 15,
+        "heightMax": 19,
+        "trunkWidth": 2,
+        "trunkShape": "LOG",
+        "shapeBase": 2.2,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "DENSITY",
+          "leafDensity": 0.82,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 1.8,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 3,
+            "lengthCrown": 6,
+            "azimuthMode": "RANDOM",
+            "sag": 0.25,
+            "clusterRadius": 3,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.8
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.4,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.08,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.04,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

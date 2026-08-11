@@ -1,0 +1,290 @@
+{
+  "name": "Underworld Tundra Forest",
+  "color": "#64777C",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_tundra_forest_bd598b3e",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#10171B",
+      "fogColor": "#1F2B31",
+      "waterColor": "#64959B",
+      "waterFogColor": "#233B42",
+      "grassColor": "#718289",
+      "foliageColor": "#7E9396",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tundra/forest-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "min": 37,
+      "max": 56
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 5.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/soul/clutter/gravelsplotch1",
+        "underworld/soul/clutter/gravelsplotch2",
+        "underworld/soul/clutter/gravelsplotch3",
+        "underworld/soul/clutter/gravelsplotch4"
+      ],
+      "chance": 0.75,
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.8,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/levergreen2",
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/levergreen2",
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/levergreen2",
+        "underworld/soul/trees/spruce/levergreen3",
+        "underworld/soul/trees/spruce/levergreen4",
+        "underworld/soul/trees/spruce/levergreen5",
+        "underworld/soul/trees/spruce/levergreen6",
+        "underworld/soul/trees/spruce/mevergreen1",
+        "underworld/soul/trees/spruce/mevergreen2",
+        "underworld/soul/trees/spruce/mevergreen3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.01,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/obelisk1",
+        "underworld/soul/clutter/obelisk2",
+        "underworld/soul/clutter/obelisk3",
+        "underworld/soul/clutter/obelisk4",
+        "underworld/soul/clutter/obelisk5",
+        "underworld/soul/clutter/obelisk6",
+        "underworld/soul/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.35,
+      "place": [
+        "underworld/soul/trees/spruce/pine1",
+        "underworld/soul/trees/spruce/pine2",
+        "underworld/soul/trees/spruce/pine3",
+        "underworld/soul/trees/spruce/pine4",
+        "underworld/soul/trees/spruce/pine5",
+        "underworld/soul/trees/spruce/pine6",
+        "underworld/soul/trees/spruce/pine7",
+        "underworld/soul/trees/spruce/pine8",
+        "underworld/soul/trees/spruce/pine9",
+        "underworld/soul/trees/spruce/pine10",
+        "underworld/soul/trees/spruce/pine11",
+        "underworld/soul/trees/spruce/pine12"
+      ]
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/soul/clutter/pumpkins1",
+        "underworld/soul/clutter/pumpkins2",
+        "underworld/soul/clutter/pumpkins3",
+        "underworld/soul/clutter/pumpkins4",
+        "underworld/soul/clutter/pumpkins5",
+        "underworld/soul/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:wither_rose"
+        },
+        {
+          "block": "minecraft:wither_rose"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/soul/decorator/leaf",
+    "snippet/underworld/soul/decorator/bush"
+  ],
+  "childShrinkFactor": 2.4
+}

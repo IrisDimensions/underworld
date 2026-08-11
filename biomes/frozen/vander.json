@@ -1,0 +1,330 @@
+{
+  "name": "Underworld Frozen Vander",
+  "color": "#607275",
+  "rarity": 4,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "effects": [
+    {
+      "particleAltX": 0.1,
+      "particleAltY": 0.1,
+      "particleAltZ": 0.1,
+      "particleEffect": "SOUL",
+      "chance": 1,
+      "interval": 1500
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_vander_65e30be1",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#10171A",
+      "fogColor": "#1E292F",
+      "waterColor": "#669799",
+      "waterFogColor": "#243F44",
+      "grassColor": "#637778",
+      "foliageColor": "#7D9198",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 15,
+      "max": 34,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.02,
+      "mode": "FAST_MIN_HEIGHT",
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/mushroom/ice1",
+        "underworld/soul/trees/mushroom/ice2",
+        "underworld/soul/trees/mushroom/ice3",
+        "underworld/soul/trees/mushroom/ice4",
+        "underworld/soul/trees/mushroom/ice5",
+        "underworld/soul/trees/mushroom/ice6",
+        "underworld/soul/trees/mushroom/ice7",
+        "underworld/soul/trees/mushroom/ice8",
+        "underworld/soul/trees/mushroom/ice9"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -5,
+        "z": 0
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:white_stained_glass"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:soul_soil"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "mode": "PAINT",
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/mushroom/froShroom1",
+        "underworld/soul/trees/mushroom/froShroom2",
+        "underworld/soul/trees/mushroom/froShroom3",
+        "underworld/soul/trees/mushroom/froShroom4",
+        "underworld/soul/trees/mushroom/froShroom5",
+        "underworld/soul/trees/mushroom/froShroom6",
+        "underworld/soul/trees/mushroom/froShroom7",
+        "underworld/soul/trees/mushroom/froShroom8",
+        "underworld/soul/trees/mushroom/froShroom9"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.45,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "PERLIN",
+              "zoom": 0.2
+            },
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              },
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/sproak/generic1",
+        "underworld/soul/trees/sproak/generic2",
+        "underworld/soul/trees/sproak/generic3",
+        "underworld/soul/trees/sproak/generic4",
+        "underworld/soul/trees/sproak/generic5",
+        "underworld/soul/trees/sproak/generic7",
+        "underworld/soul/trees/sproak/generic8",
+        "underworld/soul/trees/sproak/generic9",
+        "underworld/soul/trees/sproak/generic10",
+        "underworld/soul/trees/sproak/generic11",
+        "underworld/soul/trees/sproak/generic12"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.1,
+      "mode": "PAINT",
+      "density": 1,
+      "snow": 0.35,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/singleicespike1",
+        "underworld/soul/clutter/singleicespike2",
+        "underworld/soul/clutter/singleicespike3",
+        "underworld/soul/clutter/singleicespike4",
+        "underworld/soul/clutter/singleicespike5",
+        "underworld/soul/clutter/icespec1",
+        "underworld/soul/clutter/icespec2",
+        "underworld/soul/clutter/icespec3",
+        "underworld/soul/clutter/icespec4",
+        "underworld/soul/clutter/icespec5"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.5,
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.7
+      },
+      "zoom": 0.6,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ],
+  "childShrinkFactor": 20
+}

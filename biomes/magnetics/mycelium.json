@@ -1,0 +1,397 @@
+{
+  "name": "Underworld Magnetics Mycelium",
+  "color": "#5D5452",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -3,
+      "max": 15,
+      "generator": "magnetics/mycelium"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/trees/mushroom/browngeneric1",
+        "underworld/basalt/trees/mushroom/browngeneric2",
+        "underworld/basalt/trees/mushroom/redgeneric3",
+        "underworld/basalt/trees/mushroom/redgeneric4",
+        "underworld/basalt/trees/mushroom/redgeneric5",
+        "underworld/basalt/trees/mushroom/redgeneric6",
+        "underworld/basalt/trees/mushroom/redgeneric7",
+        "underworld/basalt/trees/mushroom/redgeneric8",
+        "underworld/basalt/trees/mushroom/redgeneric9",
+        "underworld/basalt/trees/mushroom/redgeneric10",
+        "underworld/basalt/trees/mushroom/redgeneric11"
+      ],
+      "chance": 0.25,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/stoneboulder1",
+        "underworld/basalt/clutter/stoneboulder2",
+        "underworld/basalt/clutter/stoneboulder3",
+        "underworld/basalt/clutter/boulder1",
+        "underworld/basalt/clutter/boulder2",
+        "underworld/basalt/clutter/boulder3"
+      ],
+      "chance": 0.06,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.08,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.4,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "floatingChildBiomes": [
+    {
+      "biome": "mushroom/forest",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.78,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.24,
+          "multiplier": 4
+        }
+      },
+      "footprintThreshold": 0.39,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4.0
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 2.4
+      },
+      "minHeightAboveSurface": 95,
+      "maxHeightAboveSurface": 145,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 18,
+      "topShapeStyle": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.5,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.22,
+          "multiplier": 4
+        }
+      },
+      "topShapeAmp": 0.8,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 20,
+      "bottomDepthMax": 20,
+      "bottomExponent": 1.0,
+      "bottomPaletteMode": "CUSTOM",
+      "bottomPalette": [
+        {
+          "minHeight": 8,
+          "maxHeight": 18,
+          "palette": [
+            {
+              "block": "minecraft:basalt"
+            },
+            {
+              "block": "minecraft:blackstone"
+            }
+          ]
+        }
+      ],
+      "maxThickness": 40,
+      "carving": "carving/mushroom",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.24,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.84,
+      "inheritDecorators": true,
+      "inheritObjects": true,
+      "objectShrinkFactor": 0.52,
+      "topObjectMode": "INHERIT_ONLY",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/mushclut1",
+            "underworld/basalt/trees/mushroom/mushclut2",
+            "underworld/basalt/trees/mushroom/mushclut3",
+            "underworld/basalt/trees/mushroom/mushclut4",
+            "underworld/basalt/trees/mushroom/mushclut5",
+            "underworld/basalt/trees/mushroom/mushclut6",
+            "underworld/basalt/trees/mushroom/mushclut7",
+            "underworld/basalt/trees/mushroom/mushclut8",
+            "underworld/basalt/trees/mushroom/mushclut9",
+            "underworld/basalt/trees/mushroom/mushclut10"
+          ],
+          "chance": 0.82,
+          "mode": "CENTER_HEIGHT",
+          "density": 7,
+          "scale": {
+            "size": 0.85
+          },
+          "warp": {
+            "style": "SIMPLEX",
+            "zoom": 0.28,
+            "multiplier": 1.15
+          },
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        },
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/browngeneric1",
+            "underworld/basalt/trees/mushroom/browngeneric2",
+            "underworld/basalt/trees/mushroom/redgeneric3",
+            "underworld/basalt/trees/mushroom/redgeneric4",
+            "underworld/basalt/trees/mushroom/redgeneric5",
+            "underworld/basalt/trees/mushroom/redgeneric6",
+            "underworld/basalt/trees/mushroom/redgeneric7",
+            "underworld/basalt/trees/mushroom/redgeneric8",
+            "underworld/basalt/trees/mushroom/redgeneric9",
+            "underworld/basalt/trees/mushroom/redgeneric10",
+            "underworld/basalt/trees/mushroom/redgeneric11",
+            "underworld/basalt/trees/mushroom/redlumotall1",
+            "underworld/basalt/trees/mushroom/redlumotall2",
+            "underworld/basalt/trees/mushroom/redlumotall3",
+            "underworld/basalt/trees/mushroom/redlumotall4",
+            "underworld/basalt/trees/mushroom/redlumotall5",
+            "underworld/basalt/trees/mushroom/greygeneric1",
+            "underworld/basalt/trees/mushroom/greygeneric2",
+            "underworld/basalt/trees/mushroom/greygeneric3",
+            "underworld/basalt/trees/mushroom/greygeneric4",
+            "underworld/basalt/trees/mushroom/greygeneric5",
+            "underworld/basalt/trees/mushroom/blackgeneric1",
+            "underworld/basalt/trees/mushroom/blackgeneric2",
+            "underworld/basalt/trees/mushroom/blackgeneric3",
+            "underworld/basalt/trees/mushroom/blackgeneric4",
+            "underworld/basalt/trees/mushroom/blackgeneric5"
+          ],
+          "chance": 0.66,
+          "mode": "CENTER_STILT",
+          "density": 5,
+          "scale": {
+            "size": 0.75
+          },
+          "warp": {
+            "style": "SIMPLEX_VASCULAR",
+            "zoom": 0.32,
+            "multiplier": 1.05
+          },
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        },
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/smolshroom1",
+            "underworld/basalt/trees/mushroom/smolshroom2",
+            "underworld/basalt/trees/mushroom/smolshroom3",
+            "underworld/basalt/trees/mushroom/smolshroom4",
+            "underworld/basalt/trees/mushroom/smolshroom5"
+          ],
+          "chance": 0.9,
+          "mode": "CENTER_HEIGHT",
+          "density": 9,
+          "scale": {
+            "size": 0.8
+          },
+          "warp": {
+            "style": "SIMPLEX",
+            "zoom": 0.2,
+            "multiplier": 0.75
+          },
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        }
+      ],
+      "bottomObjectMode": "INHERIT_ONLY",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/browngeneric1",
+            "underworld/basalt/trees/mushroom/browngeneric2",
+            "underworld/basalt/trees/mushroom/redgeneric3",
+            "underworld/basalt/trees/mushroom/redgeneric4",
+            "underworld/basalt/trees/mushroom/redgeneric5",
+            "underworld/basalt/trees/mushroom/blackgeneric1",
+            "underworld/basalt/trees/mushroom/blackgeneric2",
+            "underworld/basalt/trees/mushroom/blackgeneric3"
+          ],
+          "chance": 0.6,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 6,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_magnetics_mycelium_84a68fb4",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#1A1515",
+      "fogColor": "#252020",
+      "waterColor": "#C65B15",
+      "waterFogColor": "#4B2214",
+      "grassColor": "#645652",
+      "foliageColor": "#756965",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

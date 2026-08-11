@@ -1,0 +1,328 @@
+{
+  "name": "Underworld Tropical Jungle Denmyre",
+  "color": "#A9374B",
+  "rarity": 1,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:crimson_forest",
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "zoom": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.5,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/acacia/denmyre1",
+        "underworld/crimson/trees/acacia/denmyre2",
+        "underworld/crimson/trees/acacia/denmyre3",
+        "underworld/crimson/trees/acacia/denmyre4",
+        "underworld/crimson/trees/acacia/denmyre5",
+        "underworld/crimson/trees/acacia/denmyre6",
+        "underworld/crimson/trees/acacia/denmyre7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.5,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/oakdenclutt1",
+        "underworld/crimson/clutter/oakdenclutt2",
+        "underworld/crimson/clutter/oakdenclutt3",
+        "underworld/crimson/clutter/oakdenclutt4",
+        "underworld/crimson/clutter/oakdenclutt5",
+        "underworld/crimson/clutter/oakdenclutt6",
+        "underworld/crimson/clutter/oakdenclutt7",
+        "underworld/crimson/clutter/oakdenclutt8",
+        "underworld/crimson/clutter/oakdenclutt9",
+        "underworld/crimson/clutter/oakdenclutt10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.4,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.003,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.017,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.301,
+      "particleAltY": -0.33885,
+      "particleAltZ": 0.301,
+      "chance": 1,
+      "particleEffect": "CRIMSON_SPORE",
+      "particleOffset": 12,
+      "interval": 550,
+      "particleCount": 0
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_jungle_denmyre_03347e26",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#320E0A",
+      "fogColor": "#51111A",
+      "waterColor": "#E34C35",
+      "waterFogColor": "#7A131F",
+      "grassColor": "#B42C3C",
+      "foliageColor": "#962942",
+      "ambientParticle": {
+        "particle": "minecraft:crimson_spore",
+        "rarity": 45
+      }
+    }
+  ]
+}

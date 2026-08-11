@@ -1,0 +1,26 @@
+{
+  "interpolator": {
+    "function": "BILINEAR_STARCAST_6",
+    "horizontalScale": 24
+  },
+  "seed": 5501,
+  "composite": [
+    {
+      "seed": 5502,
+      "style": {
+        "style": "FRACTAL_SMOKE",
+        "zoom": 1.25,
+        "exponent": 0.85
+      }
+    }
+  ],
+  "cliffHeightMin": 18,
+  "cliffHeightMax": 36,
+  "cliffHeightGenerator": {
+    "seed": 5503,
+    "zoom": 0.8,
+    "style": {
+      "style": "CELLULAR_HEIGHT"
+    }
+  }
+}

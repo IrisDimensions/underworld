@@ -1,0 +1,222 @@
+{
+  "name": "Underworld Tundra River",
+  "color": "#5E5553",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "children": [
+    "tundra/sea/river-rocky"
+  ],
+  "generators": [
+    {
+      "generator": "river",
+      "max": -10,
+      "min": -47
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "zoom": 0.825,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "underwater": true,
+      "place": [
+        "underworld/basalt/clutter/substat1",
+        "underworld/basalt/clutter/substat2",
+        "underworld/basalt/clutter/substat3",
+        "underworld/basalt/clutter/substat4",
+        "underworld/basalt/clutter/substat5"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 20,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.0006,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.013,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 24,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_tundra_sea_river_9e6dcb24",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151212",
+      "fogColor": "#2B2524",
+      "waterColor": "#C25522",
+      "waterFogColor": "#552018",
+      "grassColor": "#574C47",
+      "foliageColor": "#6F6661",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

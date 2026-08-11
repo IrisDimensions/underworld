@@ -1,0 +1,357 @@
+{
+  "name": "Underworld Prismatic Gray Caves",
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "wall": {
+    "style": {
+      "style": "PERLIN_IRIS_THICK",
+      "zoom": 0.7
+    },
+    "palette": [
+      {
+        "block": "minecraft:gray_concrete",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:polished_basalt",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:basalt",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gray_concrete_powder",
+        "weight": 2
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.45
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:polished_basalt",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:gray_concrete_powder",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "style": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.55
+      },
+      "palette": [
+        {
+          "block": "minecraft:gray_concrete",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:polished_basalt",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.04,
+      "scaleStack": true,
+      "stackMin": 15,
+      "stackMax": 55,
+      "absoluteMaxStack": 4,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.06,
+      "scaleStack": true,
+      "stackMin": 20,
+      "stackMax": 65,
+      "absoluteMaxStack": 5,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "caveProfile": {
+    "enabled": true,
+    "verticalRange": {
+      "min": 6,
+      "max": 720
+    },
+    "baseDensityStyle": {
+      "style": "PERLIN_IRIS_THICK",
+      "zoom": 0.7
+    },
+    "detailDensityStyle": {
+      "style": "PERLIN_IRIS_THICK",
+      "zoom": 0.55
+    },
+    "warpStyle": {
+      "style": "FRACTAL_WATER",
+      "zoom": 0.44
+    },
+    "baseWeight": 0.94,
+    "detailWeight": 0.08,
+    "warpStrength": 0.2,
+    "densityThreshold": {
+      "min": -0.11,
+      "max": -0.03,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.66
+      }
+    },
+    "thresholdBias": 0.08,
+    "sampleStep": 2,
+    "surfaceClearance": 5,
+    "allowSurfaceBreak": true,
+    "surfaceBreakStyle": {
+      "style": "SIMPLEX",
+      "zoom": 0.82
+    },
+    "surfaceBreakNoiseThreshold": 0.58,
+    "surfaceBreakDepth": 20,
+    "surfaceBreakThresholdBoost": 0.1,
+    "objectMinDepthBelowSurface": 12,
+    "defaultObjectAnchor": "FLOOR",
+    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "anchorScanStep": 1,
+    "anchorSearchAttempts": 18,
+    "allowWater": true,
+    "waterMinDepthBelowSurface": 18,
+    "waterRequiresFloor": true,
+    "allowLava": true,
+    "modules": [
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 0.84
+        },
+        "weight": 0.1,
+        "threshold": 0.02,
+        "verticalRange": {
+          "min": 20,
+          "max": 720
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "FRACTAL_FBM_SIMPLEX",
+          "zoom": 0.18
+        },
+        "weight": 0.06,
+        "threshold": 0.07,
+        "verticalRange": {
+          "min": 6,
+          "max": 200
+        },
+        "invert": true
+      }
+    ],
+    "verticalEdgeFade": 24,
+    "verticalEdgeFadeStrength": 0.17,
+    "minCarveCells": 16,
+    "recoveryThresholdBoost": 0.07
+  },
+  "caveMinDepthBelowSurface": 12,
+  "children": [
+    "carving/prismatic-gray-child"
+  ],
+  "childStyle": {
+    "style": "PERLIN_IRIS_THICK",
+    "zoom": 0.68
+  },
+  "childShrinkFactor": 1.5,
+  "objects": [
+    {
+      "chance": 0.18,
+      "density": 4,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/stoneclutt1",
+        "underworld/soul/clutter/stoneclutt2",
+        "underworld/soul/clutter/stoneclutt3",
+        "underworld/soul/clutter/stoneclutt4",
+        "underworld/soul/clutter/stoneclutt5",
+        "underworld/soul/clutter/rock1",
+        "underworld/soul/clutter/rock2",
+        "underworld/soul/clutter/rock3",
+        "underworld/soul/clutter/boulder1",
+        "underworld/soul/clutter/boulder2",
+        "underworld/soul/clutter/boulder3"
+      ],
+      "scale": {
+        "size": 0.75
+      }
+    },
+    {
+      "chance": 0.135,
+      "density": 4,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/structures/monolith1",
+        "underworld/soul/structures/monolith3",
+        "underworld/soul/structures/monolith4"
+      ],
+      "scale": {
+        "size": 0.75
+      }
+    },
+    {
+      "chance": 0.12,
+      "density": 4,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/spikestone5",
+        "underworld/soul/clutter/spikestone6",
+        "underworld/soul/clutter/spikestone7",
+        "underworld/soul/clutter/spikestone8"
+      ],
+      "scale": {
+        "size": 0.75
+      }
+    },
+    {
+      "chance": 0.08,
+      "density": 3,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/stoneboulder8",
+        "underworld/soul/clutter/stoneboulder9",
+        "underworld/soul/clutter/stoneboulder10"
+      ],
+      "scale": {
+        "size": 0.75
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 3,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/concretelith1",
+        "underworld/soul/clutter/concretelith2",
+        "underworld/soul/clutter/concretelith3",
+        "underworld/soul/clutter/concretelith4",
+        "underworld/soul/clutter/concretelith5",
+        "underworld/soul/clutter/concretelith6",
+        "underworld/soul/clutter/concretelith7"
+      ],
+      "scale": {
+        "size": 0.75
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 3,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/concretelith1",
+        "underworld/soul/clutter/concretelith2",
+        "underworld/soul/clutter/concretelith3",
+        "underworld/soul/clutter/concretelith4",
+        "underworld/soul/clutter/concretelith5",
+        "underworld/soul/clutter/concretelith6",
+        "underworld/soul/clutter/concretelith7"
+      ],
+      "scale": {
+        "minimumScale": 0.5,
+        "maximumScale": 0.75,
+        "variations": 5,
+        "interpolation": "TRILINEAR"
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 3,
+      "carvingSupport": "CARVING_ONLY",
+      "bottom": true,
+      "force": true,
+      "place": [
+        "underworld/soul/clutter/concretelith1",
+        "underworld/soul/clutter/concretelith2",
+        "underworld/soul/clutter/concretelith3",
+        "underworld/soul/clutter/concretelith4",
+        "underworld/soul/clutter/concretelith5",
+        "underworld/soul/clutter/concretelith6",
+        "underworld/soul/clutter/concretelith7"
+      ],
+      "scale": {
+        "minimumScale": 2.0,
+        "maximumScale": 4.0,
+        "variations": 7,
+        "interpolation": "TRILINEAR"
+      }
+    }
+  ],
+  "color": "#607376",
+  "customDerivitives": [
+    {
+      "id": "underworld_carving_prismatic_gray_1a7897c3",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#131B20",
+      "fogColor": "#1B2327",
+      "waterColor": "#508486",
+      "waterFogColor": "#253B3D",
+      "grassColor": "#667C7E",
+      "foliageColor": "#76888E",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

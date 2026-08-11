@@ -1,0 +1,359 @@
+{
+  "name": "Underworld Wooded Badlands",
+  "color": "#655C59",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 20,
+      "max": 75,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 2,
+        "maximumSlope": 10
+      },
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2
+      },
+      "style": {
+        "style": "NOWHERE",
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 4,
+          "axialFracturing": true
+        },
+        "zoom": 1.4
+      },
+      "zoom": 0.9,
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:orange_terracotta"
+        },
+        {
+          "weight": 7,
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:terracotta"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:terracotta"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/trees/acacia/vexed1",
+        "underworld/basalt/trees/acacia/vexed2",
+        "underworld/basalt/trees/acacia/vexed3"
+      ],
+      "chance": 0.4,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "data": {
+                  "axis": "y"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.00175,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/camp1"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.07,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/acacia/savannaD1",
+        "underworld/basalt/trees/acacia/savannaD2",
+        "underworld/basalt/trees/acacia/savannaD3"
+      ]
+    },
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/acacia/savannaF1",
+        "underworld/basalt/trees/acacia/savannaF2",
+        "underworld/basalt/trees/acacia/savannaF3",
+        "underworld/basalt/trees/acacia/savannaF4",
+        "underworld/basalt/trees/acacia/savannaF5",
+        "underworld/basalt/trees/acacia/savannaF6",
+        "underworld/basalt/trees/acacia/savannaF7",
+        "underworld/basalt/trees/acacia/savannaF8",
+        "underworld/basalt/trees/acacia/savannaF9",
+        "underworld/basalt/trees/acacia/savannaF10",
+        "underworld/basalt/trees/acacia/savannaF11",
+        "underworld/basalt/trees/acacia/savannaF13",
+        "underworld/basalt/trees/acacia/savannaF14"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.04,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/acacia/savannaS1",
+        "underworld/basalt/trees/acacia/savannaS2",
+        "underworld/basalt/trees/acacia/savannaS3",
+        "underworld/basalt/trees/acacia/savannaS4",
+        "underworld/basalt/trees/acacia/savannaS5",
+        "underworld/basalt/trees/acacia/savannaS6",
+        "underworld/basalt/trees/acacia/savannaS7",
+        "underworld/basalt/trees/acacia/savannaS8",
+        "underworld/basalt/trees/acacia/savannas9",
+        "underworld/basalt/trees/acacia/savannas10",
+        "underworld/basalt/trees/acacia/savannas11",
+        "underworld/basalt/trees/acacia/savannas12"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.189,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    "snippet/underworld/basalt/decorator/dry_grass"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_wooded_badlands_29c5759d",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#2A2425",
+      "waterColor": "#BF3814",
+      "waterFogColor": "#502014",
+      "grassColor": "#665754",
+      "foliageColor": "#766C66",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

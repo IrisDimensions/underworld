@@ -1,0 +1,147 @@
+{
+  "name": "Underworld Tropical River Steep",
+  "color": "#59514E",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "style": {
+        "style": "FRACTAL_FBM_IRIS"
+      },
+      "zoom": 0.6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/clutter/ellipsoid1"
+      ],
+      "chance": 0.5,
+      "underwater": true,
+      "mode": "CENTER_HEIGHT",
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "GLOB",
+              "zoom": 0.02
+            },
+            "palette": [
+              {
+                "weight": 2,
+                "block": "minecraft:blackstone"
+              },
+              {
+                "weight": 1,
+                "block": "minecraft:cave_air"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "stackMin": 4,
+      "stackMax": 10
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_sea_river_steep_1fe60d83",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151111",
+      "fogColor": "#2C2525",
+      "waterColor": "#CE4215",
+      "waterFogColor": "#572716",
+      "grassColor": "#534844",
+      "foliageColor": "#69615D",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

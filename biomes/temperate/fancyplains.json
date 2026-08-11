@@ -1,0 +1,215 @@
+{
+  "name": "Underworld Fancy Plains",
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ],
+      "maxHeight": 1,
+      "slopeCondition": {
+        "maximumSlope": 4
+      }
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "objects": [
+    {
+      "place": [
+        "underworld/wastes/trees/oak/oakFancy1",
+        "underworld/wastes/trees/oak/oakFancy2NS",
+        "underworld/wastes/trees/oak/oakFancy3",
+        "underworld/wastes/trees/oak/oakFancy4",
+        "underworld/wastes/trees/oak/oakFancy5",
+        "underworld/wastes/trees/oak/oakFancy6",
+        "underworld/wastes/trees/oak/oakFancy7",
+        "underworld/wastes/trees/oak/oakFancy7",
+        "underworld/wastes/trees/oak/oakFancy8",
+        "underworld/wastes/trees/oak/oakFancy9",
+        "underworld/wastes/trees/oak/oakFancy10",
+        "underworld/wastes/trees/oak/antioch5",
+        "underworld/wastes/trees/oak/antioch3",
+        "underworld/wastes/trees/oak/antioch4"
+      ],
+      "carvingSupport": "SURFACE_ONLY",
+      "chance": 1,
+      "mode": "CENTER_STILT",
+      "stiltSettings": {
+        "yMax": 4,
+        "yRand": 1
+      },
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.25,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.22,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.3,
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.282
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "stackMin": 1,
+      "stackMax": 7,
+      "chance": 0.025,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 10,
+      "min": -15
+    }
+  ],
+  "color": "#A6502E",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_fancyplains_71753d3f",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2C0C09",
+      "fogColor": "#3E0D0A",
+      "waterColor": "#DC640B",
+      "waterFogColor": "#6E1705",
+      "grassColor": "#72381E",
+      "foliageColor": "#814532",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

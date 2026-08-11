@@ -1,0 +1,157 @@
+{
+  "name": "Underworld Frozen Spruce Hills",
+  "color": "#6D7F85",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_spruce_hills_extended_ed7e524d",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#131C1E",
+      "fogColor": "#1E282B",
+      "waterColor": "#618992",
+      "waterFogColor": "#263D40",
+      "grassColor": "#5B6D70",
+      "foliageColor": "#6D8687",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 112,
+      "min": 50
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 28,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.8,
+      "snow": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "PERLIN",
+              "zoom": 0.2
+            },
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              },
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/levergreen1",
+        "underworld/soul/trees/spruce/mevergreen1",
+        "underworld/soul/trees/spruce/mevergreen2",
+        "underworld/soul/trees/spruce/mevergreen3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.23
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

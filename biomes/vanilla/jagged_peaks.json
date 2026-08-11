@@ -1,0 +1,75 @@
+{
+  "name": "Underworld Jagged Peaks",
+  "color": "#9C3D19",
+  "rarity": 12,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 23,
+      "max": 295,
+      "generator": "spikes"
+    }
+  ],
+  "wall": {
+    "minHeight": 1,
+    "maxHeight": 1,
+    "slopeCondition": {
+      "minimumSlope": 0,
+      "maximumSlope": 2.6
+    },
+    "style": {
+      "style": "IRIS",
+      "zoom": 0.1
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2.6
+      },
+      "style": {
+        "style": "IRIS",
+        "zoom": 0.1
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_jagged_peaks_f101a2c2",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2D0A0A",
+      "fogColor": "#460B05",
+      "waterColor": "#D15018",
+      "waterFogColor": "#70270F",
+      "grassColor": "#844420",
+      "foliageColor": "#843D27",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

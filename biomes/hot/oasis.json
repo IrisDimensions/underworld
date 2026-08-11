@@ -1,0 +1,83 @@
+{
+  "name": "Underworld Hot Oasis",
+  "color": "#973428",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 7,
+      "min": -2
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.7,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:netherrack"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:nether_wart_block"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 1
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/dry_grass"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_oasis_4941ce39",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2F0C0B",
+      "fogColor": "#3D120D",
+      "waterColor": "#D56A14",
+      "waterFogColor": "#601D0C",
+      "grassColor": "#6D3322",
+      "foliageColor": "#9B4833",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

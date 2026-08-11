@@ -1,0 +1,355 @@
+{
+  "name": "Underworld Magnetics Noise",
+  "color": "#5C524F",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -3,
+      "max": 22,
+      "generator": "magnetics/noise"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:magma_block"
+      },
+      {
+        "block": "minecraft:quartz_block"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:quartz_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 7,
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 7,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/trees/oak/antioch1",
+        "underworld/basalt/trees/oak/antioch2",
+        "underworld/basalt/trees/oak/antioch4",
+        "underworld/basalt/trees/oak/antioch5",
+        "underworld/basalt/trees/oak/antioch6",
+        "underworld/basalt/trees/oak/antioch7",
+        "underworld/basalt/trees/oak/antioch8",
+        "underworld/basalt/trees/oak/antioch9"
+      ],
+      "chance": 0.45,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/boulder1",
+        "underworld/basalt/clutter/boulder2",
+        "underworld/basalt/clutter/boulder3",
+        "underworld/basalt/clutter/boulder4",
+        "underworld/basalt/clutter/boulder5",
+        "underworld/basalt/clutter/boulder6",
+        "underworld/basalt/clutter/boulder7",
+        "underworld/basalt/clutter/boulder8",
+        "underworld/basalt/clutter/stoneboulder1",
+        "underworld/basalt/clutter/stoneboulder2",
+        "underworld/basalt/clutter/stoneboulder3",
+        "underworld/basalt/clutter/stoneboulder4",
+        "underworld/basalt/clutter/stoneboulder5"
+      ],
+      "chance": 0.12,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/shrub1",
+        "underworld/basalt/clutter/shrub2",
+        "underworld/basalt/clutter/shrub3",
+        "underworld/basalt/clutter/shrub4",
+        "underworld/basalt/clutter/shrub5",
+        "underworld/basalt/clutter/shrub6",
+        "underworld/basalt/clutter/oakshrub1",
+        "underworld/basalt/clutter/oakshrub2",
+        "underworld/basalt/clutter/oakshrub3"
+      ],
+      "chance": 0.15,
+      "mode": "CENTER_HEIGHT"
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/rock1",
+        "underworld/basalt/clutter/rock2",
+        "underworld/basalt/clutter/rock3",
+        "underworld/basalt/clutter/rock4"
+      ],
+      "chance": 0.08,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    }
+  ],
+  "floatingChildBiomes": [
+    {
+      "biome": "temperate/plains",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "GLOB_IRIS_THICK",
+        "zoom": 0.74,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.24,
+          "multiplier": 4
+        }
+      },
+      "footprintThreshold": 0.44,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4.0
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 2.8
+      },
+      "minHeightAboveSurface": 125,
+      "maxHeightAboveSurface": 165,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 18,
+      "topShapeStyle": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.58,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.24,
+          "multiplier": 4
+        }
+      },
+      "topShapeAmp": 0.75,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 20,
+      "bottomDepthMax": 20,
+      "bottomExponent": 1.0,
+      "maxThickness": 40,
+      "carving": "carving/rocky-cavebiome-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.22,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.84,
+      "inheritDecorators": true,
+      "inheritObjects": true,
+      "objectShrinkFactor": 0.55,
+      "topObjectMode": "MERGE",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/boulder1",
+            "underworld/basalt/clutter/boulder2",
+            "underworld/basalt/clutter/boulder3",
+            "underworld/basalt/clutter/boulder4",
+            "underworld/basalt/clutter/boulder5",
+            "underworld/basalt/clutter/stoneboulder1",
+            "underworld/basalt/clutter/stoneboulder2",
+            "underworld/basalt/clutter/stoneboulder3"
+          ],
+          "chance": 0.45,
+          "mode": "CENTER_HEIGHT",
+          "density": 5,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        },
+        {
+          "place": [
+            "underworld/basalt/clutter/shrub1",
+            "underworld/basalt/clutter/shrub2",
+            "underworld/basalt/clutter/shrub3",
+            "underworld/basalt/clutter/oakshrub1",
+            "underworld/basalt/clutter/oakshrub2",
+            "underworld/basalt/clutter/oakshrub3",
+            "underworld/basalt/clutter/rock1",
+            "underworld/basalt/clutter/rock2",
+            "underworld/basalt/clutter/rock3"
+          ],
+          "chance": 0.5,
+          "mode": "CENTER_HEIGHT",
+          "density": 5
+        }
+      ],
+      "bottomObjectMode": "INHERIT_ONLY",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/oak/antioch1",
+            "underworld/basalt/trees/oak/antioch2",
+            "underworld/basalt/trees/oak/antioch4",
+            "underworld/basalt/trees/oak/antioch5",
+            "underworld/basalt/clutter/stoneboulder4",
+            "underworld/basalt/clutter/stoneboulder5",
+            "underworld/basalt/clutter/rock4"
+          ],
+          "chance": 0.38,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 4,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          }
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_magnetics_noise_5791b146",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#2B2525",
+      "waterColor": "#BE581D",
+      "waterFogColor": "#551E12",
+      "grassColor": "#544A46",
+      "foliageColor": "#6F6761",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

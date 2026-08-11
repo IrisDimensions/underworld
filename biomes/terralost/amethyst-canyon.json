@@ -1,0 +1,415 @@
+{
+  "name": "Underworld Amethyst Rainforest",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:smooth_basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 5,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "color": "#59504D",
+  "rarity": 1,
+  "customDerivitives": [
+    {
+      "id": "underworld_terralost_amethyst_canyon_e70dc85c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#1A1515",
+      "fogColor": "#272221",
+      "waterColor": "#D1521E",
+      "waterFogColor": "#5E271C",
+      "grassColor": "#554A46",
+      "foliageColor": "#6F6762",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "terralost/amethyst-rainforest"
+  ],
+  "generators": [
+    {
+      "min": 50,
+      "max": 70,
+      "generator": "vascular-cracked-cliffs"
+    }
+  ],
+  "objects": [
+    {
+      "mode": "MIN_HEIGHT",
+      "chance": 0.2,
+      "place": [
+        "underworld/basalt/trees/mixed/AmyLarge1",
+        "underworld/basalt/trees/mixed/AmyLarge2",
+        "underworld/basalt/trees/mixed/AmyLarge3",
+        "underworld/basalt/trees/mixed/AmyLarge4",
+        "underworld/basalt/trees/mixed/AmyLarge5",
+        "underworld/basalt/trees/mixed/AmyLarge6",
+        "underworld/basalt/trees/mixed/AmyLarge7",
+        "underworld/basalt/trees/mixed/AmyLarge8"
+      ],
+      "layers": [
+        {
+          "style": {
+            "style": "NOWHERE_SIMPLEX"
+          },
+          "zoom": 0.5,
+          "palette": [
+            {
+              "block": "minecraft:basalt",
+              "weight": 8
+            },
+            {
+              "block": "minecraft:blackstone"
+            },
+            {
+              "block": "minecraft:blackstone"
+            },
+            {
+              "block": "minecraft:quartz_block"
+            }
+          ]
+        },
+        {
+          "minHeight": 2,
+          "maxHeight": 4,
+          "palette": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ]
+        },
+        {
+          "minHeight": 1,
+          "maxHeight": 1,
+          "palette": [
+            {
+              "block": "minecraft:blackstone"
+            }
+          ]
+        }
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "NOWHERE",
+              "zoom": 0.02
+            },
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "chance": 0.25,
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 30,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "mode": "MIN_HEIGHT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/trees/mixed/AmyMed1",
+        "underworld/basalt/trees/mixed/AmyMed2",
+        "underworld/basalt/trees/mixed/AmyMed3",
+        "underworld/basalt/trees/mixed/AmyMed4",
+        "underworld/basalt/trees/mixed/AmyMed5",
+        "underworld/basalt/trees/mixed/AmyMed6",
+        "underworld/basalt/trees/mixed/AmyMed7",
+        "underworld/basalt/trees/mixed/AmyMed8",
+        "underworld/basalt/trees/mixed/AmyMed9"
+      ],
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "NOWHERE",
+              "zoom": 0.02
+            },
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "chance": 0.25,
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 45,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "mode": "MIN_HEIGHT",
+      "chance": 0.3,
+      "place": [
+        "underworld/basalt/trees/mixed/AmyNormal1",
+        "underworld/basalt/trees/mixed/AmyNormal2",
+        "underworld/basalt/trees/mixed/AmyNormal3",
+        "underworld/basalt/trees/mixed/AmyNormal4",
+        "underworld/basalt/trees/mixed/AmyNormal5",
+        "underworld/basalt/trees/mixed/AmyNormal6",
+        "underworld/basalt/trees/mixed/AmyNormal7",
+        "underworld/basalt/trees/mixed/AmyNormal8",
+        "underworld/basalt/trees/mixed/AmyNormal9",
+        "underworld/basalt/trees/mixed/AmyNormal10",
+        "underworld/basalt/trees/mixed/AmyNormal11"
+      ],
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "NOWHERE",
+              "zoom": 0.02
+            },
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "chance": 0.25,
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 45,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "mode": "MIN_HEIGHT",
+      "chance": 0.3,
+      "place": [
+        "underworld/basalt/trees/mixed/AmySmol1",
+        "underworld/basalt/trees/mixed/AmySmol2",
+        "underworld/basalt/trees/mixed/AmySmol3",
+        "underworld/basalt/trees/mixed/AmySmol4",
+        "underworld/basalt/trees/mixed/AmySmol5",
+        "underworld/basalt/trees/mixed/AmySmol6",
+        "underworld/basalt/trees/mixed/AmySmol7",
+        "underworld/basalt/trees/mixed/AmySmol8",
+        "underworld/basalt/trees/mixed/AmySmol9",
+        "underworld/basalt/trees/mixed/AmySmol10",
+        "underworld/basalt/trees/mixed/AmySmol11",
+        "underworld/basalt/trees/mixed/AmySmol12"
+      ],
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "NOWHERE",
+              "zoom": 0.02
+            },
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "chance": 0.25,
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block",
+                "weight": 10
+              },
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 45,
+          "min": 0,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.6,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:fire",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    }
+  ]
+}

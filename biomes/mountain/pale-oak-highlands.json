@@ -1,0 +1,219 @@
+{
+  "name": "Underworld Pale Oak Highlands",
+  "color": "#675C59",
+  "rarity": 6,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_pale_oak_highlands_887ab35a",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191515",
+      "fogColor": "#2C2525",
+      "waterColor": "#CB4F1E",
+      "waterFogColor": "#58281B",
+      "grassColor": "#655953",
+      "foliageColor": "#5D5452",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 34,
+      "min": 16
+    },
+    {
+      "generator": "vascular-cracked-cliffs",
+      "max": 12,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:blackstone",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:blackstone",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:quartz_block",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_wart_block",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "slopeCondition": {
+        "minimumSlope": 3.4
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.38,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_stem"
+            },
+            {
+              "block": "minecraft:crimson_hyphae"
+            },
+            {
+              "block": "minecraft:stripped_crimson_stem"
+            },
+            {
+              "block": "minecraft:stripped_crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            },
+            {
+              "block": "minecraft:crimson_fence"
+            },
+            {
+              "block": "minecraft:crimson_fence_gate"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": -360,
+          "max": 360,
+          "interval": 90
+        }
+      },
+      "place": [
+        "underworld/basalt/trees/spruce/vgeneric1",
+        "underworld/basalt/trees/spruce/vgeneric2",
+        "underworld/basalt/trees/spruce/vgeneric3",
+        "underworld/basalt/trees/spruce/vgeneric4",
+        "underworld/basalt/trees/spruce/vgeneric5",
+        "underworld/basalt/trees/spruce/vgeneric6",
+        "underworld/basalt/trees/spruce/vgeneric7",
+        "underworld/basalt/trees/spruce/vgeneric8",
+        "underworld/basalt/trees/spruce/vgeneric9",
+        "underworld/basalt/trees/spruce/vgeneric10",
+        "underworld/basalt/trees/spruce/vgeneric11",
+        "underworld/basalt/trees/spruce/vgeneric12"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.26,
+      "palette": [
+        {
+          "block": "minecraft:fire",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:air",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "chance": 0.012,
+      "palette": [
+        {
+          "block": "minecraft:fire",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

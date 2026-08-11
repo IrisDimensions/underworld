@@ -1,0 +1,612 @@
+{
+  "name": "Underworld The Creaks",
+  "color": "#29A48F",
+  "rarity": 15,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_swamp_creaks_f436feb9",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#082223",
+      "fogColor": "#0A3133",
+      "waterColor": "#27A996",
+      "waterFogColor": "#065958",
+      "grassColor": "#229083",
+      "foliageColor": "#1F7C77",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 18,
+      "max": 24,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "zoom": 0.5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 5,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:warped_wart_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:warped_wart_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            },
+            {
+              "block": "minecraft:warped_hyphae"
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae",
+                "weight": 150
+              },
+              {
+                "block": "minecraft:crying_obsidian",
+                "weight": 1
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/oak/troofed1",
+        "underworld/warped/trees/oak/troofed2",
+        "underworld/warped/trees/oak/troofed3",
+        "underworld/warped/trees/oak/troofed4",
+        "underworld/warped/trees/oak/troofed5",
+        "underworld/warped/trees/oak/troofed6",
+        "underworld/warped/trees/oak/troofed7",
+        "underworld/warped/trees/oak/troofed8",
+        "underworld/warped/trees/oak/troofed9",
+        "underworld/warped/trees/oak/troofed10"
+      ]
+    },
+    {
+      "chance": 0.5,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/oak/mroofed1",
+        "underworld/warped/trees/oak/mroofed2",
+        "underworld/warped/trees/oak/mroofed3",
+        "underworld/warped/trees/oak/mroofed4",
+        "underworld/warped/trees/oak/mroofed5",
+        "underworld/warped/trees/oak/mroofed6",
+        "underworld/warped/trees/oak/mroofed7",
+        "underworld/warped/trees/oak/mroofed8",
+        "underworld/warped/trees/oak/mroofed9",
+        "underworld/warped/trees/oak/mroofed10",
+        "underworld/warped/trees/oak/mroofed11",
+        "underworld/warped/trees/oak/mroofed12"
+      ]
+    },
+    {
+      "chance": 0.02,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/mushroom/browngeneric1",
+        "underworld/warped/trees/mushroom/browngeneric2",
+        "underworld/warped/trees/mushroom/mushclut3",
+        "underworld/warped/trees/mushroom/mushclut4",
+        "underworld/warped/trees/mushroom/mushclut5",
+        "underworld/warped/trees/mushroom/mushclut6",
+        "underworld/warped/trees/mushroom/mushclut7",
+        "underworld/warped/trees/mushroom/mushclut8",
+        "underworld/warped/trees/mushroom/mushclut9",
+        "underworld/warped/trees/mushroom/mushclut10",
+        "underworld/warped/trees/mushroom/redgeneric11"
+      ]
+    },
+    {
+      "chance": 0.07,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/trees/mushroom/browngeneric1",
+        "underworld/warped/trees/mushroom/browngeneric2",
+        "underworld/warped/trees/mushroom/mushclut3",
+        "underworld/warped/trees/mushroom/mushclut4",
+        "underworld/warped/trees/mushroom/mushclut5",
+        "underworld/warped/trees/mushroom/mushclut6",
+        "underworld/warped/trees/mushroom/mushclut7",
+        "underworld/warped/trees/mushroom/mushclut8",
+        "underworld/warped/trees/mushroom/mushclut9",
+        "underworld/warped/trees/mushroom/mushclut10",
+        "underworld/warped/trees/mushroom/redgeneric11"
+      ]
+    },
+    {
+      "chance": 0.135,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/boulder1",
+        "underworld/warped/clutter/boulder2",
+        "underworld/warped/clutter/boulder3",
+        "underworld/warped/clutter/boulder4",
+        "underworld/warped/clutter/boulder5",
+        "underworld/warped/clutter/boulder6",
+        "underworld/warped/clutter/boulder7",
+        "underworld/warped/clutter/boulder8"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_stem"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_stem"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_warped_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/stump1",
+        "underworld/warped/clutter/stump2",
+        "underworld/warped/clutter/stump3",
+        "underworld/warped/clutter/stump4",
+        "underworld/warped/clutter/stump5",
+        "underworld/warped/clutter/stump6"
+      ],
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.3,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_stem"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_stem"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_fence"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_warped_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/warped/clutter/oakclutt1",
+        "underworld/warped/clutter/oakclutt2",
+        "underworld/warped/clutter/oakclutt3",
+        "underworld/warped/clutter/oakclutt4",
+        "underworld/warped/clutter/oakclutt5"
+      ]
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "enabled": false
+      },
+      "place": [
+        "underworld/warped/clutter/genericgrave1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:warped_roots",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 1
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.0002,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 1
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.45,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ]
+}

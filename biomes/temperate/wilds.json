@@ -1,0 +1,281 @@
+{
+  "name": "Underworld Temperate Wilds",
+  "color": "#89301B",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_wilds_130639fb",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2E0608",
+      "fogColor": "#3F0B0D",
+      "waterColor": "#CE4006",
+      "waterFogColor": "#722003",
+      "grassColor": "#6E4228",
+      "foliageColor": "#7D4C2F",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "temperate/highlands",
+    "temperate/wilds-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.125,
+      "place": [
+        "underworld/wastes/clutter/oakshrub1",
+        "underworld/wastes/clutter/oakshrub2",
+        "underworld/wastes/clutter/oakshrub3"
+      ],
+      "translate": {
+        "y": -1
+      }
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/obelisk1",
+        "underworld/wastes/clutter/obelisk2",
+        "underworld/wastes/clutter/obelisk3",
+        "underworld/wastes/clutter/obelisk4",
+        "underworld/wastes/clutter/obelisk5",
+        "underworld/wastes/clutter/obelisk6",
+        "underworld/wastes/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1",
+        "underworld/wastes/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/wastes/clutter/pumpkins1",
+        "underworld/wastes/clutter/pumpkins2",
+        "underworld/wastes/clutter/pumpkins3",
+        "underworld/wastes/clutter/pumpkins4",
+        "underworld/wastes/clutter/pumpkins5",
+        "underworld/wastes/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.22,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.42,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.003,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE"
+      }
+    },
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "effects": [
+    {
+      "interval": 250,
+      "chance": 5,
+      "particleEffect": "LAVA",
+      "particleOffset": 2,
+      "particleAltY": 0.2,
+      "particleCount": 5
+    }
+  ]
+}

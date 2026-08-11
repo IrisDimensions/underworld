@@ -1,0 +1,244 @@
+{
+  "name": "Underworld Frozen River",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_sea_frozen_river_ice_bf492cb8",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#2A2424",
+      "waterColor": "#AE3D12",
+      "waterFogColor": "#501D15",
+      "grassColor": "#62524F",
+      "foliageColor": "#5F5854",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "frozen/sea/frozen-parent-river"
+  ],
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 5,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "zAxis": {
+          "min": 180,
+          "max": 180,
+          "interval": 180,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "onwater": true,
+      "place": [
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3",
+        "underworld/basalt/clutter/icespec4",
+        "underworld/basalt/clutter/icespec5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "zAxis": {
+          "min": 180,
+          "max": 180,
+          "interval": 180,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "onwater": true,
+      "place": [
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3",
+        "underworld/basalt/clutter/icespec4",
+        "underworld/basalt/clutter/icespec5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "zAxis": {
+          "min": 180,
+          "max": 180,
+          "interval": 180,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "onwater": true,
+      "place": [
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3",
+        "underworld/basalt/clutter/icespec4",
+        "underworld/basalt/clutter/icespec5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.013,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 6,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2
+    }
+  ],
+  "childStyle": {
+    "style": "SIMPLEX"
+  },
+  "seaLayers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "GLOB_IRIS_THICK",
+        "axialFracturing": true
+      },
+      "zoom": 0.4,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:lava",
+          "weight": 8
+        }
+      ]
+    }
+  ],
+  "color": "#695F5C"
+}

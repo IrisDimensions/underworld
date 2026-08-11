@@ -1,0 +1,114 @@
+{
+  "name": "Underworld Deep Cold Ocean",
+  "color": "#59504E",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": -70,
+      "min": -80
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.09,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "stackMin": 2,
+      "stackMax": 12,
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "partOf": "SEA_FLOOR"
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_deep_cold_ocean_5df0adf7",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191415",
+      "fogColor": "#272122",
+      "waterColor": "#CF6023",
+      "waterFogColor": "#58261A",
+      "grassColor": "#5B4E4C",
+      "foliageColor": "#625B56",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

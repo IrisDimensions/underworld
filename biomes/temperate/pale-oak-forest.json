@@ -1,0 +1,162 @@
+{
+  "name": "Underworld Pale Oak Forest",
+  "color": "#A3362B",
+  "rarity": 6,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_pale_oak_forest_b7eb343c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#290A0B",
+      "fogColor": "#460E0B",
+      "waterColor": "#C15612",
+      "waterFogColor": "#761705",
+      "grassColor": "#78331F",
+      "foliageColor": "#834F33",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 14,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 36,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:basalt",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:netherrack",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.55
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:nether_wart_block",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 5,
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.64,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "place": [
+        "underworld/wastes/vanilla/trees/pale_oak",
+        "underworld/wastes/vanilla/trees/pale_oak_2",
+        "underworld/wastes/vanilla/trees/pale_oak_3",
+        "underworld/wastes/vanilla/trees/pale_oak_bonemeal",
+        "underworld/wastes/vanilla/trees/pale_oak_bonemeal_2",
+        "underworld/wastes/vanilla/trees/pale_oak_bonemeal_3",
+        "underworld/wastes/vanilla/trees/pale_oak_creaking",
+        "underworld/wastes/vanilla/trees/pale_oak_creaking_2",
+        "underworld/wastes/vanilla/trees/pale_oak_creaking_3"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.36,
+      "palette": [
+        {
+          "block": "minecraft:fire",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:fire",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:air",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "chance": 0.018,
+      "palette": [
+        {
+          "block": "minecraft:fire",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

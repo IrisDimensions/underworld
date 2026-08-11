@@ -1,0 +1,285 @@
+{
+  "name": "Underworld Cold Spines",
+  "color": "#62777A",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_fields_cold_spines_b4b44f68",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#0F161A",
+      "fogColor": "#192528",
+      "waterColor": "#517B83",
+      "waterFogColor": "#2C454B",
+      "grassColor": "#6B7D81",
+      "foliageColor": "#7B8F94",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 30,
+      "min": 20
+    },
+    {
+      "generator": "mountain",
+      "max": 5,
+      "min": 1
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:soul_sand"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/soul/clutter/sbush1",
+        "underworld/soul/clutter/sbush2",
+        "underworld/soul/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/soul/clutter/sbush1",
+        "underworld/soul/clutter/sbush2",
+        "underworld/soul/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/soul/clutter/sbush1",
+        "underworld/soul/clutter/sbush2",
+        "underworld/soul/clutter/sbush3"
+      ]
+    },
+    {
+      "place": [
+        "underworld/soul/trees/spruce/lfrostgeneric1",
+        "underworld/soul/trees/spruce/lfrostgeneric2",
+        "underworld/soul/trees/spruce/lfrostgeneric3",
+        "underworld/soul/trees/spruce/lfrostgeneric4",
+        "underworld/soul/trees/spruce/lfrostgeneric5",
+        "underworld/soul/trees/spruce/lfrostgeneric6",
+        "underworld/soul/trees/spruce/lfrostgeneric7",
+        "underworld/soul/trees/spruce/lfrostgeneric8",
+        "underworld/soul/trees/spruce/lfrostgeneric9",
+        "underworld/soul/trees/spruce/lfrostgeneric10",
+        "underworld/soul/trees/spruce/lfrostgeneric11",
+        "underworld/soul/trees/spruce/lfrostgeneric12",
+        "underworld/soul/trees/spruce/lfrostgeneric13",
+        "underworld/soul/trees/spruce/lfrostgeneric14",
+        "underworld/soul/trees/spruce/lfrostgeneric15",
+        "underworld/soul/trees/spruce/lfrostgeneric16",
+        "underworld/soul/trees/spruce/lfrostgeneric17",
+        "underworld/soul/trees/spruce/lfrostgeneric18",
+        "underworld/soul/trees/spruce/lfrostgeneric19",
+        "underworld/soul/trees/spruce/lfrostgeneric20",
+        "underworld/soul/trees/spruce/lfrostgeneric21"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            },
+            {
+              "block": "minecraft:warped_fence_gate"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "chance": 0.6,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.25,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Underworld Tropical Volcanoes Lava",
+  "color": "#635A56",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_volcanoes_lava_c9628a5d",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#1A1515",
+      "fogColor": "#241F1F",
+      "waterColor": "#BD541F",
+      "waterFogColor": "#4D150E",
+      "grassColor": "#574C48",
+      "foliageColor": "#5D5452",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 180,
+      "min": 3
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:lava",
+        "data": {
+          "level": 1
+        }
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:cave_air"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava",
+          "data": {
+            "level": 1
+          }
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:lava",
+          "data": {
+            "level": 0
+          }
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.001,
+      "particleAltY": 0.13885,
+      "particleAltZ": 0.001,
+      "chance": 1,
+      "particleEffect": "ASH",
+      "particleOffset": 0,
+      "interval": 200,
+      "particleCount": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "chance": 0.025,
+  "style": {
+    "style": "STATIC"
+  },
+  "palette": [
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire"
+    }
+  ]
+}

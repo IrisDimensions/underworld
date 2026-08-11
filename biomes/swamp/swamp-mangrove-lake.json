@@ -1,0 +1,153 @@
+{
+  "name": "Underworld Swamp Mangrove Forest",
+  "rarity": 2,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_swamp_swamp_mangrove_lake_acea1ee2",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151111",
+      "fogColor": "#282222",
+      "waterColor": "#C64E2E",
+      "waterFogColor": "#522619",
+      "grassColor": "#544944",
+      "foliageColor": "#6F6561",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": -1,
+      "min": -3
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "SIMPLEX",
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 15
+        }
+      },
+      "zoom": 0.8,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "maxHeight": 3,
+      "minHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "maxHeight": 3,
+      "minHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:nether_quartz_ore",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "MIN_STILT",
+      "onwater": true,
+      "chance": 0.45,
+      "waterloggable": true,
+      "clamp": {
+        "maximumHeight": 225
+      },
+      "density": 3,
+      "place": [
+        "underworld/basalt/trees/mangrove/mangrove1",
+        "underworld/basalt/trees/mangrove/mangrove2",
+        "underworld/basalt/trees/mangrove/mangrove3",
+        "underworld/basalt/trees/mangrove/mangrove4",
+        "underworld/basalt/trees/mangrove/mangrove5",
+        "underworld/basalt/trees/mangrove/mangrove6",
+        "underworld/basalt/trees/mangrove/mangrove7",
+        "underworld/basalt/trees/mangrove/mangrove8",
+        "underworld/basalt/trees/mangrove/mangrove9",
+        "underworld/basalt/trees/mangrove/mangrove10",
+        "underworld/basalt/trees/mangrove/mangrove11",
+        "underworld/basalt/trees/mangrove/mangrove12",
+        "underworld/basalt/trees/mangrove/mangrove13",
+        "underworld/basalt/trees/mangrove/mangrove14",
+        "underworld/basalt/trees/mangrove/mangrove15",
+        "underworld/basalt/trees/mangrove/mangrove16",
+        "underworld/basalt/trees/mangrove/mangrove17",
+        "underworld/basalt/trees/mangrove/mangrove18",
+        "underworld/basalt/trees/mangrove/mangrove19",
+        "underworld/basalt/trees/mangrove/mangrove20"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "translate": {
+        "y": -8
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "color": "#544C49"
+}

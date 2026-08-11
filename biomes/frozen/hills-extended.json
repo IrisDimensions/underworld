@@ -1,0 +1,208 @@
+{
+  "name": "Underworld Frozen Hills",
+  "color": "#6F8286",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_hills_extended_a87acfab",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#10181B",
+      "fogColor": "#1D272B",
+      "waterColor": "#5B8893",
+      "waterFogColor": "#2C484B",
+      "grassColor": "#6D7F84",
+      "foliageColor": "#6C8384",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 103,
+      "min": 48
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 7,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "PERLIN",
+              "zoom": 0.2
+            },
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              },
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/soul/trees/spruce/pine1",
+        "underworld/soul/trees/spruce/pine2",
+        "underworld/soul/trees/spruce/pine3",
+        "underworld/soul/trees/spruce/pine4",
+        "underworld/soul/trees/spruce/pine5",
+        "underworld/soul/trees/spruce/pine6",
+        "underworld/soul/trees/spruce/pine7",
+        "underworld/soul/trees/spruce/pine8",
+        "underworld/soul/trees/spruce/pine9"
+      ],
+      "chance": 0.12,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "warp": {
+        "style": "IRIS_DOUBLE",
+        "exponent": 1.2,
+        "zoom": 0.4
+      },
+      "snow": 0.1
+    },
+    {
+      "chance": 0.005,
+      "mode": "PAINT",
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:twisting_vines"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/obelisk1",
+        "underworld/soul/clutter/obelisk2",
+        "underworld/soul/clutter/obelisk3",
+        "underworld/soul/clutter/obelisk4",
+        "underworld/soul/clutter/obelisk5",
+        "underworld/soul/clutter/obelisk6",
+        "underworld/soul/clutter/obelisk7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.23
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

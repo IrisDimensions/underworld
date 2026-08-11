@@ -1,0 +1,277 @@
+{
+  "name": "Underworld Bonsai Hollow",
+  "color": "#2FA89D",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_bonsai_4b4035b5",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#061D1F",
+      "fogColor": "#093035",
+      "waterColor": "#2F917E",
+      "waterFogColor": "#034C44",
+      "grassColor": "#2D8172",
+      "foliageColor": "#1D7567",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 6,
+      "min": 2
+    },
+    {
+      "generator": "smooth-dunes",
+      "max": 6,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "weight": 16,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:warped_wart_block"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "bonsai-green",
+        "chance": 0.45,
+        "density": 2,
+        "variants": 8,
+        "seed": 8801,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "SIMPLEX",
+            "zoom": 0.5
+          },
+          "zoom": 1.5,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 4
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 3
+            }
+          ]
+        },
+        "profile": "DARK_OAK_FLAT",
+        "heightMin": 6,
+        "heightMax": 10,
+        "trunkWidth": 2,
+        "trunkShape": "BELL",
+        "shapeStart": 1.1,
+        "shapeEnd": 0.8,
+        "leanAngle": 16,
+        "leanAzimuthMode": "CONSTANT",
+        "leanAzimuth": 0,
+        "trunkCurve": "EXPONENTIAL",
+        "trunkForks": 3,
+        "forkHeight": 0.4,
+        "forkAngle": 38,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "canopy": {
+          "startAngle": 100,
+          "squish": 0.3,
+          "mode": "TRIMMED",
+          "leafDensity": 0.95
+        }
+      },
+      {
+        "name": "bonsai-blossom",
+        "chance": 0.35,
+        "density": 2,
+        "variants": 6,
+        "seed": 8802,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "SIMPLEX",
+            "zoom": 0.5
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 4
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "DARK_OAK_FLAT",
+        "heightMin": 6,
+        "heightMax": 9,
+        "trunkWidth": 2,
+        "trunkShape": "BELL",
+        "shapeStart": 1.1,
+        "shapeEnd": 0.8,
+        "leanAngle": 18,
+        "leanAzimuthMode": "CONSTANT",
+        "leanAzimuth": 0,
+        "trunkCurve": "EXPONENTIAL",
+        "trunkForks": 2,
+        "forkHeight": 0.45,
+        "forkAngle": 32,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "canopy": {
+          "startAngle": 100,
+          "squish": 0.3,
+          "mode": "TRIMMED",
+          "leafDensity": 0.95,
+          "crownStretchX": 1.15,
+          "crownStretchZ": 1.15
+        },
+        "decorators": [
+          {
+            "target": "GROUND_SCATTER",
+            "block": "minecraft:warped_fungus",
+            "chance": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.35,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.08,
+      "palette": [
+        {
+          "block": "minecraft:warped_roots"
+        }
+      ]
+    },
+    {
+      "chance": 0.04,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

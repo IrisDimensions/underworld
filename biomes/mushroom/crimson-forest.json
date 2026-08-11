@@ -1,0 +1,529 @@
+{
+  "name": "Underworld Crimson Mushroom Swamp",
+  "color": "#AC3448",
+  "rarity": 2,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:crimson_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_mushroom_crimson_forest_e2558e59",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#310508",
+      "fogColor": "#430713",
+      "waterColor": "#D9431D",
+      "waterFogColor": "#7E0F1D",
+      "grassColor": "#B8373C",
+      "foliageColor": "#932D44",
+      "ambientParticle": {
+        "particle": "minecraft:crimson_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "mushroom/crimson-forest-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 25,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "zoom": 0.5,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 8,
+      "maxHeight": 9,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.21,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/mushclut1",
+        "underworld/crimson/trees/mushroom/mushclut2",
+        "underworld/crimson/trees/mushroom/mushclut3",
+        "underworld/crimson/trees/mushroom/mushclut4",
+        "underworld/crimson/trees/mushroom/mushclut5",
+        "underworld/crimson/trees/mushroom/mushclut6",
+        "underworld/crimson/trees/mushroom/mushclut7",
+        "underworld/crimson/trees/mushroom/mushclut8",
+        "underworld/crimson/trees/mushroom/mushclut9",
+        "underworld/crimson/trees/mushroom/mushclut10"
+      ],
+      "mode": "PAINT",
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.21,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/mushclut1",
+        "underworld/crimson/trees/mushroom/mushclut2",
+        "underworld/crimson/trees/mushroom/mushclut3",
+        "underworld/crimson/trees/mushroom/mushclut4",
+        "underworld/crimson/trees/mushroom/mushclut5",
+        "underworld/crimson/trees/mushroom/mushclut6",
+        "underworld/crimson/trees/mushroom/mushclut7",
+        "underworld/crimson/trees/mushroom/mushclut8",
+        "underworld/crimson/trees/mushroom/mushclut9",
+        "underworld/crimson/trees/mushroom/mushclut10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.5,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/redgeneric1",
+        "underworld/crimson/trees/mushroom/redgeneric2",
+        "underworld/crimson/trees/mushroom/browngeneric1",
+        "underworld/crimson/trees/mushroom/browngeneric2",
+        "underworld/crimson/trees/mushroom/redgeneric3",
+        "underworld/crimson/trees/mushroom/redgeneric4",
+        "underworld/crimson/trees/mushroom/redgeneric5",
+        "underworld/crimson/trees/mushroom/redgeneric6",
+        "underworld/crimson/trees/mushroom/redgeneric7",
+        "underworld/crimson/trees/mushroom/redgeneric8",
+        "underworld/crimson/trees/mushroom/redgeneric9",
+        "underworld/crimson/trees/mushroom/redgeneric10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.5,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/redgeneric1",
+        "underworld/crimson/trees/mushroom/redgeneric2",
+        "underworld/crimson/trees/mushroom/browngeneric1",
+        "underworld/crimson/trees/mushroom/browngeneric2",
+        "underworld/crimson/trees/mushroom/redgeneric3",
+        "underworld/crimson/trees/mushroom/redgeneric4",
+        "underworld/crimson/trees/mushroom/redgeneric5",
+        "underworld/crimson/trees/mushroom/redgeneric6",
+        "underworld/crimson/trees/mushroom/redgeneric7",
+        "underworld/crimson/trees/mushroom/redgeneric8",
+        "underworld/crimson/trees/mushroom/redgeneric9",
+        "underworld/crimson/trees/mushroom/redgeneric10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/smolshroom1",
+        "underworld/crimson/trees/mushroom/smolshroom2",
+        "underworld/crimson/trees/mushroom/smolshroom3",
+        "underworld/crimson/trees/mushroom/smolshroom4",
+        "underworld/crimson/trees/mushroom/smolshroom5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.1,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/trees/mushroom/smolshroom1",
+        "underworld/crimson/trees/mushroom/smolshroom2",
+        "underworld/crimson/trees/mushroom/smolshroom3",
+        "underworld/crimson/trees/mushroom/smolshroom4",
+        "underworld/crimson/trees/mushroom/smolshroom5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.009,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:crimson_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.05,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.11,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_roots"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "childShrinkFactor": 2.4,
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:crimson_slab"
+      },
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      }
+    ]
+  }
+}

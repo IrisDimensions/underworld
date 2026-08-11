@@ -1,0 +1,410 @@
+{
+  "name": "Underworld Cherry Forest",
+  "color": "#9D412F",
+  "rarity": 4,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_cherry_blossom_forest_406f53f8",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2C0D09",
+      "fogColor": "#3F0B06",
+      "waterColor": "#DE7011",
+      "waterFogColor": "#6C170C",
+      "grassColor": "#86422B",
+      "foliageColor": "#97532F",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 1,
+      "max": 15,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX_CELLS"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ],
+            "style": {
+              "style": "VASCULAR_IRIS"
+            }
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            },
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "STATIC"
+            },
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/wastes/trees/oak/hoakgeneric3",
+        "underworld/wastes/trees/oak/hoakgeneric4",
+        "underworld/wastes/trees/oak/hoakgeneric5",
+        "underworld/wastes/trees/oak/hoakgeneric6",
+        "underworld/wastes/trees/oak/hoakgeneric7",
+        "underworld/wastes/trees/oak/hoakgeneric8",
+        "underworld/wastes/trees/oak/hoakgeneric9",
+        "underworld/wastes/trees/oak/hoakgeneric1",
+        "underworld/wastes/trees/oak/shoakgeneric3",
+        "underworld/wastes/trees/oak/shoakgeneric4",
+        "underworld/wastes/trees/oak/shoakgeneric5",
+        "underworld/wastes/trees/oak/shoakgeneric6",
+        "underworld/wastes/trees/oak/shoakgeneric7",
+        "underworld/wastes/trees/oak/shoakgeneric8",
+        "underworld/wastes/trees/oak/shoakgeneric9",
+        "underworld/wastes/trees/oak/shoakgeneric1",
+        "underworld/wastes/trees/oak/shoakgeneric2"
+      ]
+    },
+    {
+      "mode": "MIN_HEIGHT",
+      "chance": 0.008,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1",
+        "underworld/wastes/clutter/camp4",
+        "underworld/wastes/clutter/camp5",
+        "underworld/wastes/clutter/camp3"
+      ]
+    },
+    {
+      "chance": 0.25,
+      "mode": "MIN_HEIGHT",
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            },
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "STATIC"
+            },
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:stripped_warped_stem"
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "STATIC"
+            },
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/wastes/trees/sakura/genericsak1",
+        "underworld/wastes/trees/sakura/genericsak2",
+        "underworld/wastes/trees/sakura/genericsak3",
+        "underworld/wastes/trees/sakura/genericsak4",
+        "underworld/wastes/trees/sakura/genericsak5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.003,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/obelisk1",
+        "underworld/wastes/clutter/obelisk2",
+        "underworld/wastes/clutter/obelisk3",
+        "underworld/wastes/clutter/obelisk4",
+        "underworld/wastes/clutter/obelisk5",
+        "underworld/wastes/clutter/obelisk6",
+        "underworld/wastes/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.001,
+      "mode": "PAINT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/literalgarbage1",
+        "underworld/wastes/clutter/literalgarbage2",
+        "underworld/wastes/clutter/literalgarbage3",
+        "underworld/wastes/clutter/literalgarbage4"
+      ]
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/wastes/clutter/pumpkins1",
+        "underworld/wastes/clutter/pumpkins2",
+        "underworld/wastes/clutter/pumpkins3",
+        "underworld/wastes/clutter/pumpkins4",
+        "underworld/wastes/clutter/pumpkins5",
+        "underworld/wastes/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.6,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "chance": 7,
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:nether_wart_block"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.08,
+      "variance": {
+        "style": "VASCULAR_IRIS"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone_slab"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/bush"
+  ]
+}

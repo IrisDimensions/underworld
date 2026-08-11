@@ -1,0 +1,257 @@
+{
+  "name": "Underworld Tropical Mountain Plains",
+  "color": "#685E5C",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_mountain_plains_54f0e163",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151212",
+      "fogColor": "#2C2526",
+      "waterColor": "#B14A1D",
+      "waterFogColor": "#4C1E15",
+      "grassColor": "#514643",
+      "foliageColor": "#615A56",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 88,
+      "max": 157,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 4.5
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 4.5
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ],
+      "chance": 0.25,
+      "density": 5
+    },
+    {
+      "place": [
+        "underworld/basalt/trees/jungle/lgeneric1",
+        "underworld/basalt/trees/jungle/lgeneric2",
+        "underworld/basalt/trees/jungle/lgeneric3",
+        "underworld/basalt/trees/jungle/lgeneric4",
+        "underworld/basalt/trees/jungle/lgeneric5",
+        "underworld/basalt/trees/jungle/lgeneric6",
+        "underworld/basalt/trees/jungle/lgeneric7",
+        "underworld/basalt/trees/jungle/lgeneric8",
+        "underworld/basalt/trees/jungle/lgeneric9"
+      ],
+      "chance": 0.9,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      },
+      "translate": {
+        "y": -2
+      }
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/basalt/clutter/melons1",
+        "underworld/basalt/clutter/melons2",
+        "underworld/basalt/clutter/melons3",
+        "underworld/basalt/clutter/melons4",
+        "underworld/basalt/clutter/melons5",
+        "underworld/basalt/clutter/melons6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.7,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:fire"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.45,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:nether_wart_block"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_wart_block"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_wart_block"
+        }
+      ],
+      "style": {
+        "style": "FRACTAL_BILLOW_IRIS",
+        "fracture": {
+          "style": "STATIC"
+        }
+      }
+    },
+    {
+      "chance": 0.5,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 10,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "childStyle": {
+    "style": "GLOB",
+    "zoom": 0.4,
+    "exponent": 7.6
+  },
+  "childShrinkFactor": 1
+}

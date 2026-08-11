@@ -1,0 +1,156 @@
+{
+  "name": "Underworld Alpine Grove",
+  "color": "#65797F",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_terralost_alpine_grove_81a1a327",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#10171A",
+      "fogColor": "#1A2529",
+      "waterColor": "#5A878C",
+      "waterFogColor": "#233E43",
+      "grassColor": "#5E7072",
+      "foliageColor": "#66777C",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "min": 42,
+      "max": 51
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "MIN_HEIGHT",
+      "place": [
+        "underworld/soul/trees/mixed/pollup1",
+        "underworld/soul/trees/mixed/pollup2",
+        "underworld/soul/trees/mixed/pollup3",
+        "underworld/soul/trees/mixed/pollup4",
+        "underworld/soul/trees/mixed/pollup5",
+        "underworld/soul/trees/mixed/pollup6",
+        "underworld/soul/trees/mixed/pollup7",
+        "underworld/soul/trees/mixed/pollup8",
+        "underworld/soul/trees/mixed/pollup9",
+        "underworld/soul/trees/mixed/pollup10",
+        "underworld/soul/trees/mixed/pollup11",
+        "underworld/soul/trees/mixed/pollup12",
+        "underworld/soul/trees/mixed/pollup13"
+      ],
+      "chance": 0.6,
+      "density": 2,
+      "snow": 0.3,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 45,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "chance": 0.3,
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/shrub1",
+        "underworld/soul/clutter/shrub2",
+        "underworld/soul/clutter/shrub3",
+        "underworld/soul/clutter/shrub4",
+        "underworld/soul/clutter/shrub5",
+        "underworld/soul/clutter/shrub6",
+        "underworld/soul/clutter/shrub7",
+        "underworld/soul/clutter/shrub8",
+        "underworld/soul/clutter/shrub9",
+        "underworld/soul/clutter/shrub10"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            },
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:warped_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "snow": 0.3,
+      "mode": "CENTER_HEIGHT"
+    }
+  ]
+}

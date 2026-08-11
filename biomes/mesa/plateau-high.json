@@ -1,0 +1,131 @@
+{
+  "name": "Underworld Mesa Plateau High",
+  "color": "#645956",
+  "rarity": 3,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "children": [
+    "mesa/plateau-dirt-high"
+  ],
+  "generators": [
+    {
+      "min": 70,
+      "max": 110,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "layers": [
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.4,
+      "palette": [
+        {
+          "block": "minecraft:red_terracotta"
+        },
+        {
+          "block": "minecraft:terracotta"
+        },
+        {
+          "block": "minecraft:terracotta"
+        },
+        {
+          "block": "minecraft:terracotta"
+        },
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:white_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:yellow_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    }
+  ],
+  "lockLayers": true,
+  "customDerivitives": [
+    {
+      "id": "underworld_mesa_plateau_high_112cc4be",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#171313",
+      "fogColor": "#262021",
+      "waterColor": "#AE4C15",
+      "waterFogColor": "#571D14",
+      "grassColor": "#524742",
+      "foliageColor": "#655B58",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

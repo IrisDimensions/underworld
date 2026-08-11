@@ -1,0 +1,103 @@
+{
+  "name": "Underworld Mountain Cliffs",
+  "color": "#635956",
+  "rarity": 3,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "children": [
+    "mountain/cliffs-extended"
+  ],
+  "generators": [
+    {
+      "min": 26,
+      "max": 90,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2.6
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 3.95
+      },
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:cyan_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_cliffs_cf669059",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151211",
+      "fogColor": "#2A2425",
+      "waterColor": "#B33D1E",
+      "waterFogColor": "#5C1D18",
+      "grassColor": "#514643",
+      "foliageColor": "#746965",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

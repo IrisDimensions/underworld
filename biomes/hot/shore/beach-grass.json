@@ -1,0 +1,151 @@
+{
+  "name": "Underworld Hot Beach Grass",
+  "color": "#675D59",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 0,
+      "max": 1,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:smooth_basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:smooth_basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "density": 3,
+      "mode": "MIN_HEIGHT",
+      "chance": 0.62,
+      "place": [
+        "underworld/basalt/trees/jungle/palm1",
+        "underworld/basalt/trees/jungle/palm2",
+        "underworld/basalt/trees/jungle/palm3",
+        "underworld/basalt/trees/jungle/palm4",
+        "underworld/basalt/trees/jungle/palm6",
+        "underworld/basalt/trees/jungle/palm7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:crimson_button"
+        },
+        {
+          "block": "minecraft:air"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:crimson_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "partOf": "SHORE_LINE",
+      "chance": 0.18,
+      "stackMin": 1,
+      "stackMax": 4,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.65
+      },
+      "heightVariance": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_shore_beach_grass_728869f1",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191515",
+      "fogColor": "#2E2727",
+      "waterColor": "#BB5118",
+      "waterFogColor": "#591611",
+      "grassColor": "#665953",
+      "foliageColor": "#6E6561",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

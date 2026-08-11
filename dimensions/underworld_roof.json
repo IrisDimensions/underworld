@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "name": "Underworld Roof",
+  "mode": {
+    "type": "OVERWORLD"
+  },
+  "environment": "NETHER",
+  "logicalHeight": 512,
+  "dimensionHeight": {
+    "min": -256,
+    "max": 512
+  },
+  "fluidHeight": 0,
+  "bedrock": true,
+  "fullbright": false,
+  "regions": [
+    "roof/underworld"
+  ],
+  "landChance": 1.0,
+  "continentalStyle": {
+    "style": "FLAT"
+  },
+  "regionStyle": {
+    "style": "FLAT"
+  },
+  "landBiomeStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 1.35,
+    "fracture": {
+      "style": "FRACTAL_WATER",
+      "zoom": 0.3,
+      "multiplier": 5
+    }
+  },
+  "regionZoom": 1.0,
+  "biomeZoom": 4.0,
+  "landZoom": 1.0,
+  "coordFractureDistance": 0,
+  "rockPalette": {
+    "style": {
+      "style": "SIMPLEX",
+      "zoom": 1.4
+    },
+    "zoom": 4,
+    "palette": [
+      {
+        "block": "minecraft:netherrack",
+        "weight": 14
+      },
+      {
+        "block": "minecraft:blackstone",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:basalt",
+        "weight": 2
+      }
+    ]
+  },
+  "fluidPalette": {
+    "palette": [
+      {
+        "block": "minecraft:lava"
+      }
+    ]
+  },
+  "carvingEnabled": false,
+  "decorate": false,
+  "postProcessing": false,
+  "postProcessingSlabs": false,
+  "postProcessingWalls": false,
+  "useMantle": true,
+  "dimensionOptions": {
+    "coordinateScale": 1.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Underworld test-dev",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "generators": [
+    {
+      "generator": "flat",
+      "max": 1,
+      "min": 1
+    }
+  ],
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "color": "#89301A",
+  "customDerivitives": [
+    {
+      "id": "underworld_dev_34c6fcec",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2C0905",
+      "fogColor": "#3E0504",
+      "waterColor": "#E96424",
+      "waterFogColor": "#6E1B07",
+      "grassColor": "#703725",
+      "foliageColor": "#944837",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

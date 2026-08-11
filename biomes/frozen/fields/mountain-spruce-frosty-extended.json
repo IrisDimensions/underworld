@@ -1,0 +1,362 @@
+{
+  "name": "Underworld Mountain Forest",
+  "color": "#655A57",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_fields_mountain_spruce_frosty_extended_ebe36597",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151111",
+      "fogColor": "#262121",
+      "waterColor": "#BD5924",
+      "waterFogColor": "#4C2516",
+      "grassColor": "#625651",
+      "foliageColor": "#726763",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 70,
+      "min": 50
+    },
+    {
+      "generator": "mountain",
+      "max": 5,
+      "min": 1
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.5,
+        "fracture": {
+          "axialFracturing": true,
+          "style": "STATIC",
+          "multiplier": 4
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "density": 1,
+      "chance": 0.005,
+      "place": [
+        "underworld/basalt/clutter/camp1",
+        "underworld/basalt/clutter/camp2",
+        "underworld/basalt/clutter/camp3",
+        "underworld/basalt/clutter/camp4",
+        "underworld/basalt/clutter/camp5"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "place": [
+        "underworld/basalt/trees/spruce/vgeneric1",
+        "underworld/basalt/trees/spruce/vgeneric3",
+        "underworld/basalt/trees/spruce/vgeneric4",
+        "underworld/basalt/trees/spruce/vgeneric5",
+        "underworld/basalt/trees/spruce/vgeneric6",
+        "underworld/basalt/trees/spruce/vgeneric7",
+        "underworld/basalt/trees/spruce/vgeneric8",
+        "underworld/basalt/trees/spruce/vgeneric9",
+        "underworld/basalt/trees/spruce/vgeneric10",
+        "underworld/basalt/trees/spruce/vgeneric11",
+        "underworld/basalt/trees/spruce/vgeneric12",
+        "underworld/basalt/trees/spruce/vgeneric13",
+        "underworld/basalt/trees/spruce/vgeneric14",
+        "underworld/basalt/trees/spruce/vgeneric15",
+        "underworld/basalt/trees/spruce/vgeneric16",
+        "underworld/basalt/trees/spruce/vgeneric17",
+        "underworld/basalt/trees/spruce/vgeneric18",
+        "underworld/basalt/trees/spruce/vgeneric19",
+        "underworld/basalt/trees/spruce/vgeneric20",
+        "underworld/basalt/trees/spruce/vgeneric21",
+        "underworld/basalt/trees/spruce/vgeneric22",
+        "underworld/basalt/trees/spruce/vgeneric23",
+        "underworld/basalt/trees/spruce/vgeneric24",
+        "underworld/basalt/trees/spruce/vgeneric25",
+        "underworld/basalt/trees/spruce/vgeneric26",
+        "underworld/basalt/trees/spruce/vgeneric27",
+        "underworld/basalt/trees/spruce/vgeneric28",
+        "underworld/basalt/trees/spruce/vgeneric29",
+        "underworld/basalt/trees/spruce/vgeneric30",
+        "underworld/basalt/trees/spruce/vgeneric31",
+        "underworld/basalt/trees/spruce/vgeneric32"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            },
+            {
+              "block": "minecraft:crimson_fence_gate"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "chance": 1,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.003,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "age": 0
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 1
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 2
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 3
+          },
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:polished_blackstone_button",
+          "data": {
+            "face": "floor"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:polished_blackstone_button",
+          "data": {
+            "face": "floor"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:blackstone_slab"
+        }
+      ]
+    }
+  ]
+}

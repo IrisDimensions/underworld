@@ -1,0 +1,319 @@
+{
+  "name": "Underworld Mountain Forest",
+  "color": "#554C4A",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 31,
+      "min": 15
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      },
+      {
+        "block": "minecraft:cyan_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "slopeCondition": {
+        "minimumSlope": 4
+      },
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:cyan_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "slopeCondition": {
+        "minimumSlope": 4
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 4
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/basalt/clutter/sbush1",
+        "underworld/basalt/clutter/sbush2",
+        "underworld/basalt/clutter/sbush3"
+      ]
+    },
+    {
+      "place": [
+        "underworld/basalt/trees/spruce/vgeneric1",
+        "underworld/basalt/trees/spruce/vgeneric2",
+        "underworld/basalt/trees/spruce/vgeneric3",
+        "underworld/basalt/trees/spruce/vgeneric4",
+        "underworld/basalt/trees/spruce/vgeneric5",
+        "underworld/basalt/trees/spruce/vgeneric6",
+        "underworld/basalt/trees/spruce/vgeneric7",
+        "underworld/basalt/trees/spruce/vgeneric8",
+        "underworld/basalt/trees/spruce/vgeneric9",
+        "underworld/basalt/trees/spruce/vgeneric10",
+        "underworld/basalt/trees/spruce/vgeneric11",
+        "underworld/basalt/trees/spruce/vgeneric12",
+        "underworld/basalt/trees/spruce/vgeneric13",
+        "underworld/basalt/trees/spruce/vgeneric14",
+        "underworld/basalt/trees/spruce/vgeneric15",
+        "underworld/basalt/trees/spruce/vgeneric16",
+        "underworld/basalt/trees/spruce/vgeneric17",
+        "underworld/basalt/trees/spruce/vgeneric18",
+        "underworld/basalt/trees/spruce/vgeneric19",
+        "underworld/basalt/trees/spruce/vgeneric20",
+        "underworld/basalt/trees/spruce/vgeneric21",
+        "underworld/basalt/trees/spruce/vgeneric22",
+        "underworld/basalt/trees/spruce/vgeneric23",
+        "underworld/basalt/trees/spruce/vgeneric24",
+        "underworld/basalt/trees/spruce/vgeneric25",
+        "underworld/basalt/trees/spruce/vgeneric26",
+        "underworld/basalt/trees/spruce/vgeneric27",
+        "underworld/basalt/trees/spruce/vgeneric28",
+        "underworld/basalt/trees/spruce/vgeneric29",
+        "underworld/basalt/trees/spruce/vgeneric30",
+        "underworld/basalt/trees/spruce/vgeneric31",
+        "underworld/basalt/trees/spruce/vgeneric32"
+      ],
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            },
+            {
+              "block": "minecraft:crimson_fence_gate"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "chance": 0.314,
+      "density": 3,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.25,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:fire",
+          "data": {
+            "age": 2
+          }
+        },
+        {
+          "block": "minecraft:fire",
+          "data": {
+            "age": 1
+          }
+        },
+        {
+          "block": "minecraft:fire",
+          "data": {
+            "age": 0
+          }
+        }
+      ]
+    },
+    "snippet/underworld/basalt/decorator/leaf",
+    "snippet/underworld/basalt/decorator/bush"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_forest_f664be30",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161212",
+      "fogColor": "#272121",
+      "waterColor": "#BA4F12",
+      "waterFogColor": "#5C251B",
+      "grassColor": "#655853",
+      "foliageColor": "#5F5652",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

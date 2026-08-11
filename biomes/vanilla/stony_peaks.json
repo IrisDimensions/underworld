@@ -1,0 +1,75 @@
+{
+  "name": "Underworld Stony Peaks",
+  "color": "#992E23",
+  "rarity": 12,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 23,
+      "max": 295,
+      "generator": "spikes"
+    }
+  ],
+  "wall": {
+    "minHeight": 1,
+    "maxHeight": 1,
+    "slopeCondition": {
+      "minimumSlope": 0,
+      "maximumSlope": 2.6
+    },
+    "style": {
+      "style": "IRIS",
+      "zoom": 0.1
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 2.6
+      },
+      "style": {
+        "style": "IRIS",
+        "zoom": 0.1
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_stony_peaks_fcd80798",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#290A08",
+      "fogColor": "#410A06",
+      "waterColor": "#D86817",
+      "waterFogColor": "#671708",
+      "grassColor": "#84422F",
+      "foliageColor": "#7B492C",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

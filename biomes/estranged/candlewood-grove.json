@@ -1,0 +1,191 @@
+{
+  "name": "Underworld Candlewood Grove",
+  "color": "#34A79B",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_candlewood_grove_27bd2635",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#092224",
+      "fogColor": "#083232",
+      "waterColor": "#239D8B",
+      "waterFogColor": "#0A5253",
+      "grassColor": "#2E988D",
+      "foliageColor": "#2B847D",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 11,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 34,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "candlewood",
+        "chance": 0.5,
+        "density": 1,
+        "variants": 6,
+        "seed": 8601,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 2,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 4
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 3
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "OAK",
+        "heightMin": 13,
+        "heightMax": 19,
+        "trunkWidth": 2,
+        "trunkForks": 3,
+        "forkHeight": 0.4,
+        "forkAngle": 22,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "FILLED",
+          "leafDensity": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 4,
+            "azimuthMode": "GOLDEN_ANGLE",
+            "elevation": 25,
+            "branchDepth": 2,
+            "clusterRadius": 2,
+            "clusterMode": "FILLED",
+            "clusterDensity": 0.9,
+            "subBranches": {
+              "count": 2,
+              "pitchDelta": 15,
+              "yawDelta": 60,
+              "lengthScale": 0.6,
+              "clusterRadius": 1,
+              "clusterMode": "FILLED"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.4,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

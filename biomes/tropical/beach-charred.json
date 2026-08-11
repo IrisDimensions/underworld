@@ -1,0 +1,163 @@
+{
+  "name": "Underworld Tropical Beach Charred",
+  "color": "#5E5451",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -3,
+      "max": 3,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:smooth_basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:black_concrete_powder"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.66,
+      "density": 2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:player_wall_head"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/jungle/palm1",
+        "underworld/basalt/trees/jungle/palm2",
+        "underworld/basalt/trees/jungle/palm3",
+        "underworld/basalt/trees/jungle/palm12",
+        "underworld/basalt/trees/jungle/palm11",
+        "underworld/basalt/trees/jungle/palm10",
+        "underworld/basalt/trees/jungle/palm9"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:crimson_button"
+        },
+        {
+          "block": "minecraft:air"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:crimson_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.301,
+      "particleAltY": -0.33885,
+      "particleAltZ": 0.301,
+      "chance": 1,
+      "particleEffect": "ASH",
+      "particleOffset": 0,
+      "interval": 550,
+      "particleCount": 0
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 1,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_beach_charred_15ff5907",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161212",
+      "fogColor": "#2B2425",
+      "waterColor": "#AB4D14",
+      "waterFogColor": "#59261D",
+      "grassColor": "#564B47",
+      "foliageColor": "#6E6561",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

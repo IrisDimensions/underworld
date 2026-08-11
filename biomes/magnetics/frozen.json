@@ -1,0 +1,591 @@
+{
+  "name": "Underworld Magnetics Frozen",
+  "color": "#5D5451",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 8,
+      "max": 36,
+      "generator": "magnetics/frozen"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:quartz_block"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/trees/sproak/generic1",
+        "underworld/basalt/trees/sproak/generic2",
+        "underworld/basalt/trees/sproak/generic3",
+        "underworld/basalt/trees/sproak/generic4",
+        "underworld/basalt/trees/sproak/generic5",
+        "underworld/basalt/trees/sproak/generic6",
+        "underworld/basalt/trees/sproak/generic7",
+        "underworld/basalt/trees/sproak/generic8",
+        "underworld/basalt/trees/sproak/generic9",
+        "underworld/basalt/trees/sproak/generic10",
+        "underworld/basalt/trees/sproak/generic11",
+        "underworld/basalt/trees/sproak/generic12"
+      ],
+      "chance": 0.35,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/singleicespike1",
+        "underworld/basalt/clutter/singleicespike2",
+        "underworld/basalt/clutter/singleicespike3",
+        "underworld/basalt/clutter/singleicespike4",
+        "underworld/basalt/clutter/singleicespike5",
+        "underworld/basalt/clutter/icespiresmol1",
+        "underworld/basalt/clutter/icespiresmol2",
+        "underworld/basalt/clutter/icespiresmol3"
+      ],
+      "chance": 0.08,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/spruceclutt1",
+        "underworld/basalt/clutter/spruceclutt2",
+        "underworld/basalt/clutter/spruceclutt3",
+        "underworld/basalt/clutter/spruceclutt4",
+        "underworld/basalt/clutter/spruceclutt5",
+        "underworld/basalt/clutter/spruceclutt6"
+      ],
+      "chance": 0.15,
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      }
+    },
+    {
+      "place": [
+        "underworld/basalt/clutter/smoleicespike1",
+        "underworld/basalt/clutter/smoleicespike2",
+        "underworld/basalt/clutter/smoleicespike3",
+        "underworld/basalt/clutter/smoleicespike4",
+        "underworld/basalt/clutter/smoleicespike5",
+        "underworld/basalt/clutter/smoleicespike6",
+        "underworld/basalt/clutter/smoleicespike7",
+        "underworld/basalt/clutter/smoleicespike8",
+        "underworld/basalt/clutter/smoleicespike9",
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3"
+      ],
+      "chance": 0.35,
+      "mode": "CENTER_HEIGHT"
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ],
+  "mergeFloatingChildBiomes": true,
+  "floatingChildBiomes": [
+    {
+      "biome": "frozen/vander",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.52,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.18,
+          "multiplier": 5
+        }
+      },
+      "footprintThreshold": 0.48,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.5
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.0
+      },
+      "minHeightAboveSurface": 150,
+      "maxHeightAboveSurface": 185,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 18,
+      "topShapeStyle": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.42,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 5
+        }
+      },
+      "topShapeAmp": 0.82,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 20,
+      "bottomDepthMax": 20,
+      "bottomExponent": 1.0,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 40,
+      "carving": "carving/ice-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.12,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.86,
+      "inheritDecorators": true,
+      "inheritObjects": true,
+      "objectShrinkFactor": 0.45,
+      "topObjectMode": "MERGE",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/singleicespike1",
+            "underworld/basalt/clutter/singleicespike2",
+            "underworld/basalt/clutter/singleicespike3"
+          ],
+          "chance": 0.7,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 8,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "translate": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+          }
+        }
+      ],
+      "bottomObjectMode": "INHERIT_ONLY",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/ice1",
+            "underworld/basalt/trees/mushroom/ice2",
+            "underworld/basalt/trees/mushroom/ice3",
+            "underworld/basalt/clutter/singleicespike4",
+            "underworld/basalt/clutter/singleicespike5"
+          ],
+          "chance": 0.62,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 7,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:white_stained_glass"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:blackstone"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "biome": "frozen/vander",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "GLOB_IRIS_THICK",
+        "zoom": 0.68,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.22,
+          "multiplier": 4
+        }
+      },
+      "footprintThreshold": 0.48,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.8
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 2.7
+      },
+      "minHeightAboveSurface": 110,
+      "maxHeightAboveSurface": 145,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 16,
+      "topShapeStyle": {
+        "style": "PERLIN_IRIS_THICK",
+        "zoom": 0.55,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.24,
+          "multiplier": 4
+        }
+      },
+      "topShapeAmp": 0.8,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 18,
+      "bottomDepthMax": 18,
+      "bottomExponent": 1.0,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 36,
+      "carving": "carving/glacial-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.22,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.85,
+      "inheritDecorators": true,
+      "inheritObjects": true,
+      "objectShrinkFactor": 0.6,
+      "topObjectMode": "MERGE",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/spruceclutt1",
+            "underworld/basalt/clutter/spruceclutt2",
+            "underworld/basalt/clutter/spruceclutt3"
+          ],
+          "chance": 0.65,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 7,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "translate": {
+            "x": 0,
+            "y": -4,
+            "z": 0
+          }
+        }
+      ],
+      "bottomObjectMode": "INHERIT_ONLY",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/ice4",
+            "underworld/basalt/trees/mushroom/ice5",
+            "underworld/basalt/trees/mushroom/ice6",
+            "underworld/basalt/clutter/smoleicespike1",
+            "underworld/basalt/clutter/smoleicespike2",
+            "underworld/basalt/clutter/smoleicespike3"
+          ],
+          "chance": 0.55,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 6,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:white_stained_glass"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:blackstone"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "biome": "frozen/vander",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.42,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.16,
+          "multiplier": 5
+        }
+      },
+      "footprintThreshold": 0.54,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4.5
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.6
+      },
+      "minHeightAboveSurface": 220,
+      "maxHeightAboveSurface": 270,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 20,
+      "topShapeStyle": {
+        "style": "FRACTAL_RM_SIMPLEX",
+        "zoom": 0.32,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.18,
+          "multiplier": 5
+        }
+      },
+      "topShapeAmp": 0.9,
+      "bottomStyle": {
+        "style": "FLAT"
+      },
+      "bottomDepthMin": 20,
+      "bottomDepthMax": 20,
+      "bottomExponent": 1.0,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 41,
+      "carving": "carving/frost-shards-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.18,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.12,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.88,
+      "inheritDecorators": true,
+      "inheritObjects": true,
+      "objectShrinkFactor": 0.95,
+      "topObjectMode": "MERGE",
+      "topObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/clutter/icespiresmol1",
+            "underworld/basalt/clutter/icespiresmol2",
+            "underworld/basalt/clutter/icespiresmol3"
+          ],
+          "chance": 0.6,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 6,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "translate": {
+            "x": 0,
+            "y": -7,
+            "z": 0
+          }
+        }
+      ],
+      "bottomObjectMode": "REPLACE",
+      "bottomObjectOverrides": [
+        {
+          "place": [
+            "underworld/basalt/trees/mushroom/ice7",
+            "underworld/basalt/trees/mushroom/ice8",
+            "underworld/basalt/trees/mushroom/ice9",
+            "underworld/basalt/clutter/smoleicespike7",
+            "underworld/basalt/clutter/smoleicespike8",
+            "underworld/basalt/clutter/smoleicespike9"
+          ],
+          "chance": 0.5,
+          "mode": "FAST_MIN_HEIGHT",
+          "density": 5,
+          "rotation": {
+            "yAxis": {
+              "min": 0,
+              "max": 270,
+              "interval": 90,
+              "enabled": true
+            },
+            "enabled": true
+          },
+          "edit": [
+            {
+              "find": [
+                {
+                  "block": "minecraft:white_stained_glass"
+                }
+              ],
+              "replace": {
+                "palette": [
+                  {
+                    "block": "minecraft:blackstone"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_magnetics_frozen_f3cc3252",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161312",
+      "fogColor": "#292222",
+      "waterColor": "#C75025",
+      "waterFogColor": "#592118",
+      "grassColor": "#544844",
+      "foliageColor": "#625856",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

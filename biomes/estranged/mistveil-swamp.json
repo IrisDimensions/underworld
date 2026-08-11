@@ -1,0 +1,240 @@
+{
+  "name": "Underworld Mistveil Swamp",
+  "color": "#289A8B",
+  "rarity": 2,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_mistveil_swamp_eb0851e8",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#081D22",
+      "fogColor": "#083435",
+      "waterColor": "#29999A",
+      "waterFogColor": "#0C4F4A",
+      "grassColor": "#339287",
+      "foliageColor": "#348F80",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 8,
+      "min": 2
+    },
+    {
+      "generator": "rare-hills",
+      "max": 24,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "weight": 12,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "mistveil-spire",
+        "chance": 0.5,
+        "density": 2,
+        "variants": 6,
+        "seed": 7601,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 2,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 3
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 6
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "MEGA_SPRUCE",
+        "heightMin": 20,
+        "heightMax": 30,
+        "trunkWidth": 2,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "TATTERED",
+          "leafDensity": 0.8,
+          "branches": {
+            "probabilityFunction": "PERIODIC",
+            "probabilityConstant": 0.95,
+            "probabilityPeriods": 6,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 6,
+            "azimuthMode": "WHORL",
+            "elevation": -14,
+            "sag": 0.4,
+            "clusterRadius": 2,
+            "clusterMode": "SPARSE",
+            "clusterDensity": 0.6
+          }
+        },
+        "azimuthWhorlCount": 5,
+        "decorators": [
+          {
+            "target": "CANOPY_HANG",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.4,
+            "length": 4
+          },
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.2
+          }
+        ]
+      },
+      {
+        "name": "mistveil-young",
+        "chance": 0.4,
+        "density": 2,
+        "variants": 5,
+        "seed": 7602,
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "SPRUCE",
+        "heightMin": 14,
+        "heightMax": 20,
+        "trunkWidth": 1,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "SPARSE",
+          "leafDensity": 0.7,
+          "branches": {
+            "probabilityFunction": "PERIODIC",
+            "probabilityConstant": 0.9,
+            "probabilityPeriods": 5,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 4,
+            "azimuthMode": "ALTERNATING",
+            "elevation": -10,
+            "sag": 0.35,
+            "clusterRadius": 1,
+            "clusterMode": "SPARSE",
+            "clusterDensity": 0.55
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "name": "Underworld Savanna Forest",
+  "color": "#AC291C",
+  "rarity": 3,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_savanna_forest_0e6dfdc3",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#290D09",
+      "fogColor": "#3B0E0B",
+      "waterColor": "#E44913",
+      "waterFogColor": "#611C0F",
+      "grassColor": "#743E26",
+      "foliageColor": "#9B5240",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 7,
+      "max": 10,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "zoom": 0.75,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:brown_concrete_powder"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:brown_concrete_powder"
+        },
+        {
+          "weight": 7,
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.0025,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.05,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/hay1",
+        "underworld/wastes/clutter/hay3",
+        "underworld/wastes/clutter/hay2"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.335,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_stem"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_stem"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_slab"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_slab"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/oak/dadwood1",
+        "underworld/wastes/trees/oak/dadwood2",
+        "underworld/wastes/trees/oak/dadwood3",
+        "underworld/wastes/trees/oak/dadwood4",
+        "underworld/wastes/trees/oak/dadwood5",
+        "underworld/wastes/trees/oak/dadwood6"
+      ]
+    },
+    {
+      "chance": 0.05,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/hay1",
+        "underworld/wastes/clutter/hay3",
+        "underworld/wastes/clutter/hay2"
+      ]
+    },
+    {
+      "chance": 0.15,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/oakclutt1",
+        "underworld/wastes/clutter/oakclutt2",
+        "underworld/wastes/clutter/oakclutt3",
+        "underworld/wastes/clutter/oakclutt4",
+        "underworld/wastes/clutter/oakclutt5"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.00435,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "east"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        },
+        {
+          "data": {
+            "face": "floor",
+            "powered": false,
+            "facing": "south"
+          },
+          "block": "minecraft:polished_blackstone_button"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.092,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.1,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 1e-06,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "weight": 8,
+          "block": "minecraft:air"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:air"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "weight": 8,
+          "block": "minecraft:air"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/dry_grass"
+  ]
+}

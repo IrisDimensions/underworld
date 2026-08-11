@@ -1,0 +1,337 @@
+{
+  "name": "Underworld Savanna",
+  "color": "#934225",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_savanna_savanna_45d027e0",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2E0C0B",
+      "fogColor": "#380C0C",
+      "waterColor": "#E86008",
+      "waterFogColor": "#751908",
+      "grassColor": "#6E3420",
+      "foliageColor": "#8D5739",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "savanna/cliff"
+  ],
+  "generators": [
+    {
+      "min": 10,
+      "max": 20,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 4.6
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "zoom": 0.75,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.00175,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/bincluster1"
+      ]
+    },
+    {
+      "chance": 0.07,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaD1",
+        "underworld/wastes/trees/acacia/savannaD2",
+        "underworld/wastes/trees/acacia/savannaD3"
+      ]
+    },
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaF1",
+        "underworld/wastes/trees/acacia/savannaF2",
+        "underworld/wastes/trees/acacia/savannaF3",
+        "underworld/wastes/trees/acacia/savannaF4",
+        "underworld/wastes/trees/acacia/savannaF5",
+        "underworld/wastes/trees/acacia/savannaF6",
+        "underworld/wastes/trees/acacia/savannaF7",
+        "underworld/wastes/trees/acacia/savannaF8",
+        "underworld/wastes/trees/acacia/savannaF9",
+        "underworld/wastes/trees/acacia/savannaF10",
+        "underworld/wastes/trees/acacia/savannaF11",
+        "underworld/wastes/trees/acacia/savannaF13",
+        "underworld/wastes/trees/acacia/savannaF14"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.04,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/acacia/savannaS1",
+        "underworld/wastes/trees/acacia/savannaS2",
+        "underworld/wastes/trees/acacia/savannaS3",
+        "underworld/wastes/trees/acacia/savannaS4",
+        "underworld/wastes/trees/acacia/savannaS5",
+        "underworld/wastes/trees/acacia/savannaS6",
+        "underworld/wastes/trees/acacia/savannaS7",
+        "underworld/wastes/trees/acacia/savannaS8",
+        "underworld/wastes/trees/acacia/savannas9",
+        "underworld/wastes/trees/acacia/savannas10",
+        "underworld/wastes/trees/acacia/savannas11",
+        "underworld/wastes/trees/acacia/savannas12"
+      ]
+    },
+    {
+      "chance": 0.1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/savrock1",
+        "underworld/wastes/clutter/savrock2",
+        "underworld/wastes/clutter/savrock3",
+        "underworld/wastes/clutter/savrock4",
+        "underworld/wastes/clutter/savrock5",
+        "underworld/wastes/clutter/savrock6",
+        "underworld/wastes/clutter/savrock7",
+        "underworld/wastes/clutter/savrock8"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 2,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 2,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.3,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/dry_grass"
+  ]
+}

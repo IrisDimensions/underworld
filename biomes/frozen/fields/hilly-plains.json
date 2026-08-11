@@ -1,0 +1,119 @@
+{
+  "name": "Underworld Hilly Plains",
+  "color": "#607679",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_fields_hilly_plains_85504a5f",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#10191C",
+      "fogColor": "#1E2A2F",
+      "waterColor": "#6696A1",
+      "waterFogColor": "#284549",
+      "grassColor": "#728589",
+      "foliageColor": "#718387",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "prototype/rivers",
+      "max": 10,
+      "min": -5
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:soul_sand"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 3,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 3
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.01,
+      "place": [
+        "underworld/soul/clutter/icecluster1",
+        "underworld/soul/clutter/icecluster2",
+        "underworld/soul/clutter/icecluster3",
+        "underworld/soul/clutter/icecluster4",
+        "underworld/soul/clutter/icecluster5",
+        "underworld/soul/clutter/icecluster6",
+        "underworld/soul/clutter/icecluster7",
+        "underworld/soul/clutter/icecluster8",
+        "underworld/soul/clutter/icecluster9",
+        "underworld/soul/clutter/icecluster10",
+        "underworld/soul/clutter/icecluster11"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "underworld/soul/clutter/sbush1",
+        "underworld/soul/clutter/sbush2",
+        "underworld/soul/clutter/sbush3"
+      ],
+      "snow": 0.25
+    }
+  ]
+}

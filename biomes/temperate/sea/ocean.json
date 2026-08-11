@@ -1,0 +1,333 @@
+{
+  "name": "Underworld Temperate Ocean",
+  "proceduralObjects": {
+    "coral": [
+      {
+        "name": "branch-coral",
+        "chance": 0.5,
+        "density": 3,
+        "variants": 6,
+        "seed": 9401,
+        "underwater": true,
+        "waterlogged": false,
+        "form": "BRANCHING",
+        "block": "minecraft:magma_block",
+        "blockPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:magma_block",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:magma_block",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:magma_block",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:magma_block",
+              "weight": 2
+            }
+          ]
+        },
+        "tipBlock": "minecraft:glowstone",
+        "tipChance": 0.4,
+        "heightMin": 3,
+        "heightMax": 6,
+        "spread": 1.0,
+        "sway": 0.4,
+        "branchCount": 5,
+        "branchLength": 3,
+        "branchElevation": 35,
+        "branchAzimuth": "GOLDEN_ANGLE",
+        "subBranches": true,
+        "subBranchCount": 2,
+        "subBranchScale": 0.6,
+        "tipClusterRadius": 1,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        }
+      },
+      {
+        "name": "brain-coral",
+        "chance": 0.35,
+        "density": 2,
+        "variants": 5,
+        "seed": 9402,
+        "underwater": true,
+        "waterlogged": false,
+        "form": "BRAIN",
+        "block": "minecraft:magma_block",
+        "blockPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.35
+          },
+          "palette": [
+            {
+              "block": "minecraft:magma_block",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:magma_block",
+              "weight": 1
+            }
+          ]
+        },
+        "brainRadius": 3,
+        "brainRoughness": 0.4,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        }
+      }
+    ]
+  },
+  "color": "#665B58",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "FRACTAL_FBM_IRIS"
+      },
+      "zoom": 0.825,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "underwater": true,
+      "place": [
+        "underworld/basalt/clutter/substat1",
+        "underworld/basalt/clutter/substat2",
+        "underworld/basalt/clutter/substat3",
+        "underworld/basalt/clutter/substat4",
+        "underworld/basalt/clutter/substat5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.004,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/obelisk1",
+        "underworld/basalt/clutter/obelisk2",
+        "underworld/basalt/clutter/obelisk3",
+        "underworld/basalt/clutter/obelisk4",
+        "underworld/basalt/clutter/obelisk5",
+        "underworld/basalt/clutter/obelisk6",
+        "underworld/basalt/clutter/obelisk7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0006,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.013,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 6,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2,
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "partOf": "SEA_FLOOR"
+    }
+  ],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:blackstone_slab"
+      },
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_sea_ocean_ffe70e4c",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151111",
+      "fogColor": "#262020",
+      "waterColor": "#C75C17",
+      "waterFogColor": "#581914",
+      "grassColor": "#514844",
+      "foliageColor": "#635B56",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

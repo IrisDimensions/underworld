@@ -1,0 +1,249 @@
+{
+  "name": "Underworld Mangrove Swamp",
+  "color": "#738991",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_mangrove_swamp_df7ec4c6",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#11191D",
+      "fogColor": "#1F2A2F",
+      "waterColor": "#57828A",
+      "waterFogColor": "#22393D",
+      "grassColor": "#6D8487",
+      "foliageColor": "#657A7B",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": -5,
+      "max": 4,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/trees/oak/dead1",
+        "underworld/soul/trees/oak/dead2",
+        "underworld/soul/trees/oak/dead3",
+        "underworld/soul/trees/oak/dead4",
+        "underworld/soul/trees/oak/dead5",
+        "underworld/soul/trees/oak/dead6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.4,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/shrub1",
+        "underworld/soul/clutter/shrub2",
+        "underworld/soul/clutter/shrub3",
+        "underworld/soul/clutter/shrub4",
+        "underworld/soul/clutter/shrub5",
+        "underworld/soul/clutter/shrub6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/soul/clutter/stone1",
+        "underworld/soul/clutter/stone2",
+        "underworld/soul/clutter/stone3",
+        "underworld/soul/clutter/stone4",
+        "underworld/soul/clutter/stone5",
+        "underworld/soul/clutter/stone6",
+        "underworld/soul/clutter/stone7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.13,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.15,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "name": "Underworld Snarlwood Thicket",
+  "color": "#33A090",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_snarlwood_thicket_ac2e8269",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#0A2326",
+      "fogColor": "#072B2D",
+      "waterColor": "#33ABAB",
+      "waterFogColor": "#0B5152",
+      "grassColor": "#329B96",
+      "foliageColor": "#228A7F",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 9,
+      "min": 4
+    },
+    {
+      "generator": "rare-hills",
+      "max": 36,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "weight": 14,
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:warped_nylium"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "snarlwood",
+        "chance": 0.8,
+        "density": 2,
+        "variants": 8,
+        "seed": 8201,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "STATIC"
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 1
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "OAK",
+        "heightMin": 8,
+        "heightMax": 13,
+        "trunkWidth": 1,
+        "trunkShape": "SINE",
+        "shapeAmplitude": 0.3,
+        "shapePeriod": 0.4,
+        "leanAngle": 22,
+        "leanAzimuthMode": "NOISE",
+        "azimuthScale": 2.0,
+        "trunkCurve": "SIGMOID",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "TATTERED",
+          "leafDensity": 0.8,
+          "crownStretchX": 1.4,
+          "crownStretchZ": 0.8,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 1.6,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 4,
+            "azimuthMode": "ZIGZAG",
+            "elevation": -10,
+            "sag": 0.5,
+            "branchDepth": 2,
+            "clusterRadius": 2,
+            "clusterMode": "TATTERED",
+            "clusterDensity": 0.7,
+            "subBranches": {
+              "count": 2,
+              "pitchDelta": -12,
+              "yawDelta": 70,
+              "lengthScale": 0.6,
+              "sag": 0.4,
+              "clusterRadius": 1,
+              "clusterMode": "TATTERED"
+            }
+          }
+        },
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.3
+          },
+          {
+            "target": "CANOPY_HANG",
+            "block": "minecraft:twisting_vines",
+            "chance": 0.4,
+            "length": 4
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.35,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "chance": 0.04,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.04,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

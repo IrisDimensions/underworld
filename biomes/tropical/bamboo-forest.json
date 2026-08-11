@@ -1,0 +1,411 @@
+{
+  "name": "Underworld Tropical Bamboo Forest",
+  "color": "#BB454D",
+  "rarity": 1,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:crimson_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_bamboo_forest_30a304a6",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#330306",
+      "fogColor": "#4F1115",
+      "waterColor": "#CC4E34",
+      "waterFogColor": "#79131E",
+      "grassColor": "#AD2831",
+      "foliageColor": "#881B2A",
+      "ambientParticle": {
+        "particle": "minecraft:crimson_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tropical/wilds"
+  ],
+  "generators": [
+    {
+      "min": 5,
+      "max": 9,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.5,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/crimson/clutter/boulder1",
+        "underworld/crimson/clutter/boulder2",
+        "underworld/crimson/clutter/boulder4",
+        "underworld/crimson/clutter/boulder5",
+        "underworld/crimson/clutter/boulder6",
+        "underworld/crimson/clutter/boulder7",
+        "underworld/crimson/clutter/boulder8"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.5,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:stripped_crimson_stem"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:stripped_crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/crimson/trees/jungle/bmbogeneric1",
+        "underworld/crimson/trees/jungle/bmbogeneric2",
+        "underworld/crimson/trees/jungle/bmbogeneric3",
+        "underworld/crimson/trees/jungle/bmbogeneric4",
+        "underworld/crimson/trees/jungle/bmbogeneric5",
+        "underworld/crimson/trees/jungle/bmbogeneric6",
+        "underworld/crimson/trees/jungle/bmbogeneric7",
+        "underworld/crimson/trees/jungle/bmbogeneric8",
+        "underworld/crimson/trees/jungle/bmbogeneric9"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.35,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:stripped_crimson_stem"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_stem"
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:stripped_crimson_hyphae"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_crimson_hyphae"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/crimson/trees/jungle/spire1",
+        "underworld/crimson/trees/jungle/spire2",
+        "underworld/crimson/trees/jungle/spire3",
+        "underworld/crimson/trees/jungle/spire4",
+        "underworld/crimson/trees/jungle/spire5",
+        "underworld/crimson/trees/jungle/spire6",
+        "underworld/crimson/trees/jungle/spire7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/crimson/clutter/melons1",
+        "underworld/crimson/clutter/melons2",
+        "underworld/crimson/clutter/melons3",
+        "underworld/crimson/clutter/melons4",
+        "underworld/crimson/clutter/melons5",
+        "underworld/crimson/clutter/melons6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.25,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "stackMin": 1,
+      "stackMax": 11,
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC",
+        "zoom": 0.1
+      },
+      "topPalette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        },
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.301,
+      "particleAltY": -0.33885,
+      "particleAltZ": 0.301,
+      "chance": 1,
+      "particleEffect": "CRIMSON_SPORE",
+      "particleOffset": 12,
+      "interval": 550,
+      "particleCount": 0
+    }
+  ]
+}

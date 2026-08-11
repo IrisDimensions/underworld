@@ -1,0 +1,130 @@
+{
+  "name": "Underworld Mountain River",
+  "color": "#645957",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "IRIS_DOUBLE",
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 30
+        }
+      },
+      "zoom": 0.7,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:gravel",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.001,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/obelisk1",
+        "underworld/basalt/clutter/obelisk2",
+        "underworld/basalt/clutter/obelisk3",
+        "underworld/basalt/clutter/obelisk4",
+        "underworld/basalt/clutter/obelisk5",
+        "underworld/basalt/clutter/obelisk6",
+        "underworld/basalt/clutter/obelisk7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.07,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.013,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 6,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      },
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_mountain_sea_river_897f3716",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#191414",
+      "fogColor": "#2C2627",
+      "waterColor": "#C24F22",
+      "waterFogColor": "#4D2318",
+      "grassColor": "#584A48",
+      "foliageColor": "#605753",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

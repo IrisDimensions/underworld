@@ -1,0 +1,148 @@
+{
+  "name": "Underworld Hot Desert Dunes Red",
+  "color": "#9F4724",
+  "rarity": 1,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "children": [
+    "hot/mountain-cliffs"
+  ],
+  "childShrinkFactor": 1.5,
+  "childStyle": {
+    "style": "IRIS",
+    "zoom": 1.5
+  },
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 35,
+      "min": 30
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "slopeCondition": {
+        "minimumSlope": 4.5,
+        "maximumSlope": 20
+      },
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "zoom": 0.7,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.001,
+      "density": 3,
+      "place": [
+        "underworld/wastes/clutter/rdesertpost1",
+        "underworld/wastes/clutter/rdesertpost2",
+        "underworld/wastes/clutter/rdesertpost3"
+      ]
+    },
+    {
+      "chance": 0.0014,
+      "mode": "MIN_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/rsphinx1",
+        "underworld/wastes/clutter/rbrksphinx1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_stem"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/dry_grass"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_hot_desert_dunes_red_87daec3a",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#300907",
+      "fogColor": "#44130E",
+      "waterColor": "#ED4807",
+      "waterFogColor": "#641400",
+      "grassColor": "#714025",
+      "foliageColor": "#80492B",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

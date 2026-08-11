@@ -1,0 +1,299 @@
+{
+  "name": "Underworld Tundra Mountains",
+  "color": "#5C5450",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tundra_mountains_9c1ed867",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#181414",
+      "fogColor": "#251F20",
+      "waterColor": "#C54811",
+      "waterFogColor": "#5B2515",
+      "grassColor": "#534845",
+      "foliageColor": "#5D5451",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tundra/mountains-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "min": 66,
+      "max": 89,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 5.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/clutter/gravelsplotch1",
+        "underworld/basalt/clutter/gravelsplotch2",
+        "underworld/basalt/clutter/gravelsplotch3",
+        "underworld/basalt/clutter/gravelsplotch4"
+      ],
+      "chance": 0.75,
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.8,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/trees/spruce/levergreen1",
+        "underworld/basalt/trees/spruce/levergreen2",
+        "underworld/basalt/trees/spruce/levergreen1",
+        "underworld/basalt/trees/spruce/levergreen2",
+        "underworld/basalt/trees/spruce/levergreen1",
+        "underworld/basalt/trees/spruce/levergreen2",
+        "underworld/basalt/trees/spruce/levergreen3",
+        "underworld/basalt/trees/spruce/levergreen4",
+        "underworld/basalt/trees/spruce/levergreen5",
+        "underworld/basalt/trees/spruce/levergreen6",
+        "underworld/basalt/trees/spruce/mevergreen1",
+        "underworld/basalt/trees/spruce/mevergreen2",
+        "underworld/basalt/trees/spruce/mevergreen3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/obelisk1",
+        "underworld/basalt/clutter/obelisk2",
+        "underworld/basalt/clutter/obelisk3",
+        "underworld/basalt/clutter/obelisk4",
+        "underworld/basalt/clutter/obelisk5",
+        "underworld/basalt/clutter/obelisk6",
+        "underworld/basalt/clutter/obelisk7"
+      ]
+    },
+    {
+      "chance": 0.25,
+      "place": [
+        "underworld/basalt/trees/spruce/pine1",
+        "underworld/basalt/trees/spruce/pine2",
+        "underworld/basalt/trees/spruce/pine3",
+        "underworld/basalt/trees/spruce/pine4",
+        "underworld/basalt/trees/spruce/pine5",
+        "underworld/basalt/trees/spruce/pine6",
+        "underworld/basalt/trees/spruce/pine7",
+        "underworld/basalt/trees/spruce/pine8",
+        "underworld/basalt/trees/spruce/pine9",
+        "underworld/basalt/trees/spruce/pine10",
+        "underworld/basalt/trees/spruce/pine11",
+        "underworld/basalt/trees/spruce/pine12"
+      ]
+    },
+    {
+      "chance": 0.008,
+      "mode": "PAINT",
+      "place": [
+        "underworld/basalt/clutter/pumpkins1",
+        "underworld/basalt/clutter/pumpkins2",
+        "underworld/basalt/clutter/pumpkins3",
+        "underworld/basalt/clutter/pumpkins4",
+        "underworld/basalt/clutter/pumpkins5",
+        "underworld/basalt/clutter/pumpkins6"
+      ],
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "max": 360,
+          "min": 0,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "age": 0
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 1
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 2
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 3
+          },
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ],
+  "childShrinkFactor": 8
+}

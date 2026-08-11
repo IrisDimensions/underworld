@@ -1,0 +1,323 @@
+{
+  "name": "Underworld Plains",
+  "color": "#8E2217",
+  "rarity": 2,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "generators": [
+    {
+      "min": 4,
+      "max": 10,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.00975,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp1",
+        "underworld/wastes/clutter/camp3",
+        "underworld/wastes/clutter/camp4",
+        "underworld/wastes/clutter/camp5"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.00675,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/camp2"
+      ]
+    },
+    {
+      "chance": 0.01,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/oak/hoakgeneric3",
+        "underworld/wastes/trees/oak/hoakgeneric4",
+        "underworld/wastes/trees/oak/hoakgeneric5",
+        "underworld/wastes/trees/oak/hoakgeneric6",
+        "underworld/wastes/trees/oak/hoakgeneric7",
+        "underworld/wastes/trees/oak/hoakgeneric8",
+        "underworld/wastes/trees/oak/hoakgeneric9",
+        "underworld/wastes/trees/oak/hoakgeneric1",
+        "underworld/wastes/trees/oak/shoakgeneric3",
+        "underworld/wastes/trees/oak/shoakgeneric4",
+        "underworld/wastes/trees/oak/shoakgeneric5",
+        "underworld/wastes/trees/oak/shoakgeneric6",
+        "underworld/wastes/trees/oak/shoakgeneric7",
+        "underworld/wastes/trees/oak/shoakgeneric8",
+        "underworld/wastes/trees/oak/shoakgeneric9",
+        "underworld/wastes/trees/oak/shoakgeneric1",
+        "underworld/wastes/trees/oak/shoakgeneric2"
+      ]
+    },
+    {
+      "chance": 0.005,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/obelisk1",
+        "underworld/wastes/clutter/obelisk2",
+        "underworld/wastes/clutter/obelisk3",
+        "underworld/wastes/clutter/obelisk4",
+        "underworld/wastes/clutter/obelisk5",
+        "underworld/wastes/clutter/obelisk6",
+        "underworld/wastes/clutter/obelisk7"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.002,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/genericpeak1",
+        "underworld/wastes/clutter/genericpeak2",
+        "underworld/wastes/clutter/genericpeak3",
+        "underworld/wastes/clutter/genericpeak5",
+        "underworld/wastes/clutter/genericpeak6"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -4,
+        "z": 0
+      }
+    },
+    {
+      "place": [
+        "underworld/wastes/trees/oak/generic1",
+        "underworld/wastes/trees/oak/generic2",
+        "underworld/wastes/trees/oak/generic3",
+        "underworld/wastes/trees/oak/generic4",
+        "underworld/wastes/trees/oak/generic5",
+        "underworld/wastes/trees/oak/generic6"
+      ],
+      "chance": 0.07,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 360
+        }
+      }
+    },
+    {
+      "place": [
+        "underworld/wastes/clutter/statue-villager-plains",
+        "underworld/wastes/clutter/pumpkins1",
+        "underworld/wastes/clutter/pumpkins2",
+        "underworld/wastes/clutter/pumpkins3",
+        "underworld/wastes/clutter/pumpkins4",
+        "underworld/wastes/clutter/pumpkins5",
+        "underworld/wastes/clutter/pumpkins6"
+      ],
+      "chance": 0.008,
+      "mode": "PAINT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 360
+        }
+      },
+      "translate": {
+        "y": 1
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.004,
+      "variance": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 6,
+        "fracture": {
+          "style": "STATIC",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:crimson_fungus"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    },
+    "snippet/underworld/wastes/decorator/leaf",
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_plains_5f3a692b",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#300A09",
+      "fogColor": "#3A0A0B",
+      "waterColor": "#CE5208",
+      "waterFogColor": "#632108",
+      "grassColor": "#7E2F1D",
+      "foliageColor": "#874330",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Underworld Sunflower Plains",
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "color": "#A9392B",
+  "generators": [
+    {
+      "generator": "mountain-large",
+      "max": 604,
+      "min": 423
+    }
+  ],
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ],
+      "style": {
+        "style": "IRIS"
+      },
+      "maxHeight": 4,
+      "minHeight": 3,
+      "slopeCondition": {
+        "maximumSlope": 4
+      }
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:gravel"
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_vanilla_sunflower_plains_f6e27994",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2E0B0A",
+      "fogColor": "#3A0B0A",
+      "waterColor": "#C1390A",
+      "waterFogColor": "#751000",
+      "grassColor": "#71371A",
+      "foliageColor": "#80462B",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

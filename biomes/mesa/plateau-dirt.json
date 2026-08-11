@@ -1,0 +1,154 @@
+{
+  "name": "Underworld Mesa Plateau Dirt",
+  "color": "#645A58",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": 73,
+      "max": 98,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "layers": [
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "style": {
+        "style": "CELLULAR"
+      },
+      "zoom": 0.7,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:white_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:yellow_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/basalt/trees/acacia/vexed1",
+        "underworld/basalt/trees/acacia/vexed2",
+        "underworld/basalt/trees/acacia/vexed3"
+      ],
+      "chance": 0.2,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:crimson_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crimson_hyphae",
+                "data": {
+                  "axis": "y"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    }
+  ],
+  "lockLayers": true,
+  "customDerivitives": [
+    {
+      "id": "underworld_mesa_plateau_dirt_9ab63719",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#151112",
+      "fogColor": "#2C2525",
+      "waterColor": "#C24711",
+      "waterFogColor": "#511B10",
+      "grassColor": "#60524D",
+      "foliageColor": "#6D6661",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

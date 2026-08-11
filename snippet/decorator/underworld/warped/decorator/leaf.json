@@ -1,0 +1,62 @@
+{
+  "style": {
+    "style": "VASCULAR",
+    "zoom": 0.3,
+    "fracture": {
+      "axialFracturing": true,
+      "style": "STATIC",
+      "multiplier": 16
+    }
+  },
+  "chance": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    },
+    {
+      "block": "minecraft:warped_roots"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Underworld Swamp Puddle",
+  "rarity": 2,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_swamp_swamp_puddle_29c73d4a",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#0B2026",
+      "fogColor": "#052B2E",
+      "waterColor": "#379C8E",
+      "waterFogColor": "#105A56",
+      "grassColor": "#268480",
+      "foliageColor": "#257468",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": -7,
+      "min": -6
+    }
+  ],
+  "layers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "exponent": 0.75,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 15
+        }
+      },
+      "zoom": 0.8,
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:brown_concrete_powder",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "maxHeight": 3,
+      "minHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "maxHeight": 3,
+      "minHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:nether_quartz_ore",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "place": [
+        "underworld/warped/trees/willow/t1",
+        "underworld/warped/trees/willow/t2",
+        "underworld/warped/trees/willow/t3",
+        "underworld/warped/trees/willow/t4",
+        "underworld/warped/trees/willow/t5",
+        "underworld/warped/trees/willow/t6",
+        "underworld/warped/trees/willow/t7",
+        "underworld/warped/trees/willow/t8",
+        "underworld/warped/trees/mangrove/t1",
+        "underworld/warped/trees/mangrove/t2",
+        "underworld/warped/trees/mangrove/t3",
+        "underworld/warped/trees/mangrove/t4"
+      ],
+      "chance": 0.5,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.065,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:warped_roots"
+        }
+      ]
+    },
+    {
+      "chance": 0.065,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    }
+  ],
+  "color": "#2C918A"
+}

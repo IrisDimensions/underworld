@@ -1,0 +1,258 @@
+{
+  "name": "Underworld Tundra Magic Forest",
+  "color": "#A84823",
+  "rarity": 7,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_reaching_forest_6d4bc948",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#29080B",
+      "fogColor": "#450306",
+      "waterColor": "#D7541F",
+      "waterFogColor": "#69250F",
+      "grassColor": "#774121",
+      "foliageColor": "#7F3E2E",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 44,
+      "min": 20
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 5.3
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/wastes/clutter/gravelsplotch1",
+        "underworld/wastes/clutter/gravelsplotch2",
+        "underworld/wastes/clutter/gravelsplotch3",
+        "underworld/wastes/clutter/gravelsplotch4"
+      ],
+      "chance": 0.35,
+      "mode": "PAINT"
+    },
+    {
+      "chance": 0.8,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/trees/mixed/dotree1",
+        "underworld/wastes/trees/mixed/dotree2",
+        "underworld/wastes/trees/mixed/dotree3",
+        "underworld/wastes/trees/mixed/dotree4",
+        "underworld/wastes/trees/mixed/dotree5",
+        "underworld/wastes/trees/mixed/dotree6",
+        "underworld/wastes/trees/mixed/dotree7",
+        "underworld/wastes/trees/mixed/dotree8",
+        "underworld/wastes/trees/mixed/dotree9",
+        "underworld/wastes/trees/mixed/dotree10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.01,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/wastes/clutter/obelisk1",
+        "underworld/wastes/clutter/obelisk2",
+        "underworld/wastes/clutter/obelisk3",
+        "underworld/wastes/clutter/obelisk4",
+        "underworld/wastes/clutter/obelisk5",
+        "underworld/wastes/clutter/obelisk6",
+        "underworld/wastes/clutter/obelisk7"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -4,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.001,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "age": 0
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 1
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 2
+          },
+          "block": "minecraft:fire"
+        },
+        {
+          "data": {
+            "age": 3
+          },
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "chance": 0.2,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    },
+    "snippet/underworld/wastes/decorator/bush"
+  ],
+  "childShrinkFactor": 8
+}

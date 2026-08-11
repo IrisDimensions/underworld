@@ -1,0 +1,234 @@
+{
+  "name": "Underworld Spindlewood",
+  "color": "#2D9280",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_spindlewood_3ab4fb34",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#081F26",
+      "fogColor": "#052A2C",
+      "waterColor": "#36A3A4",
+      "waterFogColor": "#085757",
+      "grassColor": "#2B968F",
+      "foliageColor": "#227F7D",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 12,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 36,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "spindle-golden",
+        "chance": 0.6,
+        "density": 2,
+        "variants": 8,
+        "seed": 7501,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 2,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.3
+          },
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "BUSH",
+        "heightMin": 8,
+        "heightMax": 13,
+        "trunkWidth": 1,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "CLUMPED",
+          "leafDensity": 0.7,
+          "branches": {
+            "probabilityFunction": "LINEAR",
+            "probabilityBase": 0.2,
+            "probabilityCrown": 0.9,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 4,
+            "azimuthMode": "GOLDEN_ANGLE",
+            "elevation": 15,
+            "sag": 0.15,
+            "branchDepth": 3,
+            "clusterRadius": 2,
+            "clusterMode": "CLUMPED",
+            "clusterDensity": 0.75,
+            "subBranches": {
+              "count": 2,
+              "pitchDelta": 20,
+              "yawDelta": 80,
+              "lengthScale": 0.55,
+              "clusterRadius": 1,
+              "clusterMode": "CLUMPED"
+            }
+          }
+        }
+      },
+      {
+        "name": "spindle-whorl",
+        "chance": 0.4,
+        "density": 2,
+        "variants": 6,
+        "seed": 7502,
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "COLUMNAR",
+        "heightMin": 11,
+        "heightMax": 16,
+        "trunkWidth": 1,
+        "azimuthWhorlCount": 5,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 90
+          }
+        },
+        "canopy": {
+          "mode": "DENSITY",
+          "leafDensity": 0.78,
+          "branches": {
+            "probabilityFunction": "PERIODIC",
+            "probabilityConstant": 0.9,
+            "probabilityPeriods": 4,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 2,
+            "lengthCrown": 4,
+            "azimuthMode": "WHORL",
+            "elevation": 8,
+            "sag": 0.1,
+            "clusterRadius": 2,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.78
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.45,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}

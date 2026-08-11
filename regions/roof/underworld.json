@@ -1,0 +1,27 @@
+{
+  "name": "Underworld Roof",
+  "color": "#5E2727",
+  "rarity": 1,
+  "landBiomeZoom": 2.4,
+  "landBiomes": [
+    "roof/wastes",
+    "roof/crimson",
+    "roof/warped",
+    "roof/soul",
+    "roof/basalt"
+  ],
+  "seaBiomes": [
+    "roof/wastes",
+    "roof/crimson",
+    "roof/warped",
+    "roof/soul",
+    "roof/basalt"
+  ],
+  "shoreBiomes": [
+    "roof/wastes",
+    "roof/crimson",
+    "roof/warped",
+    "roof/soul",
+    "roof/basalt"
+  ]
+}

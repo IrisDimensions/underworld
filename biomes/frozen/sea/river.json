@@ -1,0 +1,173 @@
+{
+  "name": "Underworld Frozen River",
+  "color": "#665C59",
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.003,
+      "density": 3,
+      "snow": 0.45,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "onwater": true,
+      "place": [
+        "underworld/basalt/clutter/twoicespike1",
+        "underworld/basalt/clutter/twoicespike2",
+        "underworld/basalt/clutter/twoicespike3",
+        "underworld/basalt/clutter/twoicespike4"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -4,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.2,
+      "density": 3,
+      "snow": 0.01,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "onwater": true,
+      "place": [
+        "underworld/basalt/clutter/singleicespike1",
+        "underworld/basalt/clutter/singleicespike2",
+        "underworld/basalt/clutter/singleicespike3",
+        "underworld/basalt/clutter/singleicespike4",
+        "underworld/basalt/clutter/singleicespike5",
+        "underworld/basalt/clutter/icespec1",
+        "underworld/basalt/clutter/icespec2",
+        "underworld/basalt/clutter/icespec3",
+        "underworld/basalt/clutter/icespec4",
+        "underworld/basalt/clutter/icespec5"
+      ]
+    }
+  ],
+  "seaLayers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 1.16,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_sea_river_1e1b42eb",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161213",
+      "fogColor": "#272222",
+      "waterColor": "#B25121",
+      "waterFogColor": "#591812",
+      "grassColor": "#5C4F4B",
+      "foliageColor": "#6A625C",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ]
+}

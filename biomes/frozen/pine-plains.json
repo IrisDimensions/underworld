@@ -1,0 +1,179 @@
+{
+  "name": "Underworld Frozen Pine Plains",
+  "color": "#5D6F75",
+  "rarity": 1,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_pine_plains_9363a804",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#11181D",
+      "fogColor": "#1A2328",
+      "waterColor": "#588087",
+      "waterFogColor": "#243D44",
+      "grassColor": "#607174",
+      "foliageColor": "#63797B",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "frozen/pine-hills"
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 16,
+      "min": 13
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 7,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:basalt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:warped_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "PERLIN",
+              "zoom": 0.2
+            },
+            "palette": [
+              {
+                "block": "minecraft:warped_wart_block"
+              },
+              {
+                "block": "minecraft:warped_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/soul/trees/spruce/pine1",
+        "underworld/soul/trees/spruce/pine2",
+        "underworld/soul/trees/spruce/pine3",
+        "underworld/soul/trees/spruce/pine4",
+        "underworld/soul/trees/spruce/pine5",
+        "underworld/soul/trees/spruce/pine6",
+        "underworld/soul/trees/spruce/pine7",
+        "underworld/soul/trees/spruce/pine8",
+        "underworld/soul/trees/spruce/pine9"
+      ],
+      "chance": 0.2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "warp": {
+        "style": "IRIS_DOUBLE",
+        "exponent": 1.2,
+        "zoom": 0.4
+      },
+      "snow": 0.1
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.29
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "variance": {
+        "style": "STATIC"
+      },
+      "zoom": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "style": {
+        "style": "STATIC"
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "name": "Underworld Large Mountain",
+  "color": "#665C58",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_frozen_mountains_large_mountain_a4760c1e",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161212",
+      "fogColor": "#292324",
+      "waterColor": "#B1390E",
+      "waterFogColor": "#56211A",
+      "grassColor": "#655953",
+      "foliageColor": "#625855",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 103,
+      "min": 60
+    }
+  ],
+  "children": [
+    "frozen/mountains/large-mountain-top"
+  ],
+  "childShrinkFactor": 2,
+  "childStyle": {
+    "style": "CELLULAR_BICUBIC",
+    "zoom": 0.5
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:basalt"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 7,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ],
+      "slopeCondition": {
+        "maximumSlope": 3.5
+      }
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:nether_wart_block"
+            }
+          ],
+          "replace": {
+            "style": {
+              "style": "PERLIN",
+              "zoom": 0.2
+            },
+            "palette": [
+              {
+                "block": "minecraft:nether_wart_block"
+              },
+              {
+                "block": "minecraft:nether_wart_block"
+              }
+            ]
+          }
+        }
+      ],
+      "place": [
+        "underworld/basalt/trees/spruce/pine1",
+        "underworld/basalt/trees/spruce/pine2",
+        "underworld/basalt/trees/spruce/pine3",
+        "underworld/basalt/trees/spruce/pine4",
+        "underworld/basalt/trees/spruce/pine5",
+        "underworld/basalt/trees/spruce/pine6",
+        "underworld/basalt/trees/spruce/pine7",
+        "underworld/basalt/trees/spruce/pine8",
+        "underworld/basalt/trees/spruce/pine9"
+      ],
+      "chance": 0.12,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "warp": {
+        "style": "IRIS_DOUBLE",
+        "exponent": 1.2,
+        "zoom": 0.4
+      },
+      "snow": 0.1
+    },
+    {
+      "chance": 0.005,
+      "mode": "PAINT",
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:weeping_vines"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "underworld/basalt/clutter/obelisk1",
+        "underworld/basalt/clutter/obelisk2",
+        "underworld/basalt/clutter/obelisk3",
+        "underworld/basalt/clutter/obelisk4",
+        "underworld/basalt/clutter/obelisk5",
+        "underworld/basalt/clutter/obelisk6",
+        "underworld/basalt/clutter/obelisk7"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.23
+      },
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

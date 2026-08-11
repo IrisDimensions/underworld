@@ -1,0 +1,136 @@
+{
+  "name": "Underworld Tropical Volcanic Plains",
+  "color": "#645A57",
+  "rarity": 1,
+  "derivative": "minecraft:basalt_deltas",
+  "vanillaDerivative": "minecraft:basalt_deltas",
+  "customDerivitives": [
+    {
+      "id": "underworld_tropical_volcanic_plains_e2a8de66",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#161312",
+      "fogColor": "#241F1F",
+      "waterColor": "#AF4A1F",
+      "waterFogColor": "#532014",
+      "grassColor": "#534643",
+      "foliageColor": "#69625D",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "children": [
+    "tropical/volcanoes"
+  ],
+  "generators": [
+    {
+      "min": 120,
+      "max": 190,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "fracture": {
+          "style": "GLOB",
+          "zoom": 0.2,
+          "multiplier": 40
+        }
+      },
+      "zoom": 0.8,
+      "minHeight": 1,
+      "maxHeight": 5,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:magma_block"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:basalt"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "x"
+          }
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "y"
+          }
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.001,
+      "density": 1,
+      "carvingSupport": "SURFACE_ONLY",
+      "mode": "CENTER_HEIGHT",
+      "slopeCondition": {
+        "maximumSlope": 0.75
+      },
+      "translate": {
+        "y": -2
+      },
+      "place": [
+        "underworld/basalt/clutter/lava-basin-1"
+      ]
+    }
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 1.3,
+    "exponent": 1.9
+  },
+  "effects": [
+    {
+      "particleAltX": 0.001,
+      "particleAltY": 0.13885,
+      "particleAltZ": 0.001,
+      "chance": 1,
+      "particleEffect": "ASH",
+      "particleOffset": 0,
+      "interval": 200,
+      "particleCount": 0
+    }
+  ],
+  "childShrinkFactor": 1
+}

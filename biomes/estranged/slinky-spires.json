@@ -1,0 +1,274 @@
+{
+  "name": "Underworld Wilted Lollipops",
+  "color": "#32948D",
+  "rarity": 4,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_slinky_spires_a80590d0",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#092022",
+      "fogColor": "#0B3737",
+      "waterColor": "#239D96",
+      "waterFogColor": "#045757",
+      "grassColor": "#239485",
+      "foliageColor": "#1B7261",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 14,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 44,
+      "min": 0
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:netherrack"
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "lollipop-pink",
+        "chance": 0.28,
+        "density": 1,
+        "variants": 6,
+        "seed": 8701,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "SIMPLEX",
+            "zoom": 0.7
+          },
+          "zoom": 1.5,
+          "palette": [
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 3,
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 2
+            }
+          ]
+        },
+        "profile": "COLUMNAR",
+        "heightMin": 32,
+        "heightMax": 48,
+        "trunkWidth": 2,
+        "leanAngle": 26,
+        "leanAzimuthMode": "CONSTANT",
+        "leanAzimuth": 0,
+        "trunkCurve": "EXPONENTIAL",
+        "curveSteepness": 4,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "canopy": {
+          "mode": "DENSITY",
+          "leafDensity": 0.95,
+          "branches": {
+            "probabilityFunction": "GAUSSIAN",
+            "probabilityMean": 0.95,
+            "probabilityStd": 0.08,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 4,
+            "lengthCrown": 5,
+            "azimuthMode": "GOLDEN_ANGLE",
+            "elevation": -16,
+            "sag": 0.4,
+            "clusterRadius": 5,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.92
+          }
+        }
+      },
+      {
+        "name": "lollipop-teal",
+        "chance": 0.22,
+        "density": 1,
+        "variants": 6,
+        "seed": 8702,
+        "trunk": "minecraft:warped_hyphae",
+        "trunkPalette": {
+          "style": {
+            "style": "SIMPLEX",
+            "zoom": 0.7
+          },
+          "zoom": 1.5,
+          "palette": [
+            {
+              "block": "minecraft:stripped_warped_hyphae",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_hyphae",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:stripped_warped_hyphae",
+              "weight": 2
+            }
+          ]
+        },
+        "leaves": "minecraft:warped_wart_block",
+        "leavesPalette": {
+          "style": {
+            "style": "CELLULAR",
+            "zoom": 0.4
+          },
+          "zoom": 3,
+          "palette": [
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 5
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 3
+            }
+          ]
+        },
+        "profile": "COLUMNAR",
+        "heightMin": 30,
+        "heightMax": 44,
+        "trunkWidth": 2,
+        "leanAngle": 24,
+        "leanAzimuthMode": "CONSTANT",
+        "leanAzimuth": 0,
+        "trunkCurve": "EXPONENTIAL",
+        "curveSteepness": 4,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "canopy": {
+          "mode": "DENSITY",
+          "leafDensity": 0.95,
+          "branches": {
+            "probabilityFunction": "GAUSSIAN",
+            "probabilityMean": 0.95,
+            "probabilityStd": 0.08,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 4,
+            "lengthCrown": 5,
+            "azimuthMode": "GOLDEN_ANGLE",
+            "elevation": -14,
+            "sag": 0.4,
+            "clusterRadius": 5,
+            "clusterMode": "DENSITY",
+            "clusterDensity": 0.92
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.4,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        },
+        {
+          "block": "minecraft:warped_roots"
+        },
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ]
+    },
+    "snippet/underworld/warped/decorator/leaf",
+    "snippet/underworld/warped/decorator/bush"
+  ]
+}
