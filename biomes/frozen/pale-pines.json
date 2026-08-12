@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Pale Pines",
   "color": "#677B7F",
   "rarity": 6,

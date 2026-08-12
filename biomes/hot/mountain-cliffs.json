@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Hot Mountain Cliffs",
   "color": "#5E5753",
   "rarity": 3,

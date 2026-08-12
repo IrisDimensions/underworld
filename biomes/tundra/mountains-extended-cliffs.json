@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Magic Forest Cliffs",
   "color": "#5B514F",
   "rarity": 1,

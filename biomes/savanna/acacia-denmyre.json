@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Savanna Acacia Denmyre",
   "color": "#8B2F23",
   "rarity": 1,

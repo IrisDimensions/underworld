@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Mountain Forest Hills",
   "color": "#635A55",
   "rarity": 1,

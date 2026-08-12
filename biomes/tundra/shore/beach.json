@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Beach",
   "color": "#635956",
   "rarity": 1,

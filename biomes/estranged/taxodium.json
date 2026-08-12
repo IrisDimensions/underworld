@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Taxodium Stand",
   "color": "#2A9692",
   "rarity": 3,

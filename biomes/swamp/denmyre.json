@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Denmyre",
   "color": "#208C7C",
   "rarity": 1,

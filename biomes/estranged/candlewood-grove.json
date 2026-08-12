@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Candlewood Grove",
   "color": "#34A79B",
   "rarity": 3,

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Autumn",
   "color": "#667C7F",
   "rarity": 1,

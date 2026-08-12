@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Taiga",
   "color": "#768C8F",
   "rarity": 1,

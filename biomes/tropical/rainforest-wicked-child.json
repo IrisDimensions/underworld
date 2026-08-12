@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Rainforest Wicked Child",
   "color": "#A5302D",
   "rarity": 1,

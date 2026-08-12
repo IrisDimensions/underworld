@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Lush Plains Yellow",
   "color": "#8F2C1C",
   "rarity": 3,

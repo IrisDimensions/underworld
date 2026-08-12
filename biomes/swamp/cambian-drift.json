@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Cambian Drift",
   "color": "#269F92",
   "rarity": 1,

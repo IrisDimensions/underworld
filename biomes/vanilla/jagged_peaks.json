@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Jagged Peaks",
   "color": "#9C3D19",
   "rarity": 12,

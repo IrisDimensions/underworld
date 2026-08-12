@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Frosted Peaks",
   "rarity": 5,
   "derivative": "minecraft:soul_sand_valley",

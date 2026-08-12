@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Plains Hills",
   "color": "#A63B49",
   "rarity": 1,

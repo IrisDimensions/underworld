@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Mountain Extreme",
   "color": "#685D5B",
   "rarity": 1,

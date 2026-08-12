@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Birchglass Heath",
   "color": "#2BA3A2",
   "rarity": 3,

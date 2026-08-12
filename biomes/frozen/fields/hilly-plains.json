@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Hilly Plains",
   "color": "#607679",
   "rarity": 1,

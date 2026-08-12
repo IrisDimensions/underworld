@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:magma_cube",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

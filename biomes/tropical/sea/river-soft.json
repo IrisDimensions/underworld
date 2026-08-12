@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical River Soft",
   "color": "#675D5A",
   "derivative": "minecraft:basalt_deltas",

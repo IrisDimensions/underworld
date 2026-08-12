@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Mushroom Ocean",
   "color": "#564E4C",
   "derivative": "minecraft:basalt_deltas",

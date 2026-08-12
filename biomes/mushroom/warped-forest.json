@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Mushroom Warped Forest",
   "color": "#298A8A",
   "rarity": 2,

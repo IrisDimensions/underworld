@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Shattered Plains",
   "color": "#9B4324",
   "rarity": 2,

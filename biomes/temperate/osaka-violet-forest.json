@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Osaka Violet Forest",
   "color": "#AD4022",
   "rarity": 4,

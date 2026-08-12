@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Windswept Gravelly Hills",
   "color": "#615956",
   "rarity": 1,

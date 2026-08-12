@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Mountain Middle",
   "color": "#564E4C",
   "derivative": "minecraft:basalt_deltas",

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Pale Oak Forest",
   "color": "#A3362B",
   "rarity": 6,

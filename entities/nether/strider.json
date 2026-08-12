@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:strider",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAVA"
+}

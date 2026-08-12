@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Hot Ocean",
   "color": "#554D4A",
   "derivative": "minecraft:basalt_deltas",

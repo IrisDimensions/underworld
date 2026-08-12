@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Dark depths",
   "color": "#665C58",
   "derivative": "minecraft:basalt_deltas",

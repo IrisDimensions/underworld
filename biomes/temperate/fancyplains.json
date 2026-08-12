@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Fancy Plains",
   "derivative": "minecraft:nether_wastes",
   "vanillaDerivative": "minecraft:nether_wastes",

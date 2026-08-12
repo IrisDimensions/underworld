@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Jungle Denmyre",
   "color": "#A9374B",
   "rarity": 1,

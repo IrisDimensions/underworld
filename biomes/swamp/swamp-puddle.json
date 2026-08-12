@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Puddle",
   "rarity": 2,
   "derivative": "minecraft:warped_forest",

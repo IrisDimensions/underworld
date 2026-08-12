@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Frozen Spruce Hills",
   "color": "#6D7F85",
   "rarity": 1,

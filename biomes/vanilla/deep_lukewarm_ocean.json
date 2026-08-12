@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Deep Lukewarm Ocean",
   "color": "#5E5351",
   "derivative": "minecraft:basalt_deltas",

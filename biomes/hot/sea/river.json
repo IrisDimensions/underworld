@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Hot river",
   "color": "#5D5552",
   "derivative": "minecraft:basalt_deltas",

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:zombified_piglin",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

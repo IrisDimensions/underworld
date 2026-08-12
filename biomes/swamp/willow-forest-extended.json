@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Willow Forest",
   "color": "#1D887F",
   "rarity": 1,

@@ -1,0 +1,40 @@
+{
+  "group": "NORMAL",
+  "maximumRate": {
+    "amount": 4,
+    "per": {
+      "seconds": 30
+    }
+  },
+  "maximumRatePerChunk": {
+    "amount": 1,
+    "per": {
+      "minutes": 2
+    }
+  },
+  "maxEntitiesPerChunk": 4,
+  "allowedLightLevels": {
+    "min": 0,
+    "max": 15
+  },
+  "spawns": [
+    {
+      "entity": "nether/enderman",
+      "rarity": 1,
+      "minSpawns": 1,
+      "maxSpawns": 2
+    },
+    {
+      "entity": "nether/piglin",
+      "rarity": 1,
+      "minSpawns": 1,
+      "maxSpawns": 2
+    },
+    {
+      "entity": "nether/zombified-piglin",
+      "rarity": 1,
+      "minSpawns": 1,
+      "maxSpawns": 2
+    }
+  ]
+}

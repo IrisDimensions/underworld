@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Mountain Water",
   "color": "#5E5551",
   "derivative": "minecraft:basalt_deltas",

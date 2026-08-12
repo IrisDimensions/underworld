@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Stiltroot Shallows",
   "color": "#228C8E",
   "rarity": 2,

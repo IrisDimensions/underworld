@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Volcanoes Lava",
   "color": "#635A56",
   "rarity": 1,

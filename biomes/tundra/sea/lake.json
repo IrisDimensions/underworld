@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Lake",
   "color": "#665E5A",
   "rarity": 1,

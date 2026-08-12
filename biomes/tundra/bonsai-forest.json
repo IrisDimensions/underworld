@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Bonsai Forest",
   "color": "#758A8E",
   "rarity": 1,

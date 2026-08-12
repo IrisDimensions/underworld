@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Mountain River",
   "color": "#645957",
   "derivative": "minecraft:basalt_deltas",

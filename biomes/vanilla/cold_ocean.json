@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Cold Ocean",
   "color": "#5B534F",
   "derivative": "minecraft:basalt_deltas",

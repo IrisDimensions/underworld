@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:piglin",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

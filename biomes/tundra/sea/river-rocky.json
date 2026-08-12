@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra River Rocky",
   "color": "#635A56",
   "derivative": "minecraft:basalt_deltas",

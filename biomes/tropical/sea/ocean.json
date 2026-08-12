@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Ocean",
   "color": "#5E5451",
   "derivative": "minecraft:basalt_deltas",

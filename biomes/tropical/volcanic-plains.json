@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Volcanic Plains",
   "color": "#645A57",
   "rarity": 1,

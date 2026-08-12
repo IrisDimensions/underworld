@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Old Growth Pine Taiga",
   "color": "#9B351C",
   "derivative": "minecraft:nether_wastes",

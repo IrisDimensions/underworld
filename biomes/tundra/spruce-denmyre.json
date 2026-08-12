@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Spruce Denmyre",
   "color": "#6B7C82",
   "rarity": 1,

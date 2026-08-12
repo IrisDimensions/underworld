@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Pallid Necropolis",
   "color": "#299D9C",
   "rarity": 4,

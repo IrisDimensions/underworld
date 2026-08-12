@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Submerged Volcanic",
   "color": "#574F4D",
   "rarity": 1,

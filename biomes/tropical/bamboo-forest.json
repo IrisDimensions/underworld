@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Bamboo Forest",
   "color": "#BB454D",
   "rarity": 1,

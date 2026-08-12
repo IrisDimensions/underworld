@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Savanna Cliffs",
   "color": "#8B3524",
   "rarity": 1,

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Magic Forest",
   "color": "#A84823",
   "rarity": 7,

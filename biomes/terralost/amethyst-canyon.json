@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Amethyst Rainforest",
   "derivative": "minecraft:basalt_deltas",
   "vanillaDerivative": "minecraft:basalt_deltas",

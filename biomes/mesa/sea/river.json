@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Mesa River",
   "color": "#5A5250",
   "derivative": "minecraft:basalt_deltas",

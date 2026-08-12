@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical Rainforest Island",
   "color": "#BB3834",
   "rarity": 1,

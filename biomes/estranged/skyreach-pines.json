@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Skyreach Pines",
   "color": "#2E8A80",
   "rarity": 2,

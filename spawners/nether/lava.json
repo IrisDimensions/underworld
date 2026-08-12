@@ -1,0 +1,28 @@
+{
+  "group": "NORMAL",
+  "maximumRate": {
+    "amount": 3,
+    "per": {
+      "seconds": 45
+    }
+  },
+  "maximumRatePerChunk": {
+    "amount": 1,
+    "per": {
+      "minutes": 3
+    }
+  },
+  "maxEntitiesPerChunk": 3,
+  "allowedLightLevels": {
+    "min": 0,
+    "max": 15
+  },
+  "spawns": [
+    {
+      "entity": "nether/strider",
+      "rarity": 1,
+      "minSpawns": 1,
+      "maxSpawns": 2
+    }
+  ]
+}

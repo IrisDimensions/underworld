@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Ocean tree",
   "color": "#625955",
   "derivative": "minecraft:basalt_deltas",

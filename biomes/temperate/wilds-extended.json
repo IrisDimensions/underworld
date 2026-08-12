@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Temperate Wilds",
   "color": "#9E3F1A",
   "rarity": 1,

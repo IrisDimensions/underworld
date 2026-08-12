@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Prismatics Sea",
   "color": "#625955",
   "rarity": 1,

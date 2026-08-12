@@ -5,124 +5,275 @@
   "wall": {
     "palette": [
       {
-        "block": "minecraft:glowstone",
-        "weight": 6
+        "block": "minecraft:obsidian"
       },
       {
-        "block": "minecraft:glowstone",
-        "weight": 12
+        "block": "minecraft:crying_obsidian"
       },
       {
-        "block": "minecraft:basalt",
-        "weight": 3
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:glowstone"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
       }
-    ]
+    ],
+    "style": {
+      "style": "SIMPLEX"
+    },
+    "zoom": 3.25
   },
   "layers": [
     {
       "palette": [
         {
-          "block": "minecraft:glowstone",
-          "weight": 5
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:glowstone",
-          "weight": 10
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:basalt",
-          "weight": 2
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
       ],
       "maxHeight": 2,
-      "minHeight": 2
+      "minHeight": 2,
+      "style": {
+        "style": "SIMPLEX"
+      },
+      "zoom": 3.25
     },
     {
       "palette": [
         {
-          "block": "minecraft:basalt",
-          "weight": 10
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:basalt",
-          "weight": 3
-        }
-      ]
-    }
-  ],
-  "decorators": [
-    {
-      "chance": 0.125,
-      "palette": [
-        {
-          "block": "minecraft:glowstone",
-          "weight": 4
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:glowstone",
-          "weight": 3
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:glowstone",
-          "weight": 2
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         },
         {
           "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.115,
-      "palette": [
-        {
-          "block": "minecraft:glowstone",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:glowstone",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:glowstone",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:glowstone"
-        }
-      ]
+      ],
+      "style": {
+        "style": "SIMPLEX"
+      },
+      "zoom": 3.25
     }
   ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "palette": [
         {
-          "block": "minecraft:glowstone",
-          "weight": 7
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:glowstone",
-          "weight": 13
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:basalt",
-          "weight": 3
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
       ],
       "maxHeight": 2,
-      "minHeight": 2
+      "minHeight": 2,
+      "style": {
+        "style": "SIMPLEX"
+      },
+      "zoom": 3.25
     },
     {
       "palette": [
         {
-          "block": "minecraft:basalt",
-          "weight": 13
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:basalt",
-          "weight": 4
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
-      ]
+      ],
+      "style": {
+        "style": "SIMPLEX"
+      },
+      "zoom": 3.25
     }
   ],
   "objects": [
@@ -144,7 +295,23 @@
       "force": true,
       "scale": {
         "size": 0.75
-      }
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:glowstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crying_obsidian"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "chance": 0.2145,
@@ -165,7 +332,23 @@
       "force": true,
       "scale": {
         "size": 0.75
-      }
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:glowstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crying_obsidian"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "chance": 0.13122,
@@ -184,7 +367,23 @@
       "force": true,
       "scale": {
         "size": 0.75
-      }
+      },
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:glowstone"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:crying_obsidian"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "chance": 0.1215,

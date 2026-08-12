@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Ocean Deep",
   "color": "#655C59",
   "derivative": "minecraft:basalt_deltas",

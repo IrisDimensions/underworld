@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
   "name": "Underworld Amethyst Rainforest",
   "color": "#6B7E85",
   "rarity": 1,

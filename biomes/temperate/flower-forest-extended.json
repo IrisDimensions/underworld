@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Temperate Flower Forest",
   "color": "#9B4120",
   "rarity": 3,

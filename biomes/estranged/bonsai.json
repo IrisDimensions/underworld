@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Bonsai Hollow",
   "color": "#2FA89D",
   "rarity": 3,

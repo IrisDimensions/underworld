@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Mesa Plateau Dirt high",
   "color": "#594F4D",
   "rarity": 1,

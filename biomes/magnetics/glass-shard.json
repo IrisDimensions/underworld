@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Magnetics Glass Shard",
   "color": "#655A58",
   "rarity": 1,

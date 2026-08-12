@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Magnetics Mycelium",
   "color": "#5D5452",
   "rarity": 1,

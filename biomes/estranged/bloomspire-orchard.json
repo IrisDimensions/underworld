@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Bloomspire Orchard",
   "color": "#2A928A",
   "rarity": 3,

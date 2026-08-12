@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:hoglin",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

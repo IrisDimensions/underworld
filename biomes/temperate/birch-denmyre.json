@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Temperate Birch Denmyre",
   "color": "#882E23",
   "rarity": 1,

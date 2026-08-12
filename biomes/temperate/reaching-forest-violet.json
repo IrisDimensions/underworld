@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Tundra Magic Violet Forest",
   "color": "#8C3425",
   "rarity": 7,

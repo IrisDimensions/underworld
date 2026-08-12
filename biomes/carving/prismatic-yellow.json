@@ -4,58 +4,112 @@
   "vanillaDerivative": "minecraft:soul_sand_valley",
   "wall": {
     "style": {
-      "style": "PERLIN_IRIS_DOUBLE",
-      "zoom": 0.76
+      "style": "SIMPLEX"
     },
     "palette": [
       {
-        "block": "minecraft:glowstone",
-        "weight": 4
+        "block": "minecraft:obsidian"
       },
       {
-        "block": "minecraft:glowstone",
-        "weight": 3
+        "block": "minecraft:crying_obsidian"
       },
       {
-        "block": "minecraft:glowstone",
-        "weight": 2
+        "block": "minecraft:obsidian"
       },
       {
-        "block": "minecraft:smooth_basalt",
-        "weight": 2
+        "block": "minecraft:crying_obsidian"
       },
       {
-        "block": "minecraft:magma_block",
-        "weight": 1
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:glowstone"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
+      },
+      {
+        "block": "minecraft:crying_obsidian"
+      },
+      {
+        "block": "minecraft:obsidian"
       }
-    ]
+    ],
+    "zoom": 3.25
   },
   "layers": [
     {
       "minHeight": 1,
       "maxHeight": 3,
       "style": {
-        "style": "PERLIN_IRIS_DOUBLE",
-        "zoom": 0.52
+        "style": "SIMPLEX"
       },
       "palette": [
         {
-          "block": "minecraft:glowstone",
-          "weight": 3
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:smooth_basalt",
-          "weight": 3
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:smooth_basalt",
-          "weight": 2
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:glowstone",
-          "weight": 2
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
-      ]
+      ],
+      "zoom": 3.25
     }
   ],
   "caveCeilingLayers": [
@@ -63,23 +117,56 @@
       "minHeight": 2,
       "maxHeight": 4,
       "style": {
-        "style": "PERLIN_IRIS_DOUBLE",
-        "zoom": 0.62
+        "style": "SIMPLEX"
       },
       "palette": [
         {
-          "block": "minecraft:glowstone",
-          "weight": 3
+          "block": "minecraft:obsidian"
         },
         {
-          "block": "minecraft:smooth_basalt",
-          "weight": 3
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:magma_block",
-          "weight": 2
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:glowstone"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
+        },
+        {
+          "block": "minecraft:crying_obsidian"
+        },
+        {
+          "block": "minecraft:obsidian"
         }
-      ]
+      ],
+      "zoom": 3.25
     }
   ],
   "decorators": [
@@ -100,17 +187,6 @@
             "lit": "true"
           },
           "weight": 2
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.004,
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:glowstone",
-          "weight": 1
         }
       ]
     },

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Crimson Mushroom Swamp",
   "color": "#AB404C",
   "rarity": 2,

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Ocean Beach",
   "color": "#5A524E",
   "derivative": "minecraft:basalt_deltas",

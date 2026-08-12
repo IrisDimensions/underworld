@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Hot Desert Dunes",
   "color": "#892F17",
   "rarity": 1,

@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Old Growth Birch Forest",
   "color": "#893E28",
   "rarity": 1,

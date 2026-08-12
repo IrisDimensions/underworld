@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Deep Frozen Ocean",
   "color": "#695E5B",
   "derivative": "minecraft:basalt_deltas",

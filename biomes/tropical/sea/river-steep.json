@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Tropical River Steep",
   "color": "#59514E",
   "derivative": "minecraft:basalt_deltas",

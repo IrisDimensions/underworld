@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/lava",
+    "nether/cave"
+  ],
   "name": "Underworld Swamp Mangrove Forest",
   "rarity": 2,
   "derivative": "minecraft:basalt_deltas",

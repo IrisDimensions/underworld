@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/crimson-forest",
+    "nether/cave"
+  ],
   "name": "Underworld Rainforest Hills",
   "color": "#A42C2E",
   "rarity": 1,

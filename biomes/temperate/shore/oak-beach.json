@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/basalt-deltas",
+    "nether/cave"
+  ],
   "name": "Underworld Temperate Oak Beach",
   "color": "#564D4B",
   "rarity": 1,

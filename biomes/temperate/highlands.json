@@ -1,4 +1,8 @@
 {
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
   "name": "Underworld Temperate Highlands",
   "color": "#AD3F31",
   "rarity": 1,
