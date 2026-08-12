@@ -17,7 +17,7 @@ The lower terrain layout is designed to be coordinate-for-coordinate compatible 
 
 ## Install and validate
 
-Copy this entire folder to the Iris packs root as `underworld`:
+Current Iris builds install the Underworld beta release automatically at startup when `underworld` is absent. The release asset is a flat-root archive at `https://github.com/IrisDimensions/underworld/releases/download/beta/underworld.zip`; `/iris download underworld` uses the same asset. Manual installation remains supported by extracting or copying this entire tree as `underworld` under the Iris packs root:
 
 - Bukkit/Paper/Folia: `plugins/Iris/packs/underworld/`
 - Fabric/Forge/NeoForge: `config/irisworldgen/packs/underworld/`
@@ -31,7 +31,7 @@ On Bukkit-family servers, validate with:
 
 Create a disposable managed world with `/iris create underworld_test type=underworld seed=1337`. A managed Iris world is not automatically the destination of vanilla Nether portals. To make this pack the server's actual Nether, route portals to it or assign the real `<level-name>_nether` world to Iris on a backed-up, disposable test server before regenerating production data. `coordinateScale: 1.0` supplies the 1:1 ratio; portal destination selection is server/platform configuration.
 
-Distribute and install the raw folder. The dormant roof resources are retained for later development but are not part of active generation.
+The beta ZIP retains `underworld_roof.json` and its resources, but `underworld` remains the selected dimension and its empty `upperDimension` keeps the roof dormant.
 
 ## Source and credits
 

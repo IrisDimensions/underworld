@@ -1,0 +1,113 @@
+name: Publish Main as Beta Pack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: underworld-beta-release
+  cancel-in-progress: false
+
+env:
+  RELEASE_TAG: beta
+  RELEASE_TITLE: Underworld Beta
+  ASSET_PATH: underworld.zip
+
+jobs:
+  publish:
+    name: Archive latest main build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out latest main build
+        uses: actions/checkout@v6
+        with:
+          ref: refs/heads/main
+          fetch-depth: 1
+
+      - name: Build and verify main archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          remote_main_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+          archive_sha="$(git rev-parse HEAD)"
+
+          if [[ "$archive_sha" != "$remote_main_sha" ]]; then
+            echo "Checked out commit $archive_sha does not match main head $remote_main_sha" >&2
+            exit 1
+          fi
+
+          echo "ARCHIVE_SHA=$archive_sha" >> "$GITHUB_ENV"
+          git archive --format=zip --output="$ASSET_PATH" HEAD
+          unzip -t "$ASSET_PATH"
+          unzip -Z1 "$ASSET_PATH" | grep -Fx "dimensions/underworld.json"
+          unzip -Z1 "$ASSET_PATH" | grep -Fx "dimensions/underworld_roof.json"
+
+      - name: Verify underworld dimension contract
+        shell: bash
+        run: |
+          python3 - "$ASSET_PATH" <<'PY'
+          import json
+          import sys
+          import zipfile
+
+          archive_path = sys.argv[1]
+          with zipfile.ZipFile(archive_path) as archive:
+              dimension = json.loads(archive.read("dimensions/underworld.json"))
+              roof_dimension = json.loads(archive.read("dimensions/underworld_roof.json"))
+
+          if dimension.get("upperDimension") != "":
+              raise SystemExit("dimensions/underworld.json must keep upperDimension empty")
+          if not isinstance(roof_dimension, dict):
+              raise SystemExit("dimensions/underworld_roof.json must contain a JSON object")
+          PY
+
+      - name: Publish beta release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          release_notes="Automated beta archive from main commit ${ARCHIVE_SHA}."
+
+          if gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${RELEASE_TAG}" >/dev/null 2>&1; then
+            gh api \
+              --method PATCH \
+              "repos/${GITHUB_REPOSITORY}/git/refs/tags/${RELEASE_TAG}" \
+              -f sha="$ARCHIVE_SHA" \
+              -F force=true \
+              >/dev/null
+          else
+            gh api \
+              --method POST \
+              "repos/${GITHUB_REPOSITORY}/git/refs" \
+              -f ref="refs/tags/${RELEASE_TAG}" \
+              -f sha="$ARCHIVE_SHA" \
+              >/dev/null
+          fi
+
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" "$ASSET_PATH" \
+              --repo "$GITHUB_REPOSITORY" \
+              --clobber
+            gh release edit "$RELEASE_TAG" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$RELEASE_TITLE" \
+              --notes "$release_notes" \
+              --draft=false \
+              --prerelease \
+              --latest=false
+          else
+            gh release create "$RELEASE_TAG" "$ASSET_PATH" \
+              --repo "$GITHUB_REPOSITORY" \
+              --verify-tag \
+              --title "$RELEASE_TITLE" \
+              --notes "$release_notes" \
+              --prerelease \
+              --latest=false
+          fi
