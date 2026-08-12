@@ -66,7 +66,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.2,
+      "chance": 0.13,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.25,
@@ -86,40 +86,52 @@
       },
       "palette": [
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -132,7 +144,7 @@
       ]
     },
     {
-      "chance": 0.2,
+      "chance": 0.06,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -140,7 +152,7 @@
       ]
     },
     {
-      "chance": 0.2,
+      "chance": 0.06,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -183,7 +195,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "generators": [
     {
@@ -201,7 +214,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2C0C09",
-      "fogColor": "#3E0D0A",
+      "fogColor": "#330808",
       "waterColor": "#DC640B",
       "waterFogColor": "#6E1705",
       "grassColor": "#72381E",

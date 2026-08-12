@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2E0C0D",
-      "fogColor": "#430E08",
+      "fogColor": "#330808",
       "waterColor": "#D95A10",
       "waterFogColor": "#6C220A",
       "grassColor": "#78381F",
@@ -409,7 +409,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.3,
+      "chance": 0.186923076923,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.3,
@@ -429,138 +429,178 @@
       },
       "palette": [
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
     {
-      "chance": 0.1,
+      "chance": 0.06,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.2,
       "palette": [
         {
-          "weight": 1,
+          "weight": 3,
           "block": "minecraft:fire"
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
           "chance": 7,
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -589,7 +629,7 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "variance": {
         "style": "STATIC"
       },
@@ -625,6 +665,7 @@
       ]
     },
     "snippet/underworld/wastes/decorator/wildflowers",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

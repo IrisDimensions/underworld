@@ -45,15 +45,15 @@
       "chance": 0.0322,
       "palette": [
         {
-          "block": "minecraft:sculk_sensor",
+          "block": "minecraft:soul_sand",
           "weight": 120
         },
         {
-          "block": "minecraft:sculk_catalyst",
+          "block": "minecraft:soul_soil",
           "weight": 2
         },
         {
-          "block": "minecraft:sculk_shrieker",
+          "block": "minecraft:crying_obsidian",
           "weight": 1
         }
       ]
@@ -186,9 +186,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 28,
-    "allowWater": false,
-    "waterMinDepthBelowSurface": 30,
-    "waterRequiresFloor": true,
+    "allowFluid": false,
+    "fluidMinDepthBelowSurface": 30,
+    "fluidRequiresFloor": true,
     "allowLava": false,
     "modules": [
       {
@@ -232,7 +232,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#121A20",
-      "fogColor": "#1D272A",
+      "fogColor": "#1B4745",
       "waterColor": "#5E959D",
       "waterFogColor": "#294648",
       "grassColor": "#5C6B6F",

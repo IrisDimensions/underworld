@@ -60,7 +60,6 @@
     {
       "chance": 0.003,
       "density": 3,
-      "snow": 0.45,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -86,7 +85,6 @@
     {
       "chance": 0.2,
       "density": 3,
-      "snow": 0.01,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -159,7 +157,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161213",
-      "fogColor": "#272222",
+      "fogColor": "#685F70",
       "waterColor": "#B25121",
       "waterFogColor": "#591812",
       "grassColor": "#5C4F4B",
@@ -169,5 +167,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

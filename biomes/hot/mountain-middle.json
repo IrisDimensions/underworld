@@ -20,7 +20,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:gray_terracotta"
+        "block": "minecraft:polished_blackstone"
       }
     ]
   },
@@ -46,10 +46,10 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         },
         {
-          "block": "minecraft:gray_terracotta"
+          "block": "minecraft:polished_blackstone"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "maxHeight": 3,
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151111",
-      "fogColor": "#262021",
+      "fogColor": "#685F70",
       "waterColor": "#B64011",
       "waterFogColor": "#512116",
       "grassColor": "#574B48",
@@ -109,5 +109,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

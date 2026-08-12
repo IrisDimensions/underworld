@@ -14,7 +14,7 @@
   "wall": {
     "palette": [
       {
-        "block": "minecraft:gray_terracotta"
+        "block": "minecraft:polished_blackstone"
       }
     ]
   },
@@ -75,7 +75,8 @@
         }
       ],
       "stackMin": 1
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -85,7 +86,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#252020",
+      "fogColor": "#685F70",
       "waterColor": "#AF3D19",
       "waterFogColor": "#511D19",
       "grassColor": "#564A47",

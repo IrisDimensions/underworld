@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151111",
-      "fogColor": "#262121",
+      "fogColor": "#685F70",
       "waterColor": "#BD5924",
       "waterFogColor": "#4C2516",
       "grassColor": "#625651",
@@ -47,7 +47,7 @@
         "block": "minecraft:gravel"
       },
       {
-        "block": "minecraft:cyan_terracotta"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -229,23 +229,27 @@
   ],
   "decorators": [
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 1,
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -253,7 +257,7 @@
       }
     },
     {
-      "chance": 0.01,
+      "chance": 0.003,
       "variance": {
         "style": "STATIC"
       },
@@ -327,7 +331,7 @@
       ]
     },
     {
-      "chance": 0.25,
+      "chance": 0.075,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -335,7 +339,7 @@
       ]
     },
     {
-      "chance": 0.06,
+      "chance": 0.018,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -357,6 +361,7 @@
           "block": "minecraft:blackstone_slab"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

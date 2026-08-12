@@ -21,7 +21,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -49,7 +49,7 @@
         },
         {
           "weight": 2,
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         },
         {
           "weight": 7,
@@ -62,7 +62,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -75,11 +75,11 @@
       "palette": [
         {
           "weight": 1,
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -97,7 +97,7 @@
       "maxHeight": 2,
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -106,7 +106,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -119,11 +119,11 @@
       "palette": [
         {
           "weight": 1,
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -132,7 +132,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -141,7 +141,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     }
@@ -283,7 +283,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.189,
+      "chance": 0.13608,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.3,
@@ -303,19 +303,24 @@
       },
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         }
       ]
     },
@@ -328,14 +333,15 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass"
+    "snippet/underworld/wastes/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -345,7 +351,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2A0D0A",
-      "fogColor": "#430808",
+      "fogColor": "#330808",
       "waterColor": "#E57720",
       "waterFogColor": "#711601",
       "grassColor": "#80381F",

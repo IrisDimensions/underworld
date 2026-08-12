@@ -271,7 +271,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.8,
+      "chance": 0.24,
       "variance": {
         "style": "STATIC"
       },
@@ -369,7 +369,8 @@
     },
     "snippet/underworld/wastes/decorator/leaf",
     "snippet/underworld/wastes/decorator/wildflowers",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -379,7 +380,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#310D09",
-      "fogColor": "#3C0605",
+      "fogColor": "#330808",
       "waterColor": "#C9481C",
       "waterFogColor": "#621C09",
       "grassColor": "#733724",

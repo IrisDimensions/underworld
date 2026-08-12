@@ -230,7 +230,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.004,
+      "chance": 0.0026,
       "variance": {
         "style": "TRIOCTAVE_SIMPLEX",
         "zoom": 6,
@@ -245,40 +245,52 @@
       },
       "palette": [
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -291,7 +303,7 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -299,7 +311,8 @@
       ]
     },
     "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -309,7 +322,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#300A09",
-      "fogColor": "#3A0A0B",
+      "fogColor": "#330808",
       "waterColor": "#CE5208",
       "waterFogColor": "#632108",
       "grassColor": "#7E2F1D",

@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:black_concrete",
+        "block": "minecraft:blackstone",
         "weight": 4
       },
       {
@@ -17,7 +17,7 @@
         "weight": 4
       },
       {
-        "block": "minecraft:black_concrete_powder",
+        "block": "minecraft:blackstone",
         "weight": 2
       },
       {
@@ -44,7 +44,7 @@
           "weight": 3
         },
         {
-          "block": "minecraft:black_concrete_powder",
+          "block": "minecraft:blackstone",
           "weight": 2
         },
         {
@@ -64,7 +64,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:black_concrete",
+          "block": "minecraft:blackstone",
           "weight": 3
         },
         {
@@ -166,9 +166,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -360,7 +360,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10161A",
-      "fogColor": "#1E292D",
+      "fogColor": "#1B4745",
       "waterColor": "#5A9196",
       "waterFogColor": "#27464B",
       "grassColor": "#6E8588",

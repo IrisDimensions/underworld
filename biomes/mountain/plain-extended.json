@@ -82,7 +82,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.2,
+      "chance": 0.13,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.3,
@@ -102,40 +102,52 @@
       },
       "palette": [
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -148,14 +160,15 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
         }
       ]
     },
-    "snippet/underworld/basalt/decorator/bush"
+    "snippet/underworld/basalt/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -165,7 +178,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161213",
-      "fogColor": "#252020",
+      "fogColor": "#685F70",
       "waterColor": "#B64724",
       "waterFogColor": "#4B1710",
       "grassColor": "#554B46",

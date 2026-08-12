@@ -9,19 +9,19 @@
     },
     "palette": [
       {
-        "block": "minecraft:magenta_concrete",
+        "block": "minecraft:nether_wart_block",
         "weight": 4
       },
       {
-        "block": "minecraft:purpur_block",
+        "block": "minecraft:crying_obsidian",
         "weight": 3
       },
       {
-        "block": "minecraft:magenta_concrete_powder",
+        "block": "minecraft:nether_wart_block",
         "weight": 2
       },
       {
-        "block": "minecraft:magenta_terracotta",
+        "block": "minecraft:nether_wart_block",
         "weight": 2
       }
     ]
@@ -36,15 +36,15 @@
       },
       "palette": [
         {
-          "block": "minecraft:magenta_terracotta",
+          "block": "minecraft:nether_wart_block",
           "weight": 3
         },
         {
-          "block": "minecraft:purpur_pillar",
+          "block": "minecraft:polished_basalt",
           "weight": 2
         },
         {
-          "block": "minecraft:magenta_concrete_powder",
+          "block": "minecraft:nether_wart_block",
           "weight": 3
         }
       ]
@@ -60,11 +60,11 @@
       },
       "palette": [
         {
-          "block": "minecraft:magenta_concrete",
+          "block": "minecraft:nether_wart_block",
           "weight": 4
         },
         {
-          "block": "minecraft:purpur_block",
+          "block": "minecraft:crying_obsidian",
           "weight": 3
         },
         {
@@ -154,9 +154,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -332,7 +332,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#131A1E",
-      "fogColor": "#212C30",
+      "fogColor": "#1B4745",
       "waterColor": "#55868A",
       "waterFogColor": "#244042",
       "grassColor": "#5A696F",

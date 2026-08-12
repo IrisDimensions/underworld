@@ -18,67 +18,67 @@
     },
     "palette": [
       {
-        "block": "minecraft:white_concrete",
+        "block": "minecraft:quartz_block",
         "weight": 1
       },
       {
-        "block": "minecraft:orange_concrete",
+        "block": "minecraft:magma_block",
         "weight": 1
       },
       {
-        "block": "minecraft:magenta_concrete",
+        "block": "minecraft:nether_wart_block",
         "weight": 1
       },
       {
-        "block": "minecraft:light_blue_concrete",
+        "block": "minecraft:warped_wart_block",
         "weight": 1
       },
       {
-        "block": "minecraft:yellow_concrete",
+        "block": "minecraft:glowstone",
         "weight": 1
       },
       {
-        "block": "minecraft:lime_concrete",
+        "block": "minecraft:warped_nylium",
         "weight": 1
       },
       {
-        "block": "minecraft:pink_concrete",
+        "block": "minecraft:crimson_nylium",
         "weight": 1
       },
       {
-        "block": "minecraft:gray_concrete",
+        "block": "minecraft:polished_blackstone",
         "weight": 1
       },
       {
-        "block": "minecraft:light_gray_concrete",
+        "block": "minecraft:quartz_bricks",
         "weight": 1
       },
       {
-        "block": "minecraft:cyan_concrete",
+        "block": "minecraft:warped_nylium",
         "weight": 1
       },
       {
-        "block": "minecraft:purple_concrete",
+        "block": "minecraft:crying_obsidian",
         "weight": 1
       },
       {
-        "block": "minecraft:blue_concrete",
+        "block": "minecraft:warped_wart_block",
         "weight": 1
       },
       {
-        "block": "minecraft:brown_concrete",
+        "block": "minecraft:soul_soil",
         "weight": 1
       },
       {
-        "block": "minecraft:green_concrete",
+        "block": "minecraft:warped_nylium",
         "weight": 1
       },
       {
-        "block": "minecraft:red_concrete",
+        "block": "minecraft:nether_bricks",
         "weight": 1
       },
       {
-        "block": "minecraft:black_concrete",
+        "block": "minecraft:blackstone",
         "weight": 1
       }
     ]
@@ -93,67 +93,67 @@
       },
       "palette": [
         {
-          "block": "minecraft:white_concrete_powder",
+          "block": "minecraft:quartz_block",
           "weight": 1
         },
         {
-          "block": "minecraft:orange_concrete_powder",
+          "block": "minecraft:magma_block",
           "weight": 1
         },
         {
-          "block": "minecraft:magenta_concrete_powder",
+          "block": "minecraft:nether_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:light_blue_concrete_powder",
+          "block": "minecraft:warped_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:yellow_concrete_powder",
+          "block": "minecraft:glowstone",
           "weight": 1
         },
         {
-          "block": "minecraft:lime_concrete_powder",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:pink_concrete_powder",
+          "block": "minecraft:crimson_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:gray_concrete_powder",
+          "block": "minecraft:polished_blackstone",
           "weight": 1
         },
         {
-          "block": "minecraft:light_gray_concrete_powder",
+          "block": "minecraft:quartz_bricks",
           "weight": 1
         },
         {
-          "block": "minecraft:cyan_concrete_powder",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:purple_concrete_powder",
+          "block": "minecraft:crying_obsidian",
           "weight": 1
         },
         {
-          "block": "minecraft:blue_concrete_powder",
+          "block": "minecraft:warped_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:brown_concrete_powder",
+          "block": "minecraft:soul_soil",
           "weight": 1
         },
         {
-          "block": "minecraft:green_concrete_powder",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:red_concrete_powder",
+          "block": "minecraft:nether_bricks",
           "weight": 1
         },
         {
-          "block": "minecraft:black_concrete_powder",
+          "block": "minecraft:blackstone",
           "weight": 1
         }
       ]
@@ -167,67 +167,67 @@
       },
       "palette": [
         {
-          "block": "minecraft:white_concrete",
+          "block": "minecraft:quartz_block",
           "weight": 1
         },
         {
-          "block": "minecraft:orange_concrete",
+          "block": "minecraft:magma_block",
           "weight": 1
         },
         {
-          "block": "minecraft:magenta_concrete",
+          "block": "minecraft:nether_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:light_blue_concrete",
+          "block": "minecraft:warped_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:yellow_concrete",
+          "block": "minecraft:glowstone",
           "weight": 1
         },
         {
-          "block": "minecraft:lime_concrete",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:pink_concrete",
+          "block": "minecraft:crimson_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:gray_concrete",
+          "block": "minecraft:polished_blackstone",
           "weight": 1
         },
         {
-          "block": "minecraft:light_gray_concrete",
+          "block": "minecraft:quartz_bricks",
           "weight": 1
         },
         {
-          "block": "minecraft:cyan_concrete",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:purple_concrete",
+          "block": "minecraft:crying_obsidian",
           "weight": 1
         },
         {
-          "block": "minecraft:blue_concrete",
+          "block": "minecraft:warped_wart_block",
           "weight": 1
         },
         {
-          "block": "minecraft:brown_concrete",
+          "block": "minecraft:soul_soil",
           "weight": 1
         },
         {
-          "block": "minecraft:green_concrete",
+          "block": "minecraft:warped_nylium",
           "weight": 1
         },
         {
-          "block": "minecraft:red_concrete",
+          "block": "minecraft:nether_bricks",
           "weight": 1
         },
         {
-          "block": "minecraft:black_concrete",
+          "block": "minecraft:blackstone",
           "weight": 1
         }
       ]
@@ -242,7 +242,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151112",
-      "fogColor": "#2E2727",
+      "fogColor": "#685F70",
       "waterColor": "#C14E10",
       "waterFogColor": "#561B16",
       "grassColor": "#5D544F",
@@ -252,5 +252,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

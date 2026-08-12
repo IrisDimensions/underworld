@@ -56,7 +56,7 @@
           "weight": 2
         },
         {
-          "block": "minecraft:terracotta",
+          "block": "minecraft:netherrack",
           "weight": 1
         }
       ],
@@ -220,9 +220,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 16,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 16,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -292,7 +292,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10181A",
-      "fogColor": "#1F2A2D",
+      "fogColor": "#1B4745",
       "waterColor": "#5A8B91",
       "waterFogColor": "#243B3D",
       "grassColor": "#718387",

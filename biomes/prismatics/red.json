@@ -22,7 +22,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:red_concrete"
+        "block": "minecraft:nether_bricks"
       }
     ]
   },
@@ -35,7 +35,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_concrete_powder"
+          "block": "minecraft:nether_bricks"
         }
       ]
     },
@@ -47,7 +47,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_concrete"
+          "block": "minecraft:nether_bricks"
         }
       ]
     }
@@ -82,13 +82,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -96,13 +96,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete_powder"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -138,13 +138,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -152,13 +152,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete_powder"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -200,13 +200,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -214,13 +214,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:red_concrete_powder"
+                "block": "minecraft:nether_bricks"
               }
             ]
           }
@@ -273,7 +273,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -333,7 +333,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -350,7 +350,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151212",
-      "fogColor": "#2D2626",
+      "fogColor": "#685F70",
       "waterColor": "#AB4F23",
       "waterFogColor": "#511E14",
       "grassColor": "#5A4E4A",
@@ -360,5 +360,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

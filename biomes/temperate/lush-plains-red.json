@@ -211,7 +211,7 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire",
@@ -231,7 +231,8 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -241,7 +242,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2C0509",
-      "fogColor": "#380B0C",
+      "fogColor": "#330808",
       "waterColor": "#D16215",
       "waterFogColor": "#66180F",
       "grassColor": "#753B20",

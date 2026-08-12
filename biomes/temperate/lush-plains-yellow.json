@@ -211,7 +211,7 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire",
@@ -232,7 +232,8 @@
       ]
     },
     "snippet/underworld/wastes/decorator/wildflowers",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -242,7 +243,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#290B08",
-      "fogColor": "#44140C",
+      "fogColor": "#330808",
       "waterColor": "#C96822",
       "waterFogColor": "#68190C",
       "grassColor": "#854B2D",

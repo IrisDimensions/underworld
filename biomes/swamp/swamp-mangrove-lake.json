@@ -11,7 +11,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151111",
-      "fogColor": "#282222",
+      "fogColor": "#685F70",
       "waterColor": "#C64E2E",
       "waterFogColor": "#522619",
       "grassColor": "#544944",
@@ -92,7 +92,7 @@
       "mode": "MIN_STILT",
       "onwater": true,
       "chance": 0.45,
-      "waterloggable": true,
+      "waterloggable": false,
       "clamp": {
         "maximumHeight": 225
       },
@@ -149,5 +149,8 @@
       ]
     }
   ],
-  "color": "#544C49"
+  "color": "#544C49",
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
+  ]
 }

@@ -2,7 +2,7 @@
   "style": {
     "style": "STATIC"
   },
-  "chance": 0.01,
+  "chance": 0.003,
   "palette": [
     {
       "block": "minecraft:fire"

@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:light_blue_concrete",
+        "block": "minecraft:warped_wart_block",
         "weight": 4
       },
       {
@@ -17,7 +17,7 @@
         "weight": 3
       },
       {
-        "block": "minecraft:light_blue_concrete_powder",
+        "block": "minecraft:warped_wart_block",
         "weight": 2
       },
       {
@@ -36,7 +36,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_concrete_powder",
+          "block": "minecraft:warped_wart_block",
           "weight": 3
         },
         {
@@ -60,7 +60,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_concrete",
+          "block": "minecraft:warped_wart_block",
           "weight": 4
         },
         {
@@ -155,9 +155,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": false,
     "modules": [
       {
@@ -359,7 +359,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#121C20",
-      "fogColor": "#1F2C31",
+      "fogColor": "#1B4745",
       "waterColor": "#577A83",
       "waterFogColor": "#263F48",
       "grassColor": "#5D6B6F",

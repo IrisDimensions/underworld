@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10171B",
-      "fogColor": "#202B2F",
+      "fogColor": "#1B4745",
       "waterColor": "#5C838C",
       "waterFogColor": "#2A3F46",
       "grassColor": "#67777E",
@@ -146,8 +146,7 @@
         "style": "IRIS_DOUBLE",
         "exponent": 1.2,
         "zoom": 0.4
-      },
-      "snow": 0.1
+      }
     },
     {
       "chance": 0.005,
@@ -203,6 +202,7 @@
           "block": "minecraft:air"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

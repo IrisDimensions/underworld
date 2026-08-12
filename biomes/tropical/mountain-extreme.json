@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#272222",
+      "fogColor": "#685F70",
       "waterColor": "#B5461B",
       "waterFogColor": "#542A1B",
       "grassColor": "#5F504C",
@@ -132,20 +132,20 @@
   ],
   "decorators": [
     {
-      "chance": 0.7,
+      "chance": 0.373333333333,
       "palette": [
         {
-          "weight": 2,
+          "weight": 6,
           "block": "minecraft:fire"
         },
         {
-          "weight": 1,
-          "block": "minecraft:brown_mushroom"
+          "weight": 10,
+          "block": "minecraft:crimson_fungus"
         }
       ]
     },
     {
-      "chance": 0.2,
+      "chance": 0.13,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.3,
@@ -165,67 +165,85 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
     {
-      "chance": 0.45,
+      "chance": 0.345,
       "variance": {
         "style": "NOWHERE"
       },
       "zoom": 0.1,
       "palette": [
         {
-          "block": "minecraft:nether_wart_block"
+          "block": "minecraft:nether_wart_block",
+          "weight": 10
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_wart_block"
+          "block": "minecraft:nether_wart_block",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_wart_block"
+          "block": "minecraft:nether_wart_block",
+          "weight": 10
         }
       ],
       "style": {
@@ -236,17 +254,19 @@
       }
     },
     {
-      "chance": 0.5,
+      "chance": 0.325,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 10,
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         }
       ],
       "style": {
@@ -255,7 +275,8 @@
       "heightVariance": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childStyle": {
     "style": "GLOB",

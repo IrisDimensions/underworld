@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#191514",
-      "fogColor": "#2E2727",
+      "fogColor": "#685F70",
       "waterColor": "#B04812",
       "waterFogColor": "#582717",
       "grassColor": "#584C48",
@@ -59,7 +59,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -72,7 +72,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -85,7 +85,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_terracotta"
+          "block": "minecraft:nether_bricks"
         }
       ]
     }
@@ -155,59 +155,71 @@
   ],
   "decorators": [
     {
-      "chance": 0.7,
+      "chance": 0.373333333333,
       "palette": [
         {
-          "weight": 2,
+          "weight": 6,
           "block": "minecraft:fire"
         },
         {
-          "weight": 1,
-          "block": "minecraft:brown_mushroom"
+          "weight": 10,
+          "block": "minecraft:crimson_fungus"
         }
       ]
     },
     {
-      "chance": 0.06,
+      "chance": 0.039,
       "variance": {
         "style": "STATIC"
       },
       "palette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -215,18 +227,19 @@
       "chance": 0.01,
       "palette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus"
         }
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true
 }

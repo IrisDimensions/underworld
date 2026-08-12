@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#131C20",
-      "fogColor": "#20292E",
+      "fogColor": "#1B4745",
       "waterColor": "#557B80",
       "waterFogColor": "#234144",
       "grassColor": "#637377",
@@ -107,7 +107,6 @@
     {
       "chance": 0.58,
       "density": 2,
-      "snow": 1,
       "edit": [
         {
           "find": [
@@ -220,17 +219,18 @@
       ]
     },
     {
-      "chance": 0.12,
+      "chance": 0.1032,
       "palette": [
         {
           "block": "minecraft:soul_fire",
-          "weight": 2
+          "weight": 6
         },
         {
           "block": "minecraft:air",
-          "weight": 8
+          "weight": 80
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

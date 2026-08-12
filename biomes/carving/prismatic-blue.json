@@ -9,19 +9,19 @@
     },
     "palette": [
       {
-        "block": "minecraft:blue_concrete",
+        "block": "minecraft:warped_wart_block",
         "weight": 4
       },
       {
-        "block": "minecraft:blue_terracotta",
+        "block": "minecraft:warped_wart_block",
         "weight": 3
       },
       {
-        "block": "minecraft:blue_concrete_powder",
+        "block": "minecraft:warped_wart_block",
         "weight": 2
       },
       {
-        "block": "minecraft:lapis_block",
+        "block": "minecraft:crying_obsidian",
         "weight": 1
       },
       {
@@ -40,15 +40,15 @@
       },
       "palette": [
         {
-          "block": "minecraft:blue_terracotta",
+          "block": "minecraft:warped_wart_block",
           "weight": 3
         },
         {
-          "block": "minecraft:blue_concrete_powder",
+          "block": "minecraft:warped_wart_block",
           "weight": 3
         },
         {
-          "block": "minecraft:lapis_block",
+          "block": "minecraft:crying_obsidian",
           "weight": 1
         },
         {
@@ -68,11 +68,11 @@
       },
       "palette": [
         {
-          "block": "minecraft:blue_concrete",
+          "block": "minecraft:warped_wart_block",
           "weight": 4
         },
         {
-          "block": "minecraft:blue_terracotta",
+          "block": "minecraft:warped_wart_block",
           "weight": 3
         },
         {
@@ -112,18 +112,16 @@
       "absoluteMaxStack": 1,
       "palette": [
         {
-          "block": "minecraft:blue_candle",
+          "block": "minecraft:soul_campfire",
           "data": {
-            "lit": "true",
-            "candles": "3"
+            "lit": "true"
           },
           "weight": 2
         },
         {
-          "block": "minecraft:blue_candle",
+          "block": "minecraft:soul_campfire",
           "data": {
-            "lit": "true",
-            "candles": "2"
+            "lit": "true"
           },
           "weight": 1
         }
@@ -175,9 +173,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -348,7 +346,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#131B20",
-      "fogColor": "#1F2D31",
+      "fogColor": "#1B4745",
       "waterColor": "#538089",
       "waterFogColor": "#28444B",
       "grassColor": "#5D6E73",

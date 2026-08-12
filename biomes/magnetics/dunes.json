@@ -62,7 +62,7 @@
           "block": "minecraft:smooth_basalt"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -80,7 +80,7 @@
           "block": "minecraft:blackstone"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     }
@@ -183,7 +183,8 @@
           "block": "minecraft:crimson_fungus"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "floatingChildBiomes": [
     {
@@ -255,7 +256,7 @@
               "block": "minecraft:smooth_basalt"
             },
             {
-              "block": "minecraft:terracotta"
+              "block": "minecraft:netherrack"
             },
             {
               "block": "minecraft:blackstone"
@@ -352,7 +353,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#252020",
+      "fogColor": "#685F70",
       "waterColor": "#BD4A25",
       "waterFogColor": "#4D2516",
       "grassColor": "#564C47",

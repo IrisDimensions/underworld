@@ -232,7 +232,8 @@
       "style": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "slab": {
     "style": {
@@ -267,7 +268,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#262121",
+      "fogColor": "#685F70",
       "waterColor": "#BF4822",
       "waterFogColor": "#571910",
       "grassColor": "#5C4F4C",

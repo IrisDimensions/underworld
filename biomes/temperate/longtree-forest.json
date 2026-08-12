@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2D0704",
-      "fogColor": "#400C09",
+      "fogColor": "#330808",
       "waterColor": "#EB5E0E",
       "waterFogColor": "#691F03",
       "grassColor": "#783525",
@@ -335,7 +335,7 @@
       }
     },
     {
-      "chance": 0.4,
+      "chance": 0.12,
       "variance": {
         "style": "STATIC"
       },
@@ -394,25 +394,29 @@
       ]
     },
     {
-      "chance": 0.02,
+      "chance": 0.015333333333,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.2,
       "palette": [
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:crimson_fungus"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
     "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "effects": [
     {

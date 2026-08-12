@@ -121,13 +121,14 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -137,7 +138,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#191515",
-      "fogColor": "#2E2727",
+      "fogColor": "#685F70",
       "waterColor": "#BB5118",
       "waterFogColor": "#591611",
       "grassColor": "#665953",

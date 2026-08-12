@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#11191D",
-      "fogColor": "#1A2328",
+      "fogColor": "#1B4745",
       "waterColor": "#639497",
       "waterFogColor": "#293F45",
       "grassColor": "#5C6D73",
@@ -290,23 +290,27 @@
       }
     },
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -314,7 +318,7 @@
       }
     },
     {
-      "chance": 0.0445,
+      "chance": 0.01335,
       "variance": {
         "style": "STATIC"
       },
@@ -329,7 +333,7 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.0003,
       "variance": {
         "style": "STATIC"
       },
@@ -353,7 +357,7 @@
       }
     },
     {
-      "chance": 0.015,
+      "chance": 0.0045,
       "variance": {
         "style": "STATIC"
       },
@@ -390,13 +394,14 @@
       "zoom": 0.3,
       "palette": [
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots"
         }
       ],
       "style": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childShrinkFactor": 2.4
 }

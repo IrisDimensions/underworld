@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10181C",
-      "fogColor": "#202B2E",
+      "fogColor": "#1B4745",
       "waterColor": "#6795A0",
       "waterFogColor": "#20393F",
       "grassColor": "#5E6F70",
@@ -93,7 +93,6 @@
   "objects": [
     {
       "chance": 0.8,
-      "snow": 1,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -161,6 +160,7 @@
           "block": "minecraft:soul_soil"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

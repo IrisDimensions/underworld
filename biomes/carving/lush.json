@@ -131,7 +131,7 @@
       "stackMax": 1,
       "palette": [
         {
-          "block": "minecraft:glow_lichen"
+          "block": "minecraft:glowstone"
         }
       ]
     }
@@ -289,9 +289,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 14,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 14,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -345,7 +345,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#061F24",
-      "fogColor": "#0C3235",
+      "fogColor": "#1A051A",
       "waterColor": "#30A697",
       "waterFogColor": "#0C575C",
       "grassColor": "#308C8B",

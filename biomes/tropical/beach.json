@@ -46,7 +46,7 @@
         {
           "find": [
             {
-              "block": "minecraft:player_wall_head"
+              "block": "minecraft:wither_skeleton_wall_skull"
             }
           ],
           "replace": {
@@ -130,7 +130,8 @@
         "style": "NOWHERE"
       },
       "stackMin": 1
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "effects": [
     {
@@ -152,7 +153,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#191515",
-      "fogColor": "#272222",
+      "fogColor": "#685F70",
       "waterColor": "#B34527",
       "waterFogColor": "#582B1B",
       "grassColor": "#574B48",

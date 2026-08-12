@@ -187,7 +187,8 @@
           "block": "minecraft:air"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "mergeFloatingChildBiomes": true,
   "floatingChildBiomes": [
@@ -301,7 +302,7 @@
             {
               "find": [
                 {
-                  "block": "minecraft:white_stained_glass"
+                  "block": "minecraft:glowstone"
                 }
               ],
               "replace": {
@@ -427,7 +428,7 @@
             {
               "find": [
                 {
-                  "block": "minecraft:white_stained_glass"
+                  "block": "minecraft:glowstone"
                 }
               ],
               "replace": {
@@ -553,7 +554,7 @@
             {
               "find": [
                 {
-                  "block": "minecraft:white_stained_glass"
+                  "block": "minecraft:glowstone"
                 }
               ],
               "replace": {
@@ -577,7 +578,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161312",
-      "fogColor": "#292222",
+      "fogColor": "#685F70",
       "waterColor": "#C75025",
       "waterFogColor": "#592118",
       "grassColor": "#544844",

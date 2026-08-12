@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#071E21",
-      "fogColor": "#0A292F",
+      "fogColor": "#1A051A",
       "waterColor": "#238983",
       "waterFogColor": "#0B5452",
       "grassColor": "#25898A",
@@ -257,6 +257,7 @@
       ]
     },
     "snippet/underworld/warped/decorator/leaf",
-    "snippet/underworld/warped/decorator/bush"
+    "snippet/underworld/warped/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2F0403",
-      "fogColor": "#49080B",
+      "fogColor": "#330303",
       "waterColor": "#DD4E30",
       "waterFogColor": "#651716",
       "grassColor": "#AC3041",
@@ -229,7 +229,8 @@
           "block": "minecraft:nether_sprouts"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childStyle": {
     "style": "SIMPLEX",

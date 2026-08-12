@@ -1,13 +1,16 @@
 # Underworld
 
-Underworld is a two-dimension Iris pack that preserves the shipping Overworld pack's terrain graph at the same seed and coordinates, then replaces its materials, biomes, caves, deposits, vegetation, objects, loot, ambience, and ecology with Nether counterparts.
+Underworld is an Iris pack that preserves the shipping Overworld pack's terrain graph at the same seed and coordinates, then replaces its materials, biomes, caves, deposits, vegetation, objects, loot, ambience, and ecology with Nether counterparts.
 
 ## Generation contract
 
 - `underworld` is the active dimension. It keeps the Overworld height, continents, regions, biome selection, generators, caves, and coordinate inputs, while using `environment: NETHER` and `coordinateScale: 1.0`.
-- `underworld_roof` is the physical inverted ceiling profile referenced by `upperDimension`. It supplies five roof terrain themes and sparse upside-down surface objects; it is not a separately travelable Minecraft world.
-- All lower biomes have unique custom biome IDs, Nether colors and ambience, no precipitation, and one of the five vanilla Nether derivatives. Native derivative spawn tables provide Nether mobs without copied Overworld spawners.
-- Fortress, Bastion Remnant, Nether Fossil, and Nether Ruined Portal generation remains native so vanilla processors, entities, spawners, loot, spacing, and structure-specific mobs remain intact.
+- `upperDimension` is intentionally empty. The retained `underworld_roof` resources are dormant and do not generate until a future roof design is enabled deliberately.
+- The active dimension uses full ambient block lighting and exact vanilla-Nether fog colors for each biome derivative. Its oceans, surface fluid, and enabled cave aquifers all resolve through the dimension fluid palette to lava; no lower pack palette places water or a waterlogged block.
+- Lower terrain, cave, decorator, procedural, and object palettes use Nether terrain, vegetation, lighting, ores, and native Nether-structure materials instead of Overworld blocks.
+- Every active surface biome exposes sparse Nether quartz through a coherent Simplex gate calibrated to roughly 2% of surface columns, or about 5.1 candidates per chunk before competition with the biome's other decorators. Accepted columns form irregular connected surface veins averaging roughly 5–8 blocks per cluster instead of independent one-block flecks. Existing quartz deposits continue below the surface. Ancient debris uses a 75% chunk gate, one or two clumps of one or two blocks, with clump anchors at internal Y 5..51 (absolute world Y -251..-205).
+- All lower biomes have unique custom biome IDs, exact derivative fog colors, Nether ambience, no precipitation, and one of the five vanilla Nether derivatives. Native derivative spawn tables provide Nether mobs without copied Overworld spawners. Arbitrary fire and soul-fire surface decorators run at 30% of their former fire-placement rate without reducing the non-fire entries in mixed palettes.
+- Fortress, Bastion Remnant, Nether Fossil, and Nether Ruined Portal generation remains native, preserving registered content, weights, biome eligibility, start logic, processors, entities, spawners, loot, structure-specific mobs, and locate behavior. The `1.1` structure-set overrides reduce Nether Complex spacing from 27 to 26 (about 8% more candidates) and Ruined Portal spacing from 40 to 38 (about 11% more); Nether Fossils remain at spacing 2 because legal integer spacing cannot represent a 10% increase. Non-Nether vanilla structure families are denied as a second guard against Overworld template blocks, and `disabledExact` denies only `minecraft:ruined_portal` while leaving `minecraft:ruined_portal_nether` native.
 - The copied editable structure graph, external datapacks, Overworld spawners/entities, orphaned assets, and unreachable resources are intentionally omitted.
 
 The lower terrain layout is designed to be coordinate-for-coordinate compatible with the source Overworld graph when both worlds use the same seed. Palette changes alter blocks but not the lower generator links, noise fields, biome lists, height ranges, or coordinate transforms.
@@ -28,7 +31,7 @@ On Bukkit-family servers, validate with:
 
 Create a disposable managed world with `/iris create underworld_test type=underworld seed=1337`. A managed Iris world is not automatically the destination of vanilla Nether portals. To make this pack the server's actual Nether, route portals to it or assign the real `<level-name>_nether` world to Iris on a backed-up, disposable test server before regenerating production data. `coordinateScale: 1.0` supplies the 1:1 ratio; portal destination selection is server/platform configuration.
 
-Distribute and install the raw folder. Current Iris download/export tooling expects a single dimension and does not include a distinct `upperDimension` closure in a normal `.iris` package.
+Distribute and install the raw folder. The dormant roof resources are retained for later development but are not part of active generation.
 
 ## Source and credits
 

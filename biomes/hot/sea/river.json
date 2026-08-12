@@ -54,7 +54,7 @@
           "block": "minecraft:blackstone"
         },
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         },
         {
           "weight": 2,
@@ -71,7 +71,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#191515",
-      "fogColor": "#292424",
+      "fogColor": "#685F70",
       "waterColor": "#A9431D",
       "waterFogColor": "#511E17",
       "grassColor": "#594C49",
@@ -81,5 +81,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

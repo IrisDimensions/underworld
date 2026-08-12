@@ -123,7 +123,8 @@
           "block": "minecraft:lava"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -133,7 +134,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151111",
-      "fogColor": "#2C2525",
+      "fogColor": "#685F70",
       "waterColor": "#CE4215",
       "waterFogColor": "#572716",
       "grassColor": "#534844",

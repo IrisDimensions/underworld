@@ -59,7 +59,8 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass"
+    "snippet/underworld/wastes/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -69,7 +70,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2F0C0B",
-      "fogColor": "#3D120D",
+      "fogColor": "#330808",
       "waterColor": "#D56A14",
       "waterFogColor": "#601D0C",
       "grassColor": "#6D3322",

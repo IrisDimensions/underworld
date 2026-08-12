@@ -57,7 +57,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161313",
-      "fogColor": "#292423",
+      "fogColor": "#685F70",
       "waterColor": "#CE5723",
       "waterFogColor": "#581810",
       "grassColor": "#5D524E",
@@ -67,5 +67,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

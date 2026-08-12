@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#072526",
-      "fogColor": "#0B3737",
+      "fogColor": "#1A051A",
       "waterColor": "#2B8D7E",
       "waterFogColor": "#0B5C5A",
       "grassColor": "#258D84",
@@ -281,6 +281,7 @@
           "block": "minecraft:warped_fungus"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

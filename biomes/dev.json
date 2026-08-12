@@ -10,7 +10,8 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "generators": [
     {
@@ -30,7 +31,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2C0905",
-      "fogColor": "#3E0504",
+      "fogColor": "#330808",
       "waterColor": "#E96424",
       "waterFogColor": "#6E1B07",
       "grassColor": "#703725",

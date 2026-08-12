@@ -186,7 +186,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -203,7 +203,8 @@
           "block": "minecraft:nether_sprouts"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "floatingChildBiomes": [
     {
@@ -341,7 +342,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#2B2525",
+      "fogColor": "#685F70",
       "waterColor": "#BE581D",
       "waterFogColor": "#551E12",
       "grassColor": "#544A46",

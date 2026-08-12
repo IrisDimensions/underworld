@@ -17,7 +17,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:glass"
+        "block": "minecraft:crying_obsidian"
       }
     ]
   },
@@ -29,7 +29,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_stained_glass"
+          "block": "minecraft:glowstone"
         }
       ]
     },
@@ -41,10 +41,10 @@
       },
       "palette": [
         {
-          "block": "minecraft:glass"
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:light_blue_stained_glass"
+          "block": "minecraft:glowstone"
         }
       ]
     },
@@ -56,10 +56,10 @@
       },
       "palette": [
         {
-          "block": "minecraft:tinted_glass"
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:glass"
+          "block": "minecraft:crying_obsidian"
         }
       ]
     },
@@ -71,13 +71,13 @@
       },
       "palette": [
         {
-          "block": "minecraft:glass"
+          "block": "minecraft:crying_obsidian"
         },
         {
-          "block": "minecraft:light_blue_stained_glass"
+          "block": "minecraft:glowstone"
         },
         {
-          "block": "minecraft:tinted_glass"
+          "block": "minecraft:crying_obsidian"
         }
       ]
     }
@@ -99,7 +99,8 @@
           "block": "minecraft:crying_obsidian"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "objects": [
     {
@@ -135,7 +136,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -149,7 +150,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_stained_glass"
+                "block": "minecraft:glowstone"
               }
             ]
           }
@@ -163,7 +164,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:tinted_glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -200,7 +201,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -214,7 +215,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_stained_glass"
+                "block": "minecraft:glowstone"
               }
             ]
           }
@@ -228,7 +229,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:tinted_glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -244,7 +245,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161313",
-      "fogColor": "#2D2827",
+      "fogColor": "#685F70",
       "waterColor": "#A84C0C",
       "waterFogColor": "#4D190E",
       "grassColor": "#5F524E",

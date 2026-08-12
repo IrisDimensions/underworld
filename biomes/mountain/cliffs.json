@@ -29,7 +29,7 @@
         "block": "minecraft:gravel"
       },
       {
-        "block": "minecraft:cyan_terracotta"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -58,7 +58,7 @@
           "block": "minecraft:gravel"
         },
         {
-          "block": "minecraft:cyan_terracotta"
+          "block": "minecraft:warped_nylium"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151211",
-      "fogColor": "#2A2425",
+      "fogColor": "#685F70",
       "waterColor": "#B33D1E",
       "waterFogColor": "#5C1D18",
       "grassColor": "#514643",
@@ -99,5 +99,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#262120",
+      "fogColor": "#685F70",
       "waterColor": "#D05A18",
       "waterFogColor": "#4D1B11",
       "grassColor": "#574C48",
@@ -63,7 +63,6 @@
     {
       "chance": 0.003,
       "density": 3,
-      "snow": 0.35,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -89,7 +88,6 @@
       "chance": 0.05,
       "density": 3,
       "mode": "PAINT",
-      "snow": 0.35,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -120,7 +118,6 @@
       "chance": 0.05,
       "mode": "PAINT",
       "density": 3,
-      "snow": 0.35,
       "rotation": {
         "yAxis": {
           "min": 0,
@@ -175,7 +172,8 @@
           "block": "minecraft:air"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "seaLayers": [
     {

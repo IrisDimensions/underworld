@@ -22,19 +22,19 @@
     },
     "palette": [
       {
-        "block": "minecraft:pink_terracotta"
+        "block": "minecraft:crimson_nylium"
       },
       {
-        "block": "minecraft:red_terracotta"
+        "block": "minecraft:nether_bricks"
       },
       {
-        "block": "minecraft:terracotta"
+        "block": "minecraft:netherrack"
       },
       {
-        "block": "minecraft:light_gray_terracotta"
+        "block": "minecraft:quartz_bricks"
       },
       {
-        "block": "minecraft:brown_terracotta"
+        "block": "minecraft:soul_soil"
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:pink_terracotta"
+          "block": "minecraft:crimson_nylium"
         }
       ]
     },
@@ -59,7 +59,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_terracotta"
+          "block": "minecraft:nether_bricks"
         }
       ]
     },
@@ -71,7 +71,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -83,7 +83,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -95,7 +95,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         }
       ]
     }
@@ -144,7 +144,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/dry_grass"
+    "snippet/underworld/basalt/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true,
   "deposits": [
@@ -171,7 +172,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#282222",
+      "fogColor": "#685F70",
       "waterColor": "#C55A23",
       "waterFogColor": "#5D2819",
       "grassColor": "#625651",

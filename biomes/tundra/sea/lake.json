@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161312",
-      "fogColor": "#292223",
+      "fogColor": "#685F70",
       "waterColor": "#AB5419",
       "waterFogColor": "#5A1C10",
       "grassColor": "#5E534F",
@@ -271,23 +271,27 @@
   ],
   "decorators": [
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -295,7 +299,7 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.0003,
       "variance": {
         "style": "STATIC"
       },
@@ -331,7 +335,7 @@
       }
     },
     {
-      "chance": 0.2,
+      "chance": 0.06,
       "variance": {
         "style": "STATIC"
       },
@@ -348,7 +352,7 @@
       }
     },
     {
-      "chance": 0.1,
+      "chance": 0.03,
       "variance": {
         "style": "STATIC"
       },
@@ -398,12 +402,13 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus"
         }
       ],
       "style": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

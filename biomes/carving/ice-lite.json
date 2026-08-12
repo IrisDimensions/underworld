@@ -267,9 +267,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 22,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 22,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -322,7 +322,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#141C20",
-      "fogColor": "#222E31",
+      "fogColor": "#1B4745",
       "waterColor": "#63989E",
       "waterFogColor": "#244245",
       "grassColor": "#617274",

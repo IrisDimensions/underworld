@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10191C",
-      "fogColor": "#1E2A2F",
+      "fogColor": "#1B4745",
       "waterColor": "#6696A1",
       "waterFogColor": "#284549",
       "grassColor": "#728589",
@@ -112,8 +112,10 @@
         "underworld/soul/clutter/sbush1",
         "underworld/soul/clutter/sbush2",
         "underworld/soul/clutter/sbush3"
-      ],
-      "snow": 0.25
+      ]
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2C070A",
-      "fogColor": "#3B0C0F",
+      "fogColor": "#330808",
       "waterColor": "#CF6211",
       "waterFogColor": "#762712",
       "grassColor": "#7F3B1E",
@@ -176,7 +176,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.04,
+      "chance": 0.021333333333,
       "variance": {
         "style": "TRIOCTAVE_SIMPLEX",
         "zoom": 6,
@@ -191,18 +191,21 @@
       },
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
     {
-      "chance": 0.02,
+      "chance": 0.010666666667,
       "variance": {
         "style": "TRIOCTAVE_SIMPLEX",
         "zoom": 6,
@@ -217,13 +220,16 @@
       },
       "palette": [
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ]
     },
@@ -236,7 +242,7 @@
       ]
     },
     {
-      "chance": 0.1,
+      "chance": 0.03,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -245,6 +251,7 @@
     },
     "snippet/underworld/wastes/decorator/leaf",
     "snippet/underworld/wastes/decorator/wildflowers",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

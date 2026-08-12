@@ -25,13 +25,13 @@
     },
     "palette": [
       {
-        "block": "minecraft:red_terracotta"
+        "block": "minecraft:nether_bricks"
       },
       {
-        "block": "minecraft:gray_terracotta"
+        "block": "minecraft:polished_blackstone"
       },
       {
-        "block": "minecraft:yellow_terracotta"
+        "block": "minecraft:glowstone"
       }
     ]
   },
@@ -44,7 +44,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -56,7 +56,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:white_terracotta"
+          "block": "minecraft:quartz_block"
         }
       ]
     },
@@ -68,7 +68,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -80,7 +80,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_terracotta"
+          "block": "minecraft:nether_bricks"
         }
       ]
     },
@@ -92,7 +92,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -104,7 +104,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:yellow_terracotta"
+          "block": "minecraft:glowstone"
         }
       ]
     },
@@ -116,7 +116,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -128,7 +128,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         }
       ]
     }
@@ -177,7 +177,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/dry_grass"
+    "snippet/underworld/basalt/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [
@@ -188,7 +189,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161313",
-      "fogColor": "#241F1F",
+      "fogColor": "#685F70",
       "waterColor": "#B43F1A",
       "waterFogColor": "#4F2113",
       "grassColor": "#5F544F",

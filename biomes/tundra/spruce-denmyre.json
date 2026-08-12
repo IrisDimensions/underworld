@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10181C",
-      "fogColor": "#1D282C",
+      "fogColor": "#1B4745",
       "waterColor": "#578388",
       "waterFogColor": "#2B4247",
       "grassColor": "#5C7073",
@@ -295,23 +295,27 @@
   ],
   "decorators": [
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -319,7 +323,7 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.0003,
       "variance": {
         "style": "STATIC"
       },
@@ -343,7 +347,7 @@
       }
     },
     {
-      "chance": 0.2,
+      "chance": 0.06,
       "variance": {
         "style": "STATIC"
       },
@@ -360,7 +364,7 @@
       }
     },
     {
-      "chance": 0.1,
+      "chance": 0.03,
       "variance": {
         "style": "STATIC"
       },
@@ -417,6 +421,7 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/soul/decorator/bush"
+    "snippet/underworld/soul/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

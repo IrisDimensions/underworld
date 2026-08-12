@@ -31,7 +31,7 @@
       "minHeight": 2,
       "palette": [
         {
-          "block": "minecraft:black_concrete",
+          "block": "minecraft:blackstone",
           "weight": 9
         },
         {
@@ -168,9 +168,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 28,
-    "allowWater": false,
-    "waterMinDepthBelowSurface": 30,
-    "waterRequiresFloor": true,
+    "allowFluid": false,
+    "fluidMinDepthBelowSurface": 30,
+    "fluidRequiresFloor": true,
     "allowLava": false,
     "modules": [
       {
@@ -214,7 +214,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#111A1E",
-      "fogColor": "#1A2729",
+      "fogColor": "#1B4745",
       "waterColor": "#5D8F9B",
       "waterFogColor": "#2B4349",
       "grassColor": "#6A7F84",

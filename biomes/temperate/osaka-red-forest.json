@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2C0A0D",
-      "fogColor": "#40120B",
+      "fogColor": "#330808",
       "waterColor": "#CF4108",
       "waterFogColor": "#63170B",
       "grassColor": "#73311A",
@@ -244,7 +244,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.6,
+      "chance": 0.18,
       "variance": {
         "style": "STATIC"
       },
@@ -315,7 +315,8 @@
       ]
     },
     "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "effects": [
     {

@@ -35,7 +35,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#1A1515",
-      "fogColor": "#272221",
+      "fogColor": "#685F70",
       "waterColor": "#D1521E",
       "waterFogColor": "#5E271C",
       "grassColor": "#554A46",
@@ -390,26 +390,29 @@
       }
     },
     {
-      "chance": 0.6,
+      "chance": 0.432,
       "style": {
         "style": "STATIC"
       },
       "palette": [
         {
-          "block": "minecraft:brown_mushroom",
-          "weight": 5
+          "block": "minecraft:crimson_fungus",
+          "weight": 50
+        },
+        {
+          "block": "minecraft:fire",
+          "weight": 9
         },
         {
           "block": "minecraft:fire",
           "weight": 3
         },
         {
-          "block": "minecraft:fire"
-        },
-        {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus",
+          "weight": 10
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

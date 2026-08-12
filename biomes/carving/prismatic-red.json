@@ -9,15 +9,15 @@
     },
     "palette": [
       {
-        "block": "minecraft:red_concrete",
+        "block": "minecraft:nether_bricks",
         "weight": 5
       },
       {
-        "block": "minecraft:red_terracotta",
+        "block": "minecraft:nether_bricks",
         "weight": 4
       },
       {
-        "block": "minecraft:red_concrete_powder",
+        "block": "minecraft:nether_bricks",
         "weight": 2
       },
       {
@@ -36,11 +36,11 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_terracotta",
+          "block": "minecraft:nether_bricks",
           "weight": 4
         },
         {
-          "block": "minecraft:red_concrete_powder",
+          "block": "minecraft:nether_bricks",
           "weight": 3
         },
         {
@@ -60,11 +60,11 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_concrete",
+          "block": "minecraft:nether_bricks",
           "weight": 4
         },
         {
-          "block": "minecraft:red_terracotta",
+          "block": "minecraft:nether_bricks",
           "weight": 3
         },
         {
@@ -155,9 +155,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -357,7 +357,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#0F161A",
-      "fogColor": "#1A2328",
+      "fogColor": "#1B4745",
       "waterColor": "#59858F",
       "waterFogColor": "#29444A",
       "grassColor": "#67787D",

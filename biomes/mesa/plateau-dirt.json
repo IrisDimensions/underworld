@@ -42,7 +42,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:white_terracotta"
+          "block": "minecraft:quartz_block"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:yellow_terracotta"
+          "block": "minecraft:glowstone"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "maxHeight": 8,
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         }
       ]
     }
@@ -129,7 +129,8 @@
           "block": "minecraft:crimson_fungus"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [
@@ -140,7 +141,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151112",
-      "fogColor": "#2C2525",
+      "fogColor": "#685F70",
       "waterColor": "#C24711",
       "waterFogColor": "#511B10",
       "grassColor": "#60524D",

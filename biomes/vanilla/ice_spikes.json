@@ -19,7 +19,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#131B20",
-      "fogColor": "#1E2A2E",
+      "fogColor": "#1B4745",
       "waterColor": "#5D8B92",
       "waterFogColor": "#27474A",
       "grassColor": "#677A7D",
@@ -54,7 +54,7 @@
         "block": "minecraft:soul_sand"
       },
       {
-        "block": "minecraft:cyan_terracotta"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -143,7 +143,7 @@
   ],
   "decorators": [
     {
-      "chance": 0.2,
+      "chance": 0.13,
       "variance": {
         "style": "CELLULAR",
         "zoom": 0.25,
@@ -163,40 +163,52 @@
       },
       "palette": [
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         }
       ]
     },
@@ -209,7 +221,7 @@
       ]
     },
     {
-      "chance": 0.5,
+      "chance": 0.15,
       "palette": [
         {
           "block": "minecraft:soul_fire"
@@ -217,7 +229,7 @@
       ]
     },
     {
-      "chance": 0.02,
+      "chance": 0.006,
       "palette": [
         {
           "block": "minecraft:soul_fire"
@@ -229,6 +241,7 @@
           "block": "minecraft:soul_fire"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

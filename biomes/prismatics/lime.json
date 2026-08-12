@@ -22,7 +22,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:lime_concrete"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -35,7 +35,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:lime_concrete_powder"
+          "block": "minecraft:warped_nylium"
         }
       ]
     },
@@ -47,7 +47,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:lime_concrete"
+          "block": "minecraft:warped_nylium"
         }
       ]
     }
@@ -82,13 +82,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -96,13 +96,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete_powder"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -138,13 +138,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -152,13 +152,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete_powder"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -200,13 +200,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -214,13 +214,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:lime_concrete_powder"
+                "block": "minecraft:warped_nylium"
               }
             ]
           }
@@ -273,7 +273,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -333,7 +333,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -350,7 +350,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151111",
-      "fogColor": "#292323",
+      "fogColor": "#685F70",
       "waterColor": "#A8411D",
       "waterFogColor": "#5E1C13",
       "grassColor": "#605250",
@@ -360,5 +360,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

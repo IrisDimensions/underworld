@@ -151,7 +151,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/firefly-bush"
+    "snippet/underworld/basalt/decorator/firefly-bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -161,7 +162,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181514",
-      "fogColor": "#282222",
+      "fogColor": "#685F70",
       "waterColor": "#A6511D",
       "waterFogColor": "#5D2514",
       "grassColor": "#5C504C",

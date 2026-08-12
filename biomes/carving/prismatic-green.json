@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:green_concrete",
+        "block": "minecraft:warped_nylium",
         "weight": 3
       },
       {
@@ -17,15 +17,15 @@
         "weight": 4
       },
       {
-        "block": "minecraft:green_terracotta",
+        "block": "minecraft:warped_nylium",
         "weight": 2
       },
       {
-        "block": "minecraft:green_concrete_powder",
+        "block": "minecraft:warped_nylium",
         "weight": 2
       },
       {
-        "block": "minecraft:slime_block",
+        "block": "minecraft:magma_block",
         "weight": 1
       }
     ]
@@ -44,11 +44,11 @@
           "weight": 5
         },
         {
-          "block": "minecraft:green_terracotta",
+          "block": "minecraft:warped_nylium",
           "weight": 3
         },
         {
-          "block": "minecraft:green_concrete_powder",
+          "block": "minecraft:warped_nylium",
           "weight": 2
         },
         {
@@ -68,7 +68,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:green_concrete",
+          "block": "minecraft:warped_nylium",
           "weight": 3
         },
         {
@@ -76,7 +76,7 @@
           "weight": 4
         },
         {
-          "block": "minecraft:green_terracotta",
+          "block": "minecraft:warped_nylium",
           "weight": 2
         }
       ]
@@ -150,7 +150,7 @@
       "absoluteMaxStack": 1,
       "palette": [
         {
-          "block": "minecraft:slime_block",
+          "block": "minecraft:magma_block",
           "weight": 3
         },
         {
@@ -218,9 +218,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -409,7 +409,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#141B1F",
-      "fogColor": "#1F292D",
+      "fogColor": "#1B4745",
       "waterColor": "#4D7A81",
       "waterFogColor": "#273D43",
       "grassColor": "#5C6E72",

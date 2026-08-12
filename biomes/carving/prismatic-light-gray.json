@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:light_gray_concrete",
+        "block": "minecraft:quartz_bricks",
         "weight": 3
       },
       {
@@ -17,7 +17,7 @@
         "weight": 4
       },
       {
-        "block": "minecraft:light_gray_concrete_powder",
+        "block": "minecraft:quartz_bricks",
         "weight": 2
       },
       {
@@ -40,7 +40,7 @@
           "weight": 4
         },
         {
-          "block": "minecraft:light_gray_concrete_powder",
+          "block": "minecraft:quartz_bricks",
           "weight": 3
         },
         {
@@ -68,7 +68,7 @@
           "weight": 4
         },
         {
-          "block": "minecraft:light_gray_concrete",
+          "block": "minecraft:quartz_bricks",
           "weight": 3
         },
         {
@@ -108,10 +108,9 @@
       "absoluteMaxStack": 1,
       "palette": [
         {
-          "block": "minecraft:candle",
+          "block": "minecraft:soul_campfire",
           "data": {
-            "lit": "true",
-            "candles": "4"
+            "lit": "true"
           }
         }
       ]
@@ -162,9 +161,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -320,7 +319,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10161A",
-      "fogColor": "#222B31",
+      "fogColor": "#1B4745",
       "waterColor": "#537982",
       "waterFogColor": "#21393E",
       "grassColor": "#728389",

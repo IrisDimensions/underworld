@@ -1,5 +1,5 @@
 {
-  "chance": 0.03,
+  "chance": 0.0258,
   "style": {
     "style": "CLOVER_HERMITE",
     "zoom": 0.52,
@@ -12,11 +12,11 @@
   "palette": [
     {
       "block": "minecraft:fire",
-      "weight": 1
+      "weight": 3
     },
     {
       "block": "minecraft:air",
-      "weight": 4
+      "weight": 40
     }
   ]
 }

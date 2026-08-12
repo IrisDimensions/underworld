@@ -138,7 +138,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -152,7 +152,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_stained_glass"
+                "block": "minecraft:glowstone"
               }
             ]
           }
@@ -166,7 +166,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:tinted_glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -193,7 +193,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -207,7 +207,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_stained_glass"
+                "block": "minecraft:glowstone"
               }
             ]
           }
@@ -221,7 +221,7 @@
           "replace": {
             "palette": [
               {
-                "block": "minecraft:tinted_glass"
+                "block": "minecraft:crying_obsidian"
               }
             ]
           }
@@ -260,7 +260,8 @@
           "block": "minecraft:glowstone"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "floatingChildBiomes": [
     {
@@ -371,7 +372,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -385,7 +386,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:light_blue_stained_glass"
+                    "block": "minecraft:glowstone"
                   }
                 ]
               }
@@ -399,7 +400,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:tinted_glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -436,7 +437,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -450,7 +451,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:light_blue_stained_glass"
+                    "block": "minecraft:glowstone"
                   }
                 ]
               }
@@ -464,7 +465,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:tinted_glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -507,7 +508,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -521,7 +522,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:light_blue_stained_glass"
+                    "block": "minecraft:glowstone"
                   }
                 ]
               }
@@ -535,7 +536,7 @@
               "replace": {
                 "palette": [
                   {
-                    "block": "minecraft:tinted_glass"
+                    "block": "minecraft:crying_obsidian"
                   }
                 ]
               }
@@ -553,7 +554,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10161A",
-      "fogColor": "#1F2E31",
+      "fogColor": "#1B4745",
       "waterColor": "#528488",
       "waterFogColor": "#223940",
       "grassColor": "#5E6C71",

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#2C2626",
+      "fogColor": "#685F70",
       "waterColor": "#B44B15",
       "waterFogColor": "#4A1E0E",
       "grassColor": "#5D524E",
@@ -147,7 +147,7 @@
       "palette": [
         {
           "weight": 4,
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus"
         },
         {
           "block": "minecraft:crimson_fungus"
@@ -189,13 +189,13 @@
       ],
       "topPalette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus"
         }
       ],
       "stackMin": 1
     },
     {
-      "chance": 0.4,
+      "chance": 0.12,
       "variance": {
         "style": "STATIC"
       },
@@ -245,13 +245,14 @@
       "zoom": 0.3,
       "palette": [
         {
-          "block": "minecraft:brown_mushroom"
+          "block": "minecraft:crimson_fungus"
         }
       ],
       "style": {
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/dry_grass"
+    "snippet/underworld/basalt/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

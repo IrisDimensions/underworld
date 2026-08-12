@@ -1,5 +1,5 @@
 {
-  "chance": 0.01,
+  "chance": 0.0072,
   "style": {
     "style": "CELLULAR",
     "zoom": 0.3,
@@ -23,15 +23,15 @@
   "palette": [
     {
       "block": "minecraft:fire",
-      "weight": 1
+      "weight": 3
     },
     {
       "block": "minecraft:fire",
-      "weight": 1
+      "weight": 3
     },
     {
       "block": "minecraft:air",
-      "weight": 3
+      "weight": 30
     }
   ]
 }

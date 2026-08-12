@@ -31,19 +31,19 @@
       "zoom": 0.4,
       "palette": [
         {
-          "block": "minecraft:red_terracotta"
+          "block": "minecraft:nether_bricks"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -56,7 +56,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -69,7 +69,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -82,7 +82,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:white_terracotta"
+          "block": "minecraft:quartz_block"
         }
       ]
     },
@@ -95,7 +95,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -108,7 +108,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:yellow_terracotta"
+          "block": "minecraft:glowstone"
         }
       ]
     },
@@ -121,7 +121,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -134,7 +134,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -147,7 +147,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_terracotta"
+          "block": "minecraft:soul_soil"
         }
       ]
     },
@@ -160,7 +160,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -173,7 +173,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:red_terracotta"
+          "block": "minecraft:nether_bricks"
         }
       ]
     },
@@ -186,7 +186,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     }
@@ -199,7 +199,8 @@
           "block": "minecraft:crimson_fungus"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [
@@ -210,7 +211,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161212",
-      "fogColor": "#292323",
+      "fogColor": "#685F70",
       "waterColor": "#A75318",
       "waterFogColor": "#5C1C10",
       "grassColor": "#584A47",

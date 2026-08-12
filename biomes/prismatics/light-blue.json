@@ -22,7 +22,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:light_blue_concrete"
+        "block": "minecraft:warped_wart_block"
       }
     ]
   },
@@ -35,7 +35,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_concrete_powder"
+          "block": "minecraft:warped_wart_block"
         }
       ]
     },
@@ -47,7 +47,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_concrete"
+          "block": "minecraft:warped_wart_block"
         }
       ]
     }
@@ -82,13 +82,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -96,13 +96,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete_powder"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -138,13 +138,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -152,13 +152,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete_powder"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -200,13 +200,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -214,13 +214,13 @@
         {
           "find": [
             {
-              "block": "minecraft:black_concrete_powder"
+              "block": "minecraft:blackstone"
             }
           ],
           "replace": {
             "palette": [
               {
-                "block": "minecraft:light_blue_concrete_powder"
+                "block": "minecraft:warped_wart_block"
               }
             ]
           }
@@ -273,7 +273,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -333,7 +333,7 @@
                 "block": "minecraft:air"
               },
               {
-                "block": "minecraft:white_concrete_powder"
+                "block": "minecraft:quartz_block"
               }
             ]
           }
@@ -350,7 +350,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#2C2627",
+      "fogColor": "#685F70",
       "waterColor": "#BF5A1F",
       "waterFogColor": "#4B140E",
       "grassColor": "#5A4C49",
@@ -360,5 +360,8 @@
         "rarity": 45
       }
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:brown_concrete",
+        "block": "minecraft:soul_soil",
         "weight": 3
       },
       {
@@ -21,7 +21,7 @@
         "weight": 3
       },
       {
-        "block": "minecraft:brown_concrete_powder",
+        "block": "minecraft:soul_soil",
         "weight": 2
       }
     ]
@@ -48,7 +48,7 @@
           "weight": 2
         },
         {
-          "block": "minecraft:brown_concrete_powder",
+          "block": "minecraft:soul_soil",
           "weight": 2
         },
         {
@@ -68,7 +68,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:brown_concrete",
+          "block": "minecraft:soul_soil",
           "weight": 3
         },
         {
@@ -156,9 +156,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -323,7 +323,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#121B1F",
-      "fogColor": "#192327",
+      "fogColor": "#1B4745",
       "waterColor": "#699B9E",
       "waterFogColor": "#22383C",
       "grassColor": "#6D8084",

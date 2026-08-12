@@ -22,16 +22,16 @@
     },
     "palette": [
       {
-        "block": "minecraft:magenta_terracotta"
+        "block": "minecraft:nether_wart_block"
       },
       {
-        "block": "minecraft:light_blue_terracotta"
+        "block": "minecraft:warped_wart_block"
       },
       {
-        "block": "minecraft:blue_terracotta"
+        "block": "minecraft:warped_wart_block"
       },
       {
-        "block": "minecraft:cyan_terracotta"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -44,7 +44,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:cyan_terracotta"
+          "block": "minecraft:warped_nylium"
         }
       ]
     },
@@ -56,7 +56,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:blue_terracotta"
+          "block": "minecraft:warped_wart_block"
         }
       ]
     },
@@ -68,7 +68,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:light_blue_terracotta"
+          "block": "minecraft:warped_wart_block"
         }
       ]
     },
@@ -80,7 +80,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:magenta_terracotta"
+          "block": "minecraft:nether_wart_block"
         }
       ]
     }
@@ -129,7 +129,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/dry_grass"
+    "snippet/underworld/basalt/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [
@@ -140,7 +141,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#181414",
-      "fogColor": "#262121",
+      "fogColor": "#685F70",
       "waterColor": "#A6451A",
       "waterFogColor": "#5D1E15",
       "grassColor": "#554C48",

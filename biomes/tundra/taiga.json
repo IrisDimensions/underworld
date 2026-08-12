@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#111A1F",
-      "fogColor": "#1C252A",
+      "fogColor": "#1B4745",
       "waterColor": "#5E9090",
       "waterFogColor": "#28414A",
       "grassColor": "#5E6F72",
@@ -250,17 +250,19 @@
   ],
   "decorators": [
     {
-      "chance": 0.003,
+      "chance": 0.00195,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         }
       ],
       "style": {
@@ -268,7 +270,7 @@
       }
     },
     {
-      "chance": 0.023,
+      "chance": 0.0069,
       "variance": {
         "style": "STATIC"
       },
@@ -290,7 +292,7 @@
       "zoom": 0.3,
       "palette": [
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots"
         }
       ],
       "style": {
@@ -298,7 +300,7 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.0003,
       "variance": {
         "style": "STATIC"
       },
@@ -322,20 +324,23 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.000533333333,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -361,7 +366,7 @@
       }
     },
     {
-      "chance": 0.21,
+      "chance": 0.063,
       "variance": {
         "style": "STATIC"
       },
@@ -377,7 +382,8 @@
       "style": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childShrinkFactor": 2.4
 }

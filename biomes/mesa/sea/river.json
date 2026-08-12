@@ -21,7 +21,7 @@
           "block": "minecraft:blackstone"
         },
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -36,7 +36,7 @@
           "block": "minecraft:blackstone"
         },
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "block": "minecraft:gravel"
@@ -62,7 +62,8 @@
           "block": "minecraft:lava"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -72,7 +73,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#292323",
+      "fogColor": "#685F70",
       "waterColor": "#BA4121",
       "waterFogColor": "#512719",
       "grassColor": "#564D49",

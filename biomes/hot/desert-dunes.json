@@ -21,7 +21,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -116,7 +116,8 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass"
+    "snippet/underworld/wastes/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -126,7 +127,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#270A08",
-      "fogColor": "#420707",
+      "fogColor": "#330808",
       "waterColor": "#C95B0C",
       "waterFogColor": "#66130C",
       "grassColor": "#6C3421",

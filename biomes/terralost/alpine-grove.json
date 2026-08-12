@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10171A",
-      "fogColor": "#1A2529",
+      "fogColor": "#1B4745",
       "waterColor": "#5A878C",
       "waterFogColor": "#233E43",
       "grassColor": "#5E7072",
@@ -81,7 +81,6 @@
       ],
       "chance": 0.6,
       "density": 2,
-      "snow": 0.3,
       "rotation": {
         "enabled": true,
         "yAxis": {
@@ -149,8 +148,10 @@
           }
         }
       ],
-      "snow": 0.3,
       "mode": "CENTER_HEIGHT"
     }
+  ],
+  "decorators": [
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

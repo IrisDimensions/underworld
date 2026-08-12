@@ -19,7 +19,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#151212",
-      "fogColor": "#252020",
+      "fogColor": "#685F70",
       "waterColor": "#BA4A20",
       "waterFogColor": "#541E0F",
       "grassColor": "#5D514E",
@@ -54,7 +54,7 @@
         "block": "minecraft:gravel"
       },
       {
-        "block": "minecraft:cyan_terracotta"
+        "block": "minecraft:warped_nylium"
       }
     ]
   },
@@ -134,8 +134,7 @@
         "underworld/basalt/clutter/sbush1",
         "underworld/basalt/clutter/sbush2",
         "underworld/basalt/clutter/sbush3"
-      ],
-      "snow": 0.5
+      ]
     },
     {
       "mode": "PAINT",
@@ -144,8 +143,7 @@
         "underworld/basalt/clutter/sbush1",
         "underworld/basalt/clutter/sbush2",
         "underworld/basalt/clutter/sbush3"
-      ],
-      "snow": 0.5
+      ]
     },
     {
       "mode": "PAINT",
@@ -154,8 +152,7 @@
         "underworld/basalt/clutter/sbush1",
         "underworld/basalt/clutter/sbush2",
         "underworld/basalt/clutter/sbush3"
-      ],
-      "snow": 0.5
+      ]
     },
     {
       "place": [
@@ -191,7 +188,6 @@
         "underworld/basalt/trees/spruce/vgeneric31",
         "underworld/basalt/trees/spruce/vgeneric32"
       ],
-      "snow": 0.5,
       "edit": [
         {
           "find": [
@@ -240,23 +236,27 @@
   ],
   "decorators": [
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 1,
       "palette": [
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:nether_sprouts"
+          "block": "minecraft:nether_sprouts",
+          "weight": 10
         },
         {
-          "block": "minecraft:fire"
+          "block": "minecraft:fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -264,7 +264,7 @@
       }
     },
     {
-      "chance": 0.01,
+      "chance": 0.003,
       "variance": {
         "style": "STATIC"
       },
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "chance": 0.25,
+      "chance": 0.075,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "chance": 0.06,
+      "chance": 0.018,
       "palette": [
         {
           "block": "minecraft:fire"
@@ -368,6 +368,7 @@
           "block": "minecraft:blackstone_slab"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

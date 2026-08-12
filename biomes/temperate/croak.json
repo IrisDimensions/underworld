@@ -87,46 +87,47 @@
       "palette": [
         {
           "block": "minecraft:fire",
-          "weight": 2
+          "weight": 6
         },
         {
           "block": "minecraft:crimson_fungus",
-          "weight": 1
+          "weight": 10
         }
       ],
       "style": {
         "style": "STATIC",
         "zoom": 1
       },
-      "chance": 0.2
+      "chance": 0.106666666667
     },
     {
       "palette": [
         {
           "block": "minecraft:crimson_fungus",
-          "weight": 2
+          "weight": 20
         },
         {
           "block": "minecraft:crimson_fungus",
-          "weight": 2
+          "weight": 20
         },
         {
           "block": "minecraft:fire",
-          "weight": 2
+          "weight": 6
         },
         {
           "block": "minecraft:air",
-          "weight": 70
+          "weight": 700
         }
       ],
       "style": {
         "style": "CELLULAR",
         "zoom": 0.4
       },
-      "chance": 0.2
+      "chance": 0.196315789474
     },
     "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush"
+    "snippet/underworld/wastes/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "objects": [
     {
@@ -220,7 +221,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#2E080A",
-      "fogColor": "#410508",
+      "fogColor": "#330808",
       "waterColor": "#C35912",
       "waterFogColor": "#5F1E05",
       "grassColor": "#783D1D",

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#11181D",
-      "fogColor": "#202B30",
+      "fogColor": "#1B4745",
       "waterColor": "#639395",
       "waterFogColor": "#213A3C",
       "grassColor": "#5C6B6F",
@@ -287,20 +287,23 @@
   ],
   "decorators": [
     {
-      "chance": 0.01,
+      "chance": 0.007666666667,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.1,
       "palette": [
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         }
       ],
       "style": {
@@ -308,23 +311,27 @@
       }
     },
     {
-      "chance": 0.003,
+      "chance": 0.001425,
       "variance": {
         "style": "STATIC"
       },
       "zoom": 0.02,
       "palette": [
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         },
         {
-          "block": "minecraft:wither_rose"
+          "block": "minecraft:crimson_roots",
+          "weight": 10
         },
         {
-          "block": "minecraft:soul_fire"
+          "block": "minecraft:soul_fire",
+          "weight": 3
         }
       ],
       "style": {
@@ -332,7 +339,7 @@
       }
     },
     {
-      "chance": 0.001,
+      "chance": 0.0003,
       "variance": {
         "style": "STATIC"
       },
@@ -356,7 +363,7 @@
       }
     },
     {
-      "chance": 0.2,
+      "chance": 0.06,
       "variance": {
         "style": "STATIC"
       },
@@ -370,6 +377,7 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/soul/decorator/bush"
+    "snippet/underworld/soul/decorator/bush",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

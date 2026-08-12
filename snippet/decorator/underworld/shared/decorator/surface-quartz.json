@@ -1,0 +1,17 @@
+{
+  "chance": 0.02,
+  "style": {
+    "style": "SIMPLEX",
+    "zoom": 0.35,
+    "exponent": 1.632
+  },
+  "forceBlock": {
+    "block": "minecraft:nether_quartz_ore"
+  },
+  "forcePlace": true,
+  "palette": [
+    {
+      "block": "minecraft:air"
+    }
+  ]
+}

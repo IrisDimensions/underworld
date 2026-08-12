@@ -9,7 +9,7 @@
     },
     "palette": [
       {
-        "block": "minecraft:cyan_concrete",
+        "block": "minecraft:warped_nylium",
         "weight": 3
       },
       {
@@ -21,11 +21,11 @@
         "weight": 2
       },
       {
-        "block": "minecraft:cyan_concrete_powder",
+        "block": "minecraft:warped_nylium",
         "weight": 2
       },
       {
-        "block": "minecraft:cyan_terracotta",
+        "block": "minecraft:warped_nylium",
         "weight": 1
       }
     ]
@@ -48,7 +48,7 @@
           "weight": 3
         },
         {
-          "block": "minecraft:cyan_concrete_powder",
+          "block": "minecraft:warped_nylium",
           "weight": 2
         },
         {
@@ -68,7 +68,7 @@
       },
       "palette": [
         {
-          "block": "minecraft:cyan_concrete",
+          "block": "minecraft:warped_nylium",
           "weight": 3
         },
         {
@@ -171,9 +171,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowWater": true,
-    "waterMinDepthBelowSurface": 18,
-    "waterRequiresFloor": true,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 18,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {
@@ -372,7 +372,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#10171B",
-      "fogColor": "#212C2F",
+      "fogColor": "#1B4745",
       "waterColor": "#567E80",
       "waterFogColor": "#273C41",
       "grassColor": "#5B696D",

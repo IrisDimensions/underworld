@@ -1,11 +1,46 @@
 {
-  "version": 4001,
+  "version": 1002,
   "name": "Underworld",
   "datapackImports": [],
   "importedStructures": {
     "datapackOverrides": true,
-    "disabled": [],
+    "disabled": [
+      "minecraft:ancient_city",
+      "minecraft:buried_treasure",
+      "minecraft:desert_pyramid",
+      "minecraft:end_city",
+      "minecraft:igloo",
+      "minecraft:jungle_pyramid",
+      "minecraft:mansion",
+      "minecraft:mineshaft",
+      "minecraft:monument",
+      "minecraft:ocean_ruin",
+      "minecraft:pillager_outpost",
+      "minecraft:shipwreck",
+      "minecraft:stronghold",
+      "minecraft:swamp_hut",
+      "minecraft:trail_ruins",
+      "minecraft:trial_chambers",
+      "minecraft:village"
+    ],
+    "disabledExact": [
+      "minecraft:ruined_portal"
+    ],
     "undergroundYShift": 0,
+    "frequencyOverrides": [
+      {
+        "structureSet": "minecraft:nether_complexes",
+        "multiplier": 1.1
+      },
+      {
+        "structureSet": "minecraft:ruined_portals",
+        "multiplier": 1.1
+      },
+      {
+        "structureSet": "minecraft:nether_fossils",
+        "multiplier": 1.1
+      }
+    ],
     "adjustments": [
       {
         "match": [
@@ -16,8 +51,8 @@
       }
     ]
   },
-  "fullbright": false,
-  "upperDimension": "underworld_roof",
+  "fullbright": true,
+  "upperDimension": "",
   "upperDimensionGap": 32,
   "upperDimensionCarving": false,
   "upperDimensionObjects": true,
@@ -594,9 +629,9 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 12,
-    "allowWater": false,
-    "waterMinDepthBelowSurface": 20,
-    "waterRequiresFloor": true,
+    "allowFluid": false,
+    "fluidMinDepthBelowSurface": 20,
+    "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
       {

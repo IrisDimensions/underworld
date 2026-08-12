@@ -156,7 +156,8 @@
           "block": "minecraft:basalt"
         }
       ]
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "floatingChildBiomes": [
     {
@@ -383,7 +384,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#1A1515",
-      "fogColor": "#252020",
+      "fogColor": "#685F70",
       "waterColor": "#C65B15",
       "waterFogColor": "#4B2214",
       "grassColor": "#645652",

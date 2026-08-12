@@ -45,7 +45,7 @@
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_concrete_powder"
+          "block": "minecraft:quartz_bricks"
         },
         {
           "weight": 1,
@@ -57,19 +57,19 @@
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_concrete"
+          "block": "minecraft:quartz_bricks"
         },
         {
           "weight": 6,
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         },
         {
           "weight": 4,
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "weight": 4,
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "maxHeight": 3,
       "palette": [
         {
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -91,11 +91,11 @@
       "palette": [
         {
           "weight": 1,
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -104,7 +104,7 @@
       "maxHeight": 3,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "maxHeight": 3,
       "palette": [
         {
-          "block": "minecraft:orange_terracotta"
+          "block": "minecraft:magma_block"
         }
       ]
     },
@@ -122,7 +122,7 @@
       "maxHeight": 4,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     },
@@ -135,11 +135,11 @@
       "palette": [
         {
           "weight": 1,
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         },
         {
           "weight": 1,
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:light_gray_terracotta"
+          "block": "minecraft:quartz_bricks"
         }
       ]
     },
@@ -157,7 +157,7 @@
       "maxHeight": 1,
       "palette": [
         {
-          "block": "minecraft:terracotta"
+          "block": "minecraft:netherrack"
         }
       ]
     }
@@ -191,7 +191,8 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/basalt/decorator/dry_grass"
+    "snippet/underworld/basalt/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childStyle": {
     "style": "NOWHERE_CELLULAR",
@@ -207,7 +208,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171313",
-      "fogColor": "#272223",
+      "fogColor": "#685F70",
       "waterColor": "#AF531D",
       "waterFogColor": "#4A1A14",
       "grassColor": "#645653",

@@ -12,7 +12,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#310509",
-      "fogColor": "#45100B",
+      "fogColor": "#330808",
       "waterColor": "#EB6306",
       "waterFogColor": "#661106",
       "grassColor": "#793A1E",
@@ -279,7 +279,7 @@
       "stackMin": 1
     },
     {
-      "chance": 0.3,
+      "chance": 0.09,
       "variance": {
         "style": "STATIC"
       },
@@ -308,6 +308,7 @@
         "style": "STATIC"
       }
     },
-    "snippet/underworld/wastes/decorator/dry_grass"
+    "snippet/underworld/wastes/decorator/dry_grass",
+    "snippet/underworld/shared/decorator/surface-quartz"
   ]
 }

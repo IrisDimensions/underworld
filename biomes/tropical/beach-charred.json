@@ -24,7 +24,7 @@
       "maxHeight": 6,
       "palette": [
         {
-          "block": "minecraft:black_concrete_powder"
+          "block": "minecraft:blackstone"
         }
       ]
     },
@@ -46,7 +46,7 @@
         {
           "find": [
             {
-              "block": "minecraft:player_wall_head"
+              "block": "minecraft:wither_skeleton_wall_skull"
             }
           ],
           "replace": {
@@ -109,7 +109,8 @@
       "style": {
         "style": "STATIC"
       }
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "effects": [
     {
@@ -149,7 +150,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#161212",
-      "fogColor": "#2B2425",
+      "fogColor": "#685F70",
       "waterColor": "#AB4D14",
       "waterFogColor": "#59261D",
       "grassColor": "#564B47",

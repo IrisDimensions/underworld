@@ -314,7 +314,8 @@
         }
       ],
       "partOf": "SEA_FLOOR"
-    }
+    },
+    "snippet/underworld/shared/decorator/surface-quartz"
   ],
   "childStyle": {
     "style": "GLOB",
@@ -330,7 +331,7 @@
       "humidity": 0.0,
       "downfallType": "none",
       "skyColor": "#171414",
-      "fogColor": "#2B2625",
+      "fogColor": "#685F70",
       "waterColor": "#A73414",
       "waterFogColor": "#4D1E14",
       "grassColor": "#554845",
