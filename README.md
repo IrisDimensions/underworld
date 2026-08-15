@@ -30,7 +30,7 @@ On Bukkit-family servers, validate with:
 /iris pack status pack=underworld
 ```
 
-Create a disposable managed world with `/iris create underworld_test type=underworld seed=1337`. A managed Iris world is not automatically the destination of vanilla Nether portals. To make this pack the server's actual Nether, route portals to it or assign the real `<level-name>_nether` world to Iris on a backed-up, disposable test server before regenerating production data. `coordinateScale: 1.0` supplies the 1:1 ratio; portal destination selection is server/platform configuration.
+Create a disposable managed world with `/iris create underworld_test type=underworld seed=1337`. A managed `iris:*` world is not automatically the destination of vanilla Nether portals. To replace the selected save's actual Nether in place, back it up, run `/iris replace minecraft:the_nether type=underworld`, and restart once; Iris preserves the canonical Nether identity and seed while replacing its chunk store and generator. `coordinateScale: 1.0` supplies the 1:1 ratio.
 
 The beta ZIP retains `underworld_roof.json` and its resources, but `underworld` remains the selected dimension and its empty `upperDimension` keeps the roof dormant.
 
