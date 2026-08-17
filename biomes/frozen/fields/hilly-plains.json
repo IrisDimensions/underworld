@@ -1,4 +1,5 @@
 {
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-soul-surface",
   "entitySpawners": [
     "nether/surface/soul-sand-valley",
     "nether/cave"
@@ -92,23 +93,6 @@
     }
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.01,
-      "place": [
-        "underworld/soul/clutter/icecluster1",
-        "underworld/soul/clutter/icecluster2",
-        "underworld/soul/clutter/icecluster3",
-        "underworld/soul/clutter/icecluster4",
-        "underworld/soul/clutter/icecluster5",
-        "underworld/soul/clutter/icecluster6",
-        "underworld/soul/clutter/icecluster7",
-        "underworld/soul/clutter/icecluster8",
-        "underworld/soul/clutter/icecluster9",
-        "underworld/soul/clutter/icecluster10",
-        "underworld/soul/clutter/icecluster11"
-      ]
-    },
     {
       "mode": "PAINT",
       "chance": 0.1,

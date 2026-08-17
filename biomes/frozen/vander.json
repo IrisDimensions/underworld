@@ -1,4 +1,5 @@
 {
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-soul-spikes-surface",
   "entitySpawners": [
     "nether/surface/soul-sand-valley",
     "nether/cave"
@@ -281,32 +282,6 @@
         "y": -1,
         "z": 0
       }
-    },
-    {
-      "chance": 0.1,
-      "mode": "PAINT",
-      "density": 1,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/singleicespike1",
-        "underworld/soul/clutter/singleicespike2",
-        "underworld/soul/clutter/singleicespike3",
-        "underworld/soul/clutter/singleicespike4",
-        "underworld/soul/clutter/singleicespike5",
-        "underworld/soul/clutter/icespec1",
-        "underworld/soul/clutter/icespec2",
-        "underworld/soul/clutter/icespec3",
-        "underworld/soul/clutter/icespec4",
-        "underworld/soul/clutter/icespec5"
-      ]
     }
   ],
   "decorators": [

@@ -1,4 +1,5 @@
 {
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-soul-cave",
   "name": "Underworld Prismatic Light Blue Caves",
   "derivative": "minecraft:soul_sand_valley",
   "vanillaDerivative": "minecraft:soul_sand_valley",
@@ -248,39 +249,6 @@
         "underworld/soul/structures/monolith1",
         "underworld/soul/structures/monolith3",
         "underworld/soul/structures/monolith4"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/icecluster1",
-        "underworld/soul/clutter/icecluster2",
-        "underworld/soul/clutter/icecluster3",
-        "underworld/soul/clutter/icecluster4",
-        "underworld/soul/clutter/icecluster5"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.06,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/smoleicespike1",
-        "underworld/soul/clutter/smoleicespike2",
-        "underworld/soul/clutter/smoleicespike3",
-        "underworld/soul/clutter/smoleicespike4"
       ],
       "scale": {
         "size": 0.75

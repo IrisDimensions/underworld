@@ -10,7 +10,11 @@
     "magnetics/glass",
     "magnetics/noise"
   ],
-  "caveBiomes": [],
+  "caveBiomes": [
+    "carving/magnetic-hollows",
+    "carving/flux-crystal-caverns",
+    "carving/polarity-grotto"
+  ],
   "shoreBiomes": [
     "temperate/shore/beach",
     "ocean/shore/beach"

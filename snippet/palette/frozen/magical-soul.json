@@ -1,0 +1,21 @@
+{
+  "style": {
+    "style": "CELLULAR",
+    "zoom": 0.55
+  },
+  "zoom": 2.5,
+  "palette": [
+    {
+      "block": "minecraft:soul_soil",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:soul_sand",
+      "weight": 2
+    },
+    {
+      "block": "minecraft:bone_block",
+      "weight": 1
+    }
+  ]
+}

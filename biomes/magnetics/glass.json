@@ -1,4 +1,5 @@
 {
+  "proceduralObjects": "snippet/procedural-objects/magnetics/magical-glowstone-spikes-surface",
   "entitySpawners": [
     "nether/surface/basalt-deltas",
     "nether/cave"
@@ -115,125 +116,6 @@
     },
     {
       "place": [
-        "underworld/basalt/clutter/singleicespike1",
-        "underworld/basalt/clutter/singleicespike2",
-        "underworld/basalt/clutter/singleicespike3",
-        "underworld/basalt/clutter/singleicespike4",
-        "underworld/basalt/clutter/singleicespike5"
-      ],
-      "chance": 0.06,
-      "mode": "CENTER_HEIGHT",
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:glowstone"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "place": [
-        "underworld/basalt/clutter/icespec1",
-        "underworld/basalt/clutter/icespec2",
-        "underworld/basalt/clutter/icespec3",
-        "underworld/basalt/clutter/icespec4",
-        "underworld/basalt/clutter/icespec5"
-      ],
-      "chance": 0.25,
-      "mode": "CENTER_HEIGHT",
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:glowstone"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "place": [
         "underworld/basalt/clutter/stoneboulder1",
         "underworld/basalt/clutter/stoneboulder2",
         "underworld/basalt/clutter/stoneboulder3",
@@ -303,14 +185,37 @@
         }
       },
       "topShapeAmp": 1.0,
-      "bottomStyle": {
-        "style": "FLAT"
+      "edgeTaperWidth": 12,
+      "edgeTaperExponent": 1.7,
+      "edgeTaperVariationStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.16
       },
-      "bottomDepthMin": 18,
-      "bottomDepthMax": 18,
-      "bottomExponent": 1.0,
+      "edgeTaperVariationAmplitude": 3,
+      "bottomStyle": {
+        "style": "FRACTAL_RM_SIMPLEX",
+        "zoom": 0.24,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 5
+        }
+      },
+      "bottomDepthMin": 4,
+      "bottomDepthMax": 50,
+      "bottomExponent": 2.65,
       "bottomPaletteMode": "MIRROR_TOP",
-      "maxThickness": 40,
+      "maxThickness": 76,
+      "wallWarpStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 3
+        }
+      },
+      "wallWarpAmplitude": 4,
       "carving": "carving/amethyst-child",
       "carveStyle": {
         "style": "SIMPLEX",
@@ -333,10 +238,7 @@
             "underworld/basalt/clutter/amethyst-cluster2",
             "underworld/basalt/clutter/amethyst-cluster3",
             "underworld/basalt/clutter/amethyst-cluster4",
-            "underworld/basalt/clutter/amethyst-cluster5",
-            "underworld/basalt/clutter/icespec1",
-            "underworld/basalt/clutter/icespec2",
-            "underworld/basalt/clutter/icespec3"
+            "underworld/basalt/clutter/amethyst-cluster5"
           ],
           "chance": 0.8,
           "mode": "CENTER_HEIGHT",
@@ -394,144 +296,10 @@
               }
             }
           ]
-        },
-        {
-          "place": [
-            "underworld/basalt/clutter/singleicespike1",
-            "underworld/basalt/clutter/singleicespike2",
-            "underworld/basalt/clutter/singleicespike3",
-            "underworld/basalt/clutter/singleicespike4",
-            "underworld/basalt/clutter/singleicespike5"
-          ],
-          "chance": 0.55,
-          "mode": "CENTER_HEIGHT",
-          "density": 6,
-          "rotation": {
-            "yAxis": {
-              "min": 0,
-              "max": 270,
-              "interval": 90,
-              "enabled": true
-            },
-            "enabled": true
-          },
-          "edit": [
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:crying_obsidian"
-                  }
-                ]
-              }
-            },
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:glowstone"
-                  }
-                ]
-              }
-            },
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:crying_obsidian"
-                  }
-                ]
-              }
-            }
-          ]
         }
       ],
       "bottomObjectMode": "REPLACE",
-      "bottomObjectOverrides": [
-        {
-          "place": [
-            "underworld/basalt/clutter/singleicespike1",
-            "underworld/basalt/clutter/singleicespike2",
-            "underworld/basalt/clutter/singleicespike3",
-            "underworld/basalt/clutter/singleicespike4",
-            "underworld/basalt/clutter/singleicespike5",
-            "underworld/basalt/clutter/icespiresmol1",
-            "underworld/basalt/clutter/icespiresmol2",
-            "underworld/basalt/clutter/icespiresmol3"
-          ],
-          "chance": 0.75,
-          "mode": "FAST_MIN_HEIGHT",
-          "density": 9,
-          "rotation": {
-            "yAxis": {
-              "min": 0,
-              "max": 270,
-              "interval": 90,
-              "enabled": true
-            },
-            "enabled": true
-          },
-          "edit": [
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:crying_obsidian"
-                  }
-                ]
-              }
-            },
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:glowstone"
-                  }
-                ]
-              }
-            },
-            {
-              "find": [
-                {
-                  "block": "minecraft:blackstone"
-                }
-              ],
-              "replace": {
-                "palette": [
-                  {
-                    "block": "minecraft:crying_obsidian"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
+      "bottomObjectOverrides": []
     }
   ],
   "customDerivitives": [

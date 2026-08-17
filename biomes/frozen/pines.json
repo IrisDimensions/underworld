@@ -1,4 +1,5 @@
 {
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-soul-surface",
   "entitySpawners": [
     "nether/surface/soul-sand-valley",
     "nether/cave"
@@ -111,65 +112,6 @@
   ],
   "objects": [
     {
-      "chance": 0.02,
-      "density": 3,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              },
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "place": [
-        "underworld/soul/clutter/icecluster1",
-        "underworld/soul/clutter/icecluster2",
-        "underworld/soul/clutter/icecluster3",
-        "underworld/soul/clutter/icecluster4",
-        "underworld/soul/clutter/icecluster5",
-        "underworld/soul/clutter/icecluster6",
-        "underworld/soul/clutter/icecluster7",
-        "underworld/soul/clutter/icecluster8",
-        "underworld/soul/clutter/icecluster9",
-        "underworld/soul/clutter/icecluster10",
-        "underworld/soul/clutter/icecluster11",
-        "underworld/soul/clutter/singleicespike1",
-        "underworld/soul/clutter/singleicespike2",
-        "underworld/soul/clutter/singleicespike3",
-        "underworld/soul/clutter/singleicespike4",
-        "underworld/soul/clutter/singleicespike5"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -4,
-        "z": 0
-      }
-    },
-    {
       "chance": 0.5,
       "density": 1,
       "edit": [
@@ -216,26 +158,6 @@
         "y": -2,
         "z": 0
       }
-    },
-    {
-      "chance": 0.06,
-      "density": 3,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/icespec1",
-        "underworld/soul/clutter/icespec2",
-        "underworld/soul/clutter/icespec3",
-        "underworld/soul/clutter/icespec4",
-        "underworld/soul/clutter/icespec5"
-      ]
     }
   ],
   "decorators": [
