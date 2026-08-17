@@ -405,22 +405,6 @@
     "ocean/warm"
   ],
   "shoreBiomeZoom": 0.15,
-  "deposits": [
-    {
-      "minHeight": 15,
-      "maxPerChunk": 24,
-      "maxHeight": 410,
-      "minPerChunk": 4,
-      "minSize": 3,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 4
-    }
-  ],
   "landBiomeZoom": 3.5,
   "shoreHeightMin": 1,
   "shoreHeightMax": 5.2,

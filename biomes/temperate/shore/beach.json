@@ -56,15 +56,27 @@
   "decorators": [
     {
       "chance": 0.009,
-      "block": "minecraft:magma_block"
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
     },
     {
       "chance": 0.005,
-      "block": "minecraft:magma_block"
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
     },
     {
       "chance": 0.002,
-      "block": "minecraft:magma_block"
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
     },
     {
       "chance": 0.003,

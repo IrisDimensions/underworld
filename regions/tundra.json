@@ -45,22 +45,6 @@
     "tundra/shore/beach-stone"
   ],
   "seaBiomeZoom": 4,
-  "deposits": [
-    {
-      "minHeight": 20,
-      "maxPerChunk": 2,
-      "maxHeight": 102,
-      "minPerChunk": 0,
-      "minSize": 1,
-      "maxSize": 3,
-      "palette": [
-        {
-          "block": "minecraft:gilded_blackstone"
-        }
-      ],
-      "varience": 8
-    }
-  ],
   "landBiomeZoom": 4.5,
   "shoreHeightMin": 2.2,
   "shoreHeightMax": 5.2,

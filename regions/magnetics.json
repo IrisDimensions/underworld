@@ -27,22 +27,6 @@
   "shoreHeightMin": 1,
   "shoreHeightMax": 5.2,
   "shoreHeightZoom": 1.14,
-  "deposits": [
-    {
-      "minHeight": 15,
-      "maxPerChunk": 20,
-      "maxHeight": 410,
-      "minPerChunk": 3,
-      "minSize": 3,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 4
-    }
-  ],
   "loot": {
     "mode": "FALLBACK",
     "multiplier": 0.5,

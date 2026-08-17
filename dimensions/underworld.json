@@ -365,71 +365,6 @@
       "minHeight": 5,
       "maxPerChunk": 9,
       "maxHeight": 51,
-      "minPerChunk": 5,
-      "minSize": 4,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 2,
-      "maxHeight": 51,
-      "minPerChunk": 0,
-      "minSize": 1,
-      "maxSize": 3,
-      "palette": [
-        {
-          "block": "minecraft:gilded_blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 9,
-      "maxHeight": 51,
-      "minPerChunk": 4,
-      "minSize": 4,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_gold_ore"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 9,
-      "maxHeight": 51,
-      "minPerChunk": 5,
-      "minSize": 4,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 9,
-      "maxHeight": 51,
-      "minPerChunk": 5,
-      "minSize": 4,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 9,
-      "maxHeight": 51,
       "minPerChunk": 4,
       "minSize": 4,
       "maxSize": 8,
@@ -454,34 +389,6 @@
       "varience": 4
     },
     {
-      "minHeight": 39,
-      "maxHeight": 359,
-      "maxPerChunk": 24,
-      "minPerChunk": 8,
-      "minSize": 3,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 5
-    },
-    {
-      "minHeight": 23,
-      "maxHeight": 255,
-      "maxPerChunk": 16,
-      "minPerChunk": 8,
-      "minSize": 3,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 5
-    },
-    {
       "minHeight": 5,
       "maxHeight": 228,
       "maxPerChunk": 4,
@@ -491,34 +398,6 @@
       "palette": [
         {
           "block": "minecraft:glowstone"
-        }
-      ],
-      "varience": 5
-    },
-    {
-      "minHeight": 5,
-      "maxHeight": 384,
-      "maxPerChunk": 24,
-      "minPerChunk": 8,
-      "minSize": 3,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 5
-    },
-    {
-      "minHeight": 5,
-      "maxHeight": 166,
-      "maxPerChunk": 4,
-      "minPerChunk": 1,
-      "minSize": 3,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:nether_gold_ore"
         }
       ],
       "varience": 5
@@ -538,34 +417,66 @@
       "varience": 7
     },
     {
-      "minHeight": 23,
-      "maxHeight": 359,
-      "maxPerChunk": 2,
-      "minPerChunk": 0,
-      "minSize": 1,
-      "maxSize": 3,
-      "palette": [
-        {
-          "block": "minecraft:gilded_blackstone"
-        }
-      ],
-      "varience": 5
+      "minHeight": 10,
+      "maxHeight": 757,
+      "heightDistribution": "UNIFORM",
+      "placementScope": "FULL_HEIGHT",
+      "surfaceClearance": 0,
+      "minPerChunk": 16,
+      "maxPerChunk": 16,
+      "minSize": 14,
+      "maxSize": 14,
+      "shape": "VANILLA_ELLIPSOID",
+      "palette": [{"block": "minecraft:nether_quartz_ore"}],
+      "replaceableBlocks": ["minecraft:netherrack"]
     },
     {
-      "minHeight": 5,
-      "maxHeight": 51,
+      "minHeight": 10,
+      "maxHeight": 757,
+      "heightDistribution": "UNIFORM",
+      "placementScope": "FULL_HEIGHT",
+      "surfaceClearance": 0,
+      "minPerChunk": 10,
+      "maxPerChunk": 10,
+      "minSize": 10,
+      "maxSize": 10,
+      "shape": "VANILLA_ELLIPSOID",
+      "palette": [{"block": "minecraft:nether_gold_ore"}],
+      "replaceableBlocks": ["minecraft:netherrack"]
+    },
+    {
+      "minHeight": 264,
+      "maxHeight": 280,
+      "heightDistribution": "TRIANGLE",
+      "placementScope": "FULL_HEIGHT",
+      "surfaceClearance": 0,
       "minPerChunk": 1,
-      "maxPerChunk": 2,
-      "minSize": 1,
+      "maxPerChunk": 1,
+      "minSize": 3,
+      "maxSize": 3,
+      "shape": "VANILLA_SCATTERED",
+      "discardChanceOnAirExposure": 1.0,
+      "palette": [{"block": "minecraft:ancient_debris"}],
+      "replaceableBlocks": [
+        "minecraft:netherrack", "minecraft:basalt", "minecraft:blackstone"
+      ]
+    },
+    {
+      "minHeight": 8,
+      "maxHeight": 759,
+      "heightDistribution": "UNIFORM",
+      "placementScope": "FULL_HEIGHT",
+      "surfaceClearance": 0,
+      "minPerChunk": 1,
+      "maxPerChunk": 1,
+      "minSize": 2,
       "maxSize": 2,
-      "spawnChance": 0.75,
-      "perClumpSpawnChance": 1.0,
-      "palette": [
-        {
-          "block": "minecraft:ancient_debris"
-        }
-      ],
-      "varience": 5
+      "shape": "VANILLA_SCATTERED",
+      "discardChanceOnAirExposure": 1.0,
+      "palette": [{"block": "minecraft:ancient_debris"}],
+      "replaceableBlocks": [
+        "minecraft:netherrack", "minecraft:basalt", "minecraft:blackstone"
+      ]
     }
   ],
   "depositVariants": [],

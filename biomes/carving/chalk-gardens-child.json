@@ -49,6 +49,29 @@
       ]
     }
   ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "CELLULAR"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "weight": 13
+        },
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 3
+        }
+      ]
+    }
+  ],
   "decorators": [
     {
       "chance": 0.0299,

@@ -70,6 +70,42 @@
       ]
     }
   ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.92
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:soul_sand",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 1
+        }
+      ]
+    }
+  ],
   "decorators": [
     {
       "chance": 0.035,

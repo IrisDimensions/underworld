@@ -42,36 +42,6 @@
     "frozen/sea/river",
     "vanilla/deep_frozen_ocean"
   ],
-  "deposits": [
-    {
-      "minHeight": 8,
-      "maxPerChunk": 2,
-      "maxHeight": 45,
-      "minPerChunk": 0,
-      "minSize": 1,
-      "maxSize": 3,
-      "palette": [
-        {
-          "block": "minecraft:gilded_blackstone"
-        }
-      ],
-      "varience": 4
-    },
-    {
-      "minHeight": 1,
-      "maxPerChunk": 5,
-      "maxHeight": 84,
-      "minPerChunk": 1,
-      "minSize": 3,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "varience": 8
-    }
-  ],
   "landBiomeZoom": 3,
   "shoreHeightMin": 2.2,
   "shoreHeightMax": 4.2,

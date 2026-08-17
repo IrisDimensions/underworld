@@ -48,6 +48,29 @@
       ]
     }
   ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 9
+        },
+        {
+          "block": "minecraft:magma_block",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 2
+        }
+      ]
+    }
+  ],
   "decorators": [
     {
       "chance": 0.0275,

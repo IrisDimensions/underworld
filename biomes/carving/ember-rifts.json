@@ -35,6 +35,23 @@
       ]
     }
   ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "STATIC"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    }
+  ],
   "decorators": [
     {
       "chance": 0.022,

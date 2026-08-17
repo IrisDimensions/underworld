@@ -49,6 +49,29 @@
       ]
     }
   ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "CELLULAR"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 12
+        },
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 2
+        }
+      ]
+    }
+  ],
   "decorators": [
     {
       "chance": 0.0483,

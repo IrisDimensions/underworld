@@ -46,20 +46,6 @@
   ],
   "deposits": [
     {
-      "minHeight": 2,
-      "maxPerChunk": 10,
-      "maxHeight": 100,
-      "minPerChunk": 1,
-      "minSize": 3,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:nether_gold_ore"
-        }
-      ],
-      "varience": 5
-    },
-    {
       "minHeight": 15,
       "maxPerChunk": 4,
       "maxHeight": 70,
