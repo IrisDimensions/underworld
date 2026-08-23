@@ -5,6 +5,7 @@
 .iris-trash/
 .idea/
 .cache/
+.codegraph/
 _docs/
 logs/
 
