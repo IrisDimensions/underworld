@@ -17,8 +17,8 @@
   ],
   "layers": [
     {
-      "minHeight": 3,
-      "maxHeight": 6,
+      "minHeight": 1,
+      "maxHeight": 3,
       "style": {
         "style": "NOWHERE"
       },

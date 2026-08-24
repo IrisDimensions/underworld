@@ -5,11 +5,11 @@
   "riverOverride": {
     "allowSources": true,
     "routingCostMultiplier": 0.9,
-    "widthMultiplier": 1.2,
-    "bankWidthMultiplier": 1.35,
+    "widthMultiplier": 0.9,
+    "bankWidthMultiplier": 0.85,
     "depthMultiplier": 0.9,
-    "maxIncisionMultiplier": 0.9,
-    "continuationChanceMultiplier": 0.96,
+        "maxIncisionMultiplier": 1.0,
+        "continuationChanceMultiplier": 1.0,
     "caveEntryMultiplier": 1.35,
     "channelBiomes": [
       "temperate/sea/river",

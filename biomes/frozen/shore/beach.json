@@ -46,7 +46,7 @@
       ]
     },
     {
-      "minHeight": 1,
+      "minHeight": 0,
       "maxHeight": 1,
       "palette": [
         {
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "minHeight": 2,
-      "maxHeight": 4,
+      "minHeight": 0,
+      "maxHeight": 2,
       "palette": [
         {
           "block": "minecraft:blackstone"
