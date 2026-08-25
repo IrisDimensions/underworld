@@ -37,7 +37,7 @@ The beta ZIP contains only the active lower-dimension resources.
 
 ## Pack publication
 
-An unmarked commit at the head of `main` updates the mutable `beta` prerelease. If the full head commit message contains the literal, case-sensitive marker `V+`, beta publication is skipped and that exact commit is published as a stable release instead. The release tag is the positive integer `version` in `dimensions/underworld.json`, and the flat-root release asset is `underworld.zip`.
+An unmarked commit at the head of `master` updates the mutable `beta` prerelease. If the full head commit message contains the literal, case-sensitive marker `V+`, beta publication is skipped and that exact commit is published as a stable release instead. The release tag is the positive integer `version` in `dimensions/underworld.json`, and the flat-root release asset is `underworld.zip`.
 
 Stable version tags are immutable. Increment the dimension version before marking another commit with `V+`; publication fails if that version tag already belongs to a different commit. The `Publish V+ Pack Release` manual workflow defaults to a non-publishing dry run and also requires the selected commit to contain `V+`.
 

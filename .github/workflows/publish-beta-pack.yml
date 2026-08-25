@@ -3,7 +3,7 @@ name: Publish Unmarked Commit as Beta Pack
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ env:
 
 jobs:
   publish:
-    name: Archive unmarked main build
+    name: Archive unmarked master build
     runs-on: ubuntu-latest
 
     steps:
@@ -44,16 +44,16 @@ jobs:
             echo "found=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Build and verify main archive
+      - name: Build and verify master archive
         if: steps.release_marker.outputs.found != 'true'
         shell: bash
         run: |
           set -euo pipefail
-          remote_main_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+          remote_master_sha="$(git ls-remote origin refs/heads/master | cut -f1)"
           archive_sha="$(git rev-parse HEAD)"
 
-          if [[ "$archive_sha" != "$remote_main_sha" ]]; then
-            echo "Checked out commit $archive_sha does not match main head $remote_main_sha" >&2
+          if [[ "$archive_sha" != "$remote_master_sha" ]]; then
+            echo "Checked out commit $archive_sha does not match master head $remote_master_sha" >&2
             exit 1
           fi
 
@@ -86,7 +86,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          release_notes="Automated beta archive from main commit ${ARCHIVE_SHA}."
+          release_notes="Automated beta archive from master commit ${ARCHIVE_SHA}."
 
           if gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${RELEASE_TAG}" >/dev/null 2>&1; then
             gh api \
