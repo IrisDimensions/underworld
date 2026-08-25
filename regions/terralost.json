@@ -15,9 +15,6 @@
     "channelBiomes": [
       "mountain/sea/river"
     ],
-    "bankBiomes": [
-      "tundra/shore/beach"
-    ],
     "mouthBiomes": [
       "mountain/sea/river"
     ],

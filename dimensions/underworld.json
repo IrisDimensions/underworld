@@ -66,19 +66,19 @@
       "tileCells": 3,
       "siteJitter": 0.48,
       "maxRouteReaches": 8,
-      "minimumSourcesPerTile": 3,
+      "minimumSourcesPerTile": 6,
       "sinkSearchReaches": 5,
       "routingBasinCells": 112,
       "routingDeviationScaleCells": 24,
       "routingDeviationStrengthCells": 8,
       "routingPlateauHeight": 1.5,
       "source": {
-        "chance": 0.12,
+        "chance": 0.24,
         "style": {
           "style": "IRIS",
           "zoom": 18432
         },
-        "influence": 0.08
+        "influence": 0.16
       },
       "continuation": {
         "chance": 0.994,
@@ -151,7 +151,7 @@
       },
       "maxIncision": 15,
       "bankExponent": 1.05,
-      "tunnelMouthBlend": 2,
+      "tunnelMouthBlend": 6,
       "tunnelWidthMultiplier": {
         "min": 2,
         "max": 4,
@@ -160,6 +160,7 @@
           "zoom": 96
         }
       },
+      "tunnelHeadroom": 12,
       "tunnelFloorStyle": {
         "style": "IRIS",
         "zoom": 48
@@ -517,7 +518,7 @@
       "dryContinuationChance": 0.3
     },
     "water": {
-      "mode": "FIXED",
+      "mode": "TERRACED",
       "fluidHeight": 50,
       "fluidPalette": {
         "palette": [
@@ -527,16 +528,39 @@
         ]
       },
       "poolLength": 128,
-      "maximumPoolRise": 0,
-      "dropHeight": 1
+      "maximumPoolRise": 64,
+      "dropHeight": 4
+    },
+    "waterfalls": {
+      "enabled": true,
+      "allowSubterranean": true,
+      "event": {
+        "chance": 0.18,
+        "style": {
+          "style": "IRIS",
+          "zoom": 2048
+        },
+        "influence": 0.08
+      },
+      "minimumDropHeight": 4,
+      "maximumDropHeight": 16,
+      "minimumSpacing": 256,
+      "maximumPerReach": 1,
+      "widthMultiplier": 0.8,
+      "curtainThickness": 1,
+      "plungePoolLength": 18,
+      "plungePoolDepth": 4
     },
     "biomes": {
       "selectionStyle": {
         "style": "CELLULAR_IRIS_DOUBLE",
         "zoom": 640
       },
+      "bankBlendStyle": {
+        "style": "IRIS",
+        "zoom": 4
+      },
       "channel": [],
-      "bank": [],
       "mouth": [],
       "dry": [],
       "floodedCave": []
@@ -573,7 +597,45 @@
       "maxFloodDepth": 64,
       "maxFloodVolume": 8192,
       "fallback": "SEALED",
-      "existingFluidPolicy": "REJECT"
+      "existingFluidPolicy": "REJECT",
+      "deepPools": {
+        "enabled": true,
+        "reach": {
+          "chance": 0.3333333333333333,
+          "style": {
+            "style": "IRIS",
+            "zoom": 4096
+          },
+          "influence": 0.08
+        },
+        "minimumSpacing": 768,
+        "maximumPerReach": 1,
+        "minimumFluidY": -224,
+        "maximumFluidY": -108,
+        "searchRadius": 20,
+        "searchAttempts": 12,
+        "horizontalRadius": 24,
+        "verticalRadius": 10,
+        "dryHeadroom": 5,
+        "shapeStyle": {
+          "style": "IRIS",
+          "zoom": 12
+        },
+        "shapeVariation": 0.6,
+        "warpStyle": {
+          "style": "IRIS",
+          "zoom": 24
+        },
+        "warpStrength": 8,
+        "maximumVolume": 65536,
+        "fluidPalette": {
+          "palette": [
+            {
+              "block": "minecraft:lava"
+            }
+          ]
+        }
+      }
     }
   },
   "continentZoom": 1,

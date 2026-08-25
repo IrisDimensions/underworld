@@ -15,9 +15,6 @@
       "frozen/sea/frozen-river-ice",
       "frozen/sea/river"
     ],
-    "bankBiomes": [
-      "frozen/shore/beach"
-    ],
     "mouthBiomes": [
       "frozen/sea/ocean",
       "vanilla/deep_frozen_ocean"

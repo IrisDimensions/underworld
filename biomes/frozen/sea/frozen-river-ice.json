@@ -118,41 +118,5 @@
   "childStyle": {
     "style": "SIMPLEX"
   },
-  "seaLayers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 2,
-      "style": {
-        "style": "GLOB_IRIS_THICK",
-        "axialFracturing": true
-      },
-      "zoom": 0.4,
-      "palette": [
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "weight": 3,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "weight": 3,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:lava",
-          "weight": 8
-        }
-      ]
-    }
-  ],
   "color": "#695F5C"
 }
