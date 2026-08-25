@@ -56,10 +56,8 @@
     "tundra/spruce-denmyre",
     "mountain/calcite-base"
   ],
-  "seaBiomes": [
+    "seaBiomes": [
     "tundra/sea/lake",
-    "tundra/sea/river",
-    "mountain/sea/river",
     "vanilla/cold_ocean",
     "vanilla/deep_cold_ocean"
   ],

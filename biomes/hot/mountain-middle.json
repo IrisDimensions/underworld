@@ -11,7 +11,7 @@
   "generators": [
     {
       "generator": "mountain",
-      "max": 210,
+      "max": 180,
       "min": 80
     }
   ],

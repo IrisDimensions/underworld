@@ -65,11 +65,9 @@
     "mesa/shore/beach",
     "savanna/shore/beach"
   ],
-  "seaBiomes": [
+    "seaBiomes": [
     "hot/sea/ocean",
-    "ocean/rich-oceans",
-    "hot/sea/river",
-    "mesa/sea/river"
+    "ocean/rich-oceans"
   ],
   "deposits": [
     {

@@ -78,14 +78,12 @@
     "vanilla/stony_shore"
   ],
   "seaBiomeZoom": 6,
-  "seaBiomes": [
+    "seaBiomes": [
     "ocean/deep",
     "ocean/dark-depth-ocean",
     "ocean/rich-oceans",
     "temperate/sea/ocean",
     "temperate/sea/ocean-deep",
-    "temperate/sea/river",
-    "mountain/sea/river-soft",
     "ocean/warm"
   ],
   "shoreBiomeZoom": 0.15,

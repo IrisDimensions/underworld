@@ -10,7 +10,7 @@
   "vanillaDerivative": "minecraft:basalt_deltas",
   "generators": [
     {
-      "max": 223,
+      "max": 185,
       "min": 106,
       "generator": "cracked-cliffs"
     }

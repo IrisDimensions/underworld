@@ -61,13 +61,11 @@
     "tropical/beach-charred"
   ],
   "seaBiomeZoom": 4,
-  "seaBiomes": [
+    "seaBiomes": [
     "tropical/submerged-volcanic",
     "tropical/sea/ocean",
     "ocean/dark-depth-ocean",
     "ocean/rich-oceans",
-    "tropical/sea/river-soft",
-    "tropical/sea/river-steep",
     "vanilla/deep_lukewarm_ocean"
   ],
   "deposits": [

@@ -11,7 +11,7 @@
   "generators": [
     {
       "min": 23,
-      "max": 295,
+      "max": 200,
       "generator": "spikes"
     }
   ],
