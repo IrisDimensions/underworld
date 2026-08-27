@@ -2,30 +2,6 @@
   "name": "Underworld The Magnetics",
   "color": "#5E5552",
   "rarity": 15,
-  "riverOverride": {
-    "allowSources": true,
-    "routingCostMultiplier": 1.55,
-    "widthMultiplier": 0.62,
-    "bankWidthMultiplier": 0.55,
-    "depthMultiplier": 1.55,
-    "maxIncisionMultiplier": 1.0,
-        "continuationChanceMultiplier": 1.0,
-    "caveEntryMultiplier": 0.45,
-    "channelBiomes": [
-      "prismatics/sea"
-    ],
-    "mouthBiomes": [
-      "prismatics/sea"
-    ],
-    "dryBiomes": [
-      "magnetics/glass",
-      "magnetics/noise"
-    ],
-    "floodedCaveBiomes": [
-      "carving/magnetic-hollows",
-      "carving/polarity-grotto"
-    ]
-  },
   "landBiomes": [
     "magnetics/plains",
     "magnetics/frozen",

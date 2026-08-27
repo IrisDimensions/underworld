@@ -64,6 +64,46 @@
   "objects": [
 
   ],
+  "seaLayers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 1.16,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 3,
+          "block": "minecraft:blackstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
   "customDerivitives": [
     {
       "id": "underworld_frozen_sea_river_1e1b42eb",
