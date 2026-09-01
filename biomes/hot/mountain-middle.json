@@ -1,4 +1,20 @@
 {
+  "riverPolicy": {
+    "placement": "PREFERRED_HEADWATER",
+    "routing": "PREFER",
+    "outletAdmission": false,
+    "profiles": [
+      "lava"
+    ],
+    "surfaceBiomes": [
+      "hot/sea/river",
+      "mesa/sea/river"
+    ],
+    "widthMultiplier": 0.65,
+    "depthMultiplier": 0.75,
+    "incisionMultiplier": 1.0,
+    "routingMultiplier": 0.8
+  },
   "entitySpawners": [
     "nether/surface/basalt-deltas",
     "nether/cave"

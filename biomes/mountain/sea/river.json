@@ -1,4 +1,12 @@
 {
+  "riverPolicy": {
+    "placement": "TRANSIT_ONLY",
+    "routing": "PREFER",
+    "outletAdmission": false,
+    "profiles": [
+      "lava"
+    ]
+  },
   "entitySpawners": [
     "nether/lava",
     "nether/cave"
@@ -21,11 +29,12 @@
       "style": {
         "style": "IRIS_DOUBLE",
         "fracture": {
-          "style": "STATIC",
+          "style": "IRIS",
+          "zoom": 12,
           "multiplier": 30
         }
       },
-      "zoom": 0.7,
+    "zoom": 8,
       "palette": [
         {
           "block": "minecraft:blackstone",
@@ -42,6 +51,10 @@
       ]
     },
     {
+      "style": {
+        "style": "IRIS"
+      },
+      "zoom": 12,
       "palette": [
         {
           "block": "minecraft:blackstone"

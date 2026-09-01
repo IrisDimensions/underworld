@@ -2,20 +2,21 @@
   "name": "Underworld Prismatics",
   "color": "#5E5552",
   "rarity": 20,
-  "riverOverride": {
-    "allowSources": true,
-    "routingCostMultiplier": 1.25,
-    "widthMultiplier": 0.65,
-    "bankWidthMultiplier": 0.6,
-    "depthMultiplier": 1.4,
-    "maxIncisionMultiplier": 1.0,
-        "continuationChanceMultiplier": 1.0,
-    "caveEntryMultiplier": 0.5,
-    "channelBiomes": [
+  "riverPolicy": {
+    "placement": "NATURAL",
+    "routing": "AVOID",
+    "outletAdmission": true,
+    "profiles": [
+      "lava"
+    ],
+    "surfaceBiomes": [
       "prismatics/sea"
     ],
     "mouthBiomes": [
       "prismatics/sea"
+    ],
+    "shoreBiomes": [
+      "prismatics/shore"
     ],
     "dryBiomes": [
       "prismatics/white",
@@ -25,7 +26,11 @@
     "floodedCaveBiomes": [
       "carving/prismatic-purple",
       "carving/prismatic-cyan"
-    ]
+    ],
+    "widthMultiplier": 0.65,
+    "depthMultiplier": 1.4,
+    "incisionMultiplier": 1.0,
+    "routingMultiplier": 1.25
   },
   "landBiomes": [
     "prismatics/white",

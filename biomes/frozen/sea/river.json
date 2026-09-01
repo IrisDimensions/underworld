@@ -1,5 +1,12 @@
 {
-  "proceduralObjects": "snippet/procedural-objects/frozen/magical-blackstone-spikes-surface",
+  "riverPolicy": {
+    "placement": "TRANSIT_ONLY",
+    "routing": "PREFER",
+    "outletAdmission": false,
+    "profiles": [
+      "lava"
+    ]
+  },
   "entitySpawners": [
     "nether/lava",
     "nether/cave"
@@ -17,6 +24,10 @@
   ],
   "layers": [
     {
+      "style": {
+        "style": "IRIS"
+      },
+      "zoom": 8,
       "palette": [
         {
           "block": "minecraft:blackstone"
@@ -33,8 +44,9 @@
       "minHeight": 2,
       "maxHeight": 3,
       "style": {
-        "style": "STATIC"
+        "style": "IRIS"
       },
+      "zoom": 12,
       "palette": [
         {
           "block": "minecraft:blackstone"

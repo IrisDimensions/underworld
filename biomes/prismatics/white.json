@@ -1,4 +1,13 @@
 {
+  "riverPolicy": {
+    "placement": "DISABLED",
+    "routing": "BLOCK",
+    "outletAdmission": false,
+    "profiles": [
+      "lava"
+    ],
+    "routingMultiplier": 0.0
+  },
   "entitySpawners": [
     "nether/surface/basalt-deltas",
     "nether/cave"

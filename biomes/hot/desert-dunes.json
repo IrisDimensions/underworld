@@ -1,4 +1,17 @@
 {
+  "riverPolicy": {
+    "placement": "TRANSIT_ONLY",
+    "routing": "AVOID",
+    "outletAdmission": false,
+    "profiles": [
+      "lava"
+    ],
+    "surfaceBiomes": [
+      "hot/sea/river",
+      "mesa/sea/river"
+    ],
+    "routingMultiplier": 1.4
+  },
   "entitySpawners": [
     "nether/surface/nether-wastes",
     "nether/cave"
