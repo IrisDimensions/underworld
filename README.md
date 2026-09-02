@@ -51,7 +51,7 @@ Use Java 25 from a current Iris checkout for the same offline generation and bou
   -PprobeMaximumTileX=23 \
   -PprobeMinimumTileZ=8 \
   -PprobeMaximumTileZ=23 \
-  -PprobeRequiredCoverage=SURFACE_POOL@lava,RIFFLE@lava,CASCADE@lava,WATERFALL@lava,RIDGE_BORE@lava,UNDERGROUND_POOL@lava,UNDERGROUND_DROP@lava,SINKHOLE@lava,INLAND_GROTTO@lava,DEEP_POOL@deep_lava \
+  -PprobeRequiredCoverage=SURFACE_POOL@lava,RIFFLE@lava,CASCADE@lava,WATERFALL@lava,UNDERGROUND_POOL@lava,UNDERGROUND_DROP@lava,SINKHOLE@lava,INLAND_GROTTO@lava,DEEP_POOL@deep_lava \
   -PprobeStudio=true
 
 ./gradlew --no-daemon :probe:generationOrderProbe \

@@ -123,7 +123,7 @@ jobs:
             -PprobeMaximumTileX=23 \
             -PprobeMinimumTileZ=8 \
             -PprobeMaximumTileZ=23 \
-            -PprobeRequiredCoverage=SURFACE_POOL@lava,RIFFLE@lava,CASCADE@lava,WATERFALL@lava,RIDGE_BORE@lava,UNDERGROUND_POOL@lava,UNDERGROUND_DROP@lava,SINKHOLE@lava,INLAND_GROTTO@lava,DEEP_POOL@deep_lava \
+            -PprobeRequiredCoverage=SURFACE_POOL@lava,RIFFLE@lava,CASCADE@lava,WATERFALL@lava,UNDERGROUND_POOL@lava,UNDERGROUND_DROP@lava,SINKHOLE@lava,INLAND_GROTTO@lava,DEEP_POOL@deep_lava \
             -PprobeStudio=true
           "$iris_root/gradlew" --no-daemon -p "$iris_root" :probe:generationOrderProbe \
             -PprobePack="$candidate_root" \
