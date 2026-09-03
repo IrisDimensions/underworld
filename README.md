@@ -20,7 +20,7 @@ The lower terrain layout is designed to be coordinate-for-coordinate compatible 
 
 ## Install and validate
 
-Current Iris builds do not download packs during startup. `/iris download pack=underworld` installs the flat-root stable asset at `https://github.com/IrisDimensions/underworld/releases/download/1005/underworld.zip`. Manual installation remains supported by extracting or copying this entire tree as `underworld` under the Iris packs root:
+Current Iris builds do not download packs during startup. `/iris download pack=underworld` installs the flat-root stable asset through `https://github.com/IrisDimensions/underworld/releases/latest/download/underworld.zip`. Manual installation remains supported by extracting or copying this entire tree as `underworld` under the Iris packs root:
 
 - Bukkit/Paper/Folia: `plugins/Iris/packs/underworld/`
 - Fabric/Forge/NeoForge: `config/irisworldgen/packs/underworld/`
@@ -33,7 +33,7 @@ On Bukkit-family servers, validate with:
 /iris pack package dimension=underworld obfuscate=false minify=true
 ```
 
-Use Java 25 from a current Iris checkout for the same offline generation and bounded hydrology coverage gates used by publication:
+Before marking terrain or generation changes with `V+`, use Java 25 from a current Iris checkout for the offline generation and bounded hydrology coverage gates:
 
 ```text
 ./gradlew --no-daemon :probe:genProbe \
@@ -78,9 +78,11 @@ The stable ZIP contains only the active lower-dimension resources.
 
 An unmarked commit at the head of `master` updates the mutable `beta` prerelease. If the full head commit message contains the literal, case-sensitive marker `V+`, beta publication is skipped and that exact commit is published as a stable release instead. The release tag is the positive integer `version` in `dimensions/underworld.json`, and the flat-root release asset is `underworld.zip`.
 
-Stable version tags are immutable. Increment the dimension version before marking another commit with `V+`; publication fails if that version tag already belongs to a different commit. The `Publish V+ Pack Release` manual workflow defaults to a non-publishing dry run and also requires the selected commit to contain `V+`.
+Stable version tags are immutable. Increment the dimension version before marking another commit with `V+`; publication fails if that version tag already exists. Stable publication only checks the archive and dimension identity, creates the flat-root ZIP, and publishes it with the commit changes since the previous stable release. It does not clone or build Iris or run generation probes.
 
-Both publication workflows build a flat-root `underworld.zip` from the exact commit and extract that candidate archive. Nothing is published unless Java 25 validation and the focused Studio generation, hydrology coverage, and generation-order gates all pass against that archive.
+The `Publish V+ Pack Release` manual workflow defaults to a non-publishing dry run and can publish the selected commit without a `V+` marker when `dry_run` is disabled.
+
+Both publication workflows build and integrity-check a flat-root `underworld.zip` from the exact triggering commit, then publish that archive. Generation probes remain an explicit pre-release QA step and are not part of publication.
 
 ## Source and credits
 
