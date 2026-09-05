@@ -8,7 +8,7 @@
   "derivative": "minecraft:nether_wastes",
   "vanillaDerivative": "minecraft:nether_wastes",
   "children": [
-    "mountain/Cute_Cliffs+"
+    "mountain/cute_cliffs+"
   ],
   "generators": [
     {

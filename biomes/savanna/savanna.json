@@ -167,9 +167,9 @@
         "enabled": true
       },
       "place": [
-        "underworld/wastes/trees/acacia/savannaD1",
-        "underworld/wastes/trees/acacia/savannaD2",
-        "underworld/wastes/trees/acacia/savannaD3"
+        "underworld/wastes/trees/acacia/savannad1",
+        "underworld/wastes/trees/acacia/savannad2",
+        "underworld/wastes/trees/acacia/savannad3"
       ]
     },
     {
@@ -184,19 +184,19 @@
         "enabled": true
       },
       "place": [
-        "underworld/wastes/trees/acacia/savannaF1",
-        "underworld/wastes/trees/acacia/savannaF2",
-        "underworld/wastes/trees/acacia/savannaF3",
-        "underworld/wastes/trees/acacia/savannaF4",
-        "underworld/wastes/trees/acacia/savannaF5",
-        "underworld/wastes/trees/acacia/savannaF6",
-        "underworld/wastes/trees/acacia/savannaF7",
-        "underworld/wastes/trees/acacia/savannaF8",
-        "underworld/wastes/trees/acacia/savannaF9",
-        "underworld/wastes/trees/acacia/savannaF10",
-        "underworld/wastes/trees/acacia/savannaF11",
-        "underworld/wastes/trees/acacia/savannaF13",
-        "underworld/wastes/trees/acacia/savannaF14"
+        "underworld/wastes/trees/acacia/savannaf1",
+        "underworld/wastes/trees/acacia/savannaf2",
+        "underworld/wastes/trees/acacia/savannaf3",
+        "underworld/wastes/trees/acacia/savannaf4",
+        "underworld/wastes/trees/acacia/savannaf5",
+        "underworld/wastes/trees/acacia/savannaf6",
+        "underworld/wastes/trees/acacia/savannaf7",
+        "underworld/wastes/trees/acacia/savannaf8",
+        "underworld/wastes/trees/acacia/savannaf9",
+        "underworld/wastes/trees/acacia/savannaf10",
+        "underworld/wastes/trees/acacia/savannaf11",
+        "underworld/wastes/trees/acacia/savannaf13",
+        "underworld/wastes/trees/acacia/savannaf14"
       ],
       "translate": {
         "x": 0,
@@ -216,14 +216,14 @@
         "enabled": true
       },
       "place": [
-        "underworld/wastes/trees/acacia/savannaS1",
-        "underworld/wastes/trees/acacia/savannaS2",
-        "underworld/wastes/trees/acacia/savannaS3",
-        "underworld/wastes/trees/acacia/savannaS4",
-        "underworld/wastes/trees/acacia/savannaS5",
-        "underworld/wastes/trees/acacia/savannaS6",
-        "underworld/wastes/trees/acacia/savannaS7",
-        "underworld/wastes/trees/acacia/savannaS8",
+        "underworld/wastes/trees/acacia/savannas1",
+        "underworld/wastes/trees/acacia/savannas2",
+        "underworld/wastes/trees/acacia/savannas3",
+        "underworld/wastes/trees/acacia/savannas4",
+        "underworld/wastes/trees/acacia/savannas5",
+        "underworld/wastes/trees/acacia/savannas6",
+        "underworld/wastes/trees/acacia/savannas7",
+        "underworld/wastes/trees/acacia/savannas8",
         "underworld/wastes/trees/acacia/savannas9",
         "underworld/wastes/trees/acacia/savannas10",
         "underworld/wastes/trees/acacia/savannas11",

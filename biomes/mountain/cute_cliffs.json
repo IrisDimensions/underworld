@@ -3,23 +3,26 @@
     "nether/surface/basalt-deltas",
     "nether/cave"
   ],
-  "name": "Underworld Mountain Middle",
-  "color": "#564E4C",
+  "name": "Underworld Lower Mountain",
+  "color": "#564C4B",
+  "rarity": 1,
   "derivative": "minecraft:basalt_deltas",
   "vanillaDerivative": "minecraft:basalt_deltas",
   "children": [
-    "mountain/Cute_Cliffs+"
+    "mountain/cute_cliffs+"
   ],
   "generators": [
     {
-      "generator": "mountain",
-      "max": 185,
-      "min": 106
+      "min": 4,
+      "max": 30,
+      "generator": "plain-cliffs"
+    },
+    {
+      "min": 93,
+      "max": 145,
+      "generator": "mountain"
     }
   ],
-  "biomeStyle": {
-    "style": "SIMPLEX"
-  },
   "wall": {
     "style": {
       "style": "STATIC"
@@ -32,10 +35,7 @@
         "block": "minecraft:basalt"
       },
       {
-        "block": "minecraft:gravel"
-      },
-      {
-        "block": "minecraft:warped_nylium"
+        "block": "minecraft:blackstone"
       }
     ]
   },
@@ -62,51 +62,37 @@
       "palette": [
         {
           "block": "minecraft:gravel"
-        },
-        {
-          "block": "minecraft:warped_nylium"
         }
       ]
     },
     {
       "minHeight": 2,
-      "maxHeight": 4,
-      "slopeCondition": {
-        "minimumSlope": 3.95
-      },
+      "maxHeight": 3,
       "palette": [
         {
           "block": "minecraft:blackstone"
         },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 4
-      },
-      "palette": [
         {
           "block": "minecraft:basalt"
+        },
+        {
+          "block": "minecraft:gravel"
         }
       ]
     },
     {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
       },
       "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:basalt"
+        },
         {
           "block": "minecraft:blackstone"
         }
@@ -202,16 +188,6 @@
     },
     "snippet/underworld/shared/decorator/surface-quartz"
   ],
-  "childStyle": {
-    "style": "STATIC",
-    "exponent": 0.625,
-    "zoom": 1,
-    "fracture": {
-      "style": "SIMPLEX",
-      "multiplier": 4,
-      "zoom": 0.9
-    }
-  },
   "slab": {
     "style": {
       "style": "STATIC"
@@ -239,17 +215,17 @@
   },
   "customDerivitives": [
     {
-      "id": "underworld_mountain_cute_cliffs_9721a388",
+      "id": "underworld_mountain_cute_cliffs_f6b51764",
       "category": "nether",
       "temperature": 2.0,
       "humidity": 0.0,
       "downfallType": "none",
-      "skyColor": "#151111",
+      "skyColor": "#191515",
       "fogColor": "#685F70",
-      "waterColor": "#C55015",
-      "waterFogColor": "#5A2418",
-      "grassColor": "#554C48",
-      "foliageColor": "#746B67",
+      "waterColor": "#B54011",
+      "waterFogColor": "#5C1C15",
+      "grassColor": "#61534E",
+      "foliageColor": "#5D5651",
       "ambientParticle": {
         "particle": "minecraft:ash",
         "rarity": 45

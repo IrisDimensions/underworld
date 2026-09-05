@@ -171,15 +171,15 @@
         "enabled": true
       },
       "place": [
-        "underworld/soul/trees/mushroom/froShroom1",
-        "underworld/soul/trees/mushroom/froShroom2",
-        "underworld/soul/trees/mushroom/froShroom3",
-        "underworld/soul/trees/mushroom/froShroom4",
-        "underworld/soul/trees/mushroom/froShroom5",
-        "underworld/soul/trees/mushroom/froShroom6",
-        "underworld/soul/trees/mushroom/froShroom7",
-        "underworld/soul/trees/mushroom/froShroom8",
-        "underworld/soul/trees/mushroom/froShroom9"
+        "underworld/soul/trees/mushroom/froshroom1",
+        "underworld/soul/trees/mushroom/froshroom2",
+        "underworld/soul/trees/mushroom/froshroom3",
+        "underworld/soul/trees/mushroom/froshroom4",
+        "underworld/soul/trees/mushroom/froshroom5",
+        "underworld/soul/trees/mushroom/froshroom6",
+        "underworld/soul/trees/mushroom/froshroom7",
+        "underworld/soul/trees/mushroom/froshroom8",
+        "underworld/soul/trees/mushroom/froshroom9"
       ],
       "translate": {
         "x": 0,
