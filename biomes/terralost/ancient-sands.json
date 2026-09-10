@@ -180,5 +180,25 @@
       ]
     },
     "snippet/underworld/shared/decorator/surface-quartz"
-  ]
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30187,
+    "amplitude": 26,
+    "horizontalScale": 256,
+    "verticalScale": 30,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 7,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "PERLIN"
+    },
+    "minimumSlope": 0.24,
+    "slopeFade": 0.32,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
 }

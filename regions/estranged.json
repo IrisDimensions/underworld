@@ -423,13 +423,10 @@
   ],
   "shoreBiomes": [
     "temperate/shore/beach",
-    "temperate/shore/oak-beach",
-    "ocean/shore/beach",
-    "mountain/shore/beach",
-    "vanilla/stony_shore"
+    "mountain/shore/beach"
   ],
   "seaBiomeZoom": 6,
-    "seaBiomes": [
+  "seaBiomes": [
     "ocean/deep",
     "ocean/dark-depth-ocean",
     "ocean/rich-oceans",
@@ -437,11 +434,11 @@
     "temperate/sea/ocean-deep",
     "ocean/warm"
   ],
-  "shoreBiomeZoom": 0.15,
+  "shoreBiomeZoom": 2.5,
   "landBiomeZoom": 3.5,
-  "shoreHeightMin": 1,
-  "shoreHeightMax": 5.2,
-  "shoreHeightZoom": 1.14,
+  "shoreHeightMin": 0.75,
+  "shoreHeightMax": 2.25,
+  "shoreHeightZoom": 3.2,
   "loot": {
     "mode": "FALLBACK",
     "multiplier": 0.5,

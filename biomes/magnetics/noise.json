@@ -379,5 +379,25 @@
         "rarity": 45
       }
     }
-  ]
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30181,
+    "amplitude": 24,
+    "horizontalScale": 256,
+    "verticalScale": 32,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.18,
+    "slopeFade": 0.32,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
 }

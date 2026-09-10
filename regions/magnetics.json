@@ -29,7 +29,10 @@
     ],
     "widthMultiplier": 0.62,
     "depthMultiplier": 1.55,
-    "routingMultiplier": 1.55
+    "routingMultiplier": 1.55,
+    "surfacePools": [
+      "lava_pool"
+    ]
   },
   "landBiomes": [
     "magnetics/plains",

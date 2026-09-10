@@ -555,5 +555,8 @@
         "rarity": 45
       }
     }
-  ]
+  ],
+  "terrain3D": {
+    "enabled": false
+  }
 }

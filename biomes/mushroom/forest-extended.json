@@ -471,5 +471,25 @@
         "block": "minecraft:air"
       }
     ]
+  },
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30139,
+    "amplitude": 28,
+    "horizontalScale": 256,
+    "verticalScale": 30,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2.25,
+    "crackScale": 448,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.12,
+    "slopeFade": 0.3,
+    "fluidClearance": 8,
+    "fluidFade": 24
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": 1009,
+  "version": 1010,
   "name": "Underworld",
   "datapackImports": [],
   "importedStructures": {
@@ -48,6 +48,17 @@
           "minecraft:nether_fossil"
         ],
         "preserveSourceY": true
+      },
+      {
+        "match": [
+          "minecraft:bastion_remnant",
+          "minecraft:ruined_portal_nether"
+        ],
+        "terrain": {
+          "mode": "FLATTEN",
+          "horizontalPadding": 24,
+          "flattenRange": 64
+        }
       }
     ]
   },
@@ -69,14 +80,15 @@
         "minimumSurfaceCourseLength": 384,
         "minimumUndergroundCourseLength": 384,
         "maximumOutletsPerTile": 1,
-        "oceanOutlets": false,
+        "oceanOutlets": true,
         "inlandOutlets": [
           "SINKHOLE_GROTTO"
         ],
         "valleyPreference": 1.5,
         "uphillPenalty": 24.0,
         "slopePenalty": 2.0,
-        "confluenceAttraction": 0.2
+        "confluenceAttraction": 0.2,
+        "maximumCoastalOutletsPerTile": 2
       },
       "geometry": {
         "meanders": {
@@ -157,7 +169,7 @@
             }
           },
           "sink": 0,
-          "maximumIncision": 10,
+          "maximumIncision": 16,
           "roughness": 0.25,
           "roughnessWavelength": 16,
           "springWidthRatio": 2.5,
@@ -222,7 +234,7 @@
           "plungeBasinDepth": 1
         },
         "mouths": {
-          "flareRatio": 1.6,
+          "flareRatio": 2.5,
           "maximumOceanApron": 8,
           "inletLength": 64,
           "inletDepth": 3,
@@ -315,14 +327,22 @@
       },
       "grottos": {
         "coastal": {
-          "enabled": false,
+          "enabled": true,
           "poolLevel": "SEA_LEVEL",
           "horizontalRadius": 12,
           "verticalRadius": 7,
           "headroom": 10,
           "maximumVolume": 16384,
           "cliffMinimumHeight": 7,
-          "cliffSlopeFactor": 0.5
+          "cliffSlopeFactor": 0.5,
+          "seaCaves": {
+            "enabled": true,
+            "maximumPerTile": 3,
+            "minimumSpacing": 160,
+            "minimumCoastHeight": 8,
+            "depth": 12,
+            "sweepJitterDegrees": 25.0
+          }
         },
         "inland": {
           "enabled": true,
@@ -336,6 +356,16 @@
       "profiles": [
         {
           "id": "lava",
+          "fluidPalette": {
+            "palette": [
+              {
+                "block": "minecraft:lava"
+              }
+            ]
+          }
+        },
+        {
+          "id": "volcanic_lava",
           "fluidPalette": {
             "palette": [
               {
@@ -373,6 +403,53 @@
         "headroom": 6,
         "containedPools": true,
         "shortChannels": false
+      }
+    ],
+    "surfacePools": [
+      {
+        "id": "lava_pool",
+        "fluidPalette": {
+          "palette": [
+            {
+              "block": "minecraft:lava"
+            }
+          ]
+        },
+        "density": 0.75,
+        "spacing": 384,
+        "minimumRadius": 4,
+        "maximumRadius": 7,
+        "depth": 2
+      },
+      {
+        "id": "tropical_lake",
+        "fluidPalette": {
+          "palette": [
+            {
+              "block": "minecraft:lava"
+            }
+          ]
+        },
+        "density": 8.0,
+        "spacing": 160,
+        "minimumRadius": 8,
+        "maximumRadius": 16,
+        "depth": 3
+      },
+      {
+        "id": "volcanic_pool",
+        "fluidPalette": {
+          "palette": [
+            {
+              "block": "minecraft:lava"
+            }
+          ]
+        },
+        "density": 6.0,
+        "spacing": 128,
+        "minimumRadius": 6,
+        "maximumRadius": 12,
+        "depth": 3
       }
     ]
   },

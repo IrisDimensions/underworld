@@ -1,6 +1,6 @@
 {
   "riverPolicy": {
-        "placement": "PREFERRED_HEADWATER",
+    "placement": "PREFERRED_HEADWATER",
     "routing": "PREFER",
     "outletAdmission": false,
     "profiles": [
@@ -245,5 +245,25 @@
         "rarity": 45
       }
     }
-  ]
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30109,
+    "amplitude": 52,
+    "horizontalScale": 256,
+    "verticalScale": 36,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 11,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.18,
+    "slopeFade": 0.32,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
 }

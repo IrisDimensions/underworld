@@ -252,5 +252,8 @@
       }
     },
     "snippet/underworld/shared/decorator/surface-quartz"
-  ]
+  ],
+  "terrain3D": {
+    "enabled": false
+  }
 }

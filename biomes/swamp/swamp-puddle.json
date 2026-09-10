@@ -164,5 +164,8 @@
     },
     "snippet/underworld/shared/decorator/surface-quartz"
   ],
-  "color": "#2C918A"
+  "color": "#2C918A",
+  "terrain3D": {
+    "enabled": false
+  }
 }

@@ -3,7 +3,7 @@
   "color": "#B63A43",
   "rarity": 2,
   "riverPolicy": {
-    "placement": "NATURAL",
+    "placement": "PREFERRED_HEADWATER",
     "routing": "PREFER",
     "outletAdmission": true,
     "profiles": [
@@ -31,9 +31,21 @@
       "carving/jungle",
       "carving/lush"
     ],
-    "widthMultiplier": 0.95,
+    "widthMultiplier": 0.65,
     "depthMultiplier": 1.15,
-    "routingMultiplier": 0.65
+    "routingMultiplier": 0.65,
+    "surfaceSourceDensity": 8.0,
+    "surfaceSourceSpacing": 160,
+    "surfaceTributaries": 3,
+    "surfaceInlandOutlets": 3,
+    "surfaceCoastalOutlets": 4,
+    "surfacePools": [
+      "tropical_lake"
+    ],
+    "bankMultiplier": 1.0,
+    "shoreWidth": 1.0,
+    "surfaceMinimumCourseLength": 64,
+    "surfaceMaximumIncision": 32
   },
   "landBiomes": [
     "tropical/rainforest",
@@ -64,7 +76,7 @@
     "tropical/beach-charred"
   ],
   "seaBiomeZoom": 4,
-    "seaBiomes": [
+  "seaBiomes": [
     "tropical/submerged-volcanic",
     "tropical/sea/ocean",
     "ocean/dark-depth-ocean",

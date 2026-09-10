@@ -5,7 +5,7 @@
   ],
   "name": "Underworld Mistveil Swamp",
   "color": "#289A8B",
-  "rarity": 2,
+  "rarity": 4,
   "derivative": "minecraft:warped_forest",
   "vanillaDerivative": "minecraft:warped_forest",
   "customDerivitives": [
@@ -241,5 +241,8 @@
     "snippet/underworld/warped/decorator/leaf",
     "snippet/underworld/warped/decorator/bush",
     "snippet/underworld/shared/decorator/surface-quartz"
-  ]
+  ],
+  "terrain3D": {
+    "enabled": false
+  }
 }
