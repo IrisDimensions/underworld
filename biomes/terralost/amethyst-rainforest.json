@@ -87,7 +87,7 @@
   ],
   "objects": [
     {
-      "mode": "MIN_HEIGHT",
+      "mode": "FAST_STILT",
       "chance": 0.3,
       "place": [
         "underworld/soul/trees/mixed/amylarge1",
@@ -141,9 +141,6 @@
           }
         }
       ],
-      "translate": {
-        "yRandom": -5
-      },
       "rotation": {
         "enabled": true,
         "yAxis": {

@@ -174,7 +174,7 @@
     "defaultObjectPlaceMode": "ORGANIC_STILT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
-    "allowFluid": true,
+    "allowFluid": false,
     "fluidMinDepthBelowSurface": 18,
     "fluidRequiresFloor": true,
     "allowLava": true,
@@ -263,7 +263,7 @@
         "underworld/soul/clutter/amethyst-cluster5"
       ],
       "scale": {
-        "size": 0.75
+        "size": 1
       }
     },
     {
