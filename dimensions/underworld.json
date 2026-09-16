@@ -1,5 +1,5 @@
 {
-  "version": 1011,
+  "version": 1012,
   "name": "Underworld",
   "datapackImports": [],
   "importedStructures": {
@@ -88,7 +88,18 @@
         "uphillPenalty": 24.0,
         "slopePenalty": 2.0,
         "confluenceAttraction": 0.2,
-        "maximumCoastalOutletsPerTile": 2
+        "maximumCoastalOutletsPerTile": 2,
+        "regional": {
+          "enabled": false,
+          "sampleSpacing": 256,
+          "minimumLength": 2048,
+          "maximumTrunks": 2,
+          "maximumCachedBasins": 8,
+          "maximumCachedStations": 131072,
+          "coastalChannels": true,
+          "coastalChannelChance": 0.25,
+          "maximumCoastalIncision": 8
+        }
       },
       "geometry": {
         "meanders": {
@@ -141,6 +152,13 @@
           "basinWidthRatio": 1.8,
           "maximumBasinDepth": 8,
           "undergroundCascadeRunPerBlock": 0
+        },
+        "banks3D": {
+          "enabled": false,
+          "amplitude": 8,
+          "horizontalScale": 48,
+          "verticalScale": 8,
+          "maximumOverhang": 8
         }
       },
       "surface": {
@@ -188,15 +206,15 @@
           "maximumBlendWidth": 32,
           "exposeCutStrata": true,
           "shoreMaterial": {
-            "enabled": false,
+            "enabled": true,
             "palette": {
               "palette": [
                 {
-                  "block": "minecraft:stone"
+                  "block": "minecraft:blackstone"
                 }
               ]
             },
-            "depth": 1
+            "depth": 2
           },
           "bankMaterial": {
             "enabled": false,
@@ -208,10 +226,15 @@
               ]
             },
             "depth": 1
+          },
+          "excavation": {
+            "maximumDepth": 16,
+            "maximumWidth": 40,
+            "maximumVolumePerBlock": 1024
           }
         },
         "bed": {
-          "allowGravityBlocks": false,
+          "allowGravityBlocks": true,
           "padding": 2,
           "material": {
             "enabled": false,
