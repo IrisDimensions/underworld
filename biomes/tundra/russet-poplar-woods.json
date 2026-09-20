@@ -1,0 +1,616 @@
+{
+  "name": "Sallow Hyphae Woods",
+  "color": "#63797C",
+  "rarity": 3,
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "customDerivitives": [
+    {
+      "id": "underworld_tundra_russet_poplar_woods",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#111A1F",
+      "fogColor": "#1B4745",
+      "waterColor": "#5E9090",
+      "waterFogColor": "#28414A",
+      "grassColor": "#5E6F72",
+      "foliageColor": "#758C8F",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "max": 42,
+      "min": 34,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30103,
+    "amplitude": 22,
+    "horizontalScale": 256,
+    "verticalScale": 30,
+    "densityStyle": {
+      "style": "PERLIN"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.18,
+    "slopeFade": 0.32,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:basalt"
+      }
+    ]
+  },
+  "entitySpawners": [
+    "nether/surface/soul-sand-valley",
+    "nether/cave"
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.6
+      },
+      "zoom": 0.8,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:soul_sand",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:basalt",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/leaning-red",
+        "underworld/soul/trees/poplar/forked-red",
+        "underworld/soul/trees/poplar/broken-red",
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/leaning-red",
+        "underworld/soul/trees/poplar/forked-red",
+        "underworld/soul/trees/poplar/broken-red",
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/young-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/mature-red",
+        "underworld/soul/trees/poplar/leaning-red",
+        "underworld/soul/trees/poplar/forked-red",
+        "underworld/soul/trees/poplar/broken-red",
+        "underworld/soul/trees/poplar/young-orange",
+        "underworld/soul/trees/poplar/young-orange",
+        "underworld/soul/trees/poplar/mature-orange",
+        "underworld/soul/trees/poplar/mature-orange",
+        "underworld/soul/trees/poplar/mature-orange",
+        "underworld/soul/trees/poplar/mature-orange",
+        "underworld/soul/trees/poplar/leaning-orange",
+        "underworld/soul/trees/poplar/forked-orange",
+        "underworld/soul/trees/poplar/broken-orange"
+      ],
+      "chance": 0.9,
+      "density": 2,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/soul/trees/poplar/fallen-1",
+        "underworld/soul/trees/poplar/fallen-2"
+      ],
+      "chance": 0.11,
+      "density": 1,
+      "mode": "STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 0,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 0.4
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/soul/trees/poplar/stump-1",
+        "underworld/soul/trees/poplar/stump-2"
+      ],
+      "chance": 0.07,
+      "density": 1,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "chance": 0.14,
+      "density": 1,
+      "place": [
+        "underworld/soul/clutter/stoneclutt5",
+        "underworld/soul/clutter/stoneclutt6",
+        "underworld/soul/clutter/stoneclutt7"
+      ],
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -2
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      }
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "underworld-tundra-russet-poplar-woods-young",
+        "chance": 0.12,
+        "density": 1,
+        "variants": 16,
+        "seed": 263200,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 6,
+        "heightMax": 9,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "TAPROOT",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9
+        }
+      },
+      {
+        "name": "underworld-tundra-russet-poplar-woods-mature",
+        "chance": 0.3,
+        "density": 1,
+        "variants": 16,
+        "seed": 263201,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 10,
+        "heightMax": 15,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      },
+      {
+        "name": "underworld-tundra-russet-poplar-woods-leaning",
+        "chance": 0.15,
+        "density": 1,
+        "variants": 16,
+        "seed": 263102,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 9,
+        "heightMax": 13,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "leanAngle": 12,
+        "leanAzimuth": 25,
+        "trunkCurve": "SIGMOID",
+        "curveSteepness": 5
+      },
+      {
+        "name": "underworld-tundra-russet-poplar-woods-forked",
+        "chance": 0.08,
+        "density": 1,
+        "variants": 16,
+        "seed": 263203,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_hyphae",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 11,
+        "heightMax": 16,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 3,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 2,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "trunkForks": 2,
+        "forkHeight": 0.45,
+        "forkAngle": 16,
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.16,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_roots"
+        },
+        {
+          "block": "minecraft:warped_roots"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.12,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.012,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:soul_fire"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:soul_soil"
+        },
+        {
+          "block": "minecraft:soul_sand"
+        }
+      ]
+    }
+  ]
+}

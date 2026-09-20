@@ -10,7 +10,8 @@
   "vanillaDerivative": "minecraft:nether_wastes",
   "children": [
     "temperate/birch-thin",
-    "temperate/birch-forest-extended"
+    "temperate/birch-forest-extended",
+    "temperate/golden-poplar-grove"
   ],
   "generators": [
     {

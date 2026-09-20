@@ -1,0 +1,604 @@
+{
+  "name": "Warpedcap Hyphae Grove",
+  "color": "#249A90",
+  "rarity": 3,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "customDerivitives": [
+    {
+      "id": "underworld_estranged_emberbark_poplar_grove",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#071C20",
+      "fogColor": "#1A051A",
+      "waterColor": "#2B8D7C",
+      "waterFogColor": "#094C50",
+      "grassColor": "#35A19A",
+      "foliageColor": "#2F8D7E",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 12,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 38,
+      "min": 0
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30103,
+    "amplitude": 18,
+    "horizontalScale": 160,
+    "verticalScale": 40,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.28,
+    "slopeFade": 0.4,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "entitySpawners": [
+    "nether/surface/warped-forest",
+    "nether/cave"
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.6
+      },
+      "zoom": 0.8,
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/leaning-orange",
+        "underworld/warped/trees/poplar/forked-orange",
+        "underworld/warped/trees/poplar/broken-orange",
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/leaning-orange",
+        "underworld/warped/trees/poplar/forked-orange",
+        "underworld/warped/trees/poplar/broken-orange",
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/young-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/mature-orange",
+        "underworld/warped/trees/poplar/leaning-orange",
+        "underworld/warped/trees/poplar/forked-orange",
+        "underworld/warped/trees/poplar/broken-orange",
+        "underworld/warped/trees/poplar/young-red",
+        "underworld/warped/trees/poplar/young-red",
+        "underworld/warped/trees/poplar/mature-red",
+        "underworld/warped/trees/poplar/mature-red",
+        "underworld/warped/trees/poplar/mature-red",
+        "underworld/warped/trees/poplar/mature-red",
+        "underworld/warped/trees/poplar/leaning-red",
+        "underworld/warped/trees/poplar/forked-red",
+        "underworld/warped/trees/poplar/broken-red"
+      ],
+      "chance": 0.95,
+      "density": 3,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/warped/trees/poplar/fallen-1",
+        "underworld/warped/trees/poplar/fallen-2"
+      ],
+      "chance": 0.08,
+      "density": 1,
+      "mode": "STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 0,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 0.4
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/warped/trees/poplar/stump-1",
+        "underworld/warped/trees/poplar/stump-2"
+      ],
+      "chance": 0.07,
+      "density": 1,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:warped_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "chance": 0.09,
+      "density": 1,
+      "place": [
+        "underworld/warped/clutter/stoneclutt5",
+        "underworld/warped/clutter/stoneclutt6",
+        "underworld/warped/clutter/stoneclutt7"
+      ],
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -2
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      }
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "underworld-estranged-emberbark-poplar-grove-young",
+        "chance": 0.18,
+        "density": 1,
+        "variants": 16,
+        "seed": 263100,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_stem",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 6,
+        "heightMax": 9,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "TAPROOT",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9
+        }
+      },
+      {
+        "name": "underworld-estranged-emberbark-poplar-grove-mature",
+        "chance": 0.42,
+        "density": 1,
+        "variants": 16,
+        "seed": 263101,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_stem",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 10,
+        "heightMax": 15,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      },
+      {
+        "name": "underworld-estranged-emberbark-poplar-grove-leaning",
+        "chance": 0.22,
+        "density": 1,
+        "variants": 16,
+        "seed": 263202,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_stem",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 9,
+        "heightMax": 13,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "leanAngle": 12,
+        "leanAzimuth": 25,
+        "trunkCurve": "SIGMOID",
+        "curveSteepness": 5
+      },
+      {
+        "name": "underworld-estranged-emberbark-poplar-grove-forked",
+        "chance": 0.18,
+        "density": 1,
+        "variants": 16,
+        "seed": 263203,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:warped_stem",
+        "leaves": "minecraft:warped_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 11,
+        "heightMax": 16,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:warped_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 3,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 2,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "trunkForks": 2,
+        "forkHeight": 0.45,
+        "forkAngle": 16,
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.23,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_roots"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.12,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.045,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.009,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    }
+  ]
+}

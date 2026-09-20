@@ -1,0 +1,565 @@
+{
+  "name": "Crimson Spire Grove",
+  "color": "#A04729",
+  "rarity": 3,
+  "derivative": "minecraft:nether_wastes",
+  "vanillaDerivative": "minecraft:nether_wastes",
+  "customDerivitives": [
+    {
+      "id": "underworld_temperate_golden_poplar_grove",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#2D0A09",
+      "fogColor": "#330808",
+      "waterColor": "#CA6121",
+      "waterFogColor": "#651A0D",
+      "grassColor": "#864323",
+      "foliageColor": "#814929",
+      "ambientParticle": {
+        "particle": "minecraft:ash",
+        "rarity": 45
+      }
+    }
+  ],
+  "generators": [
+    {
+      "min": 5,
+      "max": 12,
+      "generator": "highplains"
+    },
+    {
+      "min": 0,
+      "max": 50,
+      "generator": "rare-hills"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30107,
+    "amplitude": 30,
+    "horizontalScale": 280,
+    "verticalScale": 36,
+    "densityStyle": {
+      "style": "PERLIN"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2.25,
+    "crackScale": 448,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.2,
+    "slopeFade": 0.35,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "wall": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:netherrack"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:netherrack"
+      }
+    ]
+  },
+  "entitySpawners": [
+    "nether/surface/nether-wastes",
+    "nether/cave"
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.6
+      },
+      "zoom": 0.8,
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:gravel",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:netherrack",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "underworld/wastes/trees/poplar/young-yellow",
+        "underworld/wastes/trees/poplar/young-yellow",
+        "underworld/wastes/trees/poplar/mature-yellow",
+        "underworld/wastes/trees/poplar/mature-yellow",
+        "underworld/wastes/trees/poplar/mature-yellow",
+        "underworld/wastes/trees/poplar/mature-yellow",
+        "underworld/wastes/trees/poplar/leaning-yellow",
+        "underworld/wastes/trees/poplar/forked-yellow",
+        "underworld/wastes/trees/poplar/broken-yellow"
+      ],
+      "chance": 0.8,
+      "density": 2,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/wastes/trees/poplar/fallen-1",
+        "underworld/wastes/trees/poplar/fallen-2"
+      ],
+      "chance": 0.08,
+      "density": 1,
+      "mode": "STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": 1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 0,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 0.4
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "place": [
+        "underworld/wastes/trees/poplar/stump-1",
+        "underworld/wastes/trees/poplar/stump-2"
+      ],
+      "chance": 0.07,
+      "density": 1,
+      "mode": "CENTER_STILT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      },
+      "stiltSettings": {
+        "yMax": 4,
+        "overStilt": 1,
+        "yRand": 0,
+        "exclude": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight"
+        ]
+      }
+    },
+    {
+      "chance": 0.07,
+      "density": 1,
+      "place": [
+        "underworld/wastes/clutter/stoneclutt5",
+        "underworld/wastes/clutter/stoneclutt6",
+        "underworld/wastes/clutter/stoneclutt7"
+      ],
+      "mode": "CENTER_HEIGHT",
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -2
+      },
+      "carvingSupport": "SURFACE_ONLY",
+      "surfaceSupportBuffer": 1,
+      "surfaceSupportDepth": 2,
+      "slopeCondition": {
+        "maximumSlope": 1.5
+      }
+    }
+  ],
+  "proceduralObjects": {
+    "trees": [
+      {
+        "name": "underworld-temperate-golden-poplar-grove-young",
+        "chance": 0.15,
+        "density": 1,
+        "variants": 16,
+        "seed": 263000,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:crimson_stem",
+        "leaves": "minecraft:nether_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 6,
+        "heightMax": 9,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "TAPROOT",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:nether_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9
+        }
+      },
+      {
+        "name": "underworld-temperate-golden-poplar-grove-mature",
+        "chance": 0.28,
+        "density": 1,
+        "variants": 16,
+        "seed": 263001,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:crimson_stem",
+        "leaves": "minecraft:nether_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 10,
+        "heightMax": 15,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:nether_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      },
+      {
+        "name": "underworld-temperate-golden-poplar-grove-leaning",
+        "chance": 0.12,
+        "density": 1,
+        "variants": 16,
+        "seed": 263002,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:crimson_stem",
+        "leaves": "minecraft:nether_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 9,
+        "heightMax": 13,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:nether_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 2,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 3,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "leanAngle": 12,
+        "leanAzimuth": 25,
+        "trunkCurve": "SIGMOID",
+        "curveSteepness": 5
+      },
+      {
+        "name": "underworld-temperate-golden-poplar-grove-forked",
+        "chance": 0.1,
+        "density": 1,
+        "variants": 16,
+        "seed": 263003,
+        "plausible": true,
+        "mode": "CENTER_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 270,
+            "interval": 90
+          }
+        },
+        "carvingSupport": "SURFACE_ONLY",
+        "trunk": "minecraft:crimson_stem",
+        "leaves": "minecraft:nether_wart_block",
+        "profile": "POPLAR",
+        "heightMin": 11,
+        "heightMax": 16,
+        "trunkWidth": 1,
+        "roots": true,
+        "rootStyle": "BUTTRESS",
+        "rootDepth": 2,
+        "rootFlare": 1.5,
+        "stiltSettings": {
+          "yMax": 4,
+          "overStilt": 1,
+          "yRand": 0,
+          "exclude": [
+            "minecraft:nether_wart_block",
+            "minecraft:shroomlight"
+          ]
+        },
+        "canopy": {
+          "crownStretchX": 1.1,
+          "crownStretchZ": 0.9,
+          "branches": {
+            "probabilityFunction": "TOP_HEAVY",
+            "probabilityExponent": 3,
+            "lengthFunction": "LINEAR",
+            "lengthBase": 1,
+            "lengthCrown": 3,
+            "azimuthMode": "RANDOM",
+            "elevation": 40,
+            "branchDepth": 0,
+            "leafStartUp": true,
+            "clusterRadius": 2,
+            "clusterMode": "TRIMMED"
+          }
+        },
+        "trunkForks": 2,
+        "forkHeight": 0.45,
+        "forkAngle": 16,
+        "decorators": [
+          {
+            "target": "TRUNK_SURFACE",
+            "block": "minecraft:shroomlight",
+            "chance": 0.035,
+            "axisAware": true
+          }
+        ]
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "chance": 0.14,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_roots"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    {
+      "chance": 0.015,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    }
+  ]
+}
