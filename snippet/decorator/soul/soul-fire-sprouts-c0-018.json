@@ -1,0 +1,15 @@
+{
+  "chance": 0.018,
+  "absoluteMaxStack": 1,
+  "palette": [
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:nether_sprouts"
+    },
+    {
+      "block": "minecraft:nether_sprouts"
+    }
+  ]
+}

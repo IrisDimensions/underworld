@@ -1,0 +1,19 @@
+{
+  "mode": "MIN_HEIGHT",
+  "chance": 0.008,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/clutter/camp1",
+    "underworld/wastes/clutter/camp4",
+    "underworld/wastes/clutter/camp5",
+    "underworld/wastes/clutter/camp3"
+  ]
+}

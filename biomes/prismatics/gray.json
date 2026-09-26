@@ -21,9 +21,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:polished_blackstone"
@@ -34,9 +31,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:polished_blackstone"
@@ -46,9 +40,6 @@
     {
       "minHeight": 4,
       "maxHeight": 8,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:polished_blackstone"
@@ -83,34 +74,8 @@
         "underworld/basalt/clutter/concretelith7"
       ],
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone",
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone"
       ]
     },
     {
@@ -139,34 +104,8 @@
         "underworld/basalt/clutter/concretelith7"
       ],
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone",
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone"
       ],
       "scale": {
         "minimumScale": 0.5,
@@ -201,34 +140,8 @@
         "underworld/basalt/clutter/concretelith7"
       ],
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:polished_blackstone"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone",
+        "snippet/object-block-replacer/basalt/blackstone-to-polished-blackstone"
       ],
       "scale": {
         "minimumScale": 2.0,
@@ -237,113 +150,8 @@
         "interpolation": "TRILINEAR"
       }
     },
-    {
-      "chance": 0.006,
-      "density": 1,
-      "bottom": true,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "min": 0,
-          "max": 270,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": -15,
-        "yRandom": 10
-      },
-      "place": [
-        "underworld/basalt/clutter/bone1",
-        "underworld/basalt/clutter/bone2",
-        "underworld/basalt/clutter/bone3",
-        "underworld/basalt/clutter/bone4",
-        "underworld/basalt/clutter/bone5",
-        "underworld/basalt/clutter/bone6",
-        "underworld/basalt/clutter/bone7"
-      ],
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:bone_block"
-            }
-          ],
-          "chance": 0.2,
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              },
-              {
-                "block": "minecraft:quartz_block"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "chance": 0.003,
-      "density": 1,
-      "bottom": true,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "min": 0,
-          "max": 270,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": -15,
-        "yRandom": 10
-      },
-      "place": [
-        "underworld/basalt/clutter/bonespire1",
-        "underworld/basalt/clutter/bonespire2",
-        "underworld/basalt/clutter/bonespire3",
-        "underworld/basalt/clutter/bonespire4",
-        "underworld/basalt/clutter/bonespire5",
-        "underworld/basalt/clutter/bonespire6",
-        "underworld/basalt/clutter/bonespire7",
-        "underworld/basalt/clutter/bonespire8",
-        "underworld/basalt/clutter/bonespire9",
-        "underworld/basalt/clutter/bonespire10",
-        "underworld/basalt/clutter/bonespire11",
-        "underworld/basalt/clutter/bonespire12",
-        "underworld/basalt/clutter/bonespire13",
-        "underworld/basalt/clutter/bonespire14",
-        "underworld/basalt/clutter/bonespire15",
-        "underworld/basalt/clutter/bonespire16",
-        "underworld/basalt/clutter/bonespire17",
-        "underworld/basalt/clutter/bonespire18",
-        "underworld/basalt/clutter/bonespire19",
-        "underworld/basalt/clutter/bonespire20"
-      ],
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:bone_block"
-            }
-          ],
-          "chance": 0.2,
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              },
-              {
-                "block": "minecraft:quartz_block"
-              }
-            ]
-          }
-        }
-      ]
-    }
+    "snippet/object-placer/basalt/bone-c0-006",
+    "snippet/object-placer/basalt/bonespire-c0-003"
   ],
   "lockLayers": true,
   "customDerivitives": [
@@ -366,26 +174,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30161,
-    "amplitude": 32,
-    "horizontalScale": 144,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "HEXAGON"
-    },
-    "crackDepth": 4,
-    "crackWidth": 2,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.16,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp32-hexagon-crack392"
 }

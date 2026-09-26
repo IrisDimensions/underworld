@@ -1,0 +1,37 @@
+{
+  "chance": 0.01,
+  "density": 3,
+  "mode": "PAINT",
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/crimson/trees/jungle/largegeneric1",
+    "underworld/crimson/trees/jungle/largegeneric2",
+    "underworld/crimson/trees/jungle/largegeneric3",
+    "underworld/crimson/trees/jungle/largegeneric4",
+    "underworld/crimson/trees/jungle/largegeneric5"
+  ],
+  "edit": [
+    {
+      "find": [
+        {
+          "block": "minecraft:weeping_vines"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:air"
+          }
+        ]
+      }
+    }
+  ]
+}

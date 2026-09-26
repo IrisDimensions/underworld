@@ -37,27 +37,9 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "zoom": 0.75,
       "palette": [
         {
@@ -89,42 +71,10 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.0025,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/bincluster1"
-      ]
-    },
+    "snippet/object-placer/wastes/bincluster-paint-c0-0025",
     {
       "chance": 0.05,
       "rotation": {
@@ -251,9 +201,6 @@
   "decorators": [
     {
       "chance": 0.00435,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -272,31 +219,19 @@
           },
           "block": "minecraft:polished_blackstone_button"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.092,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.065,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.5,
       "palette": [
         {
@@ -307,16 +242,10 @@
           "block": "minecraft:crimson_fungus",
           "weight": 10
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 1e-06,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -337,32 +266,10 @@
           "weight": 8,
           "block": "minecraft:air"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

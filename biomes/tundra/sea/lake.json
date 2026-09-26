@@ -34,22 +34,7 @@
       "generator": "mountain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/blackstone-basalt",
   "layers": [
     {
       "style": {
@@ -77,102 +62,18 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.0025,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/clutter/bincluster1"
-      ]
-    },
+    "snippet/object-placer/basalt/bincluster-paint-c0-0025",
     {
       "chance": 0.5,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:stripped_crimson_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_fence"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/crimson-planks-to-stripped-crimson-hyphae",
+        "snippet/object-block-replacer/shared/nether-wart-to-nether-wart",
+        "snippet/object-block-replacer/shared/crimson-fence-to-crimson-fence",
+        "snippet/object-block-replacer/shared/crimson-hyphae-to-crimson-hyphae"
       ],
       "rotation": {
         "yAxis": {
@@ -200,34 +101,8 @@
     },
     {
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        },
+        "snippet/object-block-replacer/shared/nether-wart-to-nether-wart",
+        "snippet/object-block-replacer/shared/nether-wart-to-nether-wart",
         {
           "find": [
             {
@@ -274,75 +149,10 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.02,
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "age": 0
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 1
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 2
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 3
-          },
-          "block": "minecraft:fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/soul/fire-sprouts-c0-001425-z0-02",
+    "snippet/decorator/shared/fire-ages-c0-0003",
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:fire"
@@ -357,9 +167,6 @@
     },
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:fire"
@@ -367,52 +174,17 @@
         {
           "block": "minecraft:fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-003",
     {
       "chance": 0.017,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ]
 }

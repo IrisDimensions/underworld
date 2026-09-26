@@ -1,0 +1,18 @@
+{
+  "chance": 0.0003,
+  "zoom": 0.3,
+  "palette": [
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:soul_fire"
+    }
+  ]
+}

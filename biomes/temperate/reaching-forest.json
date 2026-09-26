@@ -37,22 +37,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
       "minHeight": 3,
@@ -97,190 +82,28 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/wastes/clutter/gravelsplotch1",
-        "underworld/wastes/clutter/gravelsplotch2",
-        "underworld/wastes/clutter/gravelsplotch3",
-        "underworld/wastes/clutter/gravelsplotch4"
-      ],
-      "chance": 0.35,
-      "mode": "PAINT"
-    },
-    {
-      "chance": 0.8,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/mixed/dotree1",
-        "underworld/wastes/trees/mixed/dotree2",
-        "underworld/wastes/trees/mixed/dotree3",
-        "underworld/wastes/trees/mixed/dotree4",
-        "underworld/wastes/trees/mixed/dotree5",
-        "underworld/wastes/trees/mixed/dotree6",
-        "underworld/wastes/trees/mixed/dotree7",
-        "underworld/wastes/trees/mixed/dotree8",
-        "underworld/wastes/trees/mixed/dotree9",
-        "underworld/wastes/trees/mixed/dotree10"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.01,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/obelisk1",
-        "underworld/wastes/clutter/obelisk2",
-        "underworld/wastes/clutter/obelisk3",
-        "underworld/wastes/clutter/obelisk4",
-        "underworld/wastes/clutter/obelisk5",
-        "underworld/wastes/clutter/obelisk6",
-        "underworld/wastes/clutter/obelisk7"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -4,
-        "z": 0
-      }
-    }
+    "snippet/object-placer/wastes/gravelsplotch-paint-c0-35",
+    "snippet/object-placer/wastes/dotree-c0-8",
+    "snippet/object-placer/wastes/obelisk-c0-01-sunk4"
   ],
   "decorators": [
-    {
-      "chance": 0.007666666667,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.1,
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "age": 0
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 1
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 2
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 3
-          },
-          "block": "minecraft:fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/fire-sprouts-c0-0077",
+    "snippet/decorator/shared/fire-ages-c0-0003",
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/wastes/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 8,
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 22,
-    "horizontalScale": 256,
-    "verticalScale": 30,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.32,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp22-perlin-crack416"
 }

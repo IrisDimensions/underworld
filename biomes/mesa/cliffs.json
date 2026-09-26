@@ -41,9 +41,6 @@
     {
       "minHeight": 4,
       "maxHeight": 2,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:netherrack"
@@ -53,9 +50,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_soil"
@@ -65,9 +59,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:polished_blackstone"
@@ -77,9 +68,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:blackstone"
@@ -89,9 +77,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:polished_blackstone"
@@ -101,9 +86,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_soil"
@@ -112,51 +94,18 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.009,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-009",
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/basalt/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [

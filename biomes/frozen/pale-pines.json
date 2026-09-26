@@ -135,20 +135,7 @@
             ]
           }
         },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
         {
           "find": [
             {
@@ -163,20 +150,7 @@
             ]
           }
         },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_fence"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-fence-to-warped-fence"
       ],
       "rotation": {
         "enabled": true,
@@ -207,21 +181,7 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 1,
-      "variance": {
-        "style": "NOWHERE",
-        "zoom": 0.23
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:air"
-        }
-      ]
-    },
+    "snippet/decorator/soul/soul-soil-air-c1",
     {
       "chance": 0.1032,
       "palette": [
@@ -235,26 +195,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "SIMPLEX"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-simplex-crack416"
 }

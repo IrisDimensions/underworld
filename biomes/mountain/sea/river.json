@@ -34,7 +34,7 @@
           "multiplier": 30
         }
       },
-    "zoom": 8,
+      "zoom": 8,
       "palette": [
         {
           "block": "minecraft:blackstone",
@@ -66,65 +66,20 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.001,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/clutter/obelisk1",
-        "underworld/basalt/clutter/obelisk2",
-        "underworld/basalt/clutter/obelisk3",
-        "underworld/basalt/clutter/obelisk4",
-        "underworld/basalt/clutter/obelisk5",
-        "underworld/basalt/clutter/obelisk6",
-        "underworld/basalt/clutter/obelisk7"
-      ]
-    }
+    "snippet/object-placer/basalt/obelisk-c0-001"
   ],
   "decorators": [
     {
       "chance": 0.07,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 5,
       "palette": [
         {
           "block": "minecraft:lava"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "chance": 0.013,
-      "variance": {
-        "style": "STATIC"
-      },
-      "stackMax": 6,
-      "zoom": 1,
-      "palette": [
-        {
-          "block": "minecraft:lava"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "NOWHERE"
-      },
-      "stackMin": 2
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/basalt/lava-stack-c0-013",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

@@ -1,0 +1,13 @@
+{
+  "chance": 0.1,
+  "zoom": 0.01,
+  "palette": [
+    {
+      "weight": 4,
+      "block": "minecraft:crimson_fungus"
+    },
+    {
+      "block": "minecraft:crimson_fungus"
+    }
+  ]
+}

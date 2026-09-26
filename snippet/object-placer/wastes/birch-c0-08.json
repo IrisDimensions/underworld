@@ -1,0 +1,19 @@
+{
+  "chance": 0.08,
+  "density": 4,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/trees/birch/forest1",
+    "underworld/wastes/trees/birch/forest2",
+    "underworld/wastes/trees/birch/forest3",
+    "underworld/wastes/trees/birch/forest4"
+  ]
+}

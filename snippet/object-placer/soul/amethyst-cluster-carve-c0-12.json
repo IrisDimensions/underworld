@@ -1,0 +1,15 @@
+{
+  "chance": 0.12,
+  "density": 3,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/amethyst-cluster1",
+    "underworld/soul/clutter/amethyst-cluster2",
+    "underworld/soul/clutter/amethyst-cluster3"
+  ],
+  "scale": {
+    "size": 1
+  }
+}

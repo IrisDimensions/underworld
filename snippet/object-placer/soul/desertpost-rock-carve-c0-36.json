@@ -1,0 +1,26 @@
+{
+  "chance": 0.36,
+  "density": 4,
+  "carvingSupport": "CARVING_ONLY",
+  "caveAnchorMode": "PROFILE_DEFAULT",
+  "translate": {
+    "y": -1
+  },
+  "place": [
+    "underworld/soul/clutter/rdesertpost1",
+    "underworld/soul/clutter/rdesertpost2",
+    "underworld/soul/clutter/rdesertpost3",
+    "underworld/soul/clutter/desertpost1",
+    "underworld/soul/clutter/desertpost2",
+    "underworld/soul/clutter/desertpost3",
+    "underworld/soul/clutter/rock1",
+    "underworld/soul/clutter/rock2",
+    "underworld/soul/clutter/rock3",
+    "underworld/soul/clutter/rock4"
+  ],
+  "bottom": true,
+  "force": true,
+  "scale": {
+    "size": 0.75
+  }
+}

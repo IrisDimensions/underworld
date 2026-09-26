@@ -1,0 +1,21 @@
+{
+  "chance": 0.075,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/clutter/stump1",
+    "underworld/soul/clutter/stump2",
+    "underworld/soul/clutter/stump3",
+    "underworld/soul/clutter/stump4",
+    "underworld/soul/clutter/stump5",
+    "underworld/soul/clutter/stump6"
+  ],
+  "mode": "PAINT"
+}

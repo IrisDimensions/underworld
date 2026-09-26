@@ -47,20 +47,7 @@
       "chance": 0.66,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:wither_skeleton_wall_skull"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/wither-skull-to-air"
       ],
       "rotation": {
         "yAxis": {
@@ -83,38 +70,8 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:crimson_button"
-        },
-        {
-          "block": "minecraft:air"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:crimson_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/crimson-buttons-air-c0-01",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {
@@ -129,9 +86,6 @@
     }
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "data": {

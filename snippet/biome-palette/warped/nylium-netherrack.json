@@ -1,0 +1,22 @@
+{
+  "style": {
+    "style": "NOWHERE"
+  },
+  "zoom": 0.5,
+  "palette": [
+    {
+      "weight": 3,
+      "block": "minecraft:warped_nylium"
+    },
+    {
+      "block": "minecraft:warped_nylium"
+    },
+    {
+      "block": "minecraft:netherrack"
+    },
+    {
+      "weight": 4,
+      "block": "minecraft:warped_nylium"
+    }
+  ]
+}

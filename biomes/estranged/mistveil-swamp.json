@@ -64,18 +64,7 @@
         }
       ]
     },
-    {
-      "minHeight": 2,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/warped/netherrack-2-3"
   ],
   "proceduralObjects": {
     "trees": [
@@ -238,9 +227,9 @@
         }
       ]
     },
-    "snippet/underworld/warped/decorator/leaf",
-    "snippet/underworld/warped/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/warped/leaf-litter",
+    "snippet/decorator/warped/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": false

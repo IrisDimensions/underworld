@@ -1,0 +1,39 @@
+{
+  "chance": 0.345,
+  "variance": {
+    "style": "NOWHERE"
+  },
+  "zoom": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:nether_wart_block",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:nether_wart_block",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:nether_wart_block",
+      "weight": 10
+    }
+  ],
+  "style": {
+    "style": "FRACTAL_BILLOW_IRIS",
+    "fracture": {
+      "style": "STATIC"
+    }
+  }
+}

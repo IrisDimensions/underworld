@@ -1,0 +1,30 @@
+{
+  "chance": 0.5,
+  "density": 2,
+  "edit": [
+    "snippet/object-block-replacer/shared/crimson-planks-to-stripped-crimson-hyphae"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/basalt/trees/acacia/denmyre1",
+    "underworld/basalt/trees/acacia/denmyre2",
+    "underworld/basalt/trees/acacia/denmyre3",
+    "underworld/basalt/trees/acacia/denmyre4",
+    "underworld/basalt/trees/acacia/denmyre5",
+    "underworld/basalt/trees/acacia/denmyre6",
+    "underworld/basalt/trees/acacia/denmyre7"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -1,
+    "z": 0
+  }
+}

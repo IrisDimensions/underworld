@@ -16,9 +16,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:blackstone"
@@ -73,7 +70,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

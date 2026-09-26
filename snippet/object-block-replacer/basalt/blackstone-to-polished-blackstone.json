@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:blackstone"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:polished_blackstone"
+      }
+    ]
+  }
+}

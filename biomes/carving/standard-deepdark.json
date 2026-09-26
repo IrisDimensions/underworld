@@ -5,9 +5,6 @@
   "oreDepositFrequencyMultiplier": 0.4,
   "oreDepositSizeMultiplier": 2.0,
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:basalt",
@@ -26,9 +23,6 @@
   ],
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "maxHeight": 2,
       "minHeight": 2,
       "palette": [
@@ -59,85 +53,9 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.235719,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/stoneclutt1",
-        "underworld/soul/clutter/stoneclutt2",
-        "underworld/soul/clutter/stoneclutt3",
-        "underworld/soul/clutter/stoneclutt4",
-        "underworld/soul/clutter/stoneclutt5",
-        "underworld/soul/clutter/stoneclutt6",
-        "underworld/soul/clutter/stoneclutt7",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.138858,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/rock4",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.138858,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/stoneclutt3",
-        "underworld/soul/clutter/stoneclutt4",
-        "underworld/soul/clutter/stoneclutt5",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/boulder7",
-        "underworld/soul/clutter/boulder8",
-        "underworld/soul/clutter/boulder9"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
+    "snippet/object-placer/soul/rock-rubble-carve-c0-235719",
+    "snippet/object-placer/soul/rock-boulder-carve-c0-138858",
+    "snippet/object-placer/soul/rock-rubble-carve-c0-138858"
   ],
   "depositVariants": [
     {

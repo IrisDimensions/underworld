@@ -1,0 +1,9 @@
+{
+  "mode": "PAINT",
+  "chance": 0.1,
+  "place": [
+    "underworld/basalt/clutter/sbush1",
+    "underworld/basalt/clutter/sbush2",
+    "underworld/basalt/clutter/sbush3"
+  ]
+}

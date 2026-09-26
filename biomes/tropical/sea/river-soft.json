@@ -86,65 +86,7 @@
         }
       }
     },
-    {
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ],
-      "chance": 0.5,
-      "density": 2,
-      "underwater": true,
-      "mode": "CENTER_HEIGHT",
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "max": 360,
-          "min": -360
-        }
-      },
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            },
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              }
-            ],
-            "style": {
-              "style": "CELLULAR"
-            },
-            "zoom": 0.07
-          }
-        }
-      ]
-    }
+    "snippet/object-placer/basalt/stonedirtsetter-center-height-c0-5"
   ],
   "decorators": [
     {
@@ -188,7 +130,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

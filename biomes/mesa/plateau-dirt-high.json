@@ -107,33 +107,7 @@
     }
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/basalt/trees/acacia/vexed1",
-        "underworld/basalt/trees/acacia/vexed2",
-        "underworld/basalt/trees/acacia/vexed3"
-      ],
-      "chance": 0.2,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae",
-                "data": {
-                  "axis": "y"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    }
+    "snippet/object-placer/basalt/acacia-vexed-c0-2"
   ],
   "decorators": [
     {
@@ -144,7 +118,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "lockLayers": true,
   "customDerivitives": [

@@ -1,0 +1,19 @@
+{
+  "chance": 0.001,
+  "mode": "PAINT",
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/clutter/literalgarbage1",
+    "underworld/wastes/clutter/literalgarbage2",
+    "underworld/wastes/clutter/literalgarbage3",
+    "underworld/wastes/clutter/literalgarbage4"
+  ]
+}

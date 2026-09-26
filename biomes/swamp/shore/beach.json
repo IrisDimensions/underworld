@@ -48,48 +48,9 @@
       "chance": 0.24,
       "density": 3,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_stem"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/nether-wart-to-nether-wart",
+        "snippet/object-block-replacer/shared/crimson-hyphae-to-crimson-hyphae",
+        "snippet/object-block-replacer/shared/crimson-stem-to-crimson-hyphae"
       ],
       "rotation": {
         "enabled": true,
@@ -129,9 +90,6 @@
     },
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -145,10 +103,7 @@
         {
           "block": "minecraft:air"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "partOf": "SHORE_LINE",
@@ -159,16 +114,10 @@
         {
           "block": "minecraft:basalt"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/basalt/decorator/firefly-bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/basalt/firefly-bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

@@ -1,0 +1,15 @@
+{
+  "chance": 0.0005,
+  "stackMax": 2,
+  "palette": [
+    {
+      "block": "minecraft:crimson_stem"
+    }
+  ],
+  "topPalette": [
+    {
+      "block": "minecraft:crimson_fungus"
+    }
+  ],
+  "stackMin": 1
+}

@@ -1,0 +1,12 @@
+{
+  "minHeight": 1,
+  "maxHeight": 1,
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    }
+  ]
+}

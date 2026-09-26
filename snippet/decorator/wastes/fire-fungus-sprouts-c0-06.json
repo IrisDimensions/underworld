@@ -1,0 +1,119 @@
+{
+  "chance": 0.06,
+  "zoom": 0.2,
+  "palette": [
+    {
+      "weight": 3,
+      "block": "minecraft:fire"
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "chance": 7,
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    }
+  ]
+}

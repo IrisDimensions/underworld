@@ -1,0 +1,34 @@
+{
+  "chance": 0.035,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/clutter/boulder1",
+    "underworld/soul/clutter/boulder2",
+    "underworld/soul/clutter/boulder3",
+    "underworld/soul/clutter/boulder4",
+    "underworld/soul/clutter/boulder5",
+    "underworld/soul/clutter/boulder6",
+    "underworld/soul/clutter/boulder7",
+    "underworld/soul/clutter/boulder8",
+    "underworld/soul/clutter/boulder9",
+    "underworld/soul/clutter/boulder10",
+    "underworld/soul/clutter/boulder11",
+    "underworld/soul/clutter/boulder12",
+    "underworld/soul/clutter/boulder13",
+    "underworld/soul/clutter/boulder14",
+    "underworld/soul/clutter/boulder15"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

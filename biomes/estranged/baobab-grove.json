@@ -39,19 +39,7 @@
       "min": 0
     }
   ],
-  "wall": {
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/warped/wall-netherrack-basalt-blackstone",
   "layers": [
     {
       "palette": [
@@ -73,18 +61,7 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-3"
   ],
   "proceduralObjects": {
     "trees": [
@@ -260,28 +237,9 @@
         }
       ]
     },
-    "snippet/underworld/warped/decorator/leaf",
-    "snippet/underworld/warped/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/warped/leaf-litter",
+    "snippet/decorator/warped/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "IRIS_HALF"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-iris-half-crack416"
 }

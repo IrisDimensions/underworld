@@ -1,0 +1,50 @@
+{
+  "minHeight": 2,
+  "maxHeight": 3,
+  "style": {
+    "style": "VASCULAR"
+  },
+  "zoom": 0.5,
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:gravel"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:gravel"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "weight": 2,
+      "block": "minecraft:blackstone"
+    }
+  ]
+}

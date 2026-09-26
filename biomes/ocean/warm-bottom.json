@@ -79,51 +79,13 @@
         }
       },
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            },
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              },
-              {
-                "block": "minecraft:magma_block"
-              }
-            ],
-            "style": {
-              "style": "CELLULAR"
-            },
-            "zoom": 0.07
-          }
-        }
+        "snippet/object-block-replacer/basalt/blackstone-to-magma-cellular"
       ]
     }
   ],
   "decorators": [
     {
       "chance": 0.05,
-      "style": {
-        "style": "STATIC"
-      },
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:glowstone"
@@ -175,7 +137,7 @@
       ],
       "partOf": "SEA_FLOOR"
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

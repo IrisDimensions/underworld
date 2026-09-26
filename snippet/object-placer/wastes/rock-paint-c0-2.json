@@ -1,0 +1,18 @@
+{
+  "chance": 0.2,
+  "mode": "PAINT",
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/clutter/rock2",
+    "underworld/wastes/clutter/rock3",
+    "underworld/wastes/clutter/rock4"
+  ]
+}

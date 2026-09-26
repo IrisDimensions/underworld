@@ -1,0 +1,12 @@
+{
+  "mode": "PAINT",
+  "density": 1,
+  "chance": 0.005,
+  "place": [
+    "underworld/basalt/clutter/camp1",
+    "underworld/basalt/clutter/camp2",
+    "underworld/basalt/clutter/camp3",
+    "underworld/basalt/clutter/camp4",
+    "underworld/basalt/clutter/camp5"
+  ]
+}

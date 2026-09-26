@@ -19,9 +19,6 @@
     {
       "minHeight": 3,
       "maxHeight": 6,
-      "style": {
-        "style": "STATIC"
-      },
       "zoom": 0.25,
       "palette": [
         {
@@ -54,37 +51,7 @@
         }
       ]
     },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "block": "minecraft:air"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-air-c0-003",
     {
       "partOf": "SHORE_LINE",
       "chance": 0.12,
@@ -98,38 +65,11 @@
       "style": {
         "style": "NOWHERE",
         "zoom": 0.65
-      },
-      "heightVariance": {
-        "style": "STATIC"
       }
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/slab/blackstone-slab-half",
   "customDerivitives": [
     {
       "id": "underworld_tundra_shore_beach_9023b659",

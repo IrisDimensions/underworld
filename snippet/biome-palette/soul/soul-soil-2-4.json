@@ -1,0 +1,12 @@
+{
+  "minHeight": 2,
+  "maxHeight": 4,
+  "palette": [
+    {
+      "block": "minecraft:soul_soil"
+    },
+    {
+      "block": "minecraft:soul_soil"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:nether_wart_block"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae"
+      }
+    ]
+  }
+}

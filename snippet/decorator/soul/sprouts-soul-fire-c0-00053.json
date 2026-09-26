@@ -1,0 +1,21 @@
+{
+  "chance": 0.000533333333,
+  "zoom": 0.02,
+  "palette": [
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    }
+  ],
+  "style": {
+    "style": "FRACTAL_SMOKE"
+  }
+}

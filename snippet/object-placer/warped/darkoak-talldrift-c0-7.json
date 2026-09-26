@@ -1,0 +1,31 @@
+{
+  "chance": 0.7,
+  "translate": {
+    "y": -2
+  },
+  "density": 2,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+    "snippet/object-block-replacer/warped/warped-fence-to-warped-wart"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/trees/darkoak/talldrift1",
+    "underworld/warped/trees/darkoak/talldrift2",
+    "underworld/warped/trees/darkoak/talldrift3",
+    "underworld/warped/trees/darkoak/talldrift4",
+    "underworld/warped/trees/darkoak/talldrift5",
+    "underworld/warped/trees/darkoak/talldrift6",
+    "underworld/warped/trees/darkoak/talldrift7",
+    "underworld/warped/trees/darkoak/talldrift8",
+    "underworld/warped/trees/darkoak/talldrift9"
+  ]
+}

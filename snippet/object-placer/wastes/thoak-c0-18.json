@@ -1,0 +1,20 @@
+{
+  "chance": 0.18,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/trees/oak/thoakgeneric1",
+    "underworld/wastes/trees/oak/thoakgeneric2",
+    "underworld/wastes/trees/oak/thoakgeneric3",
+    "underworld/wastes/trees/oak/thoakgeneric4",
+    "underworld/wastes/trees/oak/thoakgeneric8",
+    "underworld/wastes/trees/oak/thoakgeneric10"
+  ]
+}

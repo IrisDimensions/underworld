@@ -1,0 +1,53 @@
+{
+  "palette": [
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:glowstone"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    },
+    {
+      "block": "minecraft:crying_obsidian"
+    },
+    {
+      "block": "minecraft:obsidian"
+    }
+  ],
+  "style": {
+    "style": "SIMPLEX"
+  },
+  "zoom": 3.25
+}

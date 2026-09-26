@@ -1,0 +1,30 @@
+{
+  "mode": "PAINT",
+  "place": [
+    "underworld/soul/clutter/boulder1",
+    "underworld/soul/clutter/boulder2",
+    "underworld/soul/clutter/boulder3",
+    "underworld/soul/clutter/boulder4",
+    "underworld/soul/clutter/boulder5",
+    "underworld/soul/clutter/boulder6",
+    "underworld/soul/clutter/boulder7",
+    "underworld/soul/clutter/boulder8",
+    "underworld/soul/clutter/boulder9",
+    "underworld/soul/clutter/boulder10"
+  ],
+  "chance": 0.4,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": -360,
+      "max": 360
+    }
+  },
+  "translate": {
+    "x": 0,
+    "y": -3,
+    "z": 0
+  }
+}

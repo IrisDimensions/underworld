@@ -39,94 +39,16 @@
       "min": 1
     }
   ],
-  "wall": {
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:soul_sand"
-      },
-      {
-        "block": "minecraft:warped_nylium"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soul/wall-basalt-soul-sand-nylium",
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3.3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/soul-soil-1-1-slope3-3",
+    "snippet/biome-palette/soul/soul-soil-3-3-slope3",
+    "snippet/biome-palette/soul/soul-soil-basalt-3-3-slope3"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/soul/clutter/sbush1",
-        "underworld/soul/clutter/sbush2",
-        "underworld/soul/clutter/sbush3"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/soul/clutter/sbush1",
-        "underworld/soul/clutter/sbush2",
-        "underworld/soul/clutter/sbush3"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/soul/clutter/sbush1",
-        "underworld/soul/clutter/sbush2",
-        "underworld/soul/clutter/sbush3"
-      ]
-    },
+    "snippet/object-placer/soul/sbush-paint-c0-1",
+    "snippet/object-placer/soul/sbush-paint-c0-1",
+    "snippet/object-placer/soul/sbush-paint-c0-1",
     {
       "place": [
         "underworld/soul/trees/spruce/lfrostgeneric1",
@@ -169,20 +91,7 @@
             ]
           }
         },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
       ],
       "chance": 0.6,
       "rotation": {
@@ -197,76 +106,7 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.13,
-      "variance": {
-        "style": "CELLULAR",
-        "zoom": 0.25,
-        "fracture": {
-          "style": "SIMPLEX",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "SIMPLEX",
-        "zoom": 0.2,
-        "fracture": {
-          "style": "STATIC",
-          "multiplier": 8
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        }
-      ]
-    },
+    "snippet/decorator/soul/sprouts-soul-fire-c0-13",
     {
       "chance": 0.01,
       "palette": [
@@ -283,21 +123,8 @@
         }
       ]
     },
-    {
-      "chance": 0.006,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        }
-      ]
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/soul/soul-fire-c0-006",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

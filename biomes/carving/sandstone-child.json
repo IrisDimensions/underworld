@@ -87,91 +87,10 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/jungleclutt11",
-        "underworld/soul/clutter/jungleclutt12",
-        "underworld/soul/clutter/jungleclutt13",
-        "underworld/soul/clutter/junglestone1",
-        "underworld/soul/clutter/junglestone2"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.36,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rdesertpost1",
-        "underworld/soul/clutter/rdesertpost2",
-        "underworld/soul/clutter/rdesertpost3",
-        "underworld/soul/clutter/desertpost1",
-        "underworld/soul/clutter/desertpost2",
-        "underworld/soul/clutter/desertpost3",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/rock4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.13122,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rdesertpost1",
-        "underworld/soul/clutter/rdesertpost2",
-        "underworld/soul/clutter/rdesertpost3",
-        "underworld/soul/clutter/desertpost1",
-        "underworld/soul/clutter/desertpost2",
-        "underworld/soul/clutter/desertpost3",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.135,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "place": [
-        "underworld/soul/structures/mlandstone4"
-      ],
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
+    "snippet/object-placer/soul/jungle-rubble-carve-c0-21-d6",
+    "snippet/object-placer/soul/desertpost-rock-carve-c0-36",
+    "snippet/object-placer/soul/desertpost-rock-carve-c0-13122",
+    "snippet/object-placer/soul/mlandstone-carve-c0-135"
   ],
   "caveProfile": {
     "enabled": true,

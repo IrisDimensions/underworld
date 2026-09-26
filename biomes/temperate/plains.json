@@ -45,259 +45,20 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-3",
+    "snippet/biome-palette/wastes/netherrack-6-18"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.00975,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/camp1",
-        "underworld/wastes/clutter/camp3",
-        "underworld/wastes/clutter/camp4",
-        "underworld/wastes/clutter/camp5"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.00675,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/camp2"
-      ]
-    },
-    {
-      "chance": 0.01,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/oak/hoakgeneric3",
-        "underworld/wastes/trees/oak/hoakgeneric4",
-        "underworld/wastes/trees/oak/hoakgeneric5",
-        "underworld/wastes/trees/oak/hoakgeneric6",
-        "underworld/wastes/trees/oak/hoakgeneric7",
-        "underworld/wastes/trees/oak/hoakgeneric8",
-        "underworld/wastes/trees/oak/hoakgeneric9",
-        "underworld/wastes/trees/oak/hoakgeneric1",
-        "underworld/wastes/trees/oak/shoakgeneric3",
-        "underworld/wastes/trees/oak/shoakgeneric4",
-        "underworld/wastes/trees/oak/shoakgeneric5",
-        "underworld/wastes/trees/oak/shoakgeneric6",
-        "underworld/wastes/trees/oak/shoakgeneric7",
-        "underworld/wastes/trees/oak/shoakgeneric8",
-        "underworld/wastes/trees/oak/shoakgeneric9",
-        "underworld/wastes/trees/oak/shoakgeneric1",
-        "underworld/wastes/trees/oak/shoakgeneric2"
-      ]
-    },
-    {
-      "chance": 0.005,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/obelisk1",
-        "underworld/wastes/clutter/obelisk2",
-        "underworld/wastes/clutter/obelisk3",
-        "underworld/wastes/clutter/obelisk4",
-        "underworld/wastes/clutter/obelisk5",
-        "underworld/wastes/clutter/obelisk6",
-        "underworld/wastes/clutter/obelisk7"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.002,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/genericpeak1",
-        "underworld/wastes/clutter/genericpeak2",
-        "underworld/wastes/clutter/genericpeak3",
-        "underworld/wastes/clutter/genericpeak5",
-        "underworld/wastes/clutter/genericpeak6"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -4,
-        "z": 0
-      }
-    },
-    {
-      "place": [
-        "underworld/wastes/trees/oak/generic1",
-        "underworld/wastes/trees/oak/generic2",
-        "underworld/wastes/trees/oak/generic3",
-        "underworld/wastes/trees/oak/generic4",
-        "underworld/wastes/trees/oak/generic5",
-        "underworld/wastes/trees/oak/generic6"
-      ],
-      "chance": 0.07,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": 0,
-          "max": 360
-        }
-      }
-    },
-    {
-      "place": [
-        "underworld/wastes/clutter/statue-villager-plains",
-        "underworld/wastes/clutter/pumpkins1",
-        "underworld/wastes/clutter/pumpkins2",
-        "underworld/wastes/clutter/pumpkins3",
-        "underworld/wastes/clutter/pumpkins4",
-        "underworld/wastes/clutter/pumpkins5",
-        "underworld/wastes/clutter/pumpkins6"
-      ],
-      "chance": 0.008,
-      "mode": "PAINT",
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": 0,
-          "max": 360
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/wastes/camp-1345-paint-c0-00975",
+    "snippet/object-placer/wastes/camp-2-paint-c0-00675",
+    "snippet/object-placer/wastes/oak-mix-c0-01",
+    "snippet/object-placer/wastes/obelisk-c0-005",
+    "snippet/object-placer/wastes/genericpeak-paint-c0-002",
+    "snippet/object-placer/wastes/oak-c0-07",
+    "snippet/object-placer/wastes/pumpkins-statue-paint-c0-008"
   ],
   "decorators": [
-    {
-      "chance": 0.0026,
-      "variance": {
-        "style": "TRIOCTAVE_SIMPLEX",
-        "zoom": 6,
-        "fracture": {
-          "style": "STATIC",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ]
-    },
+    "snippet/decorator/wastes/fungus-sprouts-fire-c0-0026",
     {
       "chance": 0.01,
       "palette": [
@@ -314,9 +75,9 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/leaf-litter",
+    "snippet/decorator/shared/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {
@@ -337,24 +98,5 @@
       }
     }
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

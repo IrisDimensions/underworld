@@ -1,0 +1,21 @@
+{
+  "chance": 0.001,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/basalt/clutter/obelisk1",
+    "underworld/basalt/clutter/obelisk2",
+    "underworld/basalt/clutter/obelisk3",
+    "underworld/basalt/clutter/obelisk4",
+    "underworld/basalt/clutter/obelisk5",
+    "underworld/basalt/clutter/obelisk6",
+    "underworld/basalt/clutter/obelisk7"
+  ]
+}

@@ -42,23 +42,7 @@
     }
   ],
   "layers": [
-    {
-      "style": {
-        "style": "IRIS"
-      },
-      "zoom": 8,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:gravel"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/blackstone-gravel-iris",
     {
       "minHeight": 2,
       "maxHeight": 3,
@@ -83,30 +67,19 @@
       ]
     }
   ],
-  "objects": [
-
-  ],
+  "objects": [],
   "decorators": [
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 5,
       "palette": [
         {
           "block": "minecraft:lava"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 6,
       "zoom": 1,
       "palette": [
@@ -114,15 +87,12 @@
           "block": "minecraft:lava"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "heightVariance": {
         "style": "NOWHERE"
       },
       "stackMin": 2
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "color": "#5C544F"
 }

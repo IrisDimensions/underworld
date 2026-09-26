@@ -1,0 +1,22 @@
+{
+  "chance": 0.08,
+  "absoluteMaxStack": 1,
+  "palette": [
+    {
+      "block": "minecraft:glowstone",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:glowstone",
+      "weight": 2
+    },
+    {
+      "block": "minecraft:glowstone",
+      "weight": 2
+    },
+    {
+      "block": "minecraft:glowstone",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "find": [
+    {
+      "block": "minecraft:crimson_planks"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae",
+        "data": {
+          "axis": "y"
+        }
+      }
+    ]
+  }
+}

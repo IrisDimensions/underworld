@@ -1,0 +1,15 @@
+{
+  "chance": 0.07,
+  "density": 2,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/structures/crystal1",
+    "underworld/soul/structures/crystal2",
+    "underworld/soul/structures/crystal3"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

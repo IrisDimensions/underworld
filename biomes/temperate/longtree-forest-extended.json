@@ -36,9 +36,6 @@
   ],
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "zoom": 0.656,
       "palette": [
         {
@@ -61,59 +58,10 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "chance": 0.5,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/stoneclutt1",
-        "underworld/wastes/clutter/stoneclutt2",
-        "underworld/wastes/clutter/stoneclutt3",
-        "underworld/wastes/clutter/stoneclutt4",
-        "underworld/wastes/clutter/stoneclutt5",
-        "underworld/wastes/clutter/stoneclutt6",
-        "underworld/wastes/clutter/stoneclutt7",
-        "underworld/wastes/clutter/boulder1",
-        "underworld/wastes/clutter/boulder2",
-        "underworld/wastes/clutter/boulder4",
-        "underworld/wastes/clutter/boulder5",
-        "underworld/wastes/clutter/boulder6",
-        "underworld/wastes/clutter/boulder7",
-        "underworld/wastes/clutter/boulder8"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    },
+    "snippet/object-placer/wastes/stoneclutt-boulder-c0-5",
     {
       "mode": "PAINT",
       "chance": 0.00995,
@@ -130,42 +78,7 @@
         "underworld/wastes/clutter/camp1"
       ]
     },
-    {
-      "chance": 0.3,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/log"
-      ],
-      "translate": {
-        "x": 0,
-        "y": 1,
-        "z": 0
-      }
-    },
+    "snippet/object-placer/wastes/log-c0-3",
     {
       "place": [
         "underworld/wastes/clutter/sbush1",
@@ -183,57 +96,8 @@
         }
       }
     },
-    {
-      "chance": 0.55,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/oak/toak1",
-        "underworld/wastes/trees/oak/toak2",
-        "underworld/wastes/trees/oak/toak3",
-        "underworld/wastes/trees/oak/toak4",
-        "underworld/wastes/trees/oak/toak5",
-        "underworld/wastes/trees/oak/toak6",
-        "underworld/wastes/trees/oak/toak7",
-        "underworld/wastes/trees/oak/toak8"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/wastes/clutter/pumpkins1",
-        "underworld/wastes/clutter/pumpkins2",
-        "underworld/wastes/clutter/pumpkins3",
-        "underworld/wastes/clutter/pumpkins4",
-        "underworld/wastes/clutter/pumpkins5",
-        "underworld/wastes/clutter/pumpkins6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/wastes/toak-c0-55",
+    "snippet/object-placer/wastes/pumpkins-paint-c0-008"
   ],
   "decorators": [
     {
@@ -246,30 +110,7 @@
       ],
       "stackMin": 1
     },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ]
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-003",
     {
       "chance": 0.006,
       "stackMax": 6,
@@ -280,66 +121,9 @@
       ],
       "stackMin": 3
     },
-    {
-      "stackMin": 1,
-      "stackMax": 11,
-      "chance": 0.0049,
-      "variance": {
-        "style": "STATIC",
-        "zoom": 0.1
-      },
-      "topPalette": [
-        {
-          "block": "minecraft:crimson_stem"
-        }
-      ],
-      "palette": [
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        },
-        {
-          "block": "minecraft:crimson_stem"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/wastes/crimson-stem-column-c0-0049",
     {
       "chance": 0.12,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -350,9 +134,6 @@
     },
     {
       "chance": 0.02,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -362,9 +143,6 @@
     },
     {
       "chance": 0.02,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -374,9 +152,6 @@
     },
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -396,9 +171,6 @@
     },
     {
       "chance": 0.015333333333,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -415,9 +187,9 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/leaf",
-    "snippet/underworld/wastes/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/leaf-litter",
+    "snippet/decorator/shared/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {
@@ -441,29 +213,7 @@
         "weight": 10,
         "block": "minecraft:air"
       }
-    ],
-    "style": {
-      "style": "STATIC"
-    }
+    ]
   },
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30107,
-    "amplitude": 30,
-    "horizontalScale": 280,
-    "verticalScale": 36,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 448,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.2,
-    "slopeFade": 0.35,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp30-perlin-crack448"
 }

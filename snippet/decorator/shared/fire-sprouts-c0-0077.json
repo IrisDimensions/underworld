@@ -1,0 +1,18 @@
+{
+  "chance": 0.007666666667,
+  "zoom": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    }
+  ]
+}

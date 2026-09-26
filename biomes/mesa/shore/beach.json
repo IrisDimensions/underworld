@@ -16,9 +16,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:smooth_basalt"
@@ -61,44 +58,10 @@
     }
   ],
   "decorators": [
-    {
-      "partOf": "SHORE_LINE",
-      "chance": 0.18,
-      "stackMin": 1,
-      "stackMax": 4,
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ],
-      "style": {
-        "style": "NOWHERE",
-        "zoom": 0.65
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/basalt-shoreline-c0-18",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/basalt/slab-blackstone-slab-third",
   "customDerivitives": [
     {
       "id": "underworld_mesa_shore_beach_5b285ccf",

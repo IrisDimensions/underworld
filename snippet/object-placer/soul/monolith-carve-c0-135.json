@@ -1,0 +1,15 @@
+{
+  "chance": 0.135,
+  "density": 4,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/structures/monolith1",
+    "underworld/soul/structures/monolith3",
+    "underworld/soul/structures/monolith4"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

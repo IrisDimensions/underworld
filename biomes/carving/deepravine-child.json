@@ -23,9 +23,6 @@
   },
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "maxHeight": 2,
       "minHeight": 2,
       "palette": [
@@ -61,9 +58,6 @@
       "stackMin": 20,
       "stackMax": 70,
       "absoluteMaxStack": 10,
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:basalt"
@@ -75,9 +69,6 @@
     {
       "maxHeight": 1,
       "minHeight": 1,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:basalt",
@@ -91,52 +82,8 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/stoneclutt4",
-        "underworld/soul/clutter/stoneclutt5",
-        "underworld/soul/clutter/stoneclutt6"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.2145,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/stoneclutt1",
-        "underworld/soul/clutter/stoneclutt2",
-        "underworld/soul/clutter/stoneclutt3",
-        "underworld/soul/clutter/stoneclutt4",
-        "underworld/soul/clutter/stoneclutt5",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
+    "snippet/object-placer/soul/stoneclutt-carve-c0-21-d6",
+    "snippet/object-placer/soul/rock-rubble-carve-c0-2145",
     {
       "chance": 0.13122,
       "density": 6,

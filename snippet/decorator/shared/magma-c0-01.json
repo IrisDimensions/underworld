@@ -1,0 +1,15 @@
+{
+  "chance": 0.01,
+  "zoom": 0.25,
+  "palette": [
+    {
+      "block": "minecraft:magma_block"
+    },
+    {
+      "block": "minecraft:magma_block"
+    },
+    {
+      "block": "minecraft:magma_block"
+    }
+  ]
+}

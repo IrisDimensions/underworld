@@ -1,0 +1,21 @@
+{
+  "chance": 0.03,
+  "zoom": 0.3,
+  "palette": [
+    {
+      "block": "minecraft:warped_fungus"
+    },
+    {
+      "block": "minecraft:warped_fungus"
+    },
+    {
+      "block": "minecraft:warped_fungus"
+    },
+    {
+      "block": "minecraft:warped_fungus"
+    },
+    {
+      "block": "minecraft:warped_fungus"
+    }
+  ]
+}

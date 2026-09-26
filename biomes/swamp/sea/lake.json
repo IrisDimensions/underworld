@@ -21,22 +21,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/blackstone-basalt",
   "layers": [
     {
       "style": {
@@ -64,36 +49,8 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/blackstone-1-3",
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "objects": [
     {
@@ -123,9 +80,6 @@
   "decorators": [
     {
       "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.02,
       "palette": [
         {
@@ -134,16 +88,10 @@
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.122,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -152,16 +100,10 @@
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.0426,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -170,12 +112,9 @@
         {
           "block": "minecraft:fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

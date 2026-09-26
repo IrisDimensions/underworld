@@ -34,22 +34,7 @@
       "generator": "plain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
       "zoom": 0.3,
@@ -67,36 +52,8 @@
         }
       ]
     },
-    {
-      "minHeight": 2,
-      "maxHeight": 4,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/warped/netherrack-2-4",
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
     {
@@ -133,20 +90,7 @@
       "chance": 0.08,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
       ],
       "rotation": {
         "yAxis": {
@@ -175,107 +119,13 @@
         "z": 0
       }
     },
-    {
-      "chance": 0.025,
-      "density": 1,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/warped/trees/mushroom/smolshroom1",
-        "underworld/warped/trees/mushroom/smolshroom2",
-        "underworld/warped/trees/mushroom/smolshroom3",
-        "underworld/warped/trees/mushroom/smolshroom4",
-        "underworld/warped/trees/mushroom/smolshroom5"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 1,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/warped/trees/mushroom/smolshroom1",
-        "underworld/warped/trees/mushroom/smolshroom2",
-        "underworld/warped/trees/mushroom/smolshroom3",
-        "underworld/warped/trees/mushroom/smolshroom4",
-        "underworld/warped/trees/mushroom/smolshroom5"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    }
+    "snippet/object-placer/warped/smolshroom-c0-025",
+    "snippet/object-placer/warped/smolshroom-c0-1"
   ],
   "decorators": [
-    {
-      "chance": 0.005,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/warped/blackstone-buttons-c0-005",
     {
       "chance": 0.007,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -284,17 +134,11 @@
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "weight": 2,
@@ -314,24 +158,5 @@
       }
     ]
   },
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

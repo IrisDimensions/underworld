@@ -1,0 +1,25 @@
+{
+  "place": [
+    "underworld/wastes/clutter/statue-villager-plains",
+    "underworld/wastes/clutter/pumpkins1",
+    "underworld/wastes/clutter/pumpkins2",
+    "underworld/wastes/clutter/pumpkins3",
+    "underworld/wastes/clutter/pumpkins4",
+    "underworld/wastes/clutter/pumpkins5",
+    "underworld/wastes/clutter/pumpkins6"
+  ],
+  "chance": 0.008,
+  "mode": "PAINT",
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 360
+    }
+  },
+  "translate": {
+    "y": 1
+  }
+}

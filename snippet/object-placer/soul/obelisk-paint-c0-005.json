@@ -1,0 +1,38 @@
+{
+  "chance": 0.005,
+  "mode": "PAINT",
+  "edit": [
+    {
+      "find": [
+        {
+          "block": "minecraft:twisting_vines"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:air"
+          }
+        ]
+      }
+    }
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/clutter/obelisk1",
+    "underworld/soul/clutter/obelisk2",
+    "underworld/soul/clutter/obelisk3",
+    "underworld/soul/clutter/obelisk4",
+    "underworld/soul/clutter/obelisk5",
+    "underworld/soul/clutter/obelisk6",
+    "underworld/soul/clutter/obelisk7"
+  ]
+}

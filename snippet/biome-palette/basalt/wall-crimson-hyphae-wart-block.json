@@ -1,0 +1,29 @@
+{
+  "style": {
+    "style": "NOWHERE"
+  },
+  "zoom": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:stripped_crimson_hyphae"
+    },
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:stripped_crimson_hyphae"
+    },
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:stripped_crimson_hyphae"
+    },
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:stripped_crimson_hyphae"
+    }
+  ]
+}

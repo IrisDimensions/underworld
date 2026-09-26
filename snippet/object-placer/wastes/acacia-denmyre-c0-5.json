@@ -1,0 +1,85 @@
+{
+  "chance": 0.5,
+  "density": 2,
+  "edit": [
+    {
+      "find": [
+        {
+          "block": "minecraft:crimson_planks"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:stripped_warped_hyphae"
+          }
+        ]
+      }
+    },
+    {
+      "find": [
+        {
+          "block": "minecraft:nether_wart_block"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:warped_wart_block"
+          }
+        ]
+      }
+    },
+    {
+      "find": [
+        {
+          "block": "minecraft:crimson_fence"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:warped_fence"
+          }
+        ]
+      }
+    },
+    {
+      "find": [
+        {
+          "block": "minecraft:crimson_hyphae"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:warped_hyphae"
+          }
+        ]
+      }
+    }
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/trees/acacia/denmyre1",
+    "underworld/wastes/trees/acacia/denmyre2",
+    "underworld/wastes/trees/acacia/denmyre3",
+    "underworld/wastes/trees/acacia/denmyre4",
+    "underworld/wastes/trees/acacia/denmyre5",
+    "underworld/wastes/trees/acacia/denmyre6",
+    "underworld/wastes/trees/acacia/denmyre7"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -1,
+    "z": 0
+  }
+}

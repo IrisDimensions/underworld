@@ -1,0 +1,51 @@
+{
+  "edit": [
+    {
+      "find": [
+        {
+          "block": "minecraft:nether_wart_block"
+        }
+      ],
+      "replace": {
+        "style": {
+          "style": "PERLIN",
+          "zoom": 0.2
+        },
+        "palette": [
+          {
+            "block": "minecraft:nether_wart_block"
+          },
+          {
+            "block": "minecraft:nether_wart_block"
+          }
+        ]
+      }
+    }
+  ],
+  "place": [
+    "underworld/basalt/trees/spruce/pine1",
+    "underworld/basalt/trees/spruce/pine2",
+    "underworld/basalt/trees/spruce/pine3",
+    "underworld/basalt/trees/spruce/pine4",
+    "underworld/basalt/trees/spruce/pine5",
+    "underworld/basalt/trees/spruce/pine6",
+    "underworld/basalt/trees/spruce/pine7",
+    "underworld/basalt/trees/spruce/pine8",
+    "underworld/basalt/trees/spruce/pine9"
+  ],
+  "chance": 0.12,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 270
+    }
+  },
+  "warp": {
+    "style": "IRIS_DOUBLE",
+    "exponent": 1.2,
+    "zoom": 0.4
+  }
+}

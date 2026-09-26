@@ -75,49 +75,12 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
     {
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              },
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
       ],
       "place": [
         "underworld/soul/trees/spruce/pine1",
@@ -165,39 +128,14 @@
     },
     {
       "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.01,
       "palette": [
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

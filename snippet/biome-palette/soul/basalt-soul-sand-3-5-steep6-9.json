@@ -1,0 +1,18 @@
+{
+  "minHeight": 3,
+  "maxHeight": 5,
+  "slopeCondition": {
+    "minimumSlope": 6.9
+  },
+  "palette": [
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:soul_sand"
+    }
+  ]
+}

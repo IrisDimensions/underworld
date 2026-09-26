@@ -1,0 +1,18 @@
+{
+  "mode": "PAINT",
+  "place": [
+    "underworld/soul/clutter/sbush1",
+    "underworld/soul/clutter/sbush2",
+    "underworld/soul/clutter/sbush3"
+  ],
+  "chance": 0.6,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": -360,
+      "max": 360
+    }
+  }
+}

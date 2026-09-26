@@ -54,1331 +54,38 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/blackstone-1-3-w2"
   ],
   "objects": [
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ],
-      "clamp": {
-        "minimumHeight": 0
-      }
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.005,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.0025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    },
-    {
-      "chance": 0.025,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:magma_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "underwater": true,
-      "place": [
-        "underworld/basalt/clutter/stonedirtsetter1",
-        "underworld/basalt/clutter/stonedirtsetter2",
-        "underworld/basalt/clutter/stonedirtsetter3",
-        "underworld/basalt/clutter/stonedirtsetter4",
-        "underworld/basalt/clutter/stonedirtsetter5",
-        "underworld/basalt/clutter/stonedirtsetter6",
-        "underworld/basalt/clutter/stonedirtsetter7"
-      ]
-    }
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025-min-y0",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-005",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-0025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025",
+    "snippet/object-placer/basalt/stonedirtsetter-c0-025"
   ],
   "decorators": [
     {
       "chance": 0.005,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 3,
       "zoom": 1,
       "palette": [
@@ -1398,16 +105,10 @@
           "block": "minecraft:magma_block"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.0006,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1416,31 +117,19 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.04,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 5,
       "palette": [
         {
           "block": "minecraft:lava"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.012,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 21,
       "zoom": 1,
       "palette": [
@@ -1448,9 +137,6 @@
           "block": "minecraft:lava"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "heightVariance": {
         "style": "NOWHERE"
       },
@@ -1458,9 +144,6 @@
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1469,16 +152,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1487,16 +164,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1505,16 +176,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1523,16 +188,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1541,16 +200,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.008,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -1562,12 +215,9 @@
         {
           "block": "minecraft:glowstone"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {
@@ -1583,24 +233,7 @@
       "particleCount": 0
     }
   ],
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/basalt/slab-blackstone-slab-third",
   "customDerivitives": [
     {
       "id": "underworld_tropical_sea_coral_ocean_68e9670b",

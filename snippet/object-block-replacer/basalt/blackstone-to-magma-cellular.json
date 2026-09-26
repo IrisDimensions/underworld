@@ -1,0 +1,33 @@
+{
+  "find": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:magma_block"
+      },
+      {
+        "block": "minecraft:magma_block"
+      },
+      {
+        "block": "minecraft:magma_block"
+      },
+      {
+        "block": "minecraft:magma_block"
+      },
+      {
+        "block": "minecraft:magma_block"
+      }
+    ],
+    "style": {
+      "style": "CELLULAR"
+    },
+    "zoom": 0.07
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "style": {
+    "style": "NOWHERE"
+  },
+  "palette": [
+    {
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:basalt"
+    }
+  ]
+}

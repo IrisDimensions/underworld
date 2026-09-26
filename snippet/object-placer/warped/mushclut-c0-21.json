@@ -1,0 +1,35 @@
+{
+  "chance": 0.21,
+  "density": 2,
+  "edit": [
+    "snippet/object-block-replacer/warped/warped-wart-to-warped-hyphae",
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+    "snippet/object-block-replacer/warped/warped-stem-to-blackstone"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/trees/mushroom/mushclut1",
+    "underworld/warped/trees/mushroom/mushclut2",
+    "underworld/warped/trees/mushroom/mushclut3",
+    "underworld/warped/trees/mushroom/mushclut4",
+    "underworld/warped/trees/mushroom/mushclut5",
+    "underworld/warped/trees/mushroom/mushclut6",
+    "underworld/warped/trees/mushroom/mushclut7",
+    "underworld/warped/trees/mushroom/mushclut8",
+    "underworld/warped/trees/mushroom/mushclut9",
+    "underworld/warped/trees/mushroom/mushclut10"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -1,
+    "z": 0
+  }
+}

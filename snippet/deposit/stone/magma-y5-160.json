@@ -1,0 +1,14 @@
+{
+  "minHeight": 5,
+  "maxHeight": 160,
+  "maxPerChunk": 8,
+  "minPerChunk": 4,
+  "minSize": 6,
+  "maxSize": 8,
+  "palette": [
+    {
+      "block": "minecraft:magma_block"
+    }
+  ],
+  "varience": 7
+}

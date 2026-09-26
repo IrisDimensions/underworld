@@ -18,39 +18,9 @@
       "generator": "cracked-cliffs"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:gravel"
-      },
-      {
-        "block": "minecraft:warped_nylium"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/basalt/wall-blackstone-basalt-gravel-nylium",
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 2.6
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    },
+    "snippet/biome-palette/basalt/basalt-1-1-slope2-6",
     {
       "minHeight": 1,
       "maxHeight": 2,
@@ -66,24 +36,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "customDerivitives": [
     {
@@ -105,7 +58,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

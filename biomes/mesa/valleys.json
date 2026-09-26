@@ -16,19 +16,7 @@
     }
   ],
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 2,
-        "maximumSlope": 10
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/netherrack-1-1-slope2-10",
     {
       "slopeCondition": {
         "minimumSlope": 0,
@@ -70,23 +58,7 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "weight": 1,
-          "block": "minecraft:netherrack"
-        },
-        {
-          "weight": 1,
-          "block": "minecraft:quartz_bricks"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/netherrack-quartz-bricks-1-1",
     {
       "minHeight": 1,
       "maxHeight": 1,
@@ -114,23 +86,7 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "weight": 1,
-          "block": "minecraft:netherrack"
-        },
-        {
-          "weight": 1,
-          "block": "minecraft:quartz_bricks"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/netherrack-quartz-bricks-1-1",
     {
       "minHeight": 1,
       "maxHeight": 1,
@@ -151,33 +107,7 @@
     }
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/basalt/trees/acacia/vexed1",
-        "underworld/basalt/trees/acacia/vexed2",
-        "underworld/basalt/trees/acacia/vexed3"
-      ],
-      "chance": 0.4,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae",
-                "data": {
-                  "axis": "y"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
+    "snippet/object-placer/basalt/acacia-vexed-c0-4",
     {
       "chance": 0.00175,
       "rotation": {
@@ -209,125 +139,12 @@
         "underworld/basalt/clutter/bincluster1"
       ]
     },
-    {
-      "chance": 0.07,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/trees/acacia/savannad1",
-        "underworld/basalt/trees/acacia/savannad2",
-        "underworld/basalt/trees/acacia/savannad3"
-      ]
-    },
-    {
-      "chance": 0.2,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/trees/acacia/savannaf1",
-        "underworld/basalt/trees/acacia/savannaf2",
-        "underworld/basalt/trees/acacia/savannaf3",
-        "underworld/basalt/trees/acacia/savannaf4",
-        "underworld/basalt/trees/acacia/savannaf5",
-        "underworld/basalt/trees/acacia/savannaf6",
-        "underworld/basalt/trees/acacia/savannaf7",
-        "underworld/basalt/trees/acacia/savannaf8",
-        "underworld/basalt/trees/acacia/savannaf9",
-        "underworld/basalt/trees/acacia/savannaf10",
-        "underworld/basalt/trees/acacia/savannaf11",
-        "underworld/basalt/trees/acacia/savannaf13",
-        "underworld/basalt/trees/acacia/savannaf14"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.04,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/trees/acacia/savannas1",
-        "underworld/basalt/trees/acacia/savannas2",
-        "underworld/basalt/trees/acacia/savannas3",
-        "underworld/basalt/trees/acacia/savannas4",
-        "underworld/basalt/trees/acacia/savannas5",
-        "underworld/basalt/trees/acacia/savannas6",
-        "underworld/basalt/trees/acacia/savannas7",
-        "underworld/basalt/trees/acacia/savannas8",
-        "underworld/basalt/trees/acacia/savannas9",
-        "underworld/basalt/trees/acacia/savannas10",
-        "underworld/basalt/trees/acacia/savannas11",
-        "underworld/basalt/trees/acacia/savannas12"
-      ]
-    }
+    "snippet/object-placer/basalt/savannad-c0-07",
+    "snippet/object-placer/basalt/savannaf-c0-2",
+    "snippet/object-placer/basalt/savannas-c0-04"
   ],
   "decorators": [
-    {
-      "chance": 0.13608,
-      "variance": {
-        "style": "CELLULAR",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "SIMPLEX",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "SIMPLEX",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "STATIC",
-          "multiplier": 8
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        }
-      ]
-    },
+    "snippet/decorator/shared/fire-fungus-sprouts-c0-136",
     {
       "chance": 0.01,
       "palette": [
@@ -344,8 +161,8 @@
         }
       ]
     },
-    "snippet/underworld/basalt/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

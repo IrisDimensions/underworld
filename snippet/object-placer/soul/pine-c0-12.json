@@ -1,0 +1,31 @@
+{
+  "edit": [
+    "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
+  ],
+  "place": [
+    "underworld/soul/trees/spruce/pine1",
+    "underworld/soul/trees/spruce/pine2",
+    "underworld/soul/trees/spruce/pine3",
+    "underworld/soul/trees/spruce/pine4",
+    "underworld/soul/trees/spruce/pine5",
+    "underworld/soul/trees/spruce/pine6",
+    "underworld/soul/trees/spruce/pine7",
+    "underworld/soul/trees/spruce/pine8",
+    "underworld/soul/trees/spruce/pine9"
+  ],
+  "chance": 0.12,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 270
+    }
+  },
+  "warp": {
+    "style": "IRIS_DOUBLE",
+    "exponent": 1.2,
+    "zoom": 0.4
+  }
+}

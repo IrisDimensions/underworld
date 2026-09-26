@@ -27,47 +27,10 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-3",
+    "snippet/biome-palette/wastes/netherrack-6-18"
   ],
-  "wall": {
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wastes/wall-basalt-netherrack-blackstone",
   "objects": [
     {
       "place": [
@@ -105,76 +68,7 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.13,
-      "variance": {
-        "style": "CELLULAR",
-        "zoom": 0.25,
-        "fracture": {
-          "style": "SIMPLEX",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "SIMPLEX",
-        "zoom": 0.2,
-        "fracture": {
-          "style": "STATIC",
-          "multiplier": 8
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ]
-    },
+    "snippet/decorator/shared/fungus-sprouts-fire-c0-13-simplex",
     {
       "chance": 0.22,
       "palette": [
@@ -223,20 +117,14 @@
       "stackMin": 1,
       "stackMax": 7,
       "chance": 0.025,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/wastes/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "generators": [
     {

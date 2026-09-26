@@ -635,8 +635,7 @@
             "block": "minecraft:bedrock"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/bedrock"
+      }
     },
     {
       "threshold": 0.35,
@@ -650,8 +649,7 @@
             "block": "minecraft:bedrock"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/bedrock"
+      }
     },
     {
       "threshold": 1,
@@ -682,8 +680,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.75,
@@ -697,8 +694,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.625,
@@ -712,8 +708,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.5,
@@ -727,8 +722,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.375,
@@ -742,8 +736,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.25,
@@ -757,8 +750,7 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     },
     {
       "threshold": 0.125,
@@ -772,211 +764,25 @@
             "block": "minecraft:blackstone"
           }
         ]
-      },
-      "chanceStyle": "snippet/style/underworld-depth"
+      }
     }
   ],
   "shoreBiomeStyle": {
     "style": "NOWHERE_CELLULAR"
   },
   "deposits": [
-    {
-      "minHeight": 19,
-      "maxPerChunk": 8,
-      "maxHeight": 390,
-      "minPerChunk": 1,
-      "minSize": 25,
-      "maxSize": 25,
-      "palette": [
-        {
-          "block": "minecraft:magma_block"
-        }
-      ],
-      "varience": 2
-    },
-    {
-      "minHeight": 19,
-      "maxPerChunk": 8,
-      "maxHeight": 310,
-      "minPerChunk": 1,
-      "minSize": 25,
-      "maxSize": 25,
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ],
-      "varience": 2
-    },
-    {
-      "minHeight": 19,
-      "maxPerChunk": 8,
-      "maxHeight": 309,
-      "minPerChunk": 1,
-      "minSize": 25,
-      "maxSize": 25,
-      "palette": [
-        {
-          "block": "minecraft:quartz_block"
-        }
-      ],
-      "varience": 2
-    },
-    {
-      "minHeight": 19,
-      "maxPerChunk": 8,
-      "maxHeight": 389,
-      "minPerChunk": 1,
-      "minSize": 25,
-      "maxSize": 25,
-      "palette": [
-        {
-          "block": "minecraft:gravel"
-        }
-      ],
-      "varience": 2
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 9,
-      "maxHeight": 51,
-      "minPerChunk": 4,
-      "minSize": 4,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:magma_block"
-        }
-      ]
-    },
-    {
-      "minHeight": 5,
-      "maxPerChunk": 4,
-      "maxHeight": 51,
-      "minPerChunk": 0,
-      "minSize": 4,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:glowstone"
-        }
-      ],
-      "varience": 4
-    },
-    {
-      "minHeight": 5,
-      "maxHeight": 228,
-      "maxPerChunk": 4,
-      "minPerChunk": 0,
-      "minSize": 3,
-      "maxSize": 6,
-      "palette": [
-        {
-          "block": "minecraft:glowstone"
-        }
-      ],
-      "varience": 5
-    },
-    {
-      "minHeight": 5,
-      "maxHeight": 160,
-      "maxPerChunk": 8,
-      "minPerChunk": 4,
-      "minSize": 6,
-      "maxSize": 8,
-      "palette": [
-        {
-          "block": "minecraft:magma_block"
-        }
-      ],
-      "varience": 7
-    },
-    {
-      "minHeight": 10,
-      "maxHeight": 757,
-      "heightDistribution": "UNIFORM",
-      "placementScope": "FULL_HEIGHT",
-      "surfaceClearance": 0,
-      "minPerChunk": 16,
-      "maxPerChunk": 16,
-      "minSize": 14,
-      "maxSize": 14,
-      "shape": "VANILLA_ELLIPSOID",
-      "palette": [
-        {
-          "block": "minecraft:nether_quartz_ore"
-        }
-      ],
-      "replaceableBlocks": [
-        "minecraft:netherrack"
-      ]
-    },
-    {
-      "minHeight": 10,
-      "maxHeight": 757,
-      "heightDistribution": "UNIFORM",
-      "placementScope": "FULL_HEIGHT",
-      "surfaceClearance": 0,
-      "minPerChunk": 10,
-      "maxPerChunk": 10,
-      "minSize": 10,
-      "maxSize": 10,
-      "shape": "VANILLA_ELLIPSOID",
-      "palette": [
-        {
-          "block": "minecraft:nether_gold_ore"
-        }
-      ],
-      "replaceableBlocks": [
-        "minecraft:netherrack"
-      ]
-    },
-    {
-      "minHeight": 264,
-      "maxHeight": 280,
-      "heightDistribution": "TRIANGLE",
-      "placementScope": "FULL_HEIGHT",
-      "surfaceClearance": 0,
-      "minPerChunk": 1,
-      "maxPerChunk": 1,
-      "minSize": 3,
-      "maxSize": 3,
-      "shape": "VANILLA_SCATTERED",
-      "discardChanceOnAirExposure": 1.0,
-      "palette": [
-        {
-          "block": "minecraft:ancient_debris"
-        }
-      ],
-      "replaceableBlocks": [
-        "minecraft:netherrack",
-        "minecraft:basalt",
-        "minecraft:blackstone"
-      ]
-    },
-    {
-      "minHeight": 8,
-      "maxHeight": 759,
-      "heightDistribution": "UNIFORM",
-      "placementScope": "FULL_HEIGHT",
-      "surfaceClearance": 0,
-      "minPerChunk": 1,
-      "maxPerChunk": 1,
-      "minSize": 2,
-      "maxSize": 2,
-      "shape": "VANILLA_SCATTERED",
-      "discardChanceOnAirExposure": 1.0,
-      "palette": [
-        {
-          "block": "minecraft:ancient_debris"
-        }
-      ],
-      "replaceableBlocks": [
-        "minecraft:netherrack",
-        "minecraft:basalt",
-        "minecraft:blackstone"
-      ]
-    }
+    "snippet/deposit/stone/magma-y19-390",
+    "snippet/deposit/stone/basalt-y19-310",
+    "snippet/deposit/stone/quartz-block-y19-309",
+    "snippet/deposit/stone/gravel-y19-389",
+    "snippet/deposit/stone/magma-y5-51",
+    "snippet/deposit/glow/glowstone-low",
+    "snippet/deposit/glow/glowstone-wide",
+    "snippet/deposit/stone/magma-y5-160",
+    "snippet/deposit/ore/quartz-full",
+    "snippet/deposit/ore/gold",
+    "snippet/deposit/ore/debris-deep",
+    "snippet/deposit/ore/debris-full"
   ],
   "depositVariants": [],
   "caveBiomeStyle": {

@@ -39,263 +39,22 @@
       "min": 1
     }
   ],
-  "wall": {
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:gravel"
-      },
-      {
-        "block": "minecraft:warped_nylium"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/basalt/wall-blackstone-basalt-gravel-nylium",
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3.3
-      },
-      "style": {
-        "style": "SIMPLEX",
-        "zoom": 0.5,
-        "fracture": {
-          "axialFracturing": true,
-          "style": "STATIC",
-          "multiplier": 4
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/basalt/basalt-blackstone-1-1-slope3-3",
+    "snippet/biome-palette/basalt/blackstone-3-3-slope3",
+    "snippet/biome-palette/basalt/blackstone-3-3-slope3-x2"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "density": 1,
-      "chance": 0.005,
-      "place": [
-        "underworld/basalt/clutter/camp1",
-        "underworld/basalt/clutter/camp2",
-        "underworld/basalt/clutter/camp3",
-        "underworld/basalt/clutter/camp4",
-        "underworld/basalt/clutter/camp5"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/basalt/clutter/sbush1",
-        "underworld/basalt/clutter/sbush2",
-        "underworld/basalt/clutter/sbush3"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/basalt/clutter/sbush1",
-        "underworld/basalt/clutter/sbush2",
-        "underworld/basalt/clutter/sbush3"
-      ]
-    },
-    {
-      "mode": "PAINT",
-      "chance": 0.1,
-      "place": [
-        "underworld/basalt/clutter/sbush1",
-        "underworld/basalt/clutter/sbush2",
-        "underworld/basalt/clutter/sbush3"
-      ]
-    },
-    {
-      "place": [
-        "underworld/basalt/trees/spruce/vgeneric1",
-        "underworld/basalt/trees/spruce/vgeneric3",
-        "underworld/basalt/trees/spruce/vgeneric4",
-        "underworld/basalt/trees/spruce/vgeneric5",
-        "underworld/basalt/trees/spruce/vgeneric6",
-        "underworld/basalt/trees/spruce/vgeneric7",
-        "underworld/basalt/trees/spruce/vgeneric8",
-        "underworld/basalt/trees/spruce/vgeneric9",
-        "underworld/basalt/trees/spruce/vgeneric10",
-        "underworld/basalt/trees/spruce/vgeneric11",
-        "underworld/basalt/trees/spruce/vgeneric12",
-        "underworld/basalt/trees/spruce/vgeneric13",
-        "underworld/basalt/trees/spruce/vgeneric14",
-        "underworld/basalt/trees/spruce/vgeneric15",
-        "underworld/basalt/trees/spruce/vgeneric16",
-        "underworld/basalt/trees/spruce/vgeneric17",
-        "underworld/basalt/trees/spruce/vgeneric18",
-        "underworld/basalt/trees/spruce/vgeneric19",
-        "underworld/basalt/trees/spruce/vgeneric20",
-        "underworld/basalt/trees/spruce/vgeneric21",
-        "underworld/basalt/trees/spruce/vgeneric22",
-        "underworld/basalt/trees/spruce/vgeneric23",
-        "underworld/basalt/trees/spruce/vgeneric24",
-        "underworld/basalt/trees/spruce/vgeneric25",
-        "underworld/basalt/trees/spruce/vgeneric26",
-        "underworld/basalt/trees/spruce/vgeneric27",
-        "underworld/basalt/trees/spruce/vgeneric28",
-        "underworld/basalt/trees/spruce/vgeneric29",
-        "underworld/basalt/trees/spruce/vgeneric30",
-        "underworld/basalt/trees/spruce/vgeneric31",
-        "underworld/basalt/trees/spruce/vgeneric32"
-      ],
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_fence"
-            },
-            {
-              "block": "minecraft:crimson_fence_gate"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "chance": 1,
-      "density": 2,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": -360,
-          "max": 360
-        }
-      }
-    }
+    "snippet/object-placer/basalt/camp-paint-c0-005",
+    "snippet/object-placer/basalt/sbush-paint-c0-1",
+    "snippet/object-placer/basalt/sbush-paint-c0-1",
+    "snippet/object-placer/basalt/sbush-paint-c0-1",
+    "snippet/object-placer/basalt/spruce-c1"
   ],
   "decorators": [
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 1,
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "age": 0
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 1
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 2
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 3
-          },
-          "block": "minecraft:fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/basalt/fire-sprouts-c0-001425-z1",
+    "snippet/decorator/basalt/fire-ages-c0-003",
     {
       "chance": 0.25,
       "palette": [
@@ -366,7 +125,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

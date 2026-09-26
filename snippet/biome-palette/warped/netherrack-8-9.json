@@ -1,0 +1,12 @@
+{
+  "minHeight": 8,
+  "maxHeight": 9,
+  "palette": [
+    {
+      "block": "minecraft:netherrack"
+    },
+    {
+      "block": "minecraft:netherrack"
+    }
+  ]
+}

@@ -17,9 +17,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:crying_obsidian"
@@ -29,9 +26,6 @@
   "layers": [
     {
       "maxHeight": 1,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:glowstone"
@@ -41,9 +35,6 @@
     {
       "minHeight": 1,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crying_obsidian"
@@ -56,9 +47,6 @@
     {
       "minHeight": 3,
       "maxHeight": 5,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crying_obsidian"
@@ -71,9 +59,6 @@
     {
       "minHeight": 5,
       "maxHeight": 12,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crying_obsidian"
@@ -105,7 +90,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "objects": [
     {
@@ -129,20 +114,7 @@
         "enabled": true
       },
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        },
+        "snippet/object-block-replacer/basalt/blackstone-to-crying-obsidian",
         {
           "find": [
             {
@@ -157,20 +129,7 @@
             ]
           }
         },
-        {
-          "find": [
-            {
-              "block": "minecraft:blackstone"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crying_obsidian"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/blackstone-to-crying-obsidian"
       ]
     }
   ],

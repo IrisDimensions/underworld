@@ -1,0 +1,33 @@
+{
+  "chance": 0.45,
+  "variance": {
+    "style": "NOWHERE"
+  },
+  "zoom": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:crimson_fungus"
+    },
+    {
+      "block": "minecraft:nether_sprouts"
+    },
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:nether_sprouts"
+    },
+    {
+      "block": "minecraft:nether_wart_block"
+    }
+  ],
+  "style": {
+    "style": "FRACTAL_BILLOW_IRIS",
+    "fracture": {
+      "style": "STATIC"
+    }
+  }
+}

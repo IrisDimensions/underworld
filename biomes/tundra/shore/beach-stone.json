@@ -38,31 +38,7 @@
       ]
     }
   ],
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:polished_blackstone_brick_slab"
-      },
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/slab/brick-blackstone-slab-half",
   "customDerivitives": [
     {
       "id": "underworld_tundra_shore_beach_stone_13a83736",
@@ -83,6 +59,6 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ]
 }

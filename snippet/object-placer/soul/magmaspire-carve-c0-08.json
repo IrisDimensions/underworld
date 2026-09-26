@@ -1,0 +1,15 @@
+{
+  "chance": 0.08,
+  "density": 2,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/magmaspire1",
+    "underworld/soul/clutter/magmaspire2",
+    "underworld/soul/clutter/magmaspire3"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mode": "PAINT",
+  "chance": 0.055,
+  "place": [
+    "underworld/soul/clutter/stone1",
+    "underworld/soul/clutter/stone2",
+    "underworld/soul/clutter/stone3",
+    "underworld/soul/clutter/stone4",
+    "underworld/soul/clutter/stone5",
+    "underworld/soul/clutter/stone6",
+    "underworld/soul/clutter/stone7",
+    "underworld/soul/clutter/stoneboulder1",
+    "underworld/soul/clutter/stoneboulder2",
+    "underworld/soul/clutter/stoneboulder3",
+    "underworld/soul/clutter/stoneboulder4",
+    "underworld/soul/clutter/stoneboulder5",
+    "underworld/soul/clutter/stoneboulder6",
+    "underworld/soul/clutter/stoneboulder7",
+    "underworld/soul/clutter/stoneboulder8",
+    "underworld/soul/clutter/stoneboulder9",
+    "underworld/soul/clutter/stoneboulder10",
+    "underworld/soul/clutter/stoneboulder11",
+    "underworld/soul/clutter/stoneboulder12",
+    "underworld/soul/clutter/stoneboulder13",
+    "underworld/soul/clutter/stoneboulder14",
+    "underworld/soul/clutter/stoneboulder15"
+  ]
+}

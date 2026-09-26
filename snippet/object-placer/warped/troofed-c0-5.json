@@ -1,0 +1,28 @@
+{
+  "chance": 0.5,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+    "snippet/object-block-replacer/warped/warped-fence-to-warped-wart"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/trees/oak/troofed1",
+    "underworld/warped/trees/oak/troofed2",
+    "underworld/warped/trees/oak/troofed3",
+    "underworld/warped/trees/oak/troofed4",
+    "underworld/warped/trees/oak/troofed5",
+    "underworld/warped/trees/oak/troofed6",
+    "underworld/warped/trees/oak/troofed7",
+    "underworld/warped/trees/oak/troofed8",
+    "underworld/warped/trees/oak/troofed9",
+    "underworld/warped/trees/oak/troofed10"
+  ]
+}

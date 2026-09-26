@@ -1,0 +1,28 @@
+{
+  "chance": 0.2,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-stem-to-warped-stem",
+    "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae",
+    "snippet/object-block-replacer/shared/warped-fence-to-warped-fence",
+    "snippet/object-block-replacer/shared/warped-planks-to-stripped-warped-hyphae"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/trees/darkoak/willowgeneric1",
+    "underworld/warped/trees/darkoak/willowgeneric2"
+  ],
+  "mode": "PAINT",
+  "translate": {
+    "x": 24,
+    "y": -3,
+    "z": 0
+  }
+}

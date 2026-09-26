@@ -1,0 +1,27 @@
+{
+  "place": [
+    "underworld/basalt/clutter/stonedirtsetter1",
+    "underworld/basalt/clutter/stonedirtsetter2",
+    "underworld/basalt/clutter/stonedirtsetter3",
+    "underworld/basalt/clutter/stonedirtsetter4",
+    "underworld/basalt/clutter/stonedirtsetter5",
+    "underworld/basalt/clutter/stonedirtsetter6",
+    "underworld/basalt/clutter/stonedirtsetter7"
+  ],
+  "chance": 0.5,
+  "density": 2,
+  "underwater": true,
+  "mode": "CENTER_HEIGHT",
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "max": 360,
+      "min": -360
+    }
+  },
+  "edit": [
+    "snippet/object-block-replacer/basalt/blackstone-to-magma-cellular"
+  ]
+}

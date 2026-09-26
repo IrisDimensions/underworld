@@ -1,0 +1,26 @@
+{
+  "chance": 0.9,
+  "density": 1,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/trees/birch/antioch3",
+    "underworld/wastes/trees/birch/antioch4",
+    "underworld/wastes/trees/birch/antioch5",
+    "underworld/wastes/trees/birch/antioch6",
+    "underworld/wastes/trees/birch/antioch7",
+    "underworld/wastes/trees/birch/antioch8",
+    "underworld/wastes/trees/birch/antioch9",
+    "underworld/wastes/trees/birch/antioch10",
+    "underworld/wastes/trees/birch/antioch11",
+    "underworld/wastes/trees/birch/antioch12",
+    "underworld/wastes/trees/birch/antioch13"
+  ]
+}

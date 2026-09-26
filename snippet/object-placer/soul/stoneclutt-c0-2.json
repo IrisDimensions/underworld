@@ -1,0 +1,26 @@
+{
+  "chance": 0.2,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/clutter/stoneclutt1",
+    "underworld/soul/clutter/stoneclutt2",
+    "underworld/soul/clutter/stoneclutt3",
+    "underworld/soul/clutter/stoneclutt4",
+    "underworld/soul/clutter/stoneclutt5",
+    "underworld/soul/clutter/stoneclutt6",
+    "underworld/soul/clutter/stoneclutt7"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

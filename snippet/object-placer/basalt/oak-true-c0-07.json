@@ -1,0 +1,19 @@
+{
+  "place": [
+    "underworld/basalt/trees/oak/truegeneric1",
+    "underworld/basalt/trees/oak/truegeneric3",
+    "underworld/basalt/trees/oak/truegeneric3",
+    "underworld/basalt/trees/oak/truegeneric4",
+    "underworld/basalt/trees/oak/truegeneric5"
+  ],
+  "chance": 0.07,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": -360,
+      "max": 360
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "chance": 0.1,
+  "density": 3,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/stoneboulder11",
+    "underworld/soul/clutter/stoneboulder12",
+    "underworld/soul/clutter/stoneboulder13"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

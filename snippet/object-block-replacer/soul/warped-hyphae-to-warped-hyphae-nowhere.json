@@ -1,0 +1,22 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_hyphae"
+    }
+  ],
+  "replace": {
+    "style": {
+      "style": "NOWHERE",
+      "zoom": 0.2
+    },
+    "palette": [
+      {
+        "block": "minecraft:warped_hyphae",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:warped_hyphae"
+      }
+    ]
+  }
+}

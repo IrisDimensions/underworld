@@ -1,0 +1,30 @@
+{
+  "chance": 0.004,
+  "mode": "PAINT",
+  "place": [
+    "underworld/wastes/clutter/pumpkins1",
+    "underworld/wastes/clutter/pumpkins2",
+    "underworld/wastes/clutter/pumpkins3",
+    "underworld/wastes/clutter/pumpkins4",
+    "underworld/wastes/clutter/pumpkins5",
+    "underworld/wastes/clutter/pumpkins6",
+    "underworld/wastes/clutter/melons1",
+    "underworld/wastes/clutter/melons2",
+    "underworld/wastes/clutter/melons3",
+    "underworld/wastes/clutter/melons4",
+    "underworld/wastes/clutter/melons5",
+    "underworld/wastes/clutter/melons6"
+  ],
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "max": 360,
+      "min": 0,
+      "interval": 90
+    }
+  },
+  "translate": {
+    "y": 1
+  }
+}

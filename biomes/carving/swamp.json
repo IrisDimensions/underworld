@@ -5,9 +5,6 @@
   "wall": {
     "minHeight": 2,
     "maxHeight": 2,
-    "style": {
-      "style": "STATIC"
-    },
     "zoom": 0.4,
     "palette": [
       {
@@ -20,9 +17,6 @@
   },
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_soil"
@@ -36,9 +30,6 @@
   "decorators": [
     {
       "chance": 0.15,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_fire"
@@ -50,9 +41,6 @@
     },
     {
       "chance": 0.04,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:warped_fungus"
@@ -118,51 +106,8 @@
         "size": 0.75
       }
     },
-    {
-      "chance": 0.0972,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/rock4",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.0972,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/jungleclutt1",
-        "underworld/soul/clutter/jungleclutt2",
-        "underworld/soul/clutter/jungleclutt3",
-        "underworld/soul/clutter/junglestone1",
-        "underworld/soul/clutter/junglestone2"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
+    "snippet/object-placer/soul/rock-boulder-carve-c0-0972-x0-75",
+    "snippet/object-placer/soul/jungle-rubble-carve-c0-0972"
   ],
   "caveProfile": {
     "enabled": true,

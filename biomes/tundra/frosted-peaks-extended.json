@@ -34,9 +34,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:basalt"
@@ -95,9 +92,6 @@
     {
       "minHeight": 2,
       "maxHeight": 4,
-      "style": {
-        "style": "STATIC"
-      },
       "slopeCondition": {
         "minimumSlope": 2.5
       },
@@ -123,9 +117,6 @@
     {
       "minHeight": 2,
       "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:basalt",
@@ -171,12 +162,9 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "slopeCondition": {
       "minimumSlope": 2.3
     },

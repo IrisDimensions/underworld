@@ -1,0 +1,21 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_wart_block"
+    }
+  ],
+  "replace": {
+    "style": {
+      "style": "PERLIN",
+      "zoom": 0.2
+    },
+    "palette": [
+      {
+        "block": "minecraft:warped_wart_block"
+      },
+      {
+        "block": "minecraft:warped_wart_block"
+      }
+    ]
+  }
+}

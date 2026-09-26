@@ -1,0 +1,26 @@
+{
+  "chance": 0.04,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/trees/acacia/savannas1",
+    "underworld/wastes/trees/acacia/savannas2",
+    "underworld/wastes/trees/acacia/savannas3",
+    "underworld/wastes/trees/acacia/savannas4",
+    "underworld/wastes/trees/acacia/savannas5",
+    "underworld/wastes/trees/acacia/savannas6",
+    "underworld/wastes/trees/acacia/savannas7",
+    "underworld/wastes/trees/acacia/savannas8",
+    "underworld/wastes/trees/acacia/savannas9",
+    "underworld/wastes/trees/acacia/savannas10",
+    "underworld/wastes/trees/acacia/savannas11",
+    "underworld/wastes/trees/acacia/savannas12"
+  ]
+}

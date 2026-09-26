@@ -1,0 +1,18 @@
+{
+  "partOf": "CEILING",
+  "chance": 0.08,
+  "scaleStack": true,
+  "stackMin": 12,
+  "stackMax": 50,
+  "absoluteMaxStack": 5,
+  "palette": [
+    {
+      "block": "minecraft:twisting_vines",
+      "weight": 2
+    },
+    {
+      "block": "minecraft:twisting_vines",
+      "weight": 1
+    }
+  ]
+}

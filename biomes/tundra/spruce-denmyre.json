@@ -34,22 +34,7 @@
       "generator": "plain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soul/wall-basalt",
   "layers": [
     {
       "style": {
@@ -77,24 +62,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
     {
@@ -117,62 +85,10 @@
       "chance": 0.5,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:stripped_warped_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_fence"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_hyphae"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-planks-to-stripped-warped-hyphae",
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/shared/warped-fence-to-warped-fence",
+        "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae"
       ],
       "rotation": {
         "yAxis": {
@@ -200,48 +116,9 @@
     },
     {
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/shared/warped-hyphae-to-warped-wart"
       ],
       "chance": 0.3,
       "density": 2,
@@ -272,89 +149,13 @@
         "z": 0
       }
     },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/soul/clutter/pumpkins1",
-        "underworld/soul/clutter/pumpkins2",
-        "underworld/soul/clutter/pumpkins3",
-        "underworld/soul/clutter/pumpkins4",
-        "underworld/soul/clutter/pumpkins5",
-        "underworld/soul/clutter/pumpkins6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/soul/pumpkins-paint-c0-008"
   ],
   "decorators": [
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.02,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_roots",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/soul/soul-fire-roots-c0-001425-z0-02",
+    "snippet/decorator/soul/soul-fire-c0-0003",
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_fire"
@@ -369,9 +170,6 @@
     },
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_fire"
@@ -379,73 +177,19 @@
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-003",
     {
       "chance": 0.017,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/soul/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/soul/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 22,
-    "horizontalScale": 256,
-    "verticalScale": 30,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.32,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp22-perlin-crack416"
 }

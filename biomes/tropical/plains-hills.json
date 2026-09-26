@@ -58,21 +58,7 @@
         }
       ]
     },
-    {
-      "style": {
-        "style": "STATIC"
-      },
-      "minHeight": 1,
-      "maxHeight": 1,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-1"
   ],
   "objects": [
     {
@@ -143,30 +129,7 @@
         "y": -2
       }
     },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/crimson/clutter/melons1",
-        "underworld/crimson/clutter/melons2",
-        "underworld/crimson/clutter/melons3",
-        "underworld/crimson/clutter/melons4",
-        "underworld/crimson/clutter/melons5",
-        "underworld/crimson/clutter/melons6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/crimson/melons-paint-c0-008-raised1"
   ],
   "decorators": [
     {
@@ -182,70 +145,8 @@
         }
       ]
     },
-    {
-      "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus"
-        },
-        {
-          "block": "minecraft:crimson_roots"
-        },
-        {
-          "block": "minecraft:crimson_roots"
-        },
-        {
-          "block": "minecraft:crimson_roots"
-        },
-        {
-          "block": "minecraft:crimson_fungus"
-        },
-        {
-          "block": "minecraft:crimson_fungus"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        }
-      ]
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/basalt/fungus-roots-sprouts-c0-06",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "NOWHERE"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-nowhere-crack416"
 }

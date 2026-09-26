@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:crimson_fence"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:crimson_fence"
+      }
+    ]
+  }
+}

@@ -19,9 +19,6 @@
     "style": "SIMPLEX"
   },
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:polished_blackstone"
@@ -66,24 +63,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "customDerivitives": [
     {
@@ -105,7 +85,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

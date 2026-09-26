@@ -1,0 +1,27 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_wart_block"
+    },
+    {
+      "block": "minecraft:warped_wart_block"
+    }
+  ],
+  "exact": false,
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:warped_wart_block"
+      },
+      {
+        "block": "minecraft:warped_wart_block"
+      },
+      {
+        "block": "minecraft:warped_wart_block"
+      },
+      {
+        "block": "minecraft:warped_wart_block"
+      }
+    ]
+  }
+}

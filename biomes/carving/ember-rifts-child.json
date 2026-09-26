@@ -3,9 +3,6 @@
   "derivative": "minecraft:soul_sand_valley",
   "vanillaDerivative": "minecraft:soul_sand_valley",
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:basalt",
@@ -27,9 +24,6 @@
   },
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "minHeight": 1,
       "maxHeight": 2,
       "palette": [
@@ -50,9 +44,6 @@
   ],
   "caveCeilingLayers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "minHeight": 1,
       "maxHeight": 2,
       "palette": [

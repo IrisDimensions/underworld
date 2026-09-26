@@ -1,0 +1,28 @@
+{
+  "style": {
+    "style": "NOWHERE"
+  },
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:smooth_basalt"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:smooth_basalt"
+    },
+    {
+      "block": "minecraft:smooth_basalt"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:smooth_basalt"
+    }
+  ]
+}

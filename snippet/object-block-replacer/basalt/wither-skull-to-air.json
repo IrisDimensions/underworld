@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:wither_skeleton_wall_skull"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:air"
+      }
+    ]
+  }
+}

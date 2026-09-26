@@ -1,0 +1,22 @@
+{
+  "find": [
+    {
+      "block": "minecraft:crimson_hyphae"
+    }
+  ],
+  "replace": {
+    "style": {
+      "style": "NOWHERE",
+      "zoom": 0.02
+    },
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:crimson_hyphae"
+      }
+    ]
+  }
+}

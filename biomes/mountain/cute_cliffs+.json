@@ -20,54 +20,10 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:gravel"
-      },
-      {
-        "block": "minecraft:warped_nylium"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/basalt/wall-blackstone-basalt-gravel-nylium",
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 2.6
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    },
-    {
-      "minHeight": 2,
-      "maxHeight": 4,
-      "slopeCondition": {
-        "minimumSlope": 3.95
-      },
-      "palette": [
-        {
-          "block": "minecraft:gravel"
-        },
-        {
-          "block": "minecraft:warped_nylium"
-        }
-      ]
-    },
+    "snippet/biome-palette/basalt/basalt-1-1-slope2-6",
+    "snippet/biome-palette/basalt/gravel-nylium-2-4-steep3-95",
     {
       "minHeight": 2,
       "maxHeight": 4,
@@ -86,104 +42,11 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 4
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/basalt/basalt-1-1-slope4",
+    "snippet/biome-palette/basalt/blackstone-3-3-slope3"
   ],
   "decorators": [
-    {
-      "chance": 0.13,
-      "variance": {
-        "style": "CELLULAR",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "SIMPLEX",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "TRIOCTAVE_SIMPLEX",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "STATIC",
-          "multiplier": 8
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ]
-    },
+    "snippet/decorator/basalt/fungus-sprouts-fire-c0-13-trioctave-z0-3",
     {
       "chance": 0.01,
       "palette": [
@@ -200,7 +63,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childStyle": {
     "style": "STATIC",
@@ -212,31 +75,7 @@
       "zoom": 0.9
     }
   },
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:polished_blackstone_brick_slab"
-      },
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/slab/brick-blackstone-slab-half",
   "customDerivitives": [
     {
       "id": "underworld_mountain_cute_cliffs_9721a388",

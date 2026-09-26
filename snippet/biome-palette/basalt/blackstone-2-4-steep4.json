@@ -1,0 +1,18 @@
+{
+  "minHeight": 2,
+  "maxHeight": 4,
+  "slopeCondition": {
+    "minimumSlope": 4
+  },
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:blackstone"
+    }
+  ]
+}

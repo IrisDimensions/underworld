@@ -1,0 +1,26 @@
+{
+  "chance": 0.0044,
+  "zoom": 0.01,
+  "palette": [
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    }
+  ]
+}

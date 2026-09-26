@@ -1,0 +1,26 @@
+{
+  "chance": 0.05,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/trees/spruce/pine1",
+    "underworld/soul/trees/spruce/pine2",
+    "underworld/soul/trees/spruce/pine3",
+    "underworld/soul/trees/spruce/pine4",
+    "underworld/soul/trees/spruce/pine5",
+    "underworld/soul/trees/spruce/pine6",
+    "underworld/soul/trees/spruce/pine7",
+    "underworld/soul/trees/spruce/pine8",
+    "underworld/soul/trees/spruce/pine9",
+    "underworld/soul/trees/spruce/pine10",
+    "underworld/soul/trees/spruce/pine11",
+    "underworld/soul/trees/spruce/pine12"
+  ]
+}

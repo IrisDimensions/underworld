@@ -67,26 +67,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30133,
-    "amplitude": 36,
-    "horizontalScale": 176,
-    "verticalScale": 52,
-    "densityStyle": {
-      "style": "SIMPLEX"
-    },
-    "crackDepth": 4,
-    "crackWidth": 2.25,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.22,
-    "slopeFade": 0.36,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp36-simplex-crack416"
 }

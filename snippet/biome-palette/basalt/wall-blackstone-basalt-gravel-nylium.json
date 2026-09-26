@@ -1,0 +1,16 @@
+{
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:gravel"
+    },
+    {
+      "block": "minecraft:warped_nylium"
+    }
+  ]
+}

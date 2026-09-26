@@ -1,0 +1,52 @@
+{
+  "stackMin": 1,
+  "stackMax": 11,
+  "chance": 0.0049,
+  "variance": {
+    "style": "STATIC",
+    "zoom": 0.1
+  },
+  "topPalette": [
+    {
+      "block": "minecraft:crimson_stem"
+    }
+  ],
+  "palette": [
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    },
+    {
+      "block": "minecraft:crimson_stem"
+    }
+  ]
+}

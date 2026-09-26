@@ -1,0 +1,15 @@
+{
+  "minHeight": 2,
+  "maxHeight": 3,
+  "palette": [
+    {
+      "block": "minecraft:blackstone"
+    },
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:gravel"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chance": 0.08,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-stem-to-warped-stem",
+    "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae",
+    "snippet/object-block-replacer/shared/warped-fence-to-warped-fence",
+    "snippet/object-block-replacer/shared/warped-planks-to-stripped-warped-hyphae"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/clutter/stump1",
+    "underworld/warped/clutter/stump2",
+    "underworld/warped/clutter/stump3",
+    "underworld/warped/clutter/stump4",
+    "underworld/warped/clutter/stump5",
+    "underworld/warped/clutter/stump6"
+  ],
+  "mode": "PAINT"
+}

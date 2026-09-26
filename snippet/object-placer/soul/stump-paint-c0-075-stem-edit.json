@@ -1,0 +1,25 @@
+{
+  "chance": 0.075,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/clutter/stump1",
+    "underworld/soul/clutter/stump2",
+    "underworld/soul/clutter/stump3",
+    "underworld/soul/clutter/stump4",
+    "underworld/soul/clutter/stump5",
+    "underworld/soul/clutter/stump6"
+  ],
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-stem-to-warped-stem",
+    "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae"
+  ],
+  "mode": "PAINT"
+}

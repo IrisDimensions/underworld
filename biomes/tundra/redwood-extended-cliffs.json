@@ -96,100 +96,12 @@
         }
       ]
     },
-    {
-      "style": {
-        "style": "STATIC"
-      },
-      "minHeight": 1,
-      "maxHeight": 1,
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/soul-soil-basalt-1-1"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "place": [
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4",
-        "underworld/soul/clutter/boulder5",
-        "underworld/soul/clutter/boulder6",
-        "underworld/soul/clutter/boulder7",
-        "underworld/soul/clutter/boulder8",
-        "underworld/soul/clutter/boulder9",
-        "underworld/soul/clutter/boulder10"
-      ],
-      "chance": 0.4,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": -360,
-          "max": 360
-        }
-      },
-      "translate": {
-        "x": 0,
-        "y": -3,
-        "z": 0
-      }
-    },
-    {
-      "mode": "PAINT",
-      "place": [
-        "underworld/soul/clutter/sbush1",
-        "underworld/soul/clutter/sbush2",
-        "underworld/soul/clutter/sbush3"
-      ],
-      "chance": 0.6,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": -360,
-          "max": 360
-        }
-      }
-    },
-    {
-      "chance": 0.35,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/trees/mixed/tredwood1",
-        "underworld/soul/trees/mixed/tredwood2",
-        "underworld/soul/trees/mixed/tredwood3",
-        "underworld/soul/trees/mixed/tredwood4",
-        "underworld/soul/trees/mixed/tredwood5",
-        "underworld/soul/trees/mixed/tredwood6",
-        "underworld/soul/trees/mixed/tredwood7",
-        "underworld/soul/trees/mixed/tredwood8",
-        "underworld/soul/trees/mixed/tredwood9",
-        "underworld/soul/trees/mixed/tredwood10"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -12,
-        "z": 0
-      }
-    },
+    "snippet/object-placer/soul/boulder-paint-c0-4",
+    "snippet/object-placer/soul/sbush-paint-c0-6",
+    "snippet/object-placer/soul/tredwood-c0-35",
     {
       "chance": 0.3,
       "rotation": {
@@ -233,261 +145,16 @@
         "z": 0
       }
     },
-    {
-      "chance": 0.32,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "mode": "PAINT",
-      "place": [
-        "underworld/soul/clutter/srock1",
-        "underworld/soul/clutter/srock2"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -10,
-        "yRandom": 1,
-        "z": 0
-      },
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:smooth_quartz"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:quartz_block"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "chance": 0.45,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/trees/mixed/tredwoodsmol1",
-        "underworld/soul/trees/mixed/tredwoodsmol2",
-        "underworld/soul/trees/mixed/tredwoodsmol3",
-        "underworld/soul/trees/mixed/tredwoodsmol1",
-        "underworld/soul/trees/mixed/tredwoodsmol2",
-        "underworld/soul/trees/mixed/tredwoodsmol3",
-        "underworld/soul/trees/mixed/tredwoodsmol4",
-        "underworld/soul/trees/mixed/tredwoodsmol5"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.35,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/spruceclutt1",
-        "underworld/soul/clutter/spruceclutt2",
-        "underworld/soul/clutter/spruceclutt3",
-        "underworld/soul/clutter/spruceclutt4",
-        "underworld/soul/clutter/spruceclutt5"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -8,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.15,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/rshrub1",
-        "underworld/soul/clutter/rshrub2"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -3,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.01,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/trees/mixed/tredwoodbee1",
-        "underworld/soul/trees/mixed/tredwoodbee2",
-        "underworld/soul/trees/mixed/tredwoodbee3",
-        "underworld/soul/trees/mixed/tredwoodbee4"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -8,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.075,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/stump1",
-        "underworld/soul/clutter/stump2",
-        "underworld/soul/clutter/stump3",
-        "underworld/soul/clutter/stump4",
-        "underworld/soul/clutter/stump5",
-        "underworld/soul/clutter/stump6"
-      ],
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_stem"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_stem"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_hyphae"
-              }
-            ]
-          }
-        }
-      ],
-      "mode": "PAINT"
-    }
+    "snippet/object-placer/soul/srock-paint-c0-32",
+    "snippet/object-placer/soul/tredwoodsmol-c0-45-wart",
+    "snippet/object-placer/soul/spruceclutt-c0-35",
+    "snippet/object-placer/soul/rshrub-c0-15",
+    "snippet/object-placer/soul/tredwoodbee-c0-01",
+    "snippet/object-placer/soul/stump-paint-c0-075-stem-edit"
   ],
   "decorators": [
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 1,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_roots",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/soul/soul-fire-roots-c0-001425-z1",
+    "snippet/decorator/soul/soul-fire-c0-003",
     {
       "chance": 0.06,
       "palette": [
@@ -544,8 +211,8 @@
         }
       ]
     },
-    "snippet/underworld/soul/decorator/leaf",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/soul/leaf-litter",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

@@ -48,22 +48,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soul/wall-basalt",
   "layers": [
     {
       "maxHeight": 3,
@@ -91,24 +76,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
     {
@@ -191,69 +159,10 @@
       "chance": 0.45,
       "density": 1,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:stripped_warped_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_fence"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              },
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-planks-to-stripped-warped-hyphae",
+        "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae",
+        "snippet/object-block-replacer/shared/warped-fence-to-warped-fence",
+        "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
       ],
       "rotation": {
         "yAxis": {
@@ -303,27 +212,8 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 20,
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "SIMPLEX"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-simplex-crack416"
 }

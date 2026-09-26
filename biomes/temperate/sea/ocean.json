@@ -154,19 +154,7 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/blackstone-1-3-w2"
   ],
   "objects": [
     {
@@ -217,105 +205,31 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.0006,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 1,
-      "palette": [
-        {
-          "block": "minecraft:soul_sand"
-        },
-        {
-          "block": "minecraft:magma_block"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "partOf": "SEA_FLOOR"
-    },
+    "snippet/decorator/wastes/soul-sand-magma-seafloor-c0-0006",
     {
       "chance": 0.07,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 5,
       "palette": [
         {
           "block": "minecraft:lava"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "partOf": "SEA_FLOOR"
     },
-    {
-      "chance": 0.013,
-      "variance": {
-        "style": "STATIC"
-      },
-      "stackMax": 6,
-      "zoom": 1,
-      "palette": [
-        {
-          "block": "minecraft:lava"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "NOWHERE"
-      },
-      "stackMin": 2,
-      "partOf": "SEA_FLOOR"
-    },
+    "snippet/decorator/wastes/lava-seafloor-c0-013",
     {
       "chance": 0.001,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
           "block": "minecraft:glowstone"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "partOf": "SEA_FLOOR"
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/slab/blackstone-slab-half",
   "customDerivitives": [
     {
       "id": "underworld_temperate_sea_ocean_ffe70e4c",

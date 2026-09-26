@@ -1,0 +1,27 @@
+{
+  "chance": 0.135,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/clutter/boulder1",
+    "underworld/warped/clutter/boulder2",
+    "underworld/warped/clutter/boulder3",
+    "underworld/warped/clutter/boulder4",
+    "underworld/warped/clutter/boulder5",
+    "underworld/warped/clutter/boulder6",
+    "underworld/warped/clutter/boulder7",
+    "underworld/warped/clutter/boulder8"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

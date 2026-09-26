@@ -1,0 +1,39 @@
+{
+  "place": [
+    "underworld/wastes/trees/oak/hoakgeneric1",
+    "underworld/wastes/trees/oak/hoakgeneric2",
+    "underworld/wastes/trees/oak/hoakgeneric3",
+    "underworld/wastes/trees/oak/hoakgeneric4",
+    "underworld/wastes/trees/oak/hoakgeneric5",
+    "underworld/wastes/trees/oak/shoakgeneric1",
+    "underworld/wastes/trees/oak/shoakgeneric2",
+    "underworld/wastes/trees/oak/shoakgeneric3",
+    "underworld/wastes/trees/oak/shoakgeneric4",
+    "underworld/wastes/trees/oak/shoakgeneric4",
+    "underworld/wastes/trees/oak/generic1",
+    "underworld/wastes/trees/oak/generic2",
+    "underworld/wastes/trees/oak/generic3",
+    "underworld/wastes/trees/oak/generic4",
+    "underworld/wastes/trees/oak/generic5",
+    "underworld/wastes/trees/oak/generic6",
+    "underworld/wastes/clutter/sbush1",
+    "underworld/wastes/clutter/sbush2",
+    "underworld/wastes/clutter/sbush3"
+  ],
+  "chance": 0.9,
+  "density": 2,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 360
+    }
+  },
+  "translate": {
+    "x": 0,
+    "y": -3,
+    "z": 0
+  }
+}

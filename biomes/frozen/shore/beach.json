@@ -64,9 +64,7 @@
       ]
     }
   ],
-  "objects": [
-
-  ],
+  "objects": [],
   "decorators": [
     {
       "chance": 1,
@@ -83,15 +81,12 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "seaLayers": [
     {
       "minHeight": 1,
       "maxHeight": 7,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:blackstone"
@@ -100,9 +95,6 @@
     }
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:blackstone"

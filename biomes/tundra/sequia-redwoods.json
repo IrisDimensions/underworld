@@ -38,9 +38,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:soul_soil"
@@ -68,63 +65,12 @@
         }
       ]
     },
-    {
-      "minHeight": 2,
-      "maxHeight": 4,
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/soul-soil-2-4",
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/soul/clutter/gravelsplotch1",
-        "underworld/soul/clutter/gravelsplotch2",
-        "underworld/soul/clutter/gravelsplotch3",
-        "underworld/soul/clutter/gravelsplotch4"
-      ],
-      "chance": 0.75,
-      "mode": "PAINT"
-    },
-    {
-      "chance": 0.00375,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/camp1"
-      ]
-    },
+    "snippet/object-placer/soul/gravelsplotch-paint-c0-75",
+    "snippet/object-placer/soul/camp-c0-00375",
     {
       "mode": "FAST_STILT",
       "chance": 0.0025,
@@ -141,104 +87,9 @@
         "underworld/soul/clutter/bincluster1"
       ]
     },
-    {
-      "chance": 0.69,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "xAxis": {
-          "min": -9,
-          "max": 9,
-          "interval": 1,
-          "enabled": true
-        },
-        "zAxis": {
-          "min": -9,
-          "max": 9,
-          "interval": 1,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/trees/spruce/sup-pine-1",
-        "underworld/soul/trees/spruce/sup-pine-2",
-        "underworld/soul/trees/spruce/sup-pine-3",
-        "underworld/soul/trees/spruce/sup-pine-4",
-        "underworld/soul/trees/spruce/sup-pine-5",
-        "underworld/soul/trees/spruce/sup-pine-6",
-        "underworld/soul/trees/spruce/sup-pine-7",
-        "underworld/soul/trees/spruce/sup-pine-8",
-        "underworld/soul/trees/spruce/sup-pine-9",
-        "underworld/soul/trees/spruce/sup-pine-10",
-        "underworld/soul/trees/spruce/sup-pine-11",
-        "underworld/soul/trees/spruce/sup-pine-12"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -6,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.035,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4",
-        "underworld/soul/clutter/boulder5",
-        "underworld/soul/clutter/boulder6",
-        "underworld/soul/clutter/boulder7",
-        "underworld/soul/clutter/boulder8",
-        "underworld/soul/clutter/boulder9",
-        "underworld/soul/clutter/boulder10",
-        "underworld/soul/clutter/boulder11",
-        "underworld/soul/clutter/boulder12",
-        "underworld/soul/clutter/boulder13",
-        "underworld/soul/clutter/boulder14",
-        "underworld/soul/clutter/boulder15"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.075,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/stump1",
-        "underworld/soul/clutter/stump2",
-        "underworld/soul/clutter/stump3",
-        "underworld/soul/clutter/stump4",
-        "underworld/soul/clutter/stump5",
-        "underworld/soul/clutter/stump6"
-      ],
-      "mode": "PAINT"
-    },
+    "snippet/object-placer/soul/sup-pine-c0-69",
+    "snippet/object-placer/soul/boulder-c0-035",
+    "snippet/object-placer/soul/stump-paint-c0-075",
     {
       "chance": 0.008,
       "mode": "FAST_STILT",
@@ -265,167 +116,47 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.009,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.02,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_roots",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-009",
+    "snippet/decorator/soul/soul-fire-roots-c0-001425-z0-02",
     {
       "chance": 0.01335,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/soul/soul-fire-c0-0003",
     {
       "chance": 0.0045,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:crimson_roots"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 2.4,
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

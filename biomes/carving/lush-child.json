@@ -95,9 +95,6 @@
     },
     {
       "chance": 0.0375,
-      "style": {
-        "style": "STATIC"
-      },
       "absoluteMaxStack": 1,
       "palette": [
         {
@@ -180,73 +177,9 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/clutter/jungleclutt11",
-        "underworld/warped/clutter/jungleclutt12",
-        "underworld/warped/clutter/jungleclutt13",
-        "underworld/warped/clutter/jungleclutt4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.36,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/trees/jungle/mgeneric1",
-        "underworld/warped/trees/jungle/mgeneric2",
-        "underworld/warped/trees/jungle/mgeneric3",
-        "underworld/warped/trees/jungle/mgeneric4",
-        "underworld/warped/trees/jungle/deligeneric2",
-        "underworld/warped/trees/jungle/deligeneric3",
-        "underworld/warped/trees/jungle/deligeneric4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1215,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/clutter/rock1",
-        "underworld/warped/clutter/rock2",
-        "underworld/warped/clutter/rock3",
-        "underworld/warped/clutter/rock4",
-        "underworld/warped/clutter/boulder1",
-        "underworld/warped/clutter/boulder2",
-        "underworld/warped/clutter/boulder3",
-        "underworld/warped/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
+    "snippet/object-placer/warped/jungleclutt-carve-c0-21-d6",
+    "snippet/object-placer/warped/jungle-mixed-carve-c0-36",
+    "snippet/object-placer/warped/rock-boulder-carve-c0-1215",
     {
       "chance": 0.12636,
       "density": 6,

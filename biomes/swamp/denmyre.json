@@ -15,22 +15,7 @@
       "generator": "plain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
       "style": {
@@ -58,24 +43,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
     {
@@ -98,62 +66,10 @@
       "chance": 0.7,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_planks"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:stripped_warped_hyphae"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_fence"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_hyphae"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-planks-to-stripped-warped-hyphae",
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/shared/warped-fence-to-warped-fence",
+        "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae"
       ],
       "rotation": {
         "yAxis": {
@@ -203,48 +119,9 @@
     {
       "chance": 0.3,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        },
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_fence"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+        "snippet/object-block-replacer/warped/warped-fence-to-warped-wart"
       ],
       "density": 2,
       "rotation": {
@@ -278,9 +155,6 @@
   "decorators": [
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.01,
       "palette": [
         {
@@ -289,70 +163,28 @@
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.4,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "chance": 0.003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 1,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:warped_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:warped_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/warped/warped-buttons-c0-003",
     {
       "chance": 0.017,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

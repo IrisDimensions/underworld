@@ -1,0 +1,20 @@
+{
+  "place": [
+    "underworld/wastes/trees/oak/generic1",
+    "underworld/wastes/trees/oak/generic2",
+    "underworld/wastes/trees/oak/generic3",
+    "underworld/wastes/trees/oak/generic4",
+    "underworld/wastes/trees/oak/generic5",
+    "underworld/wastes/trees/oak/generic6"
+  ],
+  "chance": 0.07,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 360
+    }
+  }
+}

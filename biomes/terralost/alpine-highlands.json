@@ -240,27 +240,7 @@
         }
       }
     },
-    {
-      "chance": 0.075,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/stump1",
-        "underworld/soul/clutter/stump2",
-        "underworld/soul/clutter/stump3",
-        "underworld/soul/clutter/stump4",
-        "underworld/soul/clutter/stump5",
-        "underworld/soul/clutter/stump6"
-      ],
-      "mode": "PAINT"
-    },
+    "snippet/object-placer/soul/stump-paint-c0-075",
     {
       "chance": 0.008,
       "mode": "PAINT",
@@ -289,23 +269,14 @@
   "decorators": [
     {
       "chance": 3e-05,
-      "variance": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.36,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:nether_sprouts",
@@ -325,7 +296,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

@@ -42,59 +42,10 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soul/wall-basalt",
   "layers": [
-    {
-      "minHeight": 3,
-      "maxHeight": 5,
-      "slopeCondition": {
-        "minimumSlope": 6.9
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:soul_sand"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 5,
-      "slopeCondition": {
-        "minimumSlope": 5.3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:soul_sand"
-        }
-      ]
-    },
+    "snippet/biome-palette/soul/basalt-soul-sand-3-5-steep6-9",
+    "snippet/biome-palette/soul/soul-soil-soul-sand-3-5-steep5-3",
     {
       "palette": [
         {
@@ -102,157 +53,26 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/soul/clutter/gravelsplotch1",
-        "underworld/soul/clutter/gravelsplotch2",
-        "underworld/soul/clutter/gravelsplotch3",
-        "underworld/soul/clutter/gravelsplotch4"
-      ],
-      "chance": 0.35,
-      "mode": "PAINT"
-    },
-    {
-      "chance": 0.8,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/trees/mixed/dotree1",
-        "underworld/soul/trees/mixed/dotree2",
-        "underworld/soul/trees/mixed/dotree3",
-        "underworld/soul/trees/mixed/dotree4",
-        "underworld/soul/trees/mixed/dotree5",
-        "underworld/soul/trees/mixed/dotree6",
-        "underworld/soul/trees/mixed/dotree7",
-        "underworld/soul/trees/mixed/dotree8",
-        "underworld/soul/trees/mixed/dotree9",
-        "underworld/soul/trees/mixed/dotree10"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.01,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/obelisk1",
-        "underworld/soul/clutter/obelisk2",
-        "underworld/soul/clutter/obelisk3",
-        "underworld/soul/clutter/obelisk4",
-        "underworld/soul/clutter/obelisk5",
-        "underworld/soul/clutter/obelisk6",
-        "underworld/soul/clutter/obelisk7"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -4,
-        "z": 0
-      }
-    }
+    "snippet/object-placer/soul/gravelsplotch-paint-c0-35",
+    "snippet/object-placer/soul/dotree-c0-8",
+    "snippet/object-placer/soul/obelisk-c0-01"
   ],
   "decorators": [
-    {
-      "chance": 0.007666666667,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.1,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:crimson_roots",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_roots",
-          "weight": 10
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        },
-        {
-          "block": "minecraft:soul_fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/soul/soul-fire-roots-c0-0077",
+    "snippet/decorator/soul/soul-fire-c0-0003",
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:soul_fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 8,
   "terrain3D": {

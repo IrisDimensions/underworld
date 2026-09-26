@@ -1,0 +1,17 @@
+{
+  "find": [
+    {
+      "block": "minecraft:crimson_fence"
+    },
+    {
+      "block": "minecraft:crimson_fence_gate"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:nether_wart_block"
+      }
+    ]
+  }
+}

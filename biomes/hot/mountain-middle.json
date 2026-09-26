@@ -34,9 +34,6 @@
     "style": "SIMPLEX"
   },
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:polished_blackstone"
@@ -81,24 +78,7 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "childStyle": {
     "style": "STATIC",
@@ -130,26 +110,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30109,
-    "amplitude": 40,
-    "horizontalScale": 160,
-    "verticalScale": 48,
-    "densityStyle": {
-      "style": "NOWHERE"
-    },
-    "crackDepth": 4,
-    "crackWidth": 2.25,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.22,
-    "slopeFade": 0.36,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp40-nowhere-crack416"
 }

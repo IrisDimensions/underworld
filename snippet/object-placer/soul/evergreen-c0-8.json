@@ -1,0 +1,27 @@
+{
+  "chance": 0.8,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "edit": [
+    "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
+  ],
+  "place": [
+    "underworld/soul/trees/spruce/levergreen1",
+    "underworld/soul/trees/spruce/levergreen1",
+    "underworld/soul/trees/spruce/mevergreen1",
+    "underworld/soul/trees/spruce/mevergreen2",
+    "underworld/soul/trees/spruce/mevergreen3"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

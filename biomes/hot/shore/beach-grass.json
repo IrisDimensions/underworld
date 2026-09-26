@@ -16,9 +16,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:smooth_basalt"
@@ -67,55 +64,8 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:crimson_button"
-        },
-        {
-          "block": "minecraft:air"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:crimson_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "partOf": "SHORE_LINE",
-      "chance": 0.18,
-      "stackMin": 1,
-      "stackMax": 4,
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ],
-      "style": {
-        "style": "NOWHERE",
-        "zoom": 0.65
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/crimson-buttons-air-c0-01",
+    "snippet/decorator/shared/basalt-shoreline-c0-18",
     {
       "chance": 0.01,
       "palette": [
@@ -132,7 +82,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

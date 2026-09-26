@@ -1,0 +1,32 @@
+{
+  "chance": 0.8,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/basalt/trees/spruce/levergreen1",
+    "underworld/basalt/trees/spruce/levergreen2",
+    "underworld/basalt/trees/spruce/levergreen1",
+    "underworld/basalt/trees/spruce/levergreen2",
+    "underworld/basalt/trees/spruce/levergreen1",
+    "underworld/basalt/trees/spruce/levergreen2",
+    "underworld/basalt/trees/spruce/levergreen3",
+    "underworld/basalt/trees/spruce/levergreen4",
+    "underworld/basalt/trees/spruce/levergreen5",
+    "underworld/basalt/trees/spruce/levergreen6",
+    "underworld/basalt/trees/spruce/mevergreen1",
+    "underworld/basalt/trees/spruce/mevergreen2",
+    "underworld/basalt/trees/spruce/mevergreen3"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

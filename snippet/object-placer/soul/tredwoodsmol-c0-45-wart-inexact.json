@@ -1,0 +1,30 @@
+{
+  "chance": 0.45,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "edit": [
+    "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-inexact"
+  ],
+  "place": [
+    "underworld/soul/trees/mixed/tredwoodsmol1",
+    "underworld/soul/trees/mixed/tredwoodsmol2",
+    "underworld/soul/trees/mixed/tredwoodsmol3",
+    "underworld/soul/trees/mixed/tredwoodsmol1",
+    "underworld/soul/trees/mixed/tredwoodsmol2",
+    "underworld/soul/trees/mixed/tredwoodsmol3",
+    "underworld/soul/trees/mixed/tredwoodsmol4",
+    "underworld/soul/trees/mixed/tredwoodsmol5"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -2,
+    "z": 0
+  }
+}

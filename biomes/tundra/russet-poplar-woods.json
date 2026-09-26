@@ -33,42 +33,8 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 22,
-    "horizontalScale": 256,
-    "verticalScale": 30,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.32,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      }
-    ]
-  },
+  "terrain3D": "snippet/terrain-3d/hills/amp22-perlin-crack416",
+  "wall": "snippet/biome-palette/soul/wall-basalt",
   "entitySpawners": [
     "nether/surface/soul-sand-valley",
     "nether/cave"
@@ -100,9 +66,6 @@
     {
       "minHeight": 2,
       "maxHeight": 4,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_soil",
@@ -117,9 +80,6 @@
     {
       "minHeight": 6,
       "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:basalt",
@@ -203,78 +163,8 @@
         ]
       }
     },
-    {
-      "place": [
-        "underworld/soul/trees/poplar/fallen-1",
-        "underworld/soul/trees/poplar/fallen-2"
-      ],
-      "chance": 0.11,
-      "density": 1,
-      "mode": "STILT",
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "min": 0,
-          "max": 270,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      },
-      "carvingSupport": "SURFACE_ONLY",
-      "surfaceSupportBuffer": 0,
-      "surfaceSupportDepth": 2,
-      "slopeCondition": {
-        "maximumSlope": 0.4
-      },
-      "stiltSettings": {
-        "yMax": 4,
-        "overStilt": 1,
-        "yRand": 0,
-        "exclude": [
-          "minecraft:warped_wart_block",
-          "minecraft:shroomlight"
-        ]
-      }
-    },
-    {
-      "place": [
-        "underworld/soul/trees/poplar/stump-1",
-        "underworld/soul/trees/poplar/stump-2"
-      ],
-      "chance": 0.07,
-      "density": 1,
-      "mode": "CENTER_STILT",
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "min": 0,
-          "max": 270,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": -1
-      },
-      "carvingSupport": "SURFACE_ONLY",
-      "surfaceSupportBuffer": 1,
-      "surfaceSupportDepth": 2,
-      "slopeCondition": {
-        "maximumSlope": 1.5
-      },
-      "stiltSettings": {
-        "yMax": 4,
-        "overStilt": 1,
-        "yRand": 0,
-        "exclude": [
-          "minecraft:warped_wart_block",
-          "minecraft:shroomlight"
-        ]
-      }
-    },
+    "snippet/object-placer/soul/poplar-fallen-stilt-c0-11",
+    "snippet/object-placer/soul/poplar-stump-center-stilt-c0-07",
     {
       "chance": 0.14,
       "density": 1,
@@ -541,9 +431,6 @@
   "decorators": [
     {
       "chance": 0.16,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crimson_roots"
@@ -563,9 +450,6 @@
     },
     {
       "chance": 0.06,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:warped_fungus"
@@ -579,9 +463,6 @@
     },
     {
       "chance": 0.12,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
@@ -595,9 +476,6 @@
     },
     {
       "chance": 0.012,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:soul_fire"

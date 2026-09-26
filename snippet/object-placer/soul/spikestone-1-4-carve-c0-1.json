@@ -1,0 +1,16 @@
+{
+  "chance": 0.1,
+  "density": 3,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/spikestone1",
+    "underworld/soul/clutter/spikestone2",
+    "underworld/soul/clutter/spikestone3",
+    "underworld/soul/clutter/spikestone4"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

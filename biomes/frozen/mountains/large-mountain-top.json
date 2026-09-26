@@ -81,115 +81,11 @@
         "maximumSlope": 3.5
       }
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/blackstone-basalt-6-18"
   ],
   "objects": [
-    {
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:nether_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:nether_wart_block"
-              },
-              {
-                "block": "minecraft:nether_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "place": [
-        "underworld/basalt/trees/spruce/pine1",
-        "underworld/basalt/trees/spruce/pine2",
-        "underworld/basalt/trees/spruce/pine3",
-        "underworld/basalt/trees/spruce/pine4",
-        "underworld/basalt/trees/spruce/pine5",
-        "underworld/basalt/trees/spruce/pine6",
-        "underworld/basalt/trees/spruce/pine7",
-        "underworld/basalt/trees/spruce/pine8",
-        "underworld/basalt/trees/spruce/pine9"
-      ],
-      "chance": 0.12,
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "interval": 90,
-          "min": 0,
-          "max": 270
-        }
-      },
-      "warp": {
-        "style": "IRIS_DOUBLE",
-        "exponent": 1.2,
-        "zoom": 0.4
-      }
-    },
-    {
-      "chance": 0.005,
-      "mode": "PAINT",
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:weeping_vines"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/clutter/obelisk1",
-        "underworld/basalt/clutter/obelisk2",
-        "underworld/basalt/clutter/obelisk3",
-        "underworld/basalt/clutter/obelisk4",
-        "underworld/basalt/clutter/obelisk5",
-        "underworld/basalt/clutter/obelisk6",
-        "underworld/basalt/clutter/obelisk7"
-      ]
-    }
+    "snippet/object-placer/basalt/pine-c0-12",
+    "snippet/object-placer/basalt/obelisk-paint-c0-005"
   ],
   "decorators": [
     {
@@ -207,7 +103,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

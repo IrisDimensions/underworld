@@ -42,22 +42,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:blackstone"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/blackstone-basalt",
   "layers": [
     {
       "minHeight": 3,
@@ -122,69 +107,9 @@
     }
   ],
   "objects": [
-    {
-      "place": [
-        "underworld/basalt/clutter/gravelsplotch1",
-        "underworld/basalt/clutter/gravelsplotch2",
-        "underworld/basalt/clutter/gravelsplotch3",
-        "underworld/basalt/clutter/gravelsplotch4"
-      ],
-      "chance": 0.75,
-      "mode": "PAINT"
-    },
-    {
-      "chance": 0.8,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/trees/spruce/levergreen1",
-        "underworld/basalt/trees/spruce/levergreen2",
-        "underworld/basalt/trees/spruce/levergreen1",
-        "underworld/basalt/trees/spruce/levergreen2",
-        "underworld/basalt/trees/spruce/levergreen1",
-        "underworld/basalt/trees/spruce/levergreen2",
-        "underworld/basalt/trees/spruce/levergreen3",
-        "underworld/basalt/trees/spruce/levergreen4",
-        "underworld/basalt/trees/spruce/levergreen5",
-        "underworld/basalt/trees/spruce/levergreen6",
-        "underworld/basalt/trees/spruce/mevergreen1",
-        "underworld/basalt/trees/spruce/mevergreen2",
-        "underworld/basalt/trees/spruce/mevergreen3"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -2,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.005,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/clutter/obelisk1",
-        "underworld/basalt/clutter/obelisk2",
-        "underworld/basalt/clutter/obelisk3",
-        "underworld/basalt/clutter/obelisk4",
-        "underworld/basalt/clutter/obelisk5",
-        "underworld/basalt/clutter/obelisk6",
-        "underworld/basalt/clutter/obelisk7"
-      ]
-    },
+    "snippet/object-placer/basalt/gravelsplotch-paint-c0-75",
+    "snippet/object-placer/basalt/evergreen-c0-8",
+    "snippet/object-placer/basalt/obelisk-c0-005",
     {
       "chance": 0.035,
       "rotation": {
@@ -222,20 +147,7 @@
     {
       "chance": 0.075,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:crimson_hyphae"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:crimson_hyphae"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/crimson-hyphae-to-crimson-hyphae"
       ],
       "rotation": {
         "yAxis": {
@@ -275,110 +187,19 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.007666666667,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.1,
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.001425,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.02,
-      "palette": [
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    {
-      "chance": 0.0003,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "age": 0
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 1
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 2
-          },
-          "block": "minecraft:fire"
-        },
-        {
-          "data": {
-            "age": 3
-          },
-          "block": "minecraft:fire"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/fire-sprouts-c0-0077",
+    "snippet/decorator/soul/fire-sprouts-c0-001425-z0-02",
+    "snippet/decorator/shared/fire-ages-c0-0003",
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

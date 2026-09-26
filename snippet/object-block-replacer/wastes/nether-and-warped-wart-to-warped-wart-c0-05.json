@@ -1,0 +1,18 @@
+{
+  "chance": 0.05,
+  "find": [
+    {
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "block": "minecraft:warped_wart_block"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:warped_wart_block"
+      }
+    ]
+  }
+}

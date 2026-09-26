@@ -1,0 +1,13 @@
+{
+  "chance": 0.373333333333,
+  "palette": [
+    {
+      "weight": 6,
+      "block": "minecraft:fire"
+    },
+    {
+      "weight": 10,
+      "block": "minecraft:crimson_fungus"
+    }
+  ]
+}

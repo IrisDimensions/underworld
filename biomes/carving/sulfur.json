@@ -172,9 +172,6 @@
     {
       "partOf": "NONE",
       "chance": 0.12,
-      "style": {
-        "style": "STATIC"
-      },
       "scaleStack": false,
       "stackMin": 1,
       "stackMax": 3,
@@ -201,9 +198,6 @@
     {
       "partOf": "CEILING",
       "chance": 0.17,
-      "style": {
-        "style": "STATIC"
-      },
       "scaleStack": false,
       "stackMin": 1,
       "stackMax": 4,

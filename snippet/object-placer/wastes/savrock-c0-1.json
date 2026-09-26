@@ -1,0 +1,22 @@
+{
+  "chance": 0.1,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/clutter/savrock1",
+    "underworld/wastes/clutter/savrock2",
+    "underworld/wastes/clutter/savrock3",
+    "underworld/wastes/clutter/savrock4",
+    "underworld/wastes/clutter/savrock5",
+    "underworld/wastes/clutter/savrock6",
+    "underworld/wastes/clutter/savrock7",
+    "underworld/wastes/clutter/savrock8"
+  ]
+}

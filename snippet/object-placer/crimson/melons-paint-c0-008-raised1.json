@@ -1,0 +1,24 @@
+{
+  "chance": 0.008,
+  "mode": "PAINT",
+  "place": [
+    "underworld/crimson/clutter/melons1",
+    "underworld/crimson/clutter/melons2",
+    "underworld/crimson/clutter/melons3",
+    "underworld/crimson/clutter/melons4",
+    "underworld/crimson/clutter/melons5",
+    "underworld/crimson/clutter/melons6"
+  ],
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "max": 360,
+      "min": 0,
+      "interval": 90
+    }
+  },
+  "translate": {
+    "y": 1
+  }
+}

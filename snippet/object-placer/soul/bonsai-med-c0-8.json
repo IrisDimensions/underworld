@@ -1,0 +1,26 @@
+{
+  "chance": 0.8,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-hyphae-to-warped-hyphae"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/soul/trees/bonsai/med-1",
+    "underworld/soul/trees/bonsai/med-2",
+    "underworld/soul/trees/bonsai/med-3",
+    "underworld/soul/trees/bonsai/med-4"
+  ],
+  "translate": {
+    "x": 0,
+    "y": 2,
+    "z": 0
+  }
+}

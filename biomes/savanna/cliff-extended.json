@@ -40,22 +40,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
       "minHeight": 3,
@@ -91,9 +76,6 @@
       ]
     },
     {
-      "style": {
-        "style": "STATIC"
-      },
       "zoom": 0.75,
       "palette": [
         {
@@ -110,149 +92,27 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "chance": 0.07,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/acacia/savannad1",
-        "underworld/wastes/trees/acacia/savannad2",
-        "underworld/wastes/trees/acacia/savannad3"
-      ]
-    },
-    {
-      "chance": 0.2,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/acacia/savannaf1",
-        "underworld/wastes/trees/acacia/savannaf2",
-        "underworld/wastes/trees/acacia/savannaf3",
-        "underworld/wastes/trees/acacia/savannaf4",
-        "underworld/wastes/trees/acacia/savannaf5",
-        "underworld/wastes/trees/acacia/savannaf6",
-        "underworld/wastes/trees/acacia/savannaf7",
-        "underworld/wastes/trees/acacia/savannaf8",
-        "underworld/wastes/trees/acacia/savannaf9",
-        "underworld/wastes/trees/acacia/savannaf10",
-        "underworld/wastes/trees/acacia/savannaf11",
-        "underworld/wastes/trees/acacia/savannaf13",
-        "underworld/wastes/trees/acacia/savannaf14"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    },
-    {
-      "chance": 0.04,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/trees/acacia/savannas1",
-        "underworld/wastes/trees/acacia/savannas2",
-        "underworld/wastes/trees/acacia/savannas3",
-        "underworld/wastes/trees/acacia/savannas4",
-        "underworld/wastes/trees/acacia/savannas5",
-        "underworld/wastes/trees/acacia/savannas6",
-        "underworld/wastes/trees/acacia/savannas7",
-        "underworld/wastes/trees/acacia/savannas8",
-        "underworld/wastes/trees/acacia/savannas9",
-        "underworld/wastes/trees/acacia/savannas10",
-        "underworld/wastes/trees/acacia/savannas11",
-        "underworld/wastes/trees/acacia/savannas12"
-      ]
-    },
-    {
-      "chance": 0.1,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/savrock1",
-        "underworld/wastes/clutter/savrock2",
-        "underworld/wastes/clutter/savrock3",
-        "underworld/wastes/clutter/savrock4",
-        "underworld/wastes/clutter/savrock5",
-        "underworld/wastes/clutter/savrock6",
-        "underworld/wastes/clutter/savrock7",
-        "underworld/wastes/clutter/savrock8"
-      ]
-    }
+    "snippet/object-placer/wastes/savannad-c0-07",
+    "snippet/object-placer/wastes/savannaf-c0-2",
+    "snippet/object-placer/wastes/savannas-c0-04",
+    "snippet/object-placer/wastes/savrock-c0-1"
   ],
   "decorators": [
     {
       "chance": 0.001,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.0005,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 2,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crimson_stem"
@@ -260,59 +120,27 @@
       ],
       "stackMin": 1
     },
-    {
-      "chance": 0.0005,
-      "variance": {
-        "style": "STATIC"
-      },
-      "stackMax": 2,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_stem"
-        }
-      ],
-      "topPalette": [
-        {
-          "block": "minecraft:crimson_fungus"
-        }
-      ],
-      "stackMin": 1
-    },
+    "snippet/decorator/wastes/crimson-stem-fungus-c0-0005",
     {
       "chance": 0.09,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:fire"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

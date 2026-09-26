@@ -1,0 +1,15 @@
+{
+  "palette": [
+    {
+      "data": {
+        "waterlogged": false,
+        "type": "bottom"
+      },
+      "block": "minecraft:blackstone_slab"
+    },
+    {
+      "weight": 2,
+      "block": "minecraft:air"
+    }
+  ]
+}

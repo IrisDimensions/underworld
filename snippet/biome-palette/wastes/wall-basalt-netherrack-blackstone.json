@@ -1,0 +1,13 @@
+{
+  "palette": [
+    {
+      "block": "minecraft:basalt"
+    },
+    {
+      "block": "minecraft:netherrack"
+    },
+    {
+      "block": "minecraft:blackstone"
+    }
+  ]
+}

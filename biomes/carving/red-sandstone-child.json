@@ -91,26 +91,7 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.21,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rdesertpost1",
-        "underworld/soul/clutter/rdesertpost2",
-        "underworld/soul/clutter/rdesertpost3",
-        "underworld/soul/structures/mlandstone4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
+    "snippet/object-placer/soul/desertpost-landstone-carve-c0-21",
     {
       "chance": 0.2145,
       "density": 4,
@@ -137,30 +118,7 @@
         "size": 0.75
       }
     },
-    {
-      "chance": 0.13122,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/rock4",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3",
-        "underworld/soul/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
+    "snippet/object-placer/soul/rock-boulder-carve-c0-13122-x0-75",
     {
       "chance": 0.1215,
       "density": 6,

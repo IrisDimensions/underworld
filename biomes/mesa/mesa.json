@@ -89,9 +89,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "weight": 1,
@@ -133,9 +130,6 @@
     {
       "minHeight": 2,
       "maxHeight": 3,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "weight": 1,
@@ -167,36 +161,9 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.009,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
-    "snippet/underworld/basalt/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/blackstone-buttons-c0-009",
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childStyle": {
     "style": "NOWHERE_CELLULAR",
@@ -223,24 +190,5 @@
       }
     }
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30119,
-    "amplitude": 38,
-    "horizontalScale": 176,
-    "verticalScale": 44,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 4,
-    "crackWidth": 2,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "PERLIN"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp38-perlin-crack392"
 }

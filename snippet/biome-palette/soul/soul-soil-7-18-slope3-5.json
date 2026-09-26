@@ -1,0 +1,12 @@
+{
+  "minHeight": 7,
+  "maxHeight": 18,
+  "palette": [
+    {
+      "block": "minecraft:soul_soil"
+    }
+  ],
+  "slopeCondition": {
+    "maximumSlope": 3.5
+  }
+}

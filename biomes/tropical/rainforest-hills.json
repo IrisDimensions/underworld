@@ -15,35 +15,7 @@
       "generator": "plain-cliffs"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "NOWHERE"
-    },
-    "zoom": 0.1,
-    "palette": [
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/basalt/wall-crimson-hyphae-wart-block",
   "layers": [
     {
       "palette": [
@@ -61,42 +33,10 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.0025,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/clutter/bincluster1"
-      ]
-    },
+    "snippet/object-placer/crimson/bincluster-paint-c0-0025",
     {
       "chance": 0.7,
       "density": 2,
@@ -278,9 +218,6 @@
     },
     {
       "chance": 0.25,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 1,
       "zoom": 10,
       "palette": [
@@ -291,72 +228,39 @@
           "block": "minecraft:crimson_fungus"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 1,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 1,
       "palette": [
         {
           "block": "minecraft:nether_sprouts"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 1,
       "palette": [
         {
           "block": "minecraft:crimson_fungus"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {

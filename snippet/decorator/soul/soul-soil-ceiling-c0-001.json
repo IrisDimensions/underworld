@@ -1,0 +1,18 @@
+{
+  "partOf": "CEILING",
+  "chance": 0.001,
+  "absoluteMaxStack": 6,
+  "scaleStack": true,
+  "stackMin": 25,
+  "stackMax": 80,
+  "palette": [
+    {
+      "block": "minecraft:soul_soil",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_soil",
+      "weight": 1
+    }
+  ]
+}

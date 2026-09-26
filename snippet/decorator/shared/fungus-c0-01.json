@@ -1,0 +1,15 @@
+{
+  "chance": 0.01,
+  "variance": {
+    "style": "NOWHERE"
+  },
+  "zoom": 0.5,
+  "palette": [
+    {
+      "block": "minecraft:crimson_fungus"
+    }
+  ],
+  "style": {
+    "style": "NOWHERE"
+  }
+}

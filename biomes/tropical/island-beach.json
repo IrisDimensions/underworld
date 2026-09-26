@@ -47,20 +47,7 @@
       "chance": 0.4,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:wither_skeleton_wall_skull"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/basalt/wither-skull-to-air"
       ],
       "rotation": {
         "yAxis": {
@@ -91,9 +78,6 @@
   "decorators": [
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -112,10 +96,7 @@
           },
           "block": "minecraft:crimson_button"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "partOf": "SHORE_LINE",
@@ -130,15 +111,9 @@
           "block": "minecraft:basalt"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {
@@ -153,9 +128,6 @@
     }
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "data": {

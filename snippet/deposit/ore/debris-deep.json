@@ -1,0 +1,23 @@
+{
+  "minHeight": 264,
+  "maxHeight": 280,
+  "heightDistribution": "TRIANGLE",
+  "placementScope": "FULL_HEIGHT",
+  "surfaceClearance": 0,
+  "minPerChunk": 1,
+  "maxPerChunk": 1,
+  "minSize": 3,
+  "maxSize": 3,
+  "shape": "VANILLA_SCATTERED",
+  "discardChanceOnAirExposure": 1.0,
+  "palette": [
+    {
+      "block": "minecraft:ancient_debris"
+    }
+  ],
+  "replaceableBlocks": [
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:blackstone"
+  ]
+}

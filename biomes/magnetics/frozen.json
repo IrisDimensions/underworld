@@ -44,33 +44,8 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 6,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/blackstone-1-3",
+    "snippet/biome-palette/basalt/blackstone-3-6",
     {
       "minHeight": 6,
       "maxHeight": 18,
@@ -152,7 +127,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "mergeFloatingChildBiomes": true,
   "floatingChildBiomes": [
@@ -564,24 +539,5 @@
       }
     }
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30181,
-    "amplitude": 18,
-    "horizontalScale": 112,
-    "verticalScale": 36,
-    "densityStyle": {
-      "style": "HEXAGON"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.3,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-hexagon-crack416"
 }

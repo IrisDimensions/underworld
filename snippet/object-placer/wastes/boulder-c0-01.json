@@ -1,0 +1,24 @@
+{
+  "place": [
+    "underworld/wastes/clutter/boulder1",
+    "underworld/wastes/clutter/boulder2",
+    "underworld/wastes/clutter/boulder3",
+    "underworld/wastes/clutter/boulder4",
+    "underworld/wastes/clutter/boulder5",
+    "underworld/wastes/clutter/boulder6",
+    "underworld/wastes/clutter/boulder7",
+    "underworld/wastes/clutter/boulder8",
+    "underworld/wastes/clutter/boulder9",
+    "underworld/wastes/clutter/boulder10"
+  ],
+  "chance": 0.01,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "interval": 90,
+      "min": 0,
+      "max": 360
+    }
+  }
+}

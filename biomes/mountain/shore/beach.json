@@ -39,27 +39,9 @@
     }
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.0025,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/basalt/clutter/bincluster1"
-      ]
-    }
+    "snippet/object-placer/basalt/bincluster-paint-c0-0025"
   ],
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:polished_blackstone_brick_slab"
@@ -89,6 +71,6 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ]
 }

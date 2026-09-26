@@ -38,22 +38,7 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:basalt"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soul/wall-basalt",
   "layers": [
     {
       "minHeight": 0,
@@ -91,51 +76,14 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
     {
       "chance": 0.5,
       "density": 1,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              },
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
       ],
       "rotation": {
         "yAxis": {
@@ -161,42 +109,9 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 1,
-      "variance": {
-        "style": "NOWHERE",
-        "zoom": 0.23
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:air"
-        }
-      ]
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/soul/soul-soil-air-c1",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 20,
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "SIMPLEX"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-simplex-crack416"
 }

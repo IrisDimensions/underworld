@@ -1,0 +1,35 @@
+{
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart",
+    "snippet/object-block-replacer/shared/warped-hyphae-to-warped-wart"
+  ],
+  "chance": 0.3,
+  "density": 2,
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/wastes/clutter/oakdenclutt1",
+    "underworld/wastes/clutter/oakdenclutt2",
+    "underworld/wastes/clutter/oakdenclutt3",
+    "underworld/wastes/clutter/oakdenclutt4",
+    "underworld/wastes/clutter/oakdenclutt5",
+    "underworld/wastes/clutter/oakdenclutt6",
+    "underworld/wastes/clutter/oakdenclutt7",
+    "underworld/wastes/clutter/oakdenclutt8",
+    "underworld/wastes/clutter/oakdenclutt9",
+    "underworld/wastes/clutter/oakdenclutt10"
+  ],
+  "translate": {
+    "x": 0,
+    "y": -1,
+    "z": 0
+  }
+}

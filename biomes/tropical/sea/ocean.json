@@ -91,26 +91,11 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/blackstone-1-3-w2"
   ],
   "decorators": [
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 3,
       "zoom": 1,
       "palette": [
@@ -130,16 +115,10 @@
           "block": "minecraft:magma_block"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.0006,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -148,31 +127,19 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.07,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 5,
       "palette": [
         {
           "block": "minecraft:lava"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.025,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 24,
       "zoom": 1,
       "palette": [
@@ -180,19 +147,10 @@
           "block": "minecraft:lava"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.125,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 9,
       "zoom": 1,
       "palette": [
@@ -200,19 +158,10 @@
           "block": "minecraft:lava"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -221,16 +170,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -239,16 +182,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -257,16 +194,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -275,16 +206,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.1,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -293,16 +218,10 @@
         {
           "block": "minecraft:magma_block"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.0025,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 1,
       "palette": [
         {
@@ -314,12 +233,9 @@
         {
           "block": "minecraft:glowstone"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {
@@ -336,31 +252,7 @@
     }
   ],
   "childShrinkFactor": 3,
-  "slab": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "data": {
-          "waterlogged": false,
-          "type": "bottom"
-        },
-        "block": "minecraft:blackstone_slab"
-      },
-      {
-        "weight": 2,
-        "block": "minecraft:air"
-      }
-    ]
-  },
+  "slab": "snippet/biome-palette/slab/blackstone-slab-half",
   "customDerivitives": [
     {
       "id": "underworld_tropical_sea_ocean_06023820",

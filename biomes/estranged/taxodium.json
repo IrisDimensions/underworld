@@ -39,19 +39,7 @@
       "min": 0
     }
   ],
-  "wall": {
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:blackstone"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/warped/wall-netherrack-basalt-blackstone",
   "layers": [
     {
       "palette": [
@@ -70,18 +58,7 @@
         }
       ]
     },
-    {
-      "minHeight": 2,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/warped/netherrack-2-3"
   ],
   "proceduralObjects": {
     "trees": [
@@ -222,8 +199,8 @@
         }
       ]
     },
-    "snippet/underworld/warped/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/warped/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": false

@@ -1,0 +1,11 @@
+{
+  "place": [
+    "underworld/basalt/trees/acacia/vexed1",
+    "underworld/basalt/trees/acacia/vexed2",
+    "underworld/basalt/trees/acacia/vexed3"
+  ],
+  "chance": 0.2,
+  "edit": [
+    "snippet/object-block-replacer/shared/crimson-planks-to-crimson-hyphae-axis-y"
+  ]
+}

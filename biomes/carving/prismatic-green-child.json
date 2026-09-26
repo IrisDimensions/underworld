@@ -83,46 +83,8 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.1,
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:soul_fire",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.08,
-      "scaleStack": true,
-      "stackMin": 12,
-      "stackMax": 50,
-      "absoluteMaxStack": 5,
-      "palette": [
-        {
-          "block": "minecraft:twisting_vines",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:twisting_vines",
-          "weight": 1
-        }
-      ]
-    },
+    "snippet/decorator/soul/sprouts-soul-fire-c0-1",
+    "snippet/decorator/soul/twisting-vines-ceiling-c0-08",
     {
       "partOf": "CEILING",
       "chance": 0.04,
@@ -257,125 +219,12 @@
   },
   "caveMinDepthBelowSurface": 12,
   "objects": [
-    {
-      "chance": 0.18,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/stoneclutt1",
-        "underworld/soul/clutter/stoneclutt2",
-        "underworld/soul/clutter/stoneclutt3",
-        "underworld/soul/clutter/stoneclutt4",
-        "underworld/soul/clutter/stoneclutt5",
-        "underworld/soul/clutter/rock1",
-        "underworld/soul/clutter/rock2",
-        "underworld/soul/clutter/rock3",
-        "underworld/soul/clutter/boulder1",
-        "underworld/soul/clutter/boulder2",
-        "underworld/soul/clutter/boulder3"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/shrub1",
-        "underworld/soul/clutter/shrub2",
-        "underworld/soul/clutter/shrub3",
-        "underworld/soul/clutter/shrub4",
-        "underworld/soul/clutter/shrub5"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.06,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/oakshrub1",
-        "underworld/soul/clutter/oakshrub2",
-        "underworld/soul/clutter/oakshrub3",
-        "underworld/soul/clutter/oakshrub4"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/concretelith1",
-        "underworld/soul/clutter/concretelith2",
-        "underworld/soul/clutter/concretelith3",
-        "underworld/soul/clutter/concretelith4",
-        "underworld/soul/clutter/concretelith5",
-        "underworld/soul/clutter/concretelith6",
-        "underworld/soul/clutter/concretelith7"
-      ],
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/concretelith1",
-        "underworld/soul/clutter/concretelith2",
-        "underworld/soul/clutter/concretelith3",
-        "underworld/soul/clutter/concretelith4",
-        "underworld/soul/clutter/concretelith5",
-        "underworld/soul/clutter/concretelith6",
-        "underworld/soul/clutter/concretelith7"
-      ],
-      "scale": {
-        "minimumScale": 0.5,
-        "maximumScale": 0.75,
-        "variations": 5,
-        "interpolation": "TRILINEAR"
-      }
-    },
-    {
-      "chance": 0.1,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "bottom": true,
-      "force": true,
-      "place": [
-        "underworld/soul/clutter/concretelith1",
-        "underworld/soul/clutter/concretelith2",
-        "underworld/soul/clutter/concretelith3",
-        "underworld/soul/clutter/concretelith4",
-        "underworld/soul/clutter/concretelith5",
-        "underworld/soul/clutter/concretelith6",
-        "underworld/soul/clutter/concretelith7"
-      ],
-      "scale": {
-        "minimumScale": 2.0,
-        "maximumScale": 4.0,
-        "variations": 7,
-        "interpolation": "TRILINEAR"
-      }
-    }
+    "snippet/object-placer/soul/rock-rubble-carve-c0-18",
+    "snippet/object-placer/soul/shrub-carve-c0-1",
+    "snippet/object-placer/soul/oakshrub-1-4-carve-c0-06",
+    "snippet/object-placer/soul/concretelith-carve-c0-1-x0-75",
+    "snippet/object-placer/soul/concretelith-carve-c0-1-x0-5-0-75",
+    "snippet/object-placer/soul/concretelith-carve-c0-1-x2-4"
   ],
   "color": "#6B8082",
   "customDerivitives": [

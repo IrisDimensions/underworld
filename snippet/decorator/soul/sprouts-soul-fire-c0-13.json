@@ -1,0 +1,70 @@
+{
+  "chance": 0.13,
+  "variance": {
+    "style": "CELLULAR",
+    "zoom": 0.25,
+    "fracture": {
+      "style": "SIMPLEX",
+      "zoom": 0.2,
+      "multiplier": 10
+    }
+  },
+  "style": {
+    "style": "SIMPLEX",
+    "zoom": 0.2,
+    "fracture": {
+      "style": "STATIC",
+      "multiplier": 8
+    }
+  },
+  "palette": [
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    }
+  ]
+}

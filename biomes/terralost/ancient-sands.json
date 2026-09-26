@@ -129,32 +129,17 @@
   "decorators": [
     {
       "chance": 0.002,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 5,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:warped_stem"
         }
       ],
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
       "chance": 0.002,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 5,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:warped_stem"
@@ -166,9 +151,6 @@
           "weight": 1
         }
       ],
-      "heightVariance": {
-        "style": "STATIC"
-      },
       "stackMin": 1
     },
     {
@@ -179,26 +161,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30187,
-    "amplitude": 20,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "NOWHERE"
-    },
-    "crackDepth": 2,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "PERLIN"
-    },
-    "minimumSlope": 0.34,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp20-nowhere-crack416"
 }

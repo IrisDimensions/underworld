@@ -15,47 +15,9 @@
       "generator": "spikes"
     }
   ],
-  "wall": {
-    "minHeight": 1,
-    "maxHeight": 1,
-    "slopeCondition": {
-      "minimumSlope": 0,
-      "maximumSlope": 2.6
-    },
-    "style": {
-      "style": "IRIS",
-      "zoom": 0.1
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/soil/netherrack-1-1-slope2-6-iris",
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 2.6
-      },
-      "style": {
-        "style": "IRIS",
-        "zoom": 0.1
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-1-slope2-6-iris"
   ],
   "customDerivitives": [
     {
@@ -77,7 +39,7 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

@@ -54,52 +54,13 @@
     ]
   },
   "layers": [
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3.3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ]
-    },
-    {
-      "minHeight": 3,
-      "maxHeight": 3,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/soul-soil-1-1-slope3-3",
+    "snippet/biome-palette/soul/soul-soil-3-3-slope3",
+    "snippet/biome-palette/soul/soul-soil-basalt-3-3-slope3"
   ],
   "objects": [],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

@@ -132,133 +132,11 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.373333333333,
-      "palette": [
-        {
-          "weight": 6,
-          "block": "minecraft:fire"
-        },
-        {
-          "weight": 10,
-          "block": "minecraft:crimson_fungus"
-        }
-      ]
-    },
-    {
-      "chance": 0.13,
-      "variance": {
-        "style": "CELLULAR",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "SIMPLEX",
-          "zoom": 0.2,
-          "multiplier": 10
-        }
-      },
-      "style": {
-        "style": "TRIOCTAVE_SIMPLEX",
-        "zoom": 0.3,
-        "fracture": {
-          "style": "STATIC",
-          "multiplier": 8
-        }
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "chance": 0.345,
-      "variance": {
-        "style": "NOWHERE"
-      },
-      "zoom": 0.1,
-      "palette": [
-        {
-          "block": "minecraft:nether_wart_block",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_wart_block",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:nether_wart_block",
-          "weight": 10
-        }
-      ],
-      "style": {
-        "style": "FRACTAL_BILLOW_IRIS",
-        "fracture": {
-          "style": "STATIC"
-        }
-      }
-    },
+    "snippet/decorator/basalt/fire-fungus-c0-373",
+    "snippet/decorator/basalt/fungus-sprouts-fire-c0-13-trioctave-z0-3",
+    "snippet/decorator/basalt/wart-block-fungus-fire-c0-345",
     {
       "chance": 0.325,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 10,
       "palette": [
         {
@@ -269,15 +147,9 @@
           "block": "minecraft:crimson_fungus",
           "weight": 10
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": true,

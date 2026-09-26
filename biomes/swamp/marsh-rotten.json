@@ -37,45 +37,9 @@
   "biomeStyle": {
     "style": "SIMPLEX"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
-    {
-      "style": {
-        "style": "NOWHERE"
-      },
-      "zoom": 0.5,
-      "palette": [
-        {
-          "weight": 3,
-          "block": "minecraft:warped_nylium"
-        },
-        {
-          "block": "minecraft:warped_nylium"
-        },
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "weight": 4,
-          "block": "minecraft:warped_nylium"
-        }
-      ]
-    },
+    "snippet/biome-palette/warped/nylium-netherrack",
     {
       "palette": [
         {
@@ -83,36 +47,8 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-3",
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
     {
@@ -197,9 +133,6 @@
   "decorators": [
     {
       "chance": 0.005,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.02,
       "palette": [
         {
@@ -208,16 +141,10 @@
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.13,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -226,16 +153,10 @@
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
     {
       "chance": 0.15,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -244,12 +165,9 @@
         {
           "block": "minecraft:nether_sprouts"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "terrain3D": {
     "enabled": false

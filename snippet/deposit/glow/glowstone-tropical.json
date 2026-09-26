@@ -1,0 +1,17 @@
+{
+  "minHeight": 10,
+  "maxPerChunk": 4,
+  "maxHeight": 92,
+  "minPerChunk": 0,
+  "minSize": 3,
+  "maxSize": 6,
+  "palette": [
+    {
+      "block": "minecraft:glowstone"
+    },
+    {
+      "block": "minecraft:magma_block"
+    }
+  ],
+  "varience": 8
+}

@@ -1,0 +1,18 @@
+{
+  "chance": 0.007666666667,
+  "zoom": 0.1,
+  "palette": [
+    {
+      "block": "minecraft:soul_fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:crimson_roots",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_roots",
+      "weight": 10
+    }
+  ]
+}

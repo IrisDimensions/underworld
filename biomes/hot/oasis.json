@@ -38,13 +38,7 @@
   "decorators": [
     {
       "chance": 0.005,
-      "variance": {
-        "style": "STATIC"
-      },
       "stackMax": 5,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:crimson_stem"
@@ -63,8 +57,8 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/dry_grass",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/dry-grass",
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

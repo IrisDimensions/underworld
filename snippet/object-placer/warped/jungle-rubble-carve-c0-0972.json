@@ -1,0 +1,21 @@
+{
+  "chance": 0.0972,
+  "density": 4,
+  "carvingSupport": "CARVING_ONLY",
+  "caveAnchorMode": "PROFILE_DEFAULT",
+  "translate": {
+    "y": -1
+  },
+  "place": [
+    "underworld/warped/clutter/jungleclutt1",
+    "underworld/warped/clutter/jungleclutt2",
+    "underworld/warped/clutter/jungleclutt3",
+    "underworld/warped/clutter/junglestone1",
+    "underworld/warped/clutter/junglestone2"
+  ],
+  "bottom": true,
+  "force": true,
+  "scale": {
+    "size": 0.75
+  }
+}

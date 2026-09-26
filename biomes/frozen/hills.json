@@ -49,85 +49,15 @@
     ]
   },
   "layers": [
-    {
-      "minHeight": 0,
-      "maxHeight": 2,
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ],
-      "slopeCondition": {
-        "maximumSlope": 3.5
-      }
-    },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ],
-      "slopeCondition": {
-        "maximumSlope": 3.5
-      }
-    },
-    {
-      "minHeight": 7,
-      "maxHeight": 18,
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        }
-      ],
-      "slopeCondition": {
-        "maximumSlope": 3.5
-      }
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:basalt"
-        }
-      ]
-    }
+    "snippet/biome-palette/soul/soul-soil-0-2-slope3-5",
+    "snippet/biome-palette/soul/soul-soil-1-1-slope3-5",
+    "snippet/biome-palette/soul/soul-soil-7-18-slope3-5",
+    "snippet/biome-palette/soul/basalt-6-18"
   ],
   "objects": [
     {
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "style": {
-              "style": "PERLIN",
-              "zoom": 0.2
-            },
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              },
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/soul/warped-wart-to-warped-wart-perlin"
       ],
       "place": [
         "underworld/soul/trees/spruce/lfrostgeneric1",
@@ -167,81 +97,11 @@
         "zoom": 0.4
       }
     },
-    {
-      "chance": 0.005,
-      "mode": "PAINT",
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:twisting_vines"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/soul/clutter/obelisk1",
-        "underworld/soul/clutter/obelisk2",
-        "underworld/soul/clutter/obelisk3",
-        "underworld/soul/clutter/obelisk4",
-        "underworld/soul/clutter/obelisk5",
-        "underworld/soul/clutter/obelisk6",
-        "underworld/soul/clutter/obelisk7"
-      ]
-    }
+    "snippet/object-placer/soul/obelisk-paint-c0-005"
   ],
   "decorators": [
-    {
-      "chance": 1,
-      "variance": {
-        "style": "NOWHERE",
-        "zoom": 0.23
-      },
-      "palette": [
-        {
-          "block": "minecraft:soul_soil"
-        },
-        {
-          "block": "minecraft:air"
-        }
-      ]
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/soul/soul-soil-air-c1",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30103,
-    "amplitude": 18,
-    "horizontalScale": 160,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "SIMPLEX"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.28,
-    "slopeFade": 0.4,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp18-simplex-crack416"
 }

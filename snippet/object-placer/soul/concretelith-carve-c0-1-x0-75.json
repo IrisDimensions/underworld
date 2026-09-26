@@ -1,0 +1,19 @@
+{
+  "chance": 0.1,
+  "density": 3,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/concretelith1",
+    "underworld/soul/clutter/concretelith2",
+    "underworld/soul/clutter/concretelith3",
+    "underworld/soul/clutter/concretelith4",
+    "underworld/soul/clutter/concretelith5",
+    "underworld/soul/clutter/concretelith6",
+    "underworld/soul/clutter/concretelith7"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

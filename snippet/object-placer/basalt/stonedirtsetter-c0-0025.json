@@ -1,0 +1,26 @@
+{
+  "chance": 0.0025,
+  "edit": [
+    "snippet/object-block-replacer/basalt/blackstone-to-magma",
+    "snippet/object-block-replacer/basalt/blackstone-to-magma"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "underwater": true,
+  "place": [
+    "underworld/basalt/clutter/stonedirtsetter1",
+    "underworld/basalt/clutter/stonedirtsetter2",
+    "underworld/basalt/clutter/stonedirtsetter3",
+    "underworld/basalt/clutter/stonedirtsetter4",
+    "underworld/basalt/clutter/stonedirtsetter5",
+    "underworld/basalt/clutter/stonedirtsetter6",
+    "underworld/basalt/clutter/stonedirtsetter7"
+  ]
+}

@@ -34,35 +34,7 @@
       "generator": "mountain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "NOWHERE"
-    },
-    "zoom": 0.1,
-    "palette": [
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "block": "minecraft:nether_wart_block"
-      },
-      {
-        "block": "minecraft:stripped_crimson_hyphae"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/basalt/wall-crimson-hyphae-wart-block",
   "layers": [
     {
       "palette": [
@@ -80,232 +52,19 @@
         }
       ]
     },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
-    {
-      "mode": "PAINT",
-      "chance": 0.0025,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/clutter/bincluster1"
-      ]
-    },
-    {
-      "chance": 0.00375,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/clutter/camp1"
-      ]
-    },
-    {
-      "chance": 0.4,
-      "density": 2,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/trees/jungle/cocogeneric2",
-        "underworld/crimson/trees/jungle/cocogeneric3",
-        "underworld/crimson/trees/jungle/cocogeneric4",
-        "underworld/crimson/trees/jungle/cocogeneric5",
-        "underworld/crimson/trees/jungle/lgeneric6",
-        "underworld/crimson/trees/jungle/lgeneric7",
-        "underworld/crimson/trees/jungle/lgeneric8",
-        "underworld/crimson/trees/jungle/lgeneric9",
-        "underworld/crimson/trees/jungle/lgeneric1",
-        "underworld/crimson/trees/jungle/lgeneric2",
-        "underworld/crimson/trees/jungle/lgeneric3"
-      ],
-      "mode": "ORGANIC_STILT",
-      "stiltSettings": {
-        "organicScratch": 1,
-        "organicJitter": 6,
-        "enabled": true,
-        "minHeight": 1,
-        "maxHeight": 3
-      }
-    },
-    {
-      "chance": 0.45,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/trees/jungle/sgeneric1",
-        "underworld/crimson/trees/jungle/sgeneric2",
-        "underworld/crimson/trees/jungle/sgeneric3",
-        "underworld/crimson/trees/jungle/sgeneric4"
-      ],
-      "mode": "ORGANIC_STILT",
-      "stiltSettings": {
-        "organicScratch": 1,
-        "organicJitter": 6,
-        "enabled": true,
-        "minHeight": 1,
-        "maxHeight": 3
-      }
-    },
-    {
-      "chance": 0.06,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/clutter/boulder1",
-        "underworld/crimson/clutter/boulder2",
-        "underworld/crimson/clutter/boulder4",
-        "underworld/crimson/clutter/boulder5",
-        "underworld/crimson/clutter/boulder6",
-        "underworld/crimson/clutter/boulder7",
-        "underworld/crimson/clutter/boulder8"
-      ],
-      "mode": "PAINT"
-    },
-    {
-      "chance": 0.01,
-      "mode": "PAINT",
-      "density": 3,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/crimson/trees/jungle/largegeneric1",
-        "underworld/crimson/trees/jungle/largegeneric2",
-        "underworld/crimson/trees/jungle/largegeneric3",
-        "underworld/crimson/trees/jungle/largegeneric4",
-        "underworld/crimson/trees/jungle/largegeneric5"
-      ],
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:weeping_vines"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:air"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/crimson/clutter/melons1",
-        "underworld/crimson/clutter/melons2",
-        "underworld/crimson/clutter/melons3",
-        "underworld/crimson/clutter/melons4",
-        "underworld/crimson/clutter/melons5",
-        "underworld/crimson/clutter/melons6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      }
-    }
+    "snippet/object-placer/crimson/bincluster-paint-c0-0025",
+    "snippet/object-placer/crimson/camp-c0-00375",
+    "snippet/object-placer/crimson/jungle-coco-large-organic-stilt-c0-4",
+    "snippet/object-placer/crimson/jungle-small-organic-stilt-c0-45",
+    "snippet/object-placer/crimson/boulder-paint-c0-06",
+    "snippet/object-placer/crimson/jungle-large-paint-c0-01",
+    "snippet/object-placer/crimson/melons-paint-c0-008"
   ],
   "decorators": [
-    {
-      "chance": 0.45,
-      "variance": {
-        "style": "NOWHERE"
-      },
-      "zoom": 0.1,
-      "palette": [
-        {
-          "block": "minecraft:nether_wart_block"
-        },
-        {
-          "block": "minecraft:crimson_fungus"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_wart_block"
-        },
-        {
-          "block": "minecraft:nether_sprouts"
-        },
-        {
-          "block": "minecraft:nether_wart_block"
-        }
-      ],
-      "style": {
-        "style": "FRACTAL_BILLOW_IRIS",
-        "fracture": {
-          "style": "STATIC"
-        }
-      }
-    },
+    "snippet/decorator/basalt/wart-block-fungus-sprouts-c0-45",
     {
       "chance": 0.02,
       "variance": {
@@ -318,18 +77,12 @@
           "block": "minecraft:crimson_hyphae"
         }
       ],
-      "style": {
-        "style": "STATIC"
-      },
       "heightVariance": {
         "style": "NOWHERE"
       }
     },
     {
       "chance": 0.5,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 10,
       "palette": [
         {
@@ -338,15 +91,9 @@
         {
           "block": "minecraft:crimson_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "effects": [
     {

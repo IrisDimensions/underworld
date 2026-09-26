@@ -15,42 +15,7 @@
     }
   ],
   "layers": [
-    {
-      "minHeight": 2,
-      "maxHeight": 2,
-      "slopeCondition": {
-        "minimumSlope": 0,
-        "maximumSlope": 3
-      },
-      "style": {
-        "style": "NOWHERE"
-      },
-      "zoom": 0.6,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:gravel"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "weight": 2,
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
+    "snippet/biome-palette/basalt/blackstone-gravel-2-2-slope3",
     {
       "minHeight": 2,
       "maxHeight": 10,
@@ -85,7 +50,7 @@
       ],
       "partOf": "SEA_FLOOR"
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "customDerivitives": [
     {

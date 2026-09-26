@@ -29,9 +29,6 @@
   "decorators": [
     {
       "chance": 0.015,
-      "style": {
-        "style": "STATIC"
-      },
       "partOf": "CEILING",
       "palette": [
         {
@@ -41,9 +38,6 @@
     },
     {
       "chance": 0.0575,
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:warped_fungus"
@@ -67,51 +61,8 @@
     }
   ],
   "objects": [
-    {
-      "chance": 0.36,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/trees/mushroom/smolshroom1",
-        "underworld/warped/trees/mushroom/smolshroom2",
-        "underworld/warped/trees/mushroom/smolshroom3",
-        "underworld/warped/trees/mushroom/smolshroom4",
-        "underworld/warped/trees/mushroom/smolshroom5"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1215,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/clutter/rock1",
-        "underworld/warped/clutter/rock2",
-        "underworld/warped/clutter/rock3",
-        "underworld/warped/clutter/rock4",
-        "underworld/warped/clutter/boulder1",
-        "underworld/warped/clutter/boulder2",
-        "underworld/warped/clutter/boulder3",
-        "underworld/warped/clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
+    "snippet/object-placer/warped/smolshroom-carve-c0-36",
+    "snippet/object-placer/warped/rock-boulder-carve-c0-1215",
     {
       "chance": 0.12636,
       "density": 6,
@@ -137,43 +88,7 @@
         "size": 0.75
       }
     },
-    {
-      "chance": 0.36,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "underworld/warped/trees/mushroom/mushclut1",
-        "underworld/warped/trees/mushroom/mushclut2",
-        "underworld/warped/trees/mushroom/mushclut3",
-        "underworld/warped/trees/mushroom/mushclut4",
-        "underworld/warped/trees/mushroom/mushclut5",
-        "underworld/warped/trees/mushroom/mushclut6",
-        "underworld/warped/trees/mushroom/mushclut7",
-        "underworld/warped/trees/mushroom/mushclut8",
-        "underworld/warped/trees/mushroom/mushclut9",
-        "underworld/warped/trees/mushroom/mushclut10",
-        "underworld/warped/trees/mushroom/browngeneric1",
-        "underworld/warped/trees/mushroom/browngeneric2",
-        "underworld/warped/trees/mushroom/redgeneric3",
-        "underworld/warped/trees/mushroom/redgeneric4",
-        "underworld/warped/trees/mushroom/redgeneric5",
-        "underworld/warped/trees/mushroom/redgeneric6",
-        "underworld/warped/trees/mushroom/redgeneric7",
-        "underworld/warped/trees/mushroom/redgeneric8",
-        "underworld/warped/trees/mushroom/redgeneric9",
-        "underworld/warped/trees/mushroom/redgeneric10",
-        "underworld/warped/trees/mushroom/redgeneric11"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
+    "snippet/object-placer/warped/mushroom-mix-carve-c0-36"
   ],
   "caveProfile": {
     "enabled": true,

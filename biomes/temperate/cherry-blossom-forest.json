@@ -37,27 +37,9 @@
   "biomeStyle": {
     "style": "SIMPLEX_CELLS"
   },
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
-      "style": {
-        "style": "STATIC"
-      },
       "palette": [
         {
           "block": "minecraft:netherrack"
@@ -71,36 +53,8 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 3,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/soil/netherrack-1-3",
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
     {
@@ -142,9 +96,6 @@
             }
           ],
           "replace": {
-            "style": {
-              "style": "STATIC"
-            },
             "palette": [
               {
                 "block": "minecraft:nether_wart_block"
@@ -173,25 +124,7 @@
         "underworld/wastes/trees/oak/shoakgeneric2"
       ]
     },
-    {
-      "mode": "MIN_HEIGHT",
-      "chance": 0.008,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/camp1",
-        "underworld/wastes/clutter/camp4",
-        "underworld/wastes/clutter/camp5",
-        "underworld/wastes/clutter/camp3"
-      ]
-    },
+    "snippet/object-placer/wastes/camp-1345-min-height-c0-008",
     {
       "chance": 0.25,
       "mode": "MIN_HEIGHT",
@@ -216,9 +149,6 @@
             }
           ],
           "replace": {
-            "style": {
-              "style": "STATIC"
-            },
             "palette": [
               {
                 "block": "minecraft:nether_wart_block"
@@ -236,9 +166,6 @@
             }
           ],
           "replace": {
-            "style": {
-              "style": "STATIC"
-            },
             "palette": [
               {
                 "block": "minecraft:crimson_hyphae"
@@ -260,100 +187,14 @@
         "z": 0
       }
     },
-    {
-      "chance": 0.003,
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/obelisk1",
-        "underworld/wastes/clutter/obelisk2",
-        "underworld/wastes/clutter/obelisk3",
-        "underworld/wastes/clutter/obelisk4",
-        "underworld/wastes/clutter/obelisk5",
-        "underworld/wastes/clutter/obelisk6",
-        "underworld/wastes/clutter/obelisk7"
-      ]
-    },
-    {
-      "chance": 0.001,
-      "mode": "PAINT",
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/wastes/clutter/literalgarbage1",
-        "underworld/wastes/clutter/literalgarbage2",
-        "underworld/wastes/clutter/literalgarbage3",
-        "underworld/wastes/clutter/literalgarbage4"
-      ]
-    },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/wastes/clutter/pumpkins1",
-        "underworld/wastes/clutter/pumpkins2",
-        "underworld/wastes/clutter/pumpkins3",
-        "underworld/wastes/clutter/pumpkins4",
-        "underworld/wastes/clutter/pumpkins5",
-        "underworld/wastes/clutter/pumpkins6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/wastes/obelisk-c0-003",
+    "snippet/object-placer/wastes/literalgarbage-paint-c0-001",
+    "snippet/object-placer/wastes/pumpkins-paint-c0-008"
   ],
   "decorators": [
-    {
-      "chance": 0.18,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.2,
-      "palette": [
-        {
-          "weight": 1,
-          "block": "minecraft:fire"
-        },
-        {
-          "block": "minecraft:fire"
-        },
-        {
-          "block": "minecraft:fire"
-        },
-        {
-          "chance": 7,
-          "block": "minecraft:fire"
-        }
-      ]
-    },
+    "snippet/decorator/wastes/fire-c0-18",
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -363,9 +204,6 @@
     },
     {
       "chance": 0.02,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -375,9 +213,6 @@
     },
     {
       "chance": 0.06,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -399,9 +234,6 @@
     },
     {
       "chance": 0.03,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.2,
       "palette": [
         {
@@ -409,27 +241,8 @@
         }
       ]
     },
-    "snippet/underworld/wastes/decorator/bush",
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/bush",
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30101,
-    "amplitude": 10,
-    "horizontalScale": 192,
-    "verticalScale": 24,
-    "densityStyle": {
-      "style": "PERLIN"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 392,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.18,
-    "slopeFade": 0.3,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
 }

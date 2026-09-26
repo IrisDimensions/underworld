@@ -1,0 +1,10 @@
+{
+  "place": [
+    "underworld/wastes/clutter/gravelsplotch1",
+    "underworld/wastes/clutter/gravelsplotch2",
+    "underworld/wastes/clutter/gravelsplotch3",
+    "underworld/wastes/clutter/gravelsplotch4"
+  ],
+  "chance": 0.35,
+  "mode": "PAINT"
+}

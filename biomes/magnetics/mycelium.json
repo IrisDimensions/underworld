@@ -58,21 +58,7 @@
         }
       ]
     },
-    {
-      "minHeight": 3,
-      "maxHeight": 6,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
+    "snippet/biome-palette/basalt/blackstone-3-6",
     {
       "minHeight": 6,
       "maxHeight": 18,
@@ -161,7 +147,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "floatingChildBiomes": [
     {

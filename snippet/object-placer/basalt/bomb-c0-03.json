@@ -1,0 +1,27 @@
+{
+  "chance": 0.03,
+  "density": 1,
+  "edit": [
+    {
+      "find": [
+        {
+          "block": "minecraft:lava"
+        }
+      ],
+      "replace": {
+        "palette": [
+          {
+            "block": "minecraft:air"
+          }
+        ]
+      }
+    }
+  ],
+  "rotation": {
+    "enabled": false
+  },
+  "underwater": true,
+  "place": [
+    "underworld/basalt/clutter/bomb1"
+  ]
+}

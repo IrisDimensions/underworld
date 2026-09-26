@@ -1,0 +1,29 @@
+{
+  "chance": 0.07,
+  "density": 1,
+  "edit": [
+    "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
+  ],
+  "rotation": {
+    "yAxis": {
+      "min": 0,
+      "max": 270,
+      "interval": 90,
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "place": [
+    "underworld/warped/trees/mushroom/browngeneric1",
+    "underworld/warped/trees/mushroom/browngeneric2",
+    "underworld/warped/trees/mushroom/redgeneric3",
+    "underworld/warped/trees/mushroom/redgeneric4",
+    "underworld/warped/trees/mushroom/redgeneric5",
+    "underworld/warped/trees/mushroom/redgeneric6",
+    "underworld/warped/trees/mushroom/redgeneric7",
+    "underworld/warped/trees/mushroom/redgeneric8",
+    "underworld/warped/trees/mushroom/redgeneric9",
+    "underworld/warped/trees/mushroom/redgeneric10",
+    "underworld/warped/trees/mushroom/redgeneric11"
+  ]
+}

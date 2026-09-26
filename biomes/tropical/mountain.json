@@ -64,18 +64,7 @@
         }
       ]
     },
-    {
-      "minHeight": 1,
-      "maxHeight": 1,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    }
+    "snippet/biome-palette/basalt/blackstone-1-1"
   ],
   "objects": [
     {
@@ -116,101 +105,11 @@
         "y": -2
       }
     },
-    {
-      "chance": 0.008,
-      "mode": "PAINT",
-      "place": [
-        "underworld/basalt/clutter/melons1",
-        "underworld/basalt/clutter/melons2",
-        "underworld/basalt/clutter/melons3",
-        "underworld/basalt/clutter/melons4",
-        "underworld/basalt/clutter/melons5",
-        "underworld/basalt/clutter/melons6"
-      ],
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "enabled": true,
-          "max": 360,
-          "min": 0,
-          "interval": 90
-        }
-      },
-      "translate": {
-        "y": 1
-      }
-    }
+    "snippet/object-placer/basalt/melons-paint-c0-008"
   ],
   "decorators": [
-    {
-      "chance": 0.373333333333,
-      "palette": [
-        {
-          "weight": 6,
-          "block": "minecraft:fire"
-        },
-        {
-          "weight": 10,
-          "block": "minecraft:crimson_fungus"
-        }
-      ]
-    },
-    {
-      "chance": 0.039,
-      "variance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:nether_sprouts",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:crimson_fungus",
-          "weight": 10
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:fire",
-          "weight": 3
-        }
-      ]
-    },
+    "snippet/decorator/basalt/fire-fungus-c0-373",
+    "snippet/decorator/basalt/fungus-sprouts-fire-c0-039",
     {
       "chance": 0.01,
       "palette": [
@@ -227,26 +126,7 @@
         }
       ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30109,
-    "amplitude": 40,
-    "horizontalScale": 160,
-    "verticalScale": 48,
-    "densityStyle": {
-      "style": "NOWHERE"
-    },
-    "crackDepth": 4,
-    "crackWidth": 2.25,
-    "crackScale": 416,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.22,
-    "slopeFade": 0.36,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/mountains/amp40-nowhere-crack416"
 }

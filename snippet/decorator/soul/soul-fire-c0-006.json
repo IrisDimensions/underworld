@@ -1,0 +1,14 @@
+{
+  "chance": 0.006,
+  "palette": [
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:soul_fire"
+    },
+    {
+      "block": "minecraft:soul_fire"
+    }
+  ]
+}

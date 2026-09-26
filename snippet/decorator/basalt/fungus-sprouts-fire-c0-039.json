@@ -1,0 +1,53 @@
+{
+  "chance": 0.039,
+  "palette": [
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:nether_sprouts",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:crimson_fungus",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:fire",
+      "weight": 3
+    }
+  ]
+}

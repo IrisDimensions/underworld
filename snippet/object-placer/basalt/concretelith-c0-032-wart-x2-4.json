@@ -1,0 +1,36 @@
+{
+  "chance": 0.032,
+  "density": 2,
+  "bottom": true,
+  "rotation": {
+    "enabled": true,
+    "yAxis": {
+      "enabled": true,
+      "min": 0,
+      "max": 270,
+      "interval": 90
+    }
+  },
+  "translate": {
+    "y": -1
+  },
+  "place": [
+    "underworld/basalt/clutter/concretelith1",
+    "underworld/basalt/clutter/concretelith2",
+    "underworld/basalt/clutter/concretelith3",
+    "underworld/basalt/clutter/concretelith4",
+    "underworld/basalt/clutter/concretelith5",
+    "underworld/basalt/clutter/concretelith6",
+    "underworld/basalt/clutter/concretelith7"
+  ],
+  "edit": [
+    "snippet/object-block-replacer/basalt/blackstone-to-warped-wart",
+    "snippet/object-block-replacer/basalt/blackstone-to-warped-wart"
+  ],
+  "scale": {
+    "minimumScale": 2.0,
+    "maximumScale": 4.0,
+    "variations": 7,
+    "interpolation": "TRILINEAR"
+  }
+}

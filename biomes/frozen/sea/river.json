@@ -23,23 +23,7 @@
     }
   ],
   "layers": [
-    {
-      "style": {
-        "style": "IRIS"
-      },
-      "zoom": 8,
-      "palette": [
-        {
-          "block": "minecraft:blackstone"
-        },
-        {
-          "block": "minecraft:gravel"
-        },
-        {
-          "block": "minecraft:blackstone"
-        }
-      ]
-    },
+    "snippet/biome-palette/soil/blackstone-gravel-iris",
     {
       "minHeight": 2,
       "maxHeight": 3,
@@ -73,9 +57,7 @@
       ]
     }
   ],
-  "objects": [
-
-  ],
+  "objects": [],
   "seaLayers": [
     {
       "minHeight": 3,
@@ -136,6 +118,6 @@
     }
   ],
   "decorators": [
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ]
 }

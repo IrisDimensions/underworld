@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:crimson_stem"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae"
+      }
+    ]
+  }
+}

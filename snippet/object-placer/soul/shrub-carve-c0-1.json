@@ -1,0 +1,17 @@
+{
+  "chance": 0.1,
+  "density": 3,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/shrub1",
+    "underworld/soul/clutter/shrub2",
+    "underworld/soul/clutter/shrub3",
+    "underworld/soul/clutter/shrub4",
+    "underworld/soul/clutter/shrub5"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

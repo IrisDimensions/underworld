@@ -1,0 +1,23 @@
+{
+  "chance": 0.18,
+  "density": 4,
+  "carvingSupport": "CARVING_ONLY",
+  "bottom": true,
+  "force": true,
+  "place": [
+    "underworld/soul/clutter/stoneclutt1",
+    "underworld/soul/clutter/stoneclutt2",
+    "underworld/soul/clutter/stoneclutt3",
+    "underworld/soul/clutter/stoneclutt4",
+    "underworld/soul/clutter/stoneclutt5",
+    "underworld/soul/clutter/rock1",
+    "underworld/soul/clutter/rock2",
+    "underworld/soul/clutter/rock3",
+    "underworld/soul/clutter/boulder1",
+    "underworld/soul/clutter/boulder2",
+    "underworld/soul/clutter/boulder3"
+  ],
+  "scale": {
+    "size": 0.75
+  }
+}

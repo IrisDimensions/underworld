@@ -37,22 +37,7 @@
       "generator": "plain"
     }
   ],
-  "wall": {
-    "style": {
-      "style": "STATIC"
-    },
-    "palette": [
-      {
-        "block": "minecraft:netherrack"
-      },
-      {
-        "block": "minecraft:basalt"
-      },
-      {
-        "block": "minecraft:netherrack"
-      }
-    ]
-  },
+  "wall": "snippet/biome-palette/wall/netherrack-basalt",
   "layers": [
     {
       "minHeight": 3,
@@ -103,36 +88,8 @@
         }
       ]
     },
-    {
-      "minHeight": 2,
-      "maxHeight": 4,
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    },
-    {
-      "minHeight": 6,
-      "maxHeight": 18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:netherrack"
-        },
-        {
-          "block": "minecraft:basalt"
-        },
-        {
-          "block": "minecraft:netherrack"
-        }
-      ]
-    }
+    "snippet/biome-palette/warped/netherrack-2-4",
+    "snippet/biome-palette/stone/netherrack-basalt-6-18"
   ],
   "objects": [
     {
@@ -170,20 +127,7 @@
       "chance": 0.15,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
       ],
       "rotation": {
         "yAxis": {
@@ -244,71 +188,12 @@
         "z": 0
       }
     },
-    {
-      "chance": 0.05,
-      "density": 2,
-      "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
-      ],
-      "rotation": {
-        "yAxis": {
-          "min": 0,
-          "max": 270,
-          "interval": 90,
-          "enabled": true
-        },
-        "enabled": true
-      },
-      "place": [
-        "underworld/warped/trees/mushroom/redlumotall1",
-        "underworld/warped/trees/mushroom/redlumotall2",
-        "underworld/warped/trees/mushroom/redlumotall3",
-        "underworld/warped/trees/mushroom/redlumotall4",
-        "underworld/warped/trees/mushroom/redlumotall5",
-        "underworld/warped/trees/mushroom/redlumotall6",
-        "underworld/warped/trees/mushroom/redlumotall7",
-        "underworld/warped/trees/mushroom/redlumotall8",
-        "underworld/warped/trees/mushroom/redlumotall9",
-        "underworld/warped/trees/mushroom/redlumotall10",
-        "underworld/warped/trees/mushroom/redlumotall11"
-      ],
-      "translate": {
-        "x": 0,
-        "y": -1,
-        "z": 0
-      }
-    },
+    "snippet/object-placer/warped/redlumotall-c0-05",
     {
       "chance": 0.4,
       "density": 2,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
       ],
       "rotation": {
         "yAxis": {
@@ -342,20 +227,7 @@
       "chance": 0.02,
       "density": 1,
       "edit": [
-        {
-          "find": [
-            {
-              "block": "minecraft:warped_wart_block"
-            }
-          ],
-          "replace": {
-            "palette": [
-              {
-                "block": "minecraft:warped_wart_block"
-              }
-            ]
-          }
-        }
+        "snippet/object-block-replacer/shared/warped-wart-to-warped-wart"
       ],
       "rotation": {
         "yAxis": {
@@ -406,39 +278,9 @@
     }
   ],
   "decorators": [
-    {
-      "chance": 0.009,
-      "variance": {
-        "style": "STATIC"
-      },
-      "zoom": 0.3,
-      "palette": [
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "east"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        },
-        {
-          "data": {
-            "face": "floor",
-            "powered": false,
-            "facing": "south"
-          },
-          "block": "minecraft:polished_blackstone_button"
-        }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
-    },
+    "snippet/decorator/shared/blackstone-buttons-c0-009",
     {
       "chance": 0.05,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -447,18 +289,12 @@
         {
           "block": "minecraft:warped_fungus"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/surface-quartz"
   ],
   "childShrinkFactor": 2.4,
   "slab": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "weight": 8,
@@ -477,24 +313,5 @@
       }
     ]
   },
-  "terrain3D": {
-    "enabled": true,
-    "seed": 30139,
-    "amplitude": 22,
-    "horizontalScale": 128,
-    "verticalScale": 40,
-    "densityStyle": {
-      "style": "NOWHERE"
-    },
-    "crackDepth": 0,
-    "crackWidth": 2.25,
-    "crackScale": 448,
-    "crackStyle": {
-      "style": "SIMPLEX"
-    },
-    "minimumSlope": 0.24,
-    "slopeFade": 0.36,
-    "fluidClearance": 8,
-    "fluidFade": 24
-  }
+  "terrain3D": "snippet/terrain-3d/hills/amp22-nowhere-crack448"
 }

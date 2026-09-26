@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_planks"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:stripped_warped_hyphae"
+      }
+    ]
+  }
+}

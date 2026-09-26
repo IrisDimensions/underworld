@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_hyphae"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:warped_hyphae"
+      }
+    ]
+  }
+}

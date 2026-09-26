@@ -1,0 +1,14 @@
+{
+  "minHeight": 1,
+  "maxHeight": 1,
+  "palette": [
+    {
+      "weight": 1,
+      "block": "minecraft:netherrack"
+    },
+    {
+      "weight": 1,
+      "block": "minecraft:quartz_bricks"
+    }
+  ]
+}

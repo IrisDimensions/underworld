@@ -35,9 +35,6 @@
     }
   ],
   "wall": {
-    "style": {
-      "style": "STATIC"
-    },
     "palette": [
       {
         "block": "minecraft:smooth_basalt"
@@ -88,9 +85,6 @@
   "decorators": [
     {
       "chance": 0.01,
-      "variance": {
-        "style": "STATIC"
-      },
       "zoom": 0.3,
       "palette": [
         {
@@ -121,29 +115,9 @@
           },
           "block": "minecraft:crimson_button"
         }
-      ],
-      "style": {
-        "style": "STATIC"
-      }
+      ]
     },
-    {
-      "partOf": "SHORE_LINE",
-      "chance": 0.18,
-      "stackMin": 1,
-      "stackMax": 4,
-      "palette": [
-        {
-          "block": "minecraft:basalt"
-        }
-      ],
-      "style": {
-        "style": "NOWHERE",
-        "zoom": 0.65
-      },
-      "heightVariance": {
-        "style": "STATIC"
-      }
-    },
-    "snippet/underworld/shared/decorator/surface-quartz"
+    "snippet/decorator/shared/basalt-shoreline-c0-18",
+    "snippet/decorator/shared/surface-quartz"
   ]
 }

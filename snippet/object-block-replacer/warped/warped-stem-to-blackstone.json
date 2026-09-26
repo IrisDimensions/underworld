@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_stem"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "find": [
+    {
+      "block": "minecraft:warped_fence"
+    }
+  ],
+  "replace": {
+    "palette": [
+      {
+        "block": "minecraft:warped_wart_block"
+      }
+    ]
+  }
+}
