@@ -1,0 +1,480 @@
+{
+  "name": "Underworld Sculk Cathedral",
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "caveMinDepthBelowSurface": 16,
+  "wall": {
+    "style": {
+      "style": "PERLIN_IRIS",
+      "zoom": 1
+    },
+    "zoom": 6,
+    "palette": [
+      {
+        "block": "minecraft:blackstone",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:warped_wart_block",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:basalt",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:crying_obsidian",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:crying_obsidian",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:basalt",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:crying_obsidian",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "partOf": "NONE",
+      "chance": 0.52,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 1,
+          "data": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.12,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:crying_obsidian"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.014,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.09,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.47,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 2,
+          "data": {
+            "up": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.095,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.15,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.12,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 5,
+      "absoluteMaxStack": 5,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines_plant",
+          "weight": 1
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "topPalette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "formations": [
+      {
+        "name": "sculk-buried-fragments",
+        "seed": 2604104,
+        "chance": 0.85,
+        "density": 3,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "surfaceSupportBuffer": 0,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "form": "BOULDER",
+        "block": "minecraft:blackstone",
+        "blockPalette": {
+          "style": {
+            "style": "PERLIN_IRIS",
+            "zoom": 1
+          },
+          "zoom": 3.2,
+          "palette": [
+            {
+              "block": "minecraft:blackstone",
+              "weight": 7
+            },
+            {
+              "block": "minecraft:warped_wart_block",
+              "weight": 4
+            },
+            {
+              "block": "minecraft:basalt",
+              "weight": 2
+            }
+          ]
+        },
+        "heightMin": 3,
+        "heightMax": 4,
+        "baseWidthMin": 1,
+        "baseWidthMax": 2,
+        "roomHeightFraction": 0,
+        "roughness": 0.68,
+        "jitter": 0.09,
+        "translate": {
+          "y": -1
+        },
+        "stiltSettings": {
+          "organicMaxScan": 3,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ],
+    "crystals": [
+      {
+        "name": "sculk-amethyst-clumps",
+        "seed": 708401,
+        "chance": 0.8,
+        "density": 3,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "growthSurface": "FLOOR",
+        "block": "minecraft:crying_obsidian",
+        "baseBlock": "minecraft:obsidian",
+        "baseRadius": 0.8,
+        "baseNoise": 0.6,
+        "shardCountMin": 2,
+        "shardCountMax": 4,
+        "shardLengthMin": 2,
+        "shardLengthMax": 4,
+        "shardBaseRadius": 0.6,
+        "shardTaper": 1,
+        "spreadAngle": 48,
+        "distribution": "RANDOM",
+        "jitter": 0.65,
+        "glow": false,
+        "glowBlock": "minecraft:glowstone",
+        "tipChance": 0.16,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      },
+      {
+        "name": "sculk-hanging-crystals",
+        "seed": 708402,
+        "chance": 0.75,
+        "density": 2,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "CEILING_HANG",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "growthSurface": "FLOOR",
+        "block": "minecraft:crying_obsidian",
+        "baseBlock": "minecraft:obsidian",
+        "baseRadius": 0.8,
+        "baseNoise": 0.6,
+        "shardCountMin": 2,
+        "shardCountMax": 4,
+        "shardLengthMin": 2,
+        "shardLengthMax": 4,
+        "shardBaseRadius": 0.6,
+        "shardTaper": 1,
+        "spreadAngle": 48,
+        "distribution": "RANDOM",
+        "jitter": 0.65,
+        "glow": false,
+        "glowBlock": "minecraft:glowstone",
+        "tipChance": 0.16,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ],
+    "fungi": [
+      {
+        "name": "sculk-pale-fungi",
+        "seed": 708403,
+        "chance": 0.55,
+        "density": 2,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "stem": "minecraft:warped_stem",
+        "cap": "minecraft:warped_wart_block",
+        "stemHeightMin": 1,
+        "stemHeightMax": 2,
+        "stemWidth": 1,
+        "stemCurve": 13,
+        "stemLeanAzimuth": 27,
+        "stemWaveAmplitude": 0.65,
+        "stemWavePeriods": 0.7,
+        "capShape": "FUNNEL",
+        "capRadiusMin": 1,
+        "capRadiusMax": 2,
+        "capThickness": 1,
+        "capSquish": 0.6,
+        "capDroop": 14,
+        "capOverhang": 0.8,
+        "gillBlock": "minecraft:shroomlight",
+        "gillChance": 0.13,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ]
+  },
+  "customDerivitives": [
+    {
+      "id": "underworld_sculk_cathedral",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "fogColor": "#102A31",
+      "skyColor": "#10171A",
+      "waterColor": "#247F88",
+      "waterFogColor": "#0C293C",
+      "grassColor": "#447D78",
+      "foliageColor": "#43867E",
+      "ambientParticle": {
+        "particle": "minecraft:soul",
+        "rarity": 80
+      }
+    }
+  ],
+  "entitySpawners": [
+    "carving/sculk-cathedral"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "group": "CAVE",
+  "maxEntitiesPerChunk": 3,
+  "allowedLightLevels": {
+    "min": 0,
+    "max": 12
+  },
+  "maximumRatePerChunk": {
+    "amount": 1,
+    "per": {
+      "seconds": 45
+    }
+  },
+  "spawns": [
+    {
+      "entity": "nether/enderman",
+      "rarity": 1,
+      "minSpawns": 1,
+      "maxSpawns": 2
+    },
+    {
+      "entity": "nether/skeleton",
+      "rarity": 5,
+      "minSpawns": 1,
+      "maxSpawns": 1
+    }
+  ]
+}

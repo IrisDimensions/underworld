@@ -1,0 +1,513 @@
+{
+  "name": "Underworld Lantern Grotto",
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:warped_forest",
+  "caveMinDepthBelowSurface": 14,
+  "wall": {
+    "style": {
+      "style": "PERLIN_IRIS",
+      "zoom": 1
+    },
+    "zoom": 6,
+    "palette": [
+      {
+        "block": "minecraft:blackstone",
+        "weight": 7
+      },
+      {
+        "block": "minecraft:warped_nylium",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:soul_soil",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:quartz_block",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 6,
+      "palette": [
+        {
+          "block": "minecraft:blackstone",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:warped_nylium",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:netherrack",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "partOf": "NONE",
+      "chance": 0.58,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:warped_roots",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:warped_roots",
+          "weight": 2
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.1,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:crimson_fungus",
+          "weight": 2
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.13,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:red_mushroom",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.055,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.1,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 1,
+          "data": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.39,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 8,
+      "absoluteMaxStack": 8,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines_plant",
+          "weight": 1
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "topPalette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.27,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.4,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "stackMin": 1,
+      "stackMax": 2,
+      "absoluteMaxStack": 2,
+      "palette": [
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:nether_wart_block",
+          "weight": 1
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      }
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.035,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:shroomlight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.18,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 1,
+          "data": {
+            "up": true
+          }
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": {
+    "formations": [
+      {
+        "name": "lantern-mossy-rubble",
+        "seed": 2604122,
+        "chance": 0.85,
+        "density": 3,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "surfaceSupportBuffer": 0,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "form": "BOULDER",
+        "block": "minecraft:warped_nylium",
+        "blockPalette": {
+          "style": {
+            "style": "PERLIN_IRIS",
+            "zoom": 1
+          },
+          "zoom": 3.2,
+          "palette": [
+            {
+              "block": "minecraft:warped_nylium",
+              "weight": 6
+            },
+            {
+              "block": "minecraft:blackstone",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:soul_soil",
+              "weight": 1
+            }
+          ]
+        },
+        "heightMin": 3,
+        "heightMax": 4,
+        "baseWidthMin": 1,
+        "baseWidthMax": 2,
+        "roomHeightFraction": 0,
+        "roughness": 0.68,
+        "jitter": 0.09,
+        "translate": {
+          "y": -1
+        },
+        "stiltSettings": {
+          "organicMaxScan": 3,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ],
+    "fungi": [
+      {
+        "name": "lantern-moss-fungi",
+        "seed": 708301,
+        "chance": 0.85,
+        "density": 2,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "stem": "minecraft:warped_stem",
+        "cap": "minecraft:warped_wart_block",
+        "stemHeightMin": 2,
+        "stemHeightMax": 4,
+        "stemWidth": 1,
+        "stemCurve": 13,
+        "stemLeanAzimuth": 27,
+        "stemWaveAmplitude": 0.65,
+        "stemWavePeriods": 0.7,
+        "capShape": "FLAT",
+        "capRadiusMin": 1,
+        "capRadiusMax": 2,
+        "capThickness": 1,
+        "capSquish": 0.6,
+        "capDroop": 14,
+        "capOverhang": 0.8,
+        "gillBlock": "minecraft:shroomlight",
+        "gillChance": 0.13,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      },
+      {
+        "name": "lantern-red-fungi",
+        "seed": 708302,
+        "chance": 0.6,
+        "density": 2,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "stem": "minecraft:warped_stem",
+        "cap": "minecraft:nether_wart_block",
+        "stemHeightMin": 1,
+        "stemHeightMax": 2,
+        "stemWidth": 1,
+        "stemCurve": 13,
+        "stemLeanAzimuth": 27,
+        "stemWaveAmplitude": 0.65,
+        "stemWavePeriods": 0.7,
+        "capShape": "FUNNEL",
+        "capRadiusMin": 1,
+        "capRadiusMax": 2,
+        "capThickness": 1,
+        "capSquish": 0.6,
+        "capDroop": 14,
+        "capOverhang": 0.8,
+        "gillBlock": "minecraft:shroomlight",
+        "gillChance": 0.13,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ],
+    "crystals": [
+      {
+        "name": "lantern-calcite-growth",
+        "seed": 708303,
+        "chance": 0.5,
+        "density": 1,
+        "variants": 24,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "ORGANIC_STILT",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 30
+          }
+        },
+        "growthSurface": "FLOOR",
+        "block": "minecraft:quartz_block",
+        "baseBlock": "minecraft:warped_nylium",
+        "baseRadius": 0.8,
+        "baseNoise": 0.6,
+        "shardCountMin": 2,
+        "shardCountMax": 4,
+        "shardLengthMin": 2,
+        "shardLengthMax": 4,
+        "shardBaseRadius": 0.6,
+        "shardTaper": 1,
+        "spreadAngle": 48,
+        "distribution": "RANDOM",
+        "jitter": 0.65,
+        "glow": false,
+        "glowBlock": "minecraft:glowstone",
+        "tipChance": 0.16,
+        "stiltSettings": {
+          "organicMaxScan": 5,
+          "organicJitter": 0,
+          "organicScratch": 0
+        }
+      }
+    ]
+  },
+  "entitySpawners": [
+    "subterrain/lantern-grotto"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_lantern_grotto",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "fogColor": "#183C3F",
+      "skyColor": "#111C23",
+      "waterColor": "#42A0AB",
+      "waterFogColor": "#193E50",
+      "grassColor": "#649849",
+      "foliageColor": "#71A457",
+      "ambientParticle": {
+        "particle": "minecraft:warped_spore",
+        "rarity": 60
+      }
+    }
+  ]
+}

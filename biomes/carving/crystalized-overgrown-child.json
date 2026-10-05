@@ -8,15 +8,41 @@
   ],
   "decorators": [
     {
-      "chance": 0.25,
-      "scaleStack": true,
-      "stackMin": 10,
-      "stackMax": 20,
       "partOf": "CEILING",
-      "absoluteMaxStack": 5,
+      "chance": 0.17,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.32
+      },
+      "scaleStack": true,
+      "stackMin": 15,
+      "stackMax": 35,
+      "absoluteMaxStack": 10,
       "palette": [
         {
           "block": "minecraft:warped_wart_block"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.11050000000000001,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 0.38
+      },
+      "scaleStack": true,
+      "stackMin": 10,
+      "stackMax": 30,
+      "absoluteMaxStack": 12,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines_plant"
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:weeping_vines"
         }
       ]
     }
@@ -176,5 +202,76 @@
         "rarity": 45
       }
     }
-  ]
+  ],
+  "proceduralObjects": {
+    "crystals": [
+      {
+        "name": "crystalized-overgrown-child-canopy-crystal",
+        "seed": 2604151,
+        "chance": 0.16,
+        "density": 2,
+        "variants": 10,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "CEILING_HANG",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "growthSurface": "FLOOR",
+        "block": "minecraft:crying_obsidian",
+        "baseBlock": "minecraft:obsidian",
+        "baseRadius": 1.2,
+        "baseNoise": 0.28,
+        "shardCountMin": 3,
+        "shardCountMax": 6,
+        "shardLengthMin": 3,
+        "shardLengthMax": 6,
+        "shardBaseRadius": 0.7,
+        "shardTaper": 0.95,
+        "spreadAngle": 32,
+        "jitter": 0.2,
+        "glow": true,
+        "glowBlock": "minecraft:shroomlight",
+        "tipChance": 0.12
+      }
+    ],
+    "formations": [
+      {
+        "name": "crystalized-overgrown-child-root-overhang",
+        "seed": 2604153,
+        "form": "OVERHANG",
+        "block": "minecraft:warped_wart_block",
+        "chance": 0.07,
+        "density": 1,
+        "variants": 10,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "CEILING_HANG",
+        "surfaceSupportBuffer": 0,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "heightMin": 5,
+        "heightMax": 10,
+        "baseWidthMin": 1,
+        "baseWidthMax": 2,
+        "topWidth": 0,
+        "roughness": 0.2,
+        "jitter": 0.035,
+        "roomHeightFraction": 0.18,
+        "overhangReach": 4,
+        "overhangDrop": 2
+      }
+    ]
+  }
 }

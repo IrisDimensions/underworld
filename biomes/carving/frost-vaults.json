@@ -1,0 +1,328 @@
+{
+  "name": "Underworld Frost Vaults",
+  "derivative": "minecraft:soul_sand_valley",
+  "vanillaDerivative": "minecraft:soul_sand_valley",
+  "color": "#B7DCE5",
+  "wall": {
+    "style": {
+      "style": "PERLIN_IRIS",
+      "zoom": 1
+    },
+    "zoom": 6,
+    "palette": [
+      {
+        "block": "minecraft:quartz_block",
+        "weight": 7
+      },
+      {
+        "block": "minecraft:quartz_block",
+        "weight": 6
+      },
+      {
+        "block": "minecraft:blackstone",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:smooth_basalt",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:soul_soil",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 6,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:blackstone",
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 1
+      },
+      "zoom": 6,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 7
+        },
+        {
+          "block": "minecraft:quartz_block",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "partOf": "NONE",
+      "chance": 0.6,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.2,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 1,
+          "data": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.07,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:quartz_block"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.07,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "NONE",
+      "chance": 0.07,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:nether_sprouts",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:warped_roots",
+          "weight": 1
+        }
+      ],
+      "forceBlock": {
+        "block": "minecraft:warped_nylium"
+      }
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.3,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen",
+          "weight": 1,
+          "data": {
+            "up": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.095,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:glowstone",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:glowstone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.1,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 1,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.07,
+      "style": {
+        "style": "STATIC",
+        "zoom": 1
+      },
+      "stackMin": 1,
+      "stackMax": 3,
+      "absoluteMaxStack": 3,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines_plant",
+          "weight": 1
+        }
+      ],
+      "heightVariance": {
+        "style": "STATIC"
+      },
+      "topPalette": [
+        {
+          "block": "minecraft:weeping_vines",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "proceduralObjects": "snippet/procedural-objects/carving/frost-vaults",
+  "caveProfile": "snippet/cave-profile/carving/frost-vaults",
+  "caveMinDepthBelowSurface": 8,
+  "entitySpawners": [
+    "carving/frost-vaults"
+  ],
+  "customDerivitives": [
+    {
+      "id": "underworld_frost_vaults",
+      "category": "nether",
+      "temperature": 2.0,
+      "humidity": 0.0,
+      "downfallType": "none",
+      "skyColor": "#111820",
+      "fogColor": "#536A73",
+      "waterColor": "#AB592E",
+      "waterFogColor": "#583027",
+      "grassColor": "#819CAD",
+      "foliageColor": "#7795A0",
+      "ambientParticle": {
+        "particle": "minecraft:white_ash",
+        "rarity": 36
+      },
+      "spawns": []
+    }
+  ]
+}
