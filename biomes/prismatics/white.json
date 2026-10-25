@@ -1,12 +1,6 @@
 {
-  "riverPolicy": {
-    "placement": "DISABLED",
-    "routing": "BLOCK",
-    "outletAdmission": false,
-    "profiles": [
-      "lava"
-    ],
-    "routingMultiplier": 0.0
+  "hydrologyPolicy": {
+    "streams": "BLOCK"
   },
   "entitySpawners": [
     "nether/surface/basalt-deltas",

@@ -67,21 +67,7 @@
     },
     "snippet/biome-palette/soil/blackstone-1-3-w2"
   ],
-  "objects": [
-    {
-      "mode": "PAINT",
-      "onwater": true,
-      "place": [
-        "underworld/basalt/clutter/lilly"
-      ],
-      "chance": 0.5,
-      "density": 5,
-      "underwater": false,
-      "translate": {
-        "y": 1
-      }
-    }
-  ],
+  "objects": [],
   "decorators": [
     {
       "partOf": "SEA_SURFACE",

@@ -1,12 +1,6 @@
 {
-  "riverPolicy": {
-    "placement": "TRANSIT_ONLY",
-    "routing": "BLOCK",
-    "outletAdmission": true,
-    "profiles": [
-      "lava"
-    ],
-    "routingMultiplier": 1.0
+  "hydrologyPolicy": {
+    "streams": "BLOCK"
   },
   "entitySpawners": [
     "nether/lava",
