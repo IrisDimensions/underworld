@@ -72,6 +72,7 @@
   "fluidHeight": 50,
   "hydrology": {
     "enabled": true,
+    "density": 0.5,
     "drainage": {
       "fillEpsilon": 0.001,
       "breachDepth": 24,
@@ -95,7 +96,34 @@
         "bankBand": 8,
         "bankStyle": "SMOOTH",
         "deltas": false,
-        "fluid": "lava"
+        "fluid": "lava",
+        "materials": {
+          "bed": {
+            "style": {
+              "style": "SIMPLEX",
+              "zoom": 0.125
+            },
+            "zoom": 1,
+            "palette": [
+              {
+                "block": "minecraft:blackstone",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:basalt",
+                "weight": 3
+              },
+              {
+                "block": "minecraft:netherrack",
+                "weight": 2
+              },
+              {
+                "block": "minecraft:soul_soil",
+                "weight": 1
+              }
+            ]
+          }
+        }
       },
       {
         "name": "river",
@@ -112,7 +140,34 @@
         "bankBand": 32,
         "bankStyle": "SMOOTH",
         "deltas": false,
-        "fluid": "lava"
+        "fluid": "lava",
+        "materials": {
+          "bed": {
+            "style": {
+              "style": "SIMPLEX",
+              "zoom": 0.125
+            },
+            "zoom": 1,
+            "palette": [
+              {
+                "block": "minecraft:blackstone",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:basalt",
+                "weight": 3
+              },
+              {
+                "block": "minecraft:netherrack",
+                "weight": 2
+              },
+              {
+                "block": "minecraft:soul_soil",
+                "weight": 1
+              }
+            ]
+          }
+        }
       },
       {
         "name": "major",
@@ -129,7 +184,34 @@
         "bankBand": 48,
         "bankStyle": "SMOOTH",
         "deltas": true,
-        "fluid": "lava"
+        "fluid": "lava",
+        "materials": {
+          "bed": {
+            "style": {
+              "style": "SIMPLEX",
+              "zoom": 0.125
+            },
+            "zoom": 1,
+            "palette": [
+              {
+                "block": "minecraft:blackstone",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:basalt",
+                "weight": 3
+              },
+              {
+                "block": "minecraft:netherrack",
+                "weight": 2
+              },
+              {
+                "block": "minecraft:soul_soil",
+                "weight": 1
+              }
+            ]
+          }
+        }
       }
     ],
     "ponds": {
@@ -173,7 +255,34 @@
         "taper": 14,
         "maxDepth": 8
       },
-      "fluid": "lava"
+      "fluid": "lava",
+      "materials": {
+        "bed": {
+          "style": {
+            "style": "SIMPLEX",
+            "zoom": 0.125
+          },
+          "zoom": 1,
+          "palette": [
+            {
+              "block": "minecraft:blackstone",
+              "weight": 4
+            },
+            {
+              "block": "minecraft:basalt",
+              "weight": 3
+            },
+            {
+              "block": "minecraft:netherrack",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:soul_soil",
+              "weight": 1
+            }
+          ]
+        }
+      }
     },
     "lakes": {
       "enabled": true,
